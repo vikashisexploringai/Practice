@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Session</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="timer-container">
+            <span id="stopwatch">00:00</span>
+        </div>
+        <div class="question-box">
+            <h2 id="question-text">Question will appear here</h2>
+        </div>
+        <div class="options-grid" id="options-container">
+            <!-- Dynamically populated -->
+        </div>
+        <div id="explanation-container" style="display: none;">
+            <p id="explanation-text"></p>
+            <button id="next-button" class="glow">Next Question</button>
+        </div>
+        <div id="result-container" style="display: none;">
+            <h2 class="glow-text">Day Complete!</h2>
+            <p>Time: <span id="completion-time">00:00</span></p>
+            <button onclick="location.reload()" class="glow">Repeat This Day</button>
+            <button onclick="window.location.href='days.html'" class="glow">Choose Another Day</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
