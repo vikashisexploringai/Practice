@@ -9,7 +9,12 @@ let stopwatchInterval;
 
 // Theme configuration with display names
 const themes = {
-    'vocabulary': { displayName: 'Vocabulary' }
+    'tables': { displayName: 'Multiplication Tables' },
+    'squares': { displayName: 'Square Numbers' },
+    'history': { displayName: 'Indian History' },
+    'geography': { displayName: 'World Geography' },
+    'panini': { displayName: 'Sanskrit Grammar' }
+    // Add more themes as needed
 };
 
 // Initialize based on current page
@@ -51,9 +56,6 @@ function setupDaySelection() {
         return;
     }
 
-    document.getElementById('theme-title').textContent = 
-        `Select Day for ${themes[currentTheme].displayName}`;
-
     fetch(`themes/${currentTheme}.json`)
         .then(response => response.json())
         .then(data => {
@@ -91,9 +93,6 @@ function initializeQuiz() {
         return;
     }
 
-    document.getElementById('theme-title').textContent = 
-        `${themes[currentTheme].displayName} - Day ${currentDay}`;
-
     fetch(`themes/${currentTheme}.json`)
         .then(response => response.json())
         .then(data => {
@@ -111,6 +110,13 @@ function initializeQuiz() {
 }
 
 function displayQuestion() {
+    const quizContainer = document.getElementById('quiz-container');
+    const questionContainer = document.getElementById('question-container');
+    const resultContainer = document.getElementById('result-container');
+    
+    resultContainer.style.display = 'none';
+    questionContainer.style.display = 'block';
+    
     if (currentQuestionIndex >= questions.length) {
         showResults();
         return;
@@ -121,6 +127,9 @@ function displayQuestion() {
     const optionsContainer = document.getElementById('options-container');
     const explanationContainer = document.getElementById('explanation-container');
 
+    const progressPercent = (currentQuestionIndex / questions.length) * 100;
+    document.getElementById('progress-bar').style.width = `${progressPercent}%`;
+    
     questionText.textContent = question.question;
     optionsContainer.innerHTML = '';
     explanationContainer.style.display = 'none';
@@ -130,12 +139,12 @@ function displayQuestion() {
         const button = document.createElement('button');
         button.className = 'option-button';
         button.textContent = option;
-        button.onclick = () => checkAnswer(option, question.answer, question.explanation);
+        button.onclick = () => checkAnswer(option, question.answer);
         optionsContainer.appendChild(button);
     });
 }
 
-function checkAnswer(selectedOption, correctAnswer, explanation) {
+function checkAnswer(selectedOption, correctAnswer) {
     const options = document.querySelectorAll('#options-container button');
     const explanationContainer = document.getElementById('explanation-container');
     const explanationText = document.getElementById('explanation-text');
@@ -153,7 +162,7 @@ function checkAnswer(selectedOption, correctAnswer, explanation) {
         score++;
     }
 
-    explanationText.textContent = explanation || 'No explanation available.';
+    explanationText.textContent = questions[currentQuestionIndex].explanation || 'No explanation available.';
     explanationContainer.style.display = 'block';
     document.getElementById('next-button').onclick = nextQuestion;
 }
@@ -165,12 +174,12 @@ function nextQuestion() {
 
 function showResults() {
     stopStopwatch();
+    document.getElementById('score').textContent = score;
+    document.getElementById('total').textContent = questions.length;
     document.getElementById('completion-time').textContent = 
         document.getElementById('stopwatch').textContent;
-    document.getElementById('quiz-container').style.display = 'block';
-    document.querySelector('.question-box').style.display = 'none';
-    document.getElementById('options-container').style.display = 'none';
-    document.getElementById('explanation-container').style.display = 'none';
+    
+    document.getElementById('question-container').style.display = 'none';
     document.getElementById('result-container').style.display = 'block';
 }
 
