@@ -1,0 +1,201 @@
+// Global state
+let currentTheme = '';
+let currentDay = 0;
+let questions = [];
+let currentQuestionIndex = 0;
+let score = 0;
+let startTime;
+let stopwatchInterval;
+
+// Theme configuration with display names
+const themes = {
+    'vocabulary': { displayName: 'Vocabulary' }
+};
+
+// Initialize based on current page
+document.addEventListener('DOMContentLoaded', function() {
+    const path = window.location.pathname.split('/').pop();
+    
+    if (path === 'index.html' || path === '') {
+        setupThemeSelection();
+    } else if (path === 'days.html') {
+        setupDaySelection();
+    } else if (path === 'quiz.html') {
+        initializeQuiz();
+    }
+});
+
+// Theme Selection Page
+function setupThemeSelection() {
+    const container = document.getElementById('theme-buttons');
+    container.innerHTML = '';
+    
+    Object.entries(themes).forEach(([themeId, themeData]) => {
+        const button = document.createElement('button');
+        button.className = 'glow';
+        button.textContent = themeData.displayName;
+        button.onclick = () => {
+            currentTheme = themeId;
+            localStorage.setItem('selectedTheme', themeId);
+            window.location.href = 'days.html';
+        };
+        container.appendChild(button);
+    });
+}
+
+// Day Selection Page
+function setupDaySelection() {
+    currentTheme = localStorage.getItem('selectedTheme');
+    if (!currentTheme || !themes[currentTheme]) {
+        window.location.href = 'index.html';
+        return;
+    }
+
+    document.getElementById('theme-title').textContent = 
+        `Select Day for ${themes[currentTheme].displayName}`;
+
+    fetch(`themes/${currentTheme}.json`)
+        .then(response => response.json())
+        .then(data => {
+            questions = data;
+            const totalDays = Math.ceil(questions.length / 5);
+            const container = document.getElementById('day-buttons');
+            container.innerHTML = '';
+            
+            for (let day = 1; day <= totalDays; day++) {
+                const button = document.createElement('button');
+                button.className = 'glow';
+                button.textContent = `Day ${day}`;
+                button.onclick = () => {
+                    currentDay = day;
+                    localStorage.setItem('selectedDay', day);
+                    window.location.href = 'quiz.html';
+                };
+                container.appendChild(button);
+            }
+        })
+        .catch(error => {
+            console.error('Error loading questions:', error);
+            alert('Failed to load questions. Please try again.');
+            window.location.href = 'index.html';
+        });
+}
+
+// Quiz Page
+function initializeQuiz() {
+    currentTheme = localStorage.getItem('selectedTheme');
+    currentDay = parseInt(localStorage.getItem('selectedDay'));
+    
+    if (!currentTheme || !currentDay) {
+        window.location.href = 'index.html';
+        return;
+    }
+
+    document.getElementById('theme-title').textContent = 
+        `${themes[currentTheme].displayName} - Day ${currentDay}`;
+
+    fetch(`themes/${currentTheme}.json`)
+        .then(response => response.json())
+        .then(data => {
+            questions = shuffleArray(data).slice(0, currentDay * 5);
+            currentQuestionIndex = 0;
+            score = 0;
+            startStopwatch();
+            displayQuestion();
+        })
+        .catch(error => {
+            console.error('Error loading questions:', error);
+            alert('Failed to load questions. Please try again.');
+            window.location.href = 'days.html';
+        });
+}
+
+function displayQuestion() {
+    if (currentQuestionIndex >= questions.length) {
+        showResults();
+        return;
+    }
+
+    const question = questions[currentQuestionIndex];
+    const questionText = document.getElementById('question-text');
+    const optionsContainer = document.getElementById('options-container');
+    const explanationContainer = document.getElementById('explanation-container');
+
+    questionText.textContent = question.question;
+    optionsContainer.innerHTML = '';
+    explanationContainer.style.display = 'none';
+
+    const shuffledOptions = shuffleArray([...question.choices]);
+    shuffledOptions.forEach(option => {
+        const button = document.createElement('button');
+        button.className = 'option-button';
+        button.textContent = option;
+        button.onclick = () => checkAnswer(option, question.answer, question.explanation);
+        optionsContainer.appendChild(button);
+    });
+}
+
+function checkAnswer(selectedOption, correctAnswer, explanation) {
+    const options = document.querySelectorAll('#options-container button');
+    const explanationContainer = document.getElementById('explanation-container');
+    const explanationText = document.getElementById('explanation-text');
+
+    options.forEach(option => {
+        option.disabled = true;
+        if (option.textContent === correctAnswer) {
+            option.classList.add('glow');
+        } else if (option.textContent === selectedOption && selectedOption !== correctAnswer) {
+            option.style.background = 'rgba(198, 40, 40, 0.7)';
+        }
+    });
+
+    if (selectedOption === correctAnswer) {
+        score++;
+    }
+
+    explanationText.textContent = explanation || 'No explanation available.';
+    explanationContainer.style.display = 'block';
+    document.getElementById('next-button').onclick = nextQuestion;
+}
+
+function nextQuestion() {
+    currentQuestionIndex++;
+    displayQuestion();
+}
+
+function showResults() {
+    stopStopwatch();
+    document.getElementById('completion-time').textContent = 
+        document.getElementById('stopwatch').textContent;
+    document.getElementById('quiz-container').style.display = 'block';
+    document.querySelector('.question-box').style.display = 'none';
+    document.getElementById('options-container').style.display = 'none';
+    document.getElementById('explanation-container').style.display = 'none';
+    document.getElementById('result-container').style.display = 'block';
+}
+
+// Stopwatch functions
+function startStopwatch() {
+    startTime = Date.now();
+    stopwatchInterval = setInterval(updateStopwatch, 1000);
+}
+
+function updateStopwatch() {
+    const elapsed = Math.floor((Date.now() - startTime) / 1000);
+    const minutes = Math.floor(elapsed / 60).toString().padStart(2, '0');
+    const seconds = (elapsed % 60).toString().padStart(2, '0');
+    document.getElementById('stopwatch').textContent = `${minutes}:${seconds}`;
+}
+
+function stopStopwatch() {
+    clearInterval(stopwatchInterval);
+}
+
+// Utility function
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
