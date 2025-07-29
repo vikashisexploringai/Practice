@@ -35,14 +35,15 @@ body {
 }
 
 .question-box {
-    background: linear-gradient(145deg, #6a11cb, #3d0066);
+    background: linear-gradient(145deg, #2a0b55, #1a0033);
     padding: 1.25rem;
     border-radius: 1rem;
     margin-bottom: 1.5rem;
     box-shadow: 
-        0 0.25rem 1rem rgba(37, 117, 252, 0.4),
-        inset 0 0 0.75rem rgba(255, 255, 255, 0.15);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+        0 0.25rem 1rem rgba(106, 17, 203, 0.6),
+        inset 0 0 0.75rem rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(179, 0, 255, 0.3);
+    text-align: center; /* Center align question text */
 }
 
 /* Updated Question Text */
@@ -141,6 +142,18 @@ body {
 
 #result-container {
     text-align: center;
+}
+
+.correct-answer {
+    background: rgba(40, 167, 69, 0.7) !important;
+    color: white !important;
+    box-shadow: 0 0 1rem rgba(40, 167, 69, 0.6) !important;
+}
+
+.wrong-answer {
+    background: rgba(220, 53, 69, 0.7) !important;
+    color: white !important;
+    box-shadow: 0 0 1rem rgba(220, 53, 69, 0.6) !important;
 }
 
 @keyframes fadeIn {
