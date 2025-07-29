@@ -89,9 +89,21 @@ function initializeQuiz() {
         return;
     }
 
+    // Show loading state
+    document.getElementById('question-text').textContent = "Loading questions...";
+    
     fetch(`themes/${currentTheme}.json`)
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
         .then(data => {
+            if (!Array.isArray(data) || data.length === 0) {
+                throw new Error('No questions found in file');
+            }
+            
             questions = shuffleArray(data).slice(0, currentDay * 5);
             currentQuestionIndex = 0;
             score = 0;
@@ -99,9 +111,14 @@ function initializeQuiz() {
             displayQuestion();
         })
         .catch(error => {
-            console.error('Error loading questions:', error);
-            alert('Failed to load questions. Please try again.');
-            window.location.href = 'days.html';
+            console.error('Failed to load questions:', error);
+            document.getElementById('question-text').textContent = 
+                "Error: Could not load questions. Please check:";
+            document.getElementById('options-container').innerHTML = `
+                <p>1. JSON file exists in themes/ folder</p>
+                <p>2. File contains valid questions</p>
+                <button onclick="window.location.href='days.html'">← Back to Day Selection</button>
+            `;
         });
 }
 
