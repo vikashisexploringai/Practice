@@ -175,9 +175,9 @@ function checkAnswer(selectedOption, correctAnswer) {
     options.forEach(option => {
         option.disabled = true;
         if (option.textContent === correctAnswer) {
-            option.classList.add('glow');
+            option.classList.add('correct-answer');
         } else if (option.textContent === selectedOption && selectedOption !== correctAnswer) {
-            option.style.background = 'rgba(198, 40, 40, 0.7)';
+            option.classList.add('wrong-answer');
         }
     });
 
