@@ -9,11 +9,7 @@ let stopwatchInterval;
 
 // Theme configuration with display names
 const themes = {
-    'tables': { displayName: 'Multiplication Tables' },
-    'squares': { displayName: 'Square Numbers' },
-    'history': { displayName: 'Indian History' },
-    'geography': { displayName: 'World Geography' },
-    'panini': { displayName: 'Sanskrit Grammar' }
+    'vocabulary': { displayName: 'Vocabulary' }
     // Add more themes as needed
 };
 
