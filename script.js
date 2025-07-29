@@ -122,22 +122,17 @@ function initializeQuiz() {
         });
 }
 
+// In script.js, modify the displayQuestion function:
 function displayQuestion() {
-    const questionContainer = document.getElementById('question-container');
     const resultContainer = document.getElementById('result-container');
-    const progressBar = document.getElementById('progress-bar');
     const questionText = document.getElementById('question-text');
     const optionsContainer = document.getElementById('options-container');
     const explanationContainer = document.getElementById('explanation-container');
 
-    // Verify all elements exist
-    if (!questionContainer || !resultContainer || !progressBar || 
-        !questionText || !optionsContainer || !explanationContainer) {
-        console.error('Critical elements missing in HTML');
-        return;
-    }
+    // Update progress counter
+    document.getElementById('progress-counter').textContent = 
+        `${currentQuestionIndex + 1}/${questions.length}`;
 
-    // Hide result container and show question container
     resultContainer.style.display = 'none';
     questionContainer.style.display = 'block';
 
@@ -147,16 +142,10 @@ function displayQuestion() {
     }
 
     const question = questions[currentQuestionIndex];
-    
-    // Update progress bar
-    progressBar.style.width = `${(currentQuestionIndex / questions.length) * 100}%`;
-    
-    // Set question text
     questionText.textContent = question.question;
     optionsContainer.innerHTML = '';
     explanationContainer.style.display = 'none';
 
-    // Create option buttons
     const shuffledOptions = shuffleArray([...question.choices]);
     shuffledOptions.forEach(option => {
         const button = document.createElement('button');
@@ -165,6 +154,22 @@ function displayQuestion() {
         button.onclick = () => checkAnswer(option, question.answer);
         optionsContainer.appendChild(button);
     });
+}
+
+// Update the showResults function:
+function showResults() {
+    stopStopwatch();
+    const totalQuestions = questions.length;
+    const accuracy = Math.round((score / totalQuestions) * 100);
+    
+    document.getElementById('score').textContent = score;
+    document.getElementById('total').textContent = totalQuestions;
+    document.getElementById('completion-time').textContent = 
+        document.getElementById('stopwatch').textContent;
+    document.getElementById('accuracy').textContent = `${accuracy}%`;
+    
+    document.getElementById('question-container').style.display = 'none';
+    document.getElementById('result-container').style.display = 'block';
 }
 
 function checkAnswer(selectedOption, correctAnswer) {
@@ -195,16 +200,6 @@ function nextQuestion() {
     displayQuestion();
 }
 
-function showResults() {
-    stopStopwatch();
-    document.getElementById('score').textContent = score;
-    document.getElementById('total').textContent = questions.length;
-    document.getElementById('completion-time').textContent = 
-        document.getElementById('stopwatch').textContent;
-    
-    document.getElementById('question-container').style.display = 'none';
-    document.getElementById('result-container').style.display = 'block';
-}
 
 // Stopwatch functions
 function startStopwatch() {
