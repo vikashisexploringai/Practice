@@ -122,17 +122,22 @@ function initializeQuiz() {
         });
 }
 
-// In script.js, modify the displayQuestion function:
 function displayQuestion() {
+    const questionContainer = document.getElementById('quiz-container'); // Changed this line
     const resultContainer = document.getElementById('result-container');
+    const progressBar = document.getElementById('progress-counter'); // Using progress counter instead of bar
     const questionText = document.getElementById('question-text');
     const optionsContainer = document.getElementById('options-container');
     const explanationContainer = document.getElementById('explanation-container');
 
-    // Update progress counter
-    document.getElementById('progress-counter').textContent = 
-        `${currentQuestionIndex + 1}/${questions.length}`;
+    // Verify all elements exist
+    if (!questionContainer || !resultContainer || !progressBar || 
+        !questionText || !optionsContainer || !explanationContainer) {
+        console.error('Critical elements missing in HTML');
+        return;
+    }
 
+    // Hide result container and show question container
     resultContainer.style.display = 'none';
     questionContainer.style.display = 'block';
 
@@ -142,10 +147,16 @@ function displayQuestion() {
     }
 
     const question = questions[currentQuestionIndex];
+    
+    // Update progress counter
+    progressBar.textContent = `${currentQuestionIndex + 1}/${questions.length}`;
+    
+    // Set question text
     questionText.textContent = question.question;
     optionsContainer.innerHTML = '';
     explanationContainer.style.display = 'none';
 
+    // Create option buttons
     const shuffledOptions = shuffleArray([...question.choices]);
     shuffledOptions.forEach(option => {
         const button = document.createElement('button');
