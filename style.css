@@ -176,6 +176,42 @@ body {
     box-shadow: 0 0 1rem rgba(220, 53, 69, 0.6) !important;
 }
 
+/* Options Container Background */
+#options-container {
+    background: rgba(30, 0, 60, 0.8);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(138, 0, 255, 0.2);
+    box-shadow: inset 0 0 1rem rgba(0, 0, 0, 0.3);
+}
+
+/* Option Buttons */
+.option-button {
+    background: rgba(50, 0, 90, 0.9) !important; /* Darker than container */
+    border: 1px solid rgba(138, 0, 255, 0.3) !important;
+    transition: all 0.2s ease;
+}
+
+.option-button:hover {
+    background: rgba(70, 0, 120, 0.9) !important;
+    transform: translateY(-2px);
+}
+
+/* Answer Feedback States */
+.correct-answer {
+    background: linear-gradient(145deg, #28a745, #1e7e34) !important;
+    color: white !important;
+    box-shadow: 0 0 1rem rgba(40, 167, 69, 0.7) !important;
+    border: 1px solid #3ddb6b !important;
+}
+
+.wrong-answer {
+    background: linear-gradient(145deg, #dc3545, #a71d2a) !important;
+    color: white !important;
+    box-shadow: 0 0 1rem rgba(220, 53, 69, 0.7) !important;
+    border: 1px solid #ff6b7b !important;
+}
+
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
