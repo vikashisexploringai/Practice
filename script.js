@@ -123,30 +123,40 @@ function initializeQuiz() {
 }
 
 function displayQuestion() {
-    const quizContainer = document.getElementById('quiz-container');
     const questionContainer = document.getElementById('question-container');
     const resultContainer = document.getElementById('result-container');
-    
+    const progressBar = document.getElementById('progress-bar');
+    const questionText = document.getElementById('question-text');
+    const optionsContainer = document.getElementById('options-container');
+    const explanationContainer = document.getElementById('explanation-container');
+
+    // Verify all elements exist
+    if (!questionContainer || !resultContainer || !progressBar || 
+        !questionText || !optionsContainer || !explanationContainer) {
+        console.error('Critical elements missing in HTML');
+        return;
+    }
+
+    // Hide result container and show question container
     resultContainer.style.display = 'none';
     questionContainer.style.display = 'block';
-    
+
     if (currentQuestionIndex >= questions.length) {
         showResults();
         return;
     }
 
     const question = questions[currentQuestionIndex];
-    const questionText = document.getElementById('question-text');
-    const optionsContainer = document.getElementById('options-container');
-    const explanationContainer = document.getElementById('explanation-container');
-
-    const progressPercent = (currentQuestionIndex / questions.length) * 100;
-    document.getElementById('progress-bar').style.width = `${progressPercent}%`;
     
+    // Update progress bar
+    progressBar.style.width = `${(currentQuestionIndex / questions.length) * 100}%`;
+    
+    // Set question text
     questionText.textContent = question.question;
     optionsContainer.innerHTML = '';
     explanationContainer.style.display = 'none';
 
+    // Create option buttons
     const shuffledOptions = shuffleArray([...question.choices]);
     shuffledOptions.forEach(option => {
         const button = document.createElement('button');
