@@ -21,7 +21,7 @@ body {
 
 .quiz-container {
     width: min(100%, 28rem);
-    background: rgba(20, 0, 40, 0.7);
+    background: rgba(15, 0, 30, 0.8) !important;
     backdrop-filter: blur(8px);
     border-radius: 1.5rem;
     padding: 1.5rem;
@@ -35,15 +35,35 @@ body {
 }
 
 .question-box {
-    background: linear-gradient(145deg, #2a0b55, #1a0033);
+    background: linear-gradient(145deg, #3d0a7a, #2a004f) !important;
     padding: 1.25rem;
     border-radius: 1rem;
     margin-bottom: 1.5rem;
     box-shadow: 
-        0 0.25rem 1rem rgba(106, 17, 203, 0.6),
-        inset 0 0 0.75rem rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(179, 0, 255, 0.3);
-    text-align: center; /* Center align question text */
+        0 0.25rem 1.5rem rgba(138, 0, 255, 0.7),
+        inset 0 0 1rem rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 0, 234, 0.4);
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.question-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        radial-gradient(circle at 20% 30%, 
+            rgba(255, 0, 234, 0.1) 0%, 
+            transparent 20%),
+        radial-gradient(circle at 80% 70%, 
+            rgba(138, 0, 255, 0.1) 0%, 
+            transparent 20%);
+    border-radius: 1rem;
+    z-index: -1;
 }
 
 /* Updated Question Text */
