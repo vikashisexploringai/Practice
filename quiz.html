@@ -7,27 +7,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="quiz-container">
-        <div class="timer-container">
-            <span id="stopwatch">00:00</span>
-        </div>
+    <div class="quiz-container" id="quiz-container">
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progress-bar"></div>
+    </div>
+    
+    <!-- Timer -->
+    <div class="timer-container">
+        <span id="stopwatch">00:00</span>
+    </div>
+    
+    <!-- Question Container -->
+    <div id="question-container">
         <div class="question-box">
-            <h2 id="question-text">Question will appear here</h2>
+            <h2 id="question-text">Loading questions...</h2>
         </div>
-        <div class="options-grid" id="options-container">
-            <!-- Dynamically populated -->
-        </div>
+        <div class="options-grid" id="options-container"></div>
         <div id="explanation-container" style="display: none;">
             <p id="explanation-text"></p>
             <button id="next-button" class="glow">Next Question</button>
         </div>
-        <div id="result-container" style="display: none;">
-            <h2 class="glow-text">Day Complete!</h2>
-            <p>Time: <span id="completion-time">00:00</span></p>
-            <button onclick="location.reload()" class="glow">Repeat This Day</button>
-            <button onclick="window.location.href='days.html'" class="glow">Choose Another Day</button>
-        </div>
     </div>
+    
+    <!-- Result Container -->
+    <div id="result-container" style="display: none;">
+        <h2 class="glow-text">Day Complete!</h2>
+        <p>Your score: <span id="score">0</span>/<span id="total">0</span></p>
+        <p>Time: <span id="completion-time">00:00</span></p>
+        <button onclick="location.reload()" class="glow">Repeat This Day</button>
+        <button onclick="window.location.href='days.html'" class="glow">Choose Another Day</button>
+    </div>
+</div>
     <script src="script.js"></script>
 </body>
 </html>
