@@ -9,7 +9,8 @@ let stopwatchInterval;
 
 // Theme configuration with display names
 const themes = {
-    'vocabulary': { displayName: 'Vocabulary' }
+    'vocabulary': { displayName: 'Vocabulary' },
+    'tables': { displayName: 'Table' },
     // Add more themes as needed
 };
 
