@@ -105,7 +105,11 @@ function initializeQuiz() {
                 throw new Error('No questions found in file');
             }
             
-            questions = shuffleArray(data).slice(0, currentDay * 5);
+            // First select the first (day * 5) questions, then shuffle them
+            const totalQuestionsToSelect = currentDay * 5;
+            const selectedQuestions = data.slice(0, totalQuestionsToSelect);
+            questions = shuffleArray(selectedQuestions);
+            
             currentQuestionIndex = 0;
             score = 0;
             startStopwatch();
@@ -124,9 +128,9 @@ function initializeQuiz() {
 }
 
 function displayQuestion() {
-    const questionContainer = document.getElementById('quiz-container'); // Changed this line
+    const questionContainer = document.getElementById('quiz-container');
     const resultContainer = document.getElementById('result-container');
-    const progressBar = document.getElementById('progress-counter'); // Using progress counter instead of bar
+    const progressBar = document.getElementById('progress-counter');
     const questionText = document.getElementById('question-text');
     const optionsContainer = document.getElementById('options-container');
     const explanationContainer = document.getElementById('explanation-container');
@@ -157,7 +161,7 @@ function displayQuestion() {
     optionsContainer.innerHTML = '';
     explanationContainer.style.display = 'none';
 
-    // Create option buttons
+    // Create option buttons with shuffled choices
     const shuffledOptions = shuffleArray([...question.choices]);
     shuffledOptions.forEach(option => {
         const button = document.createElement('button');
