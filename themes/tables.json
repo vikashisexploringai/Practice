@@ -1,185 +1,5 @@
 [
   {
-    "question": "11 × 2",
-    "choices": ["22", "32", "42", "52"],
-    "answer": "22",
-    "explanation": "11 × 2 = 22"
-  },
-  {
-    "question": "11 × 3",
-    "choices": ["33", "43", "53", "63"],
-    "answer": "33",
-    "explanation": "11 × 3 = 33"
-  },
-  {
-    "question": "11 × 4",
-    "choices": ["44", "54", "64", "74"],
-    "answer": "44",
-    "explanation": "11 × 4 = 44"
-  },
-  {
-    "question": "11 × 5",
-    "choices": ["55", "65", "75", "85"],
-    "answer": "55",
-    "explanation": "11 × 5 = 55"
-  },
-  {
-    "question": "11 × 6",
-    "choices": ["66", "76", "86", "96"],
-    "answer": "66",
-    "explanation": "11 × 6 = 66"
-  },
-  {
-    "question": "11 × 7",
-    "choices": ["77", "87", "97", "107"],
-    "answer": "77",
-    "explanation": "11 × 7 = 77"
-  },
-  {
-    "question": "11 × 8",
-    "choices": ["88", "98", "108", "118"],
-    "answer": "88",
-    "explanation": "11 × 8 = 88"
-  },
-  {
-    "question": "11 × 9",
-    "choices": ["99", "109", "119", "129"],
-    "answer": "99",
-    "explanation": "11 × 9 = 99"
-  },
-  {
-    "question": "12 × 2",
-    "choices": ["24", "34", "44", "54"],
-    "answer": "24",
-    "explanation": "12 × 2 = 24"
-  },
-  {
-    "question": "12 × 3",
-    "choices": ["36", "46", "56", "66"],
-    "answer": "36",
-    "explanation": "12 × 3 = 36"
-  },
-  {
-    "question": "12 × 4",
-    "choices": ["48", "58", "68", "78"],
-    "answer": "48",
-    "explanation": "12 × 4 = 48"
-  },
-  {
-    "question": "12 × 5",
-    "choices": ["60", "70", "80", "90"],
-    "answer": "60",
-    "explanation": "12 × 5 = 60"
-  },
-  {
-    "question": "12 × 6",
-    "choices": ["72", "82", "92", "102"],
-    "answer": "72",
-    "explanation": "12 × 6 = 72"
-  },
-  {
-    "question": "12 × 7",
-    "choices": ["84", "94", "104", "114"],
-    "answer": "84",
-    "explanation": "12 × 7 = 84"
-  },
-  {
-    "question": "12 × 8",
-    "choices": ["96", "106", "116", "126"],
-    "answer": "96",
-    "explanation": "12 × 8 = 96"
-  },
-  {
-    "question": "12 × 9",
-    "choices": ["108", "118", "128", "138"],
-    "answer": "108",
-    "explanation": "12 × 9 = 108"
-  },
-  {
-    "question": "13 × 2",
-    "choices": ["26", "36", "46", "56"],
-    "answer": "26",
-    "explanation": "13 × 2 = 26"
-  },
-  {
-    "question": "13 × 3",
-    "choices": ["39", "49", "59", "69"],
-    "answer": "39",
-    "explanation": "13 × 3 = 39"
-  },
-  {
-    "question": "13 × 4",
-    "choices": ["52", "62", "72", "82"],
-    "answer": "52",
-    "explanation": "13 × 4 = 52"
-  },
-  {
-    "question": "13 × 5",
-    "choices": ["65", "75", "85", "95"],
-    "answer": "65",
-    "explanation": "13 × 5 = 65"
-  },
-  {
-    "question": "13 × 6",
-    "choices": ["78", "88", "98", "108"],
-    "answer": "78",
-    "explanation": "13 × 6 = 78"
-  },
-  {
-    "question": "13 × 7",
-    "choices": ["91", "101", "111", "121"],
-    "answer": "91",
-    "explanation": "13 × 7 = 91"
-  },
-  {
-    "question": "13 × 8",
-    "choices": ["104", "114", "124", "134"],
-    "answer": "104",
-    "explanation": "13 × 8 = 104"
-  },
-  {
-    "question": "13 × 9",
-    "choices": ["117", "127", "137", "147"],
-    "answer": "117",
-    "explanation": "13 × 9 = 117"
-  },
-  {
-    "question": "14 × 2",
-    "choices": ["28", "38", "48", "58"],
-    "answer": "28",
-    "explanation": "14 × 2 = 28"
-  },
-  {
-    "question": "14 × 3",
-    "choices": ["42", "52", "62", "72"],
-    "answer": "42",
-    "explanation": "14 × 3 = 42"
-  },
-  {
-    "question": "14 × 4",
-    "choices": ["56", "66", "76", "86"],
-    "answer": "56",
-    "explanation": "14 × 4 = 56"
-  },
-  {
-    "question": "14 × 5",
-    "choices": ["70", "80", "90", "100"],
-    "answer": "70",
-    "explanation": "14 × 5 = 70"
-  },
-  {
-    "question": "14 × 6",
-    "choices": ["84", "94", "104", "114"],
-    "answer": "84",
-    "explanation": "14 × 6 = 84"
-  },
-  {
-    "question": "14 × 7",
-    "choices": ["98", "108", "118", "128"],
-    "answer": "98",
-    "explanation": "14 × 7 = 98"
-  },
-  {
     "question": "14 × 8",
     "choices": ["112", "122", "132", "142"],
     "answer": "112",
@@ -192,90 +12,6 @@
     "explanation": "14 × 9 = 126"
   },
   {
-    "question": "15 × 2",
-    "choices": ["30", "40", "50", "60"],
-    "answer": "30",
-    "explanation": "15 × 2 = 30"
-  },
-  {
-    "question": "15 × 3",
-    "choices": ["45", "55", "65", "75"],
-    "answer": "45",
-    "explanation": "15 × 3 = 45"
-  },
-  {
-    "question": "15 × 4",
-    "choices": ["60", "70", "80", "90"],
-    "answer": "60",
-    "explanation": "15 × 4 = 60"
-  },
-  {
-    "question": "15 × 5",
-    "choices": ["75", "85", "95", "105"],
-    "answer": "75",
-    "explanation": "15 × 5 = 75"
-  },
-  {
-    "question": "15 × 6",
-    "choices": ["90", "100", "110", "120"],
-    "answer": "90",
-    "explanation": "15 × 6 = 90"
-  },
-  {
-    "question": "15 × 7",
-    "choices": ["105", "115", "125", "135"],
-    "answer": "105",
-    "explanation": "15 × 7 = 105"
-  },
-  {
-    "question": "15 × 8",
-    "choices": ["120", "130", "140", "150"],
-    "answer": "120",
-    "explanation": "15 × 8 = 120"
-  },
-  {
-    "question": "15 × 9",
-    "choices": ["135", "145", "155", "165"],
-    "answer": "135",
-    "explanation": "15 × 9 = 135"
-  },
-  {
-    "question": "16 × 2",
-    "choices": ["32", "42", "52", "62"],
-    "answer": "32",
-    "explanation": "16 × 2 = 32"
-  },
-  {
-    "question": "16 × 3",
-    "choices": ["48", "58", "68", "78"],
-    "answer": "48",
-    "explanation": "16 × 3 = 48"
-  },
-  {
-    "question": "16 × 4",
-    "choices": ["64", "74", "84", "94"],
-    "answer": "64",
-    "explanation": "16 × 4 = 64"
-  },
-  {
-    "question": "16 × 5",
-    "choices": ["80", "90", "100", "110"],
-    "answer": "80",
-    "explanation": "16 × 5 = 80"
-  },
-  {
-    "question": "16 × 6",
-    "choices": ["96", "106", "116", "126"],
-    "answer": "96",
-    "explanation": "16 × 6 = 96"
-  },
-  {
-    "question": "16 × 7",
-    "choices": ["112", "122", "132", "142"],
-    "answer": "112",
-    "explanation": "16 × 7 = 112"
-  },
-  {
     "question": "16 × 8",
     "choices": ["128", "138", "148", "158"],
     "answer": "128",
@@ -286,30 +22,6 @@
     "choices": ["144", "154", "164", "174"],
     "answer": "144",
     "explanation": "16 × 9 = 144"
-  },
-  {
-    "question": "17 × 2",
-    "choices": ["34", "44", "54", "64"],
-    "answer": "34",
-    "explanation": "17 × 2 = 34"
-  },
-  {
-    "question": "17 × 3",
-    "choices": ["51", "61", "71", "81"],
-    "answer": "51",
-    "explanation": "17 × 3 = 51"
-  },
-  {
-    "question": "17 × 4",
-    "choices": ["68", "78", "88", "98"],
-    "answer": "68",
-    "explanation": "17 × 4 = 68"
-  },
-  {
-    "question": "17 × 5",
-    "choices": ["85", "95", "105", "115"],
-    "answer": "85",
-    "explanation": "17 × 5 = 85"
   },
   {
     "question": "17 × 6",
@@ -336,30 +48,6 @@
     "explanation": "17 × 9 = 153"
   },
   {
-    "question": "18 × 2",
-    "choices": ["36", "46", "56", "66"],
-    "answer": "36",
-    "explanation": "18 × 2 = 36"
-  },
-  {
-    "question": "18 × 3",
-    "choices": ["54", "64", "74", "84"],
-    "answer": "54",
-    "explanation": "18 × 3 = 54"
-  },
-  {
-    "question": "18 × 4",
-    "choices": ["72", "82", "92", "102"],
-    "answer": "72",
-    "explanation": "18 × 4 = 72"
-  },
-  {
-    "question": "18 × 5",
-    "choices": ["90", "100", "110", "120"],
-    "answer": "90",
-    "explanation": "18 × 5 = 90"
-  },
-  {
     "question": "18 × 6",
     "choices": ["108", "118", "128", "138"],
     "answer": "108",
@@ -384,30 +72,6 @@
     "explanation": "18 × 9 = 162"
   },
   {
-    "question": "19 × 2",
-    "choices": ["38", "48", "58", "68"],
-    "answer": "38",
-    "explanation": "19 × 2 = 38"
-  },
-  {
-    "question": "19 × 3",
-    "choices": ["57", "67", "77", "87"],
-    "answer": "57",
-    "explanation": "19 × 3 = 57"
-  },
-  {
-    "question": "19 × 4",
-    "choices": ["76", "86", "96", "106"],
-    "answer": "76",
-    "explanation": "19 × 4 = 76"
-  },
-  {
-    "question": "19 × 5",
-    "choices": ["95", "105", "115", "125"],
-    "answer": "95",
-    "explanation": "19 × 5 = 95"
-  },
-  {
     "question": "19 × 6",
     "choices": ["114", "124", "134", "144"],
     "answer": "114",
@@ -430,24 +94,6 @@
     "choices": ["171", "181", "191", "201"],
     "answer": "171",
     "explanation": "19 × 9 = 171"
-  },
-  {
-    "question": "21 × 2",
-    "choices": ["42", "52", "62", "72"],
-    "answer": "42",
-    "explanation": "21 × 2 = 42"
-  },
-  {
-    "question": "21 × 3",
-    "choices": ["63", "73", "83", "93"],
-    "answer": "63",
-    "explanation": "21 × 3 = 63"
-  },
-  {
-    "question": "21 × 4",
-    "choices": ["84", "94", "104", "114"],
-    "answer": "84",
-    "explanation": "21 × 4 = 84"
   },
   {
     "question": "21 × 5",
@@ -480,24 +126,6 @@
     "explanation": "21 × 9 = 189"
   },
   {
-    "question": "22 × 2",
-    "choices": ["44", "54", "64", "74"],
-    "answer": "44",
-    "explanation": "22 × 2 = 44"
-  },
-  {
-    "question": "22 × 3",
-    "choices": ["66", "76", "86", "96"],
-    "answer": "66",
-    "explanation": "22 × 3 = 66"
-  },
-  {
-    "question": "22 × 4",
-    "choices": ["88", "98", "108", "118"],
-    "answer": "88",
-    "explanation": "22 × 4 = 88"
-  },
-  {
     "question": "22 × 5",
     "choices": ["110", "120", "130", "140"],
     "answer": "110",
@@ -528,30 +156,6 @@
     "explanation": "22 × 9 = 198"
   },
   {
-    "question": "23 × 2",
-    "choices": ["46", "56", "66", "76"],
-    "answer": "46",
-    "explanation": "23 × 2 = 46"
-  },
-  {
-    "question": "23 × 3",
-    "choices": ["69", "79", "89", "99"],
-    "answer": "69",
-    "explanation": "23 × 3 = 69"
-  },
-  {
-    "question": "23 × 4",
-    "choices": ["92", "102", "112", "122"],
-    "answer": "92",
-    "explanation": "23 × 4 = 92"
-  },
-  {
-    "question": "23 × 5",
-    "choices": ["115", "125", "135", "145"],
-    "answer": "115",
-    "explanation": "23 × 5 = 115"
-  },
-  {
     "question": "23 × 6",
     "choices": ["138", "148", "158", "168"],
     "answer": "138",
@@ -576,30 +180,6 @@
     "explanation": "23 × 9 = 207"
   },
   {
-    "question": "24 × 2",
-    "choices": ["48", "58", "68", "78"],
-    "answer": "48",
-    "explanation": "24 × 2 = 48"
-  },
-  {
-    "question": "24 × 3",
-    "choices": ["72", "82", "92", "102"],
-    "answer": "72",
-    "explanation": "24 × 3 = 72"
-  },
-  {
-    "question": "24 × 4",
-    "choices": ["96", "106", "116", "126"],
-    "answer": "96",
-    "explanation": "24 × 4 = 96"
-  },
-  {
-    "question": "24 × 5",
-    "choices": ["120", "130", "140", "150"],
-    "answer": "120",
-    "explanation": "24 × 5 = 120"
-  },
-  {
     "question": "24 × 6",
     "choices": ["144", "154", "164", "174"],
     "answer": "144",
@@ -622,66 +202,6 @@
     "choices": ["216", "226", "236", "246"],
     "answer": "216",
     "explanation": "24 × 9 = 216"
-  },
-  {
-    "question": "25 × 2",
-    "choices": ["50", "60", "70", "80"],
-    "answer": "50",
-    "explanation": "25 × 2 = 50"
-  },
-  {
-    "question": "25 × 3",
-    "choices": ["75", "85", "95", "105"],
-    "answer": "75",
-    "explanation": "25 × 3 = 75"
-  },
-  {
-    "question": "25 × 4",
-    "choices": ["100", "110", "120", "130"],
-    "answer": "100",
-    "explanation": "25 × 4 = 100"
-  },
-  {
-    "question": "25 × 5",
-    "choices": ["125", "135", "145", "155"],
-    "answer": "125",
-    "explanation": "25 × 5 = 125"
-  },
-  {
-    "question": "25 × 6",
-    "choices": ["150", "160", "170", "180"],
-    "answer": "150",
-    "explanation": "25 × 6 = 150"
-  },
-  {
-    "question": "25 × 7",
-    "choices": ["175", "185", "195", "205"],
-    "answer": "175",
-    "explanation": "25 × 7 = 175"
-  },
-  {
-    "question": "25 × 8",
-    "choices": ["200", "210", "220", "230"],
-    "answer": "200",
-    "explanation": "25 × 8 = 200"
-  },
-  {
-    "question": "25 × 9",
-    "choices": ["225", "235", "245", "255"],
-    "answer": "225",
-    "explanation": "25 × 9 = 225"
-  },
-  {
-    "question": "26 × 2",
-    "choices": ["52", "62", "72", "82"],
-    "answer": "52",
-    "explanation": "26 × 2 = 52"
-  },
-  {
-    "question": "26 × 3",
-    "choices": ["78", "88", "98", "108"],
-    "answer": "78",
-    "explanation": "26 × 3 = 78"
   },
   {
     "question": "26 × 4",
@@ -720,18 +240,6 @@
     "explanation": "26 × 9 = 234"
   },
   {
-    "question": "27 × 2",
-    "choices": ["54", "64", "74", "84"],
-    "answer": "54",
-    "explanation": "27 × 2 = 54"
-  },
-  {
-    "question": "27 × 3",
-    "choices": ["81", "91", "101", "111"],
-    "answer": "81",
-    "explanation": "27 × 3 = 81"
-  },
-  {
     "question": "27 × 4",
     "choices": ["108", "118", "128", "138"],
     "answer": "108",
@@ -768,18 +276,6 @@
     "explanation": "27 × 9 = 243"
   },
   {
-    "question": "28 × 2",
-    "choices": ["56", "66", "76", "86"],
-    "answer": "56",
-    "explanation": "28 × 2 = 56"
-  },
-  {
-    "question": "28 × 3",
-    "choices": ["84", "94", "104", "114"],
-    "answer": "84",
-    "explanation": "28 × 3 = 84"
-  },
-  {
     "question": "28 × 4",
     "choices": ["112", "122", "132", "142"],
     "answer": "112",
@@ -814,18 +310,6 @@
     "choices": ["252", "262", "272", "282"],
     "answer": "252",
     "explanation": "28 × 9 = 252"
-  },
-  {
-    "question": "29 × 2",
-    "choices": ["58", "68", "78", "88"],
-    "answer": "58",
-    "explanation": "29 × 2 = 58"
-  },
-  {
-    "question": "29 × 3",
-    "choices": ["87", "97", "107", "117"],
-    "answer": "87",
-    "explanation": "29 × 3 = 87"
   },
   {
     "question": "29 × 4",
