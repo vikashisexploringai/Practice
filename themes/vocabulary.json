@@ -53,5 +53,60 @@
     ],
     "answer": "Stubbornly disobedient",
     "explanation": "USAGE: 'The **recalcitrant** toddler refused to eat his vegetables, no matter what his parents said.'\nSYNONYMS: Rebellious, defiant"
+  }, 
+  {
+    "question": "Cherished (Meaning & Usage)",
+    "choices": [
+      "Recently bought",
+      "Deeply loved and valued",
+      "Often forgotten",
+      "Very expensive"
+    ],
+    "answer": "Deeply loved and valued",
+    "explanation": "USAGE: 'Her grandmother's ring was her most cherished possession.'\nSYNONYMS: Treasured, beloved\nANTONYM: Unimportant"
+  },
+  {
+    "question": "Mourn (Meaning & Usage)",
+    "choices": [
+      "To celebrate loudly",
+      "To feel or show sadness",
+      "To repair something",
+      "To travel quickly"
+    ],
+    "answer": "To feel or show sadness",
+    "explanation": "USAGE: 'The whole town came to mourn the loss of their kind mayor.'\nSYNONYMS: Grieve, sorrow\nANTONYM: Rejoice"
+  },
+  {
+    "question": "Garrulous (Meaning & Usage)",
+    "choices": [
+      "Very quiet",
+      "Extremely talkative",
+      "Always angry",
+      "Very sleepy"
+    ],
+    "answer": "Extremely talkative",
+    "explanation": "USAGE: 'The garrulous parrot wouldn't stop chatting all day.'\nSYNONYMS: Chatty, talkative\nANTONYM: Quiet"
+  },
+  {
+    "question": "Meticulous (Meaning & Usage)",
+    "choices": [
+      "Very careless",
+      "Extremely careful about details",
+      "Always late",
+      "Very strong"
+    ],
+    "answer": "Extremely careful about details",
+    "explanation": "USAGE: 'She was meticulous about keeping her room perfectly organized.'\nSYNONYMS: Precise, thorough\nANTONYM: Sloppy"
+  },
+  {
+    "question": "Diligent (Meaning & Usage)",
+    "choices": [
+      "Hard-working and careful",
+      "Often tired",
+      "Very funny",
+      "Always hungry"
+    ],
+    "answer": "Hard-working and careful",
+    "explanation": "USAGE: 'The diligent student always completed her homework on time.'\nSYNONYMS: Industrious, conscientious\nANTONYM: Lazy"
   }
 ]
