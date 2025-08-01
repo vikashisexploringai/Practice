@@ -8,7 +8,7 @@
       "Extremely fragile"
     ],
     "answer": "Lasting for a very short time",
-    "explanation": "MEMORY HOOK: Think of a **mayfly** (lives just 1 day).\nUSAGE: 'Social media trends are **ephemeral**—viral today, gone tomorrow.'\nSYNONYMS: Transient, fleeting"
+    "explanation": "USAGE: 'Fame on TikTok is often **ephemeral**—today’s viral star can be forgotten tomorrow.'\nSYNONYMS: Short-lived, temporary"
   },
   {
     "question": "Ubiquitous (Meaning & Usage)",
@@ -19,7 +19,7 @@
       "Extremely loud"
     ],
     "answer": "Present everywhere",
-    "explanation": "MEMORY HOOK: Sounds like **'Uber + Internet'** (both are everywhere!).\nUSAGE: 'Smartphones are **ubiquitous**—found in cities, villages, and even mountains.'\nSYNONYMS: Omnipresent, pervasive"
+    "explanation": "USAGE: 'Wi-Fi is now **ubiquitous**—you can find it in cafes, airports, and even parks.'\nSYNONYMS: Everywhere, common"
   },
   {
     "question": "Pragmatic (Meaning & Usage)",
@@ -30,11 +30,31 @@
       "Artistically creative"
     ],
     "answer": "Practical and solution-focused",
-    "explanation": "MEMORY HOOK: **'Prag'** = 'practical magic'.\nUSAGE: 'A **pragmatic** leader builds roads instead of endless debates.'\nANTONYM: Idealistic"
+    "explanation": "USAGE: 'A **pragmatic** person carries an umbrella when rain is forecast instead of hoping for sunshine.'\nANTONYM: Unrealistic"
   },
   {
     "question": "Esoteric (Meaning & Usage)",
     "choices": [
+      "Common knowledge",
+      "Understood by few experts",
+      "Related to ancient history",
+      "Highly fashionable"
+    ],
+    "answer": "Understood by few experts",
+    "explanation": "USAGE: 'Blockchain technology seems **esoteric** to most people, but programmers understand it.'\nSYNONYMS: Niche, specialized"
+  },
+  {
+    "question": "Recalcitrant (Meaning & Usage)",
+    "choices": [
+      "Overly enthusiastic",
+      "Stubbornly disobedient",
+      "Highly intelligent",
+      "Physically weak"
+    ],
+    "answer": "Stubbornly disobedient",
+    "explanation": "USAGE: 'The **recalcitrant** toddler refused to eat his vegetables, no matter what his parents said.'\nSYNONYMS: Rebellious, defiant"
+  }
+]    "choices": [
       "Common knowledge",
       "Understood by few experts",
       "Related to ancient history",
