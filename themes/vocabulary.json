@@ -54,24 +54,4 @@
     "answer": "Stubbornly disobedient",
     "explanation": "USAGE: 'The **recalcitrant** toddler refused to eat his vegetables, no matter what his parents said.'\nSYNONYMS: Rebellious, defiant"
   }
-]    "choices": [
-      "Common knowledge",
-      "Understood by few experts",
-      "Related to ancient history",
-      "Highly fashionable"
-    ],
-    "answer": "Understood by few experts",
-    "explanation": "MEMORY HOOK: **'Eso'** (echo) + **'teric'** (terrific) → A 'terrific echo' only a few hear.\nUSAGE: 'Quantum physics sounds **esoteric** to non-scientists.'\nSYNONYMS: Arcane, obscure"
-  },
-  {
-    "question": "Recalcitrant (Meaning & Usage)",
-    "choices": [
-      "Overly enthusiastic",
-      "Stubbornly disobedient",
-      "Highly intelligent",
-      "Physically weak"
-    ],
-    "answer": "Stubbornly disobedient",
-    "explanation": "MEMORY HOOK: **'Recal'** (rebel) + **'citrant'** (resistant).\nUSAGE: 'The **recalcitrant** student refused to wear the uniform.'\nSYNONYMS: Defiant, unyielding"
-  }
 ]
