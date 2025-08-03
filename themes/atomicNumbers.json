@@ -1,0 +1,710 @@
+[
+  {
+    "question": "What is the atomic number of Hydrogen?",
+    "choices": ["1", "2", "3", "4"],
+    "answer": "1",
+    "explanation": "Hydrogen (H) is the lightest and most abundant element in the universe. Atomic number: 1."
+  },
+  {
+    "question": "What is the atomic number of Helium?",
+    "choices": ["1", "2", "3", "4"],
+    "answer": "2",
+    "explanation": "Helium (He) is a noble gas used in balloons and cryogenics. Atomic number: 2."
+  },
+  {
+    "question": "What is the atomic number of Lithium?",
+    "choices": ["2", "3", "4", "5"],
+    "answer": "3",
+    "explanation": "Lithium (Li) is the lightest metal and used in batteries. Atomic number: 3."
+  },
+  {
+    "question": "What is the atomic number of Beryllium?",
+    "choices": ["3", "4", "5", "6"],
+    "answer": "4",
+    "explanation": "Beryllium (Be) is a lightweight, stiff metal. Atomic number: 4."
+  },
+  {
+    "question": "What is the atomic number of Boron?",
+    "choices": ["4", "5", "6", "7"],
+    "answer": "5",
+    "explanation": "Boron (B) is essential in plant cell walls and semiconductors. Atomic number: 5."
+  },
+  {
+    "question": "What is the atomic number of Carbon?",
+    "choices": ["6", "7", "8", "9"],
+    "answer": "6",
+    "explanation": "Carbon (C) is the basis of organic life. Atomic number: 6."
+  },
+  {
+    "question": "What is the atomic number of Nitrogen?",
+    "choices": ["6", "7", "8", "9"],
+    "answer": "7",
+    "explanation": "Nitrogen (N) makes up 78% of Earth's atmosphere. Atomic number: 7."
+  },
+  {
+    "question": "What is the atomic number of Oxygen?",
+    "choices": ["7", "8", "9", "10"],
+    "answer": "8",
+    "explanation": "Oxygen (O) is vital for respiration. Atomic number: 8."
+  },
+  {
+    "question": "What is the atomic number of Fluorine?",
+    "choices": ["8", "9", "10", "11"],
+    "answer": "9",
+    "explanation": "Fluorine (F) is the most reactive halogen. Atomic number: 9."
+  },
+  {
+    "question": "What is the atomic number of Neon?",
+    "choices": ["9", "10", "11", "12"],
+    "answer": "10",
+    "explanation": "Neon (Ne) is used in glowing signs. Atomic number: 10."
+  },
+  {
+    "question": "What is the atomic number of Sodium?",
+    "choices": ["10", "11", "12", "13"],
+    "answer": "11",
+    "explanation": "Sodium (Na) is a reactive alkali metal. Atomic number: 11."
+  },
+  {
+    "question": "What is the atomic number of Magnesium?",
+    "choices": ["11", "12", "13", "14"],
+    "answer": "12",
+    "explanation": "Magnesium (Mg) is essential for biology. Atomic number: 12."
+  },
+  {
+    "question": "What is the atomic number of Aluminum?",
+    "choices": ["12", "13", "14", "15"],
+    "answer": "13",
+    "explanation": "Aluminum (Al) is a lightweight, corrosion-resistant metal. Atomic number: 13."
+  },
+  {
+    "question": "What is the atomic number of Silicon?",
+    "choices": ["13", "14", "15", "16"],
+    "answer": "14",
+    "explanation": "Silicon (Si) is crucial for electronics. Atomic number: 14."
+  },
+  {
+    "question": "What is the atomic number of Phosphorus?",
+    "choices": ["14", "15", "16", "17"],
+    "answer": "15",
+    "explanation": "Phosphorus (P) is key in DNA and fertilizers. Atomic number: 15."
+  },
+  {
+    "question": "What is the atomic number of Sulfur?",
+    "choices": ["15", "16", "17", "18"],
+    "answer": "16",
+    "explanation": "Sulfur (S) is used in chemicals and rubber. Atomic number: 16."
+  },
+  {
+    "question": "What is the atomic number of Chlorine?",
+    "choices": ["16", "17", "18", "19"],
+    "answer": "17",
+    "explanation": "Chlorine (Cl) is a disinfectant and halogen. Atomic number: 17."
+  },
+  {
+    "question": "What is the atomic number of Argon?",
+    "choices": ["17", "18", "19", "20"],
+    "answer": "18",
+    "explanation": "Argon (Ar) is an inert noble gas. Atomic number: 18."
+  },
+  {
+    "question": "What is the atomic number of Potassium?",
+    "choices": ["18", "19", "20", "21"],
+    "answer": "19",
+    "explanation": "Potassium (K) is a vital electrolyte. Atomic number: 19."
+  },
+  {
+    "question": "What is the atomic number of Calcium?",
+    "choices": ["19", "20", "21", "22"],
+    "answer": "20",
+    "explanation": "Calcium (Ca) is essential for bones. Atomic number: 20."
+  },
+  {
+    "question": "What is the atomic number of Scandium?",
+    "choices": ["20", "21", "22", "23"],
+    "answer": "21",
+    "explanation": "Scandium (Sc) is a rare transition metal. Atomic number: 21."
+  },
+  {
+    "question": "What is the atomic number of Titanium?",
+    "choices": ["21", "22", "23", "24"],
+    "answer": "22",
+    "explanation": "Titanium (Ti) is strong and corrosion-resistant. Atomic number: 22."
+  },
+  {
+    "question": "What is the atomic number of Vanadium?",
+    "choices": ["22", "23", "24", "25"],
+    "answer": "23",
+    "explanation": "Vanadium (V) is used in steel alloys. Atomic number: 23."
+  },
+  {
+    "question": "What is the atomic number of Chromium?",
+    "choices": ["23", "24", "25", "26"],
+    "answer": "24",
+    "explanation": "Chromium (Cr) gives stainless steel its shine. Atomic number: 24."
+  },
+  {
+    "question": "What is the atomic number of Manganese?",
+    "choices": ["24", "25", "26", "27"],
+    "answer": "25",
+    "explanation": "Manganese (Mn) is important in steel production. Atomic number: 25."
+  },
+  {
+    "question": "What is the atomic number of Iron?",
+    "choices": ["25", "26", "27", "28"],
+    "answer": "26",
+    "explanation": "Iron (Fe) is crucial for blood and industry. Atomic number: 26."
+  },
+  {
+    "question": "What is the atomic number of Cobalt?",
+    "choices": ["26", "27", "28", "29"],
+    "answer": "27",
+    "explanation": "Cobalt (Co) is used in magnets and batteries. Atomic number: 27."
+  },
+  {
+    "question": "What is the atomic number of Nickel?",
+    "choices": ["27", "28", "29", "30"],
+    "answer": "28",
+    "explanation": "Nickel (Ni) is corrosion-resistant and used in coins. Atomic number: 28."
+  },
+  {
+    "question": "What is the atomic number of Copper?",
+    "choices": ["28", "29", "30", "31"],
+    "answer": "29",
+    "explanation": "Copper (Cu) is highly conductive. Atomic number: 29."
+  },
+  {
+    "question": "What is the atomic number of Zinc?",
+    "choices": ["29", "30", "31", "32"],
+    "answer": "30",
+    "explanation": "Zinc (Zn) is used in galvanization. Atomic number: 30."
+  },
+  {
+    "question": "What is the atomic number of Gallium?",
+    "choices": ["30", "31", "32", "33"],
+    "answer": "31",
+    "explanation": "Gallium (Ga) melts near room temperature. Atomic number: 31."
+  },
+  {
+    "question": "What is the atomic number of Germanium?",
+    "choices": ["31", "32", "33", "34"],
+    "answer": "32",
+    "explanation": "Germanium (Ge) is a semiconductor. Atomic number: 32."
+  },
+  {
+    "question": "What is the atomic number of Arsenic?",
+    "choices": ["32", "33", "34", "35"],
+    "answer": "33",
+    "explanation": "Arsenic (As) is toxic but used in electronics. Atomic number: 33."
+  },
+  {
+    "question": "What is the atomic number of Selenium?",
+    "choices": ["33", "34", "35", "36"],
+    "answer": "34",
+    "explanation": "Selenium (Se) is essential in small amounts. Atomic number: 34."
+  },
+  {
+    "question": "What is the atomic number of Bromine?",
+    "choices": ["34", "35", "36", "37"],
+    "answer": "35",
+    "explanation": "Bromine (Br) is a liquid halogen. Atomic number: 35."
+  },
+  {
+    "question": "What is the atomic number of Krypton?",
+    "choices": ["35", "36", "37", "38"],
+    "answer": "36",
+    "explanation": "Krypton (Kr) is a noble gas. Atomic number: 36."
+  },
+  {
+    "question": "What is the atomic number of Rubidium?",
+    "choices": ["36", "37", "38", "39"],
+    "answer": "37",
+    "explanation": "Rubidium (Rb) is highly reactive. Atomic number: 37."
+  },
+  {
+    "question": "What is the atomic number of Strontium?",
+    "choices": ["37", "38", "39", "40"],
+    "answer": "38",
+    "explanation": "Strontium (Sr) is used in fireworks. Atomic number: 38."
+  },
+  {
+    "question": "What is the atomic number of Yttrium?",
+    "choices": ["38", "39", "40", "41"],
+    "answer": "39",
+    "explanation": "Yttrium (Y) is used in LEDs. Atomic number: 39."
+  },
+  {
+    "question": "What is the atomic number of Zirconium?",
+    "choices": ["39", "40", "41", "42"],
+    "answer": "40",
+    "explanation": "Zirconium (Zr) is used in nuclear reactors. Atomic number: 40."
+  },
+  {
+    "question": "What is the atomic number of Niobium?",
+    "choices": ["40", "41", "42", "43"],
+    "answer": "41",
+    "explanation": "Niobium (Nb) strengthens steel. Atomic number: 41."
+  },
+  {
+    "question": "What is the atomic number of Molybdenum?",
+    "choices": ["41", "42", "43", "44"],
+    "answer": "42",
+    "explanation": "Molybdenum (Mo) is heat-resistant. Atomic number: 42."
+  },
+  {
+    "question": "What is the atomic number of Technetium?",
+    "choices": ["42", "43", "44", "45"],
+    "answer": "43",
+    "explanation": "Technetium (Tc) is the lightest radioactive element. Atomic number: 43."
+  },
+  {
+    "question": "What is the atomic number of Ruthenium?",
+    "choices": ["43", "44", "45", "46"],
+    "answer": "44",
+    "explanation": "Ruthenium (Ru) is used in electronics. Atomic number: 44."
+  },
+  {
+    "question": "What is the atomic number of Rhodium?",
+    "choices": ["44", "45", "46", "47"],
+    "answer": "45",
+    "explanation": "Rhodium (Rh) is a precious metal. Atomic number: 45."
+  },
+  {
+    "question": "What is the atomic number of Palladium?",
+    "choices": ["45", "46", "47", "48"],
+    "answer": "46",
+    "explanation": "Palladium (Pd) is used in catalytic converters. Atomic number: 46."
+  },
+  {
+    "question": "What is the atomic number of Silver?",
+    "choices": ["46", "47", "48", "49"],
+    "answer": "47",
+    "explanation": "Silver (Ag) is a conductive precious metal. Atomic number: 47."
+  },
+  {
+    "question": "What is the atomic number of Cadmium?",
+    "choices": ["47", "48", "49", "50"],
+    "answer": "48",
+    "explanation": "Cadmium (Cd) is used in batteries. Atomic number: 48."
+  },
+  {
+    "question": "What is the atomic number of Indium?",
+    "choices": ["48", "49", "50", "51"],
+    "answer": "49",
+    "explanation": "Indium (In) is used in touchscreens. Atomic number: 49."
+  },
+  {
+    "question": "What is the atomic number of Tin?",
+    "choices": ["49", "50", "51", "52"],
+    "answer": "50",
+    "explanation": "Tin (Sn) is used in alloys. Atomic number: 50."
+  },
+  {
+    "question": "What is the atomic number of Antimony?",
+    "choices": ["50", "51", "52", "53"],
+    "answer": "51",
+    "explanation": "Antimony (Sb) is used in flame retardants. Atomic number: 51."
+  },
+  {
+    "question": "What is the atomic number of Tellurium?",
+    "choices": ["51", "52", "53", "54"],
+    "answer": "52",
+    "explanation": "Tellurium (Te) is a semiconductor. Atomic number: 52."
+  },
+  {
+    "question": "What is the atomic number of Iodine?",
+    "choices": ["52", "53", "54", "55"],
+    "answer": "53",
+    "explanation": "Iodine (I) is essential for thyroid function. Atomic number: 53."
+  },
+  {
+    "question": "What is the atomic number of Xenon?",
+    "choices": ["53", "54", "55", "56"],
+    "answer": "54",
+    "explanation": "Xenon (Xe) is used in lighting. Atomic number: 54."
+  },
+  {
+    "question": "What is the atomic number of Cesium?",
+    "choices": ["54", "55", "56", "57"],
+    "answer": "55",
+    "explanation": "Cesium (Cs) is used in atomic clocks. Atomic number: 55."
+  },
+  {
+    "question": "What is the atomic number of Barium?",
+    "choices": ["55", "56", "57", "58"],
+    "answer": "56",
+    "explanation": "Barium (Ba) is used in medical imaging. Atomic number: 56."
+  },
+  {
+    "question": "What is the atomic number of Lanthanum?",
+    "choices": ["56", "57", "58", "59"],
+    "answer": "57",
+    "explanation": "Lanthanum (La) is the first lanthanide. Atomic number: 57."
+  },
+  {
+    "question": "What is the atomic number of Cerium?",
+    "choices": ["57", "58", "59", "60"],
+    "answer": "58",
+    "explanation": "Cerium (Ce) is used in catalytic converters. Atomic number: 58."
+  },
+  {
+    "question": "What is the atomic number of Praseodymium?",
+    "choices": ["58", "59", "60", "61"],
+    "answer": "59",
+    "explanation": "Praseodymium (Pr) is used in magnets. Atomic number: 59."
+  },
+  {
+    "question": "What is the atomic number of Neodymium?",
+    "choices": ["59", "60", "61", "62"],
+    "answer": "60",
+    "explanation": "Neodymium (Nd) is used in strong magnets. Atomic number: 60."
+  },
+  {
+    "question": "What is the atomic number of Promethium?",
+    "choices": ["60", "61", "62", "63"],
+    "answer": "61",
+    "explanation": "Promethium (Pm) is radioactive. Atomic number: 61."
+  },
+  {
+    "question": "What is the atomic number of Samarium?",
+    "choices": ["61", "62", "63", "64"],
+    "answer": "62",
+    "explanation": "Samarium (Sm) is used in lasers. Atomic number: 62."
+  },
+  {
+    "question": "What is the atomic number of Europium?",
+    "choices": ["62", "63", "64", "65"],
+    "answer": "63",
+    "explanation": "Europium (Eu) is used in phosphors. Atomic number: 63."
+  },
+  {
+    "question": "What is the atomic number of Gadolinium?",
+    "choices": ["63", "64", "65", "66"],
+    "answer": "64",
+    "explanation": "Gadolinium (Gd) is used in MRI contrast agents. Atomic number: 64."
+  },
+  {
+    "question": "What is the atomic number of Terbium?",
+    "choices": ["64", "65", "66", "67"],
+    "answer": "65",
+    "explanation": "Terbium (Tb) is used in green phosphors. Atomic number: 65."
+  },
+  {
+    "question": "What is the atomic number of Dysprosium?",
+    "choices": ["65", "66", "67", "68"],
+    "answer": "66",
+    "explanation": "Dysprosium (Dy) is used in magnets. Atomic number: 66."
+  },
+  {
+    "question": "What is the atomic number of Holmium?",
+    "choices": ["66", "67", "68", "69"],
+    "answer": "67",
+    "explanation": "Holmium (Ho) has the highest magnetic strength. Atomic number: 67."
+  },
+  {
+    "question": "What is the atomic number of Erbium?",
+    "choices": ["67", "68", "69", "70"],
+    "answer": "68",
+    "explanation": "Erbium (Er) is used in fiber optics. Atomic number: 68."
+  },
+  {
+    "question": "What is the atomic number of Thulium?",
+    "choices": ["68", "69", "70", "71"],
+    "answer": "69",
+    "explanation": "Thulium (Tm) is the rarest lanthanide. Atomic number: 69."
+  },
+  {
+    "question": "What is the atomic number of Ytterbium?",
+    "choices": ["69", "70", "71", "72"],
+    "answer": "70",
+    "explanation": "Ytterbium (Yb) is used in atomic clocks. Atomic number: 70."
+  },
+  {
+    "question": "What is the atomic number of Lutetium?",
+    "choices": ["70", "71", "72", "73"],
+    "answer": "71",
+    "explanation": "Lutetium (Lu) is the last lanthanide. Atomic number: 71."
+  },
+  {
+    "question": "What is the atomic number of Hafnium?",
+    "choices": ["71", "72", "73", "74"],
+    "answer": "72",
+    "explanation": "Hafnium (Hf) is used in nuclear reactors. Atomic number: 72."
+  },
+  {
+    "question": "What is the atomic number of Tantalum?",
+    "choices": ["72", "73", "74", "75"],
+    "answer": "73",
+    "explanation": "Tantalum (Ta) is corrosion-resistant. Atomic number: 73."
+  },
+  {
+    "question": "What is the atomic number of Tungsten?",
+    "choices": ["73", "74", "75", "76"],
+    "answer": "74",
+    "explanation": "Tungsten (W) has the highest melting point. Atomic number: 74."
+  },
+  {
+    "question": "What is the atomic number of Rhenium?",
+    "choices": ["74", "75", "76", "77"],
+    "answer": "75",
+    "explanation": "Rhenium (Re) is used in jet engines. Atomic number: 75."
+  },
+  {
+    "question": "What is the atomic number of Osmium?",
+    "choices": ["75", "76", "77", "78"],
+    "answer": "76",
+    "explanation": "Osmium (Os) is the densest element. Atomic number: 76."
+  },
+  {
+    "question": "What is the atomic number of Iridium?",
+    "choices": ["76", "77", "78", "79"],
+    "answer": "77",
+    "explanation": "Iridium (Ir) is highly corrosion-resistant. Atomic number: 77."
+  },
+  {
+    "question": "What is the atomic number of Platinum?",
+    "choices": ["77", "78", "79", "80"],
+    "answer": "78",
+    "explanation": "Platinum (Pt) is a precious metal. Atomic number: 78."
+  },
+  {
+    "question": "What is the atomic number of Gold?",
+    "choices": ["78", "79", "80", "81"],
+    "answer": "79",
+    "explanation": "Gold (Au) is a highly valued metal. Atomic number: 79."
+  },
+  {
+    "question": "What is the atomic number of Mercury?",
+    "choices": ["79", "80", "81", "82"],
+    "answer": "80",
+    "explanation": "Mercury (Hg) is a liquid metal. Atomic number: 80."
+  },
+  {
+    "question": "What is the atomic number of Thallium?",
+    "choices": ["80", "81", "82", "83"],
+    "answer": "81",
+    "explanation": "Thallium (Tl) is highly toxic. Atomic number: 81."
+  },
+  {
+    "question": "What is the atomic number of Lead?",
+    "choices": ["81", "82", "83", "84"],
+    "answer": "82",
+    "explanation": "Lead (Pb) is dense and toxic. Atomic number: 82."
+  },
+  {
+    "question": "What is the atomic number of Bismuth?",
+    "choices": ["82", "83", "84", "85"],
+    "answer": "83",
+    "explanation": "Bismuth (Bi) is the heaviest non-radioactive element. Atomic number: 83."
+  },
+  {
+    "question": "What is the atomic number of Polonium?",
+    "choices": ["83", "84", "85", "86"],
+    "answer": "84",
+    "explanation": "Polonium (Po) is highly radioactive. Atomic number: 84."
+  },
+  {
+    "question": "What is the atomic number of Astatine?",
+    "choices": ["84", "85", "86", "87"],
+    "answer": "85",
+    "explanation": "Astatine (At) is the rarest naturally occurring element. Atomic number: 85."
+  },
+  {
+    "question": "What is the atomic number of Radon?",
+    "choices": ["85", "86", "87", "88"],
+    "answer": "86",
+    "explanation": "Radon (Rn) is a radioactive gas. Atomic number: 86."
+  },
+  {
+    "question": "What is the atomic number of Francium?",
+    "choices": ["86", "87", "88", "89"],
+    "answer": "87",
+    "explanation": "Francium (Fr) is highly unstable. Atomic number: 87."
+  },
+  {
+    "question": "What is the atomic number of Radium?",
+    "choices": ["87", "88", "89", "90"],
+    "answer": "88",
+    "explanation": "Radium (Ra) is radioactive. Atomic number: 88."
+  },
+  {
+    "question": "What is the atomic number of Actinium?",
+    "choices": ["88", "89", "90", "91"],
+    "answer": "89",
+    "explanation": "Actinium (Ac) is the first actinide. Atomic number: 89."
+  },
+  {
+    "question": "What is the atomic number of Thorium?",
+    "choices": ["89", "90", "91", "92"],
+    "answer": "90",
+    "explanation": "Thorium (Th) is used in nuclear fuel. Atomic number: 90."
+  },
+  {
+    "question": "What is the atomic number of Protactinium?",
+    "choices": ["90", "91", "92", "93"],
+    "answer": "91",
+    "explanation": "Protactinium (Pa) is rare and radioactive. Atomic number: 91."
+  },
+  {
+    "question": "What is the atomic number of Uranium?",
+    "choices": ["91", "92", "93", "94"],
+    "answer": "92",
+    "explanation": "Uranium (U) is used in nuclear reactors. Atomic number: 92."
+  },
+  {
+    "question": "What is the atomic number of Neptunium?",
+    "choices": ["92", "93", "94", "95"],
+    "answer": "93",
+    "explanation": "Neptunium (Np) is synthetic. Atomic number: 93."
+  },
+  {
+    "question": "What is the atomic number of Plutonium?",
+    "choices": ["93", "94", "95", "96"],
+    "answer": "94",
+    "explanation": "Plutonium (Pu) is used in nuclear weapons. Atomic number: 94."
+  },
+  {
+    "question": "What is the atomic number of Americium?",
+    "choices": ["94", "95", "96", "97"],
+    "answer": "95",
+    "explanation": "Americium (Am) is used in smoke detectors. Atomic number: 95."
+  },
+  {
+    "question": "What is the atomic number of Curium?",
+    "choices": ["95", "96", "97", "98"],
+    "answer": "96",
+    "explanation": "Curium (Cm) is highly radioactive. Atomic number: 96."
+  },
+  {
+    "question": "What is the atomic number of Berkelium?",
+    "choices": ["96", "97", "98", "99"],
+    "answer": "97",
+    "explanation": "Berkelium (Bk) is synthetic. Atomic number: 97."
+  },
+  {
+    "question": "What is the atomic number of Californium?",
+    "choices": ["97", "98", "99", "100"],
+    "answer": "98",
+    "explanation": "Californium (Cf) is used in neutron sources. Atomic number: 98."
+  },
+  {
+    "question": "What is the atomic number of Einsteinium?",
+    "choices": ["98", "99", "100", "101"],
+    "answer": "99",
+    "explanation": "Einsteinium (Es) is synthetic. Atomic number: 99."
+  },
+  {
+    "question": "What is the atomic number of Fermium?",
+    "choices": ["99", "100", "101", "102"],
+    "answer": "100",
+    "explanation": "Fermium (Fm) is produced in nuclear reactions. Atomic number: 100."
+  },
+  {
+    "question": "What is the atomic number of Mendelevium?",
+    "choices": ["100", "101", "102", "103"],
+    "answer": "101",
+    "explanation": "Mendelevium (Md) is synthetic. Atomic number: 101."
+  },
+  {
+    "question": "What is the atomic number of Nobelium?",
+    "choices": ["101", "102", "103", "104"],
+    "answer": "102",
+    "explanation": "Nobelium (No) is highly unstable. Atomic number: 102."
+  },
+  {
+    "question": "What is the atomic number of Lawrencium?",
+    "choices": ["102", "103", "104", "105"],
+    "answer": "103",
+    "explanation": "Lawrencium (Lr) is the last actinide. Atomic number: 103."
+  },
+  {
+    "question": "What is the atomic number of Rutherfordium?",
+    "choices": ["103", "104", "105", "106"],
+    "answer": "104",
+    "explanation": "Rutherfordium (Rf) is synthetic. Atomic number: 104."
+  },
+  {
+    "question": "What is the atomic number of Dubnium?",
+    "choices": ["104", "105", "106", "107"],
+    "answer": "105",
+    "explanation": "Dubnium (Db) is highly radioactive. Atomic number: 105."
+  },
+  {
+    "question": "What is the atomic number of Seaborgium?",
+    "choices": ["105", "106", "107", "108"],
+    "answer": "106",
+    "explanation": "Seaborgium (Sg) is synthetic. Atomic number: 106."
+  },
+  {
+    "question": "What is the atomic number of Bohrium?",
+    "choices": ["106", "107", "108", "109"],
+    "answer": "107",
+    "explanation": "Bohrium (Bh) is extremely unstable. Atomic number: 107."
+  },
+  {
+    "question": "What is the atomic number of Hassium?",
+    "choices": ["107", "108", "109", "110"],
+    "answer": "108",
+    "explanation": "Hassium (Hs) is synthetic. Atomic number: 108."
+  },
+  {
+    "question": "What is the atomic number of Meitnerium?",
+    "choices": ["108", "109", "110", "111"],
+    "answer": "109",
+    "explanation": "Meitnerium (Mt) is highly unstable. Atomic number: 109."
+  },
+  {
+    "question": "What is the atomic number of Darmstadtium?",
+    "choices": ["109", "110", "111", "112"],
+    "answer": "110",
+    "explanation": "Darmstadtium (Ds) is synthetic. Atomic number: 110."
+  },
+  {
+    "question": "What is the atomic number of Roentgenium?",
+    "choices": ["110", "111", "112", "113"],
+    "answer": "111",
+    "explanation": "Roentgenium (Rg) is extremely rare. Atomic number: 111."
+  },
+  {
+    "question": "What is the atomic number of Copernicium?",
+    "choices": ["111", "112", "113", "114"],
+    "answer": "112",
+    "explanation": "Copernicium (Cn) is synthetic. Atomic number: 112."
+  },
+  {
+    "question": "What is the atomic number of Nihonium?",
+    "choices": ["112", "113", "114", "115"],
+    "answer": "113",
+    "explanation": "Nihonium (Nh) is highly unstable. Atomic number: 113."
+  },
+  {
+    "question": "What is the atomic number of Flerovium?",
+    "choices": ["113", "114", "115", "116"],
+    "answer": "114",
+    "explanation": "Flerovium (Fl) is synthetic. Atomic number: 114."
+  },
+  {
+    "question": "What is the atomic number of Moscovium?",
+    "choices": ["114", "115", "116", "117"],
+    "answer": "115",
+    "explanation": "Moscovium (Mc) is extremely rare. Atomic number: 115."
+  },
+  {
+    "question": "What is the atomic number of Livermorium?",
+    "choices": ["115", "116", "117", "118"],
+    "answer": "116",
+    "explanation": "Livermorium (Lv) is synthetic. Atomic number: 116."
+  },
+  {
+    "question": "What is the atomic number of Tennessine?",
+    "choices": ["116", "117", "118", "119"],
+    "answer": "117",
+    "explanation": "Tennessine (Ts) is highly unstable. Atomic number: 117."
+  },
+  {
+    "question": "What is the atomic number of Oganesson?",
+    "choices": ["117", "118", "119", "120"],
+    "answer": "118",
+    "explanation": "Oganesson (Og) is the heaviest known element. Atomic number: 118."
+  }
+]
