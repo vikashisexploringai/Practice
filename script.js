@@ -11,7 +11,8 @@ let stopwatchInterval;
 const themes = {
     'vocabulary': { displayName: 'Vocabulary' },
     'tables': { displayName: 'Table' },
-    'indianRulers': { displayName: 'Indian Rulers Timeline' }
+    'indianRulers': { displayName: 'Indian Rulers Timeline' },
+    'atomicNumbers': { displayName: 'Atomic Numbers' }
     // Add more themes as needed
 };
 
