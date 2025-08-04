@@ -163,6 +163,62 @@
     ],
     "answer": "Can be trusted",
     "explanation": "USAGE: 'Our dog is **reliable**—he always barks when someone comes to the door.'\nSYNONYMS: Dependable, trustworthy\nANTONYM: Unreliable"
+  },
+  {
+    "question": "Resilient (Meaning & Usage)",
+    "choices": [
+      "Able to recover quickly from difficulties",
+      "Very rigid and unyielding",
+      "Extremely forgetful",
+      "Always complaining"
+    ],
+    "answer": "Able to recover quickly from difficulties",
+    "explanation": "USAGE: 'After failing the test, the resilient student studied harder and aced the next one.'\nSYNONYMS: Tough, adaptable\nANTONYM: Fragile"
+  },
+  {
+    "question": "Ambiguous (Meaning & Usage)",
+    "choices": [
+      "Very clear and obvious",
+      "Open to more than one interpretation",
+      "Extremely colorful",
+      "Completely silent"
+    ],
+    "answer": "Open to more than one interpretation",
+    "explanation": "USAGE: 'The movie's ambiguous ending left viewers debating what really happened.'\nSYNONYMS: Unclear, vague\nANTONYM: Definite"
+  },
+  {
+    "question": "Innovative (Meaning & Usage)",
+    "choices": [
+      "Using old-fashioned methods",
+      "Featuring new and creative ideas",
+      "Very traditional",
+      "Extremely slow"
+    ],
+    "answer": "Featuring new and creative ideas",
+    "explanation": "USAGE: 'The innovative app changed how people organize their schedules.'\nSYNONYMS: Inventive, original\nANTONYM: Conventional"
+  },
+  {
+    "question": "Ponder (Meaning & Usage)",
+    "choices": [
+      "To ignore completely",
+      "To think carefully about something",
+      "To run quickly",
+      "To laugh loudly"
+    ],
+    "answer": "To think carefully about something",
+    "explanation": "USAGE: 'She liked to ponder life's big questions while walking in the park.'\nSYNONYMS: Consider, reflect\nANTONYM: Dismiss"
+  },
+  {
+    "question": "Eloquent (Meaning & Usage)",
+    "choices": [
+      "Speaking in a confusing way",
+      "Fluent and persuasive in speaking",
+      "Extremely quiet",
+      "Very shy"
+    ],
+    "answer": "Fluent and persuasive in speaking",
+    "explanation": "USAGE: 'The lawyer's eloquent argument convinced the jury.'\nSYNONYMS: Articulate, expressive\nANTONYM: Inarticulate"
   }
   ]
+  
 
