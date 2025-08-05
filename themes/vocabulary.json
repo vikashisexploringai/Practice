@@ -218,6 +218,61 @@
     ],
     "answer": "Fluent and persuasive in speaking",
     "explanation": "USAGE: 'The lawyer's eloquent argument convinced the jury.'\nSYNONYMS: Articulate, expressive\nANTONYM: Inarticulate"
+  },
+  {
+    "question": "Auspicious (Meaning & Usage)",
+    "choices": [
+      "Concerning birds",
+      "Showing signs of future success",
+      "Highly suspicious",
+      "Extremely difficult"
+    ],
+    "answer": "Showing signs of future success",
+    "explanation": "USAGE: 'The sunny weather on graduation day was an auspicious start to their careers.'\nSYNONYMS: Promising, favorable\nANTONYM: Ominous"
+  },
+  {
+    "question": "Benevolent (Meaning & Usage)",
+    "choices": [
+      "Wishing to do good",
+      "Extremely wealthy",
+      "Highly intelligent",
+      "Physically strong"
+    ],
+    "answer": "Wishing to do good",
+    "explanation": "USAGE: 'The benevolent billionaire donated half his fortune to charity.'\nSYNONYMS: Kind-hearted, generous\nANTONYM: Malevolent"
+  },
+  {
+    "question": "Clandestine (Meaning & Usage)",
+    "choices": [
+      "Very obvious",
+      "Done secretly",
+      "Extremely loud",
+      "Highly organized"
+    ],
+    "answer": "Done secretly",
+    "explanation": "USAGE: 'The spies had a clandestine meeting in the abandoned warehouse.'\nSYNONYMS: Covert, surreptitious\nANTONYM: Overt"
+  },
+  {
+    "question": "Debilitate (Meaning & Usage)",
+    "choices": [
+      "To strengthen",
+      "To make someone weak",
+      "To decorate beautifully",
+      "To speak clearly"
+    ],
+    "answer": "To make someone weak",
+    "explanation": "USAGE: 'The severe illness debilitated the athlete for months.'\nSYNONYMS: Weaken, cripple\nANTONYM: Strengthen"
+  },
+  {
+    "question": "Eloquent (Meaning & Usage)",
+    "choices": [
+      "Speaking unclearly",
+      "Fluent and persuasive in speech",
+      "Extremely quiet",
+      "Very shy"
+    ],
+    "answer": "Fluent and persuasive in speech",
+    "explanation": "USAGE: 'The president's eloquent speech inspired the nation.'\nSYNONYMS: Articulate, expressive\nANTONYM: Inarticulate"
   }
   ]
   
