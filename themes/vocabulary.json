@@ -273,7 +273,61 @@
     ],
     "answer": "Fluent and persuasive in speech",
     "explanation": "USAGE: 'The president's eloquent speech inspired the nation.'\nSYNONYMS: Articulate, expressive\nANTONYM: Inarticulate"
+  },
+  {
+    "question": "Austere (Meaning & Usage)",
+    "choices": [
+      "Luxurious and comfortable",
+      "Plain and without comforts",
+      "Extremely crowded",
+      "Very colorful"
+    ],
+    "answer": "Plain and without comforts",
+    "explanation": "USAGE: 'The monk's austere cell contained only a thin mat and wooden stool.'\nSYNONYMS: Spartan, bare-bones\nANTONYM: Luxurious"
+  },
+  {
+    "question": "Cacophony (Meaning & Usage)",
+    "choices": [
+      "A soothing melody",
+      "A harsh mixture of noises",
+      "Complete silence",
+      "A type of musical instrument"
+    ],
+    "answer": "A harsh mixture of noises",
+    "explanation": "USAGE: 'The construction site produced a cacophony of drills and hammering.'\nSYNONYMS: Discord, racket\nANTONYM: Harmony"
+  },
+  {
+    "question": "Sycophant (Meaning & Usage)",
+    "choices": [
+      "An independent thinker",
+      "A person who flatters for advantage",
+      "A truth-teller",
+      "A type of bird"
+    ],
+    "answer": "A person who flatters for advantage",
+    "explanation": "USAGE: 'The politician recognized the sycophant's fake compliments.'\nSYNONYMS: Brown-noser, toady\nANTONYM: Straightforward critic"
+  },
+  {
+    "question": "Fastidious (Meaning & Usage)",
+    "choices": [
+      "Very messy",
+      "Extremely careful about details",
+      "Completely lazy",
+      "Highly forgetful"
+    ],
+    "answer": "Extremely careful about details",
+    "explanation": "USAGE: 'The fastidious chef inspected every plate before serving.'\nSYNONYMS: Meticulous, exacting\nANTONYM: Sloppy"
+  },
+  {
+    "question": "Gregarious (Meaning & Usage)",
+    "choices": [
+      "Preferring to be alone",
+      "Very sociable and outgoing",
+      "Extremely shy",
+      "Highly aggressive"
+    ],
+    "answer": "Very sociable and outgoing",
+    "explanation": "USAGE: 'Gregarious puppies love meeting new people at the park.'\nSYNONYMS: Friendly, convivial\nANTONYM: Antisocial"
   }
   ]
-  
 
