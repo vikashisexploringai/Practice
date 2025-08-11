@@ -2,39 +2,334 @@
   {
     "question": "Ephemeral",
     "choices": [
-      "Lasting for centuries",
-      "Highly valuable",
-      "Lasting for a very short time",
-      "Extremely fragile"
+      "Enduring for ages",
+      "Of great worth",
+      "Short-lived in duration",
+      "Delicate but long-lasting"
     ],
-    "answer": "Lasting for a very short time",
+    "answer": "Short-lived in duration",
     "explanation": "USAGE: 'Fame on TikTok is often **ephemeral**—today’s viral star can be forgotten tomorrow.'\nSYNONYMS: Short-lived, temporary"
   },
   {
     "question": "Ubiquitous",
     "choices": [
-      "Rare and expensive",
-      "Present everywhere",
-      "Technologically advanced",
-      "Extremely loud"
+      "Uncommon and rare",
+      "Existing in many places at once",
+      "Highly modern in design",
+      "Exceptionally noisy"
     ],
-    "answer": "Present everywhere",
+    "answer": "Existing in many places at once",
     "explanation": "USAGE: 'Wi-Fi is now **ubiquitous**—you can find it in cafes, airports, and even parks.'\nSYNONYMS: Everywhere, common"
   },
   {
     "question": "Pragmatic",
     "choices": [
-      "Theoretical and abstract",
-      "Highly emotional",
-      "Practical and solution-focused",
-      "Artistically creative"
+      "Focused only on theories",
+      "Driven by intense emotions",
+      "Practical in approach",
+      "Imaginative in art"
     ],
-    "answer": "Practical and solution-focused",
+    "answer": "Practical in approach",
     "explanation": "USAGE: 'A **pragmatic** person carries an umbrella when rain is forecast instead of hoping for sunshine.'\nANTONYM: Unrealistic"
   },
   {
     "question": "Esoteric",
     "choices": [
+      "Well-known to everyone",
+      "Known only to a select few",
+      "Linked to ancient civilizations",
+      "Fashionable and trendy"
+    ],
+    "answer": "Known only to a select few",
+    "explanation": "USAGE: 'Blockchain technology seems **esoteric** to most people, but programmers understand it.'\nSYNONYMS: Niche, specialized"
+  },
+  {
+    "question": "Recalcitrant",
+    "choices": [
+      "Overly cheerful",
+      "Refusing to obey rules",
+      "Brilliant in mind",
+      "Physically delicate"
+    ],
+    "answer": "Refusing to obey rules",
+    "explanation": "USAGE: 'The **recalcitrant** toddler refused to eat his vegetables, no matter what his parents said.'\nSYNONYMS: Rebellious, defiant"
+  },
+  {
+    "question": "Cherished",
+    "choices": [
+      "Recently acquired",
+      "Held dear to the heart",
+      "Easily forgotten",
+      "Priced very high"
+    ],
+    "answer": "Held dear to the heart",
+    "explanation": "USAGE: 'Her grandmother's ring was her most cherished possession.'\nSYNONYMS: Treasured, beloved\nANTONYM: Unimportant"
+  },
+  {
+    "question": "Mourn",
+    "choices": [
+      "Celebrate with joy",
+      "Express deep sorrow",
+      "Fix or restore",
+      "Move at great speed"
+    ],
+    "answer": "Express deep sorrow",
+    "explanation": "USAGE: 'The whole town came to mourn the loss of their kind mayor.'\nSYNONYMS: Grieve, sorrow\nANTONYM: Rejoice"
+  },
+  {
+    "question": "Garrulous",
+    "choices": [
+      "Quiet and reserved",
+      "Talkative to excess",
+      "Constantly irritable",
+      "Always drowsy"
+    ],
+    "answer": "Talkative to excess",
+    "explanation": "USAGE: 'The garrulous parrot wouldn't stop chatting all day.'\nSYNONYMS: Chatty, talkative\nANTONYM: Quiet"
+  },
+  {
+    "question": "Meticulous",
+    "choices": [
+      "Negligent with details",
+      "Painstakingly careful",
+      "Habitually late",
+      "Physically powerful"
+    ],
+    "answer": "Painstakingly careful",
+    "explanation": "USAGE: 'She was meticulous about keeping her room perfectly organized.'\nSYNONYMS: Precise, thorough\nANTONYM: Sloppy"
+  },
+  {
+    "question": "Diligent",
+    "choices": [
+      "Thorough and hardworking",
+      "Frequently exhausted",
+      "Naturally humorous",
+      "Always craving food"
+    ],
+    "answer": "Thorough and hardworking",
+    "explanation": "USAGE: 'The diligent student always completed her homework on time.'\nSYNONYMS: Industrious, conscientious\nANTONYM: Lazy"
+  },
+  {
+    "question": "Enthusiastic",
+    "choices": [
+      "Indifferent and bored",
+      "Full of eager interest",
+      "Feeling drowsy",
+      "Annoyed about something"
+    ],
+    "answer": "Full of eager interest",
+    "explanation": "USAGE: 'The children were **enthusiastic** about the school field trip.'\nSYNONYMS: Eager, excited\nANTONYM: Uninterested"
+  },
+  {
+    "question": "Fragile",
+    "choices": [
+      "Strong and sturdy",
+      "Easily damaged",
+      "Heavy in weight",
+      "Permanently sticky"
+    ],
+    "answer": "Easily damaged",
+    "explanation": "USAGE: 'The glass ornament was **fragile**, so we wrapped it carefully.'\nSYNONYMS: Delicate, breakable\nANTONYM: Durable"
+  },
+  {
+    "question": "Generous",
+    "choices": [
+      "Ready to give freely",
+      "Punctually challenged",
+      "Strict in rules",
+      "Forgetful by nature"
+    ],
+    "answer": "Ready to give freely",
+    "explanation": "USAGE: 'My aunt is **generous**—she always shares her cookies with us.'\nSYNONYMS: Kind, giving\nANTONYM: Selfish"
+  },
+  {
+    "question": "Patient",
+    "choices": [
+      "Able to remain calm while waiting",
+      "Always rushing",
+      "Often absent-minded",
+      "Quick to lose temper"
+    ],
+    "answer": "Able to remain calm while waiting",
+    "explanation": "USAGE: 'The **patient** teacher explained the math problem three times.'\nSYNONYMS: Calm, tolerant\nANTONYM: Impatient"
+  },
+  {
+    "question": "Reliable",
+    "choices": [
+      "Frequently unreliable",
+      "Trustworthy and dependable",
+      "Messy and disorganized",
+      "Prone to changing plans often"
+    ],
+    "answer": "Trustworthy and dependable",
+    "explanation": "USAGE: 'Our dog is **reliable**—he always barks when someone comes to the door.'\nSYNONYMS: Dependable, trustworthy\nANTONYM: Unreliable"
+  },
+  {
+    "question": "Resilient",
+    "choices": [
+      "Quick to bounce back from challenges",
+      "Rigid and inflexible",
+      "Forgetful most of the time",
+      "Constantly dissatisfied"
+    ],
+    "answer": "Quick to bounce back from challenges",
+    "explanation": "USAGE: 'After failing the test, the resilient student studied harder and aced the next one.'\nSYNONYMS: Tough, adaptable\nANTONYM: Fragile"
+  },
+  {
+    "question": "Ambiguous",
+    "choices": [
+      "Clear beyond doubt",
+      "Having more than one possible meaning",
+      "Vividly colorful",
+      "Utterly noiseless"
+    ],
+    "answer": "Having more than one possible meaning",
+    "explanation": "USAGE: 'The movie's ambiguous ending left viewers debating what really happened.'\nSYNONYMS: Unclear, vague\nANTONYM: Definite"
+  },
+  {
+    "question": "Innovative",
+    "choices": [
+      "Outdated in method",
+      "Introducing fresh and original ideas",
+      "Conventional in nature",
+      "Painfully slow in progress"
+    ],
+    "answer": "Introducing fresh and original ideas",
+    "explanation": "USAGE: 'The innovative app changed how people organize their schedules.'\nSYNONYMS: Inventive, original\nANTONYM: Conventional"
+  },
+  {
+    "question": "Ponder",
+    "choices": [
+      "Disregard entirely",
+      "Reflect on deeply",
+      "Move at great speed",
+      "Laugh in a loud manner"
+    ],
+    "answer": "Reflect on deeply",
+    "explanation": "USAGE: 'She liked to ponder life's big questions while walking in the park.'\nSYNONYMS: Consider, reflect\nANTONYM: Dismiss"
+  },
+  {
+    "question": "Eloquent",
+    "choices": [
+      "Speaking in a muddled manner",
+      "Expressive and persuasive in speech",
+      "Silent for long periods",
+      "Shy in public speaking"
+    ],
+    "answer": "Expressive and persuasive in speech",
+    "explanation": "USAGE: 'The lawyer's eloquent argument convinced the jury.'\nSYNONYMS: Articulate, expressive\nANTONYM: Inarticulate"
+  },
+  {
+    "question": "Auspicious",
+    "choices": [
+      "Related to birds",
+      "Indicating a positive future",
+      "Highly suspicious in nature",
+      "Extremely challenging"
+    ],
+    "answer": "Indicating a positive future",
+    "explanation": "USAGE: 'The sunny weather on graduation day was an auspicious start to their careers.'\nSYNONYMS: Promising, favorable\nANTONYM: Ominous"
+  },
+  {
+    "question": "Benevolent",
+    "choices": [
+      "Kindly and charitable",
+      "Wealthy beyond measure",
+      "Exceptionally smart",
+      "Physically mighty"
+    ],
+    "answer": "Kindly and charitable",
+    "explanation": "USAGE: 'The benevolent billionaire donated half his fortune to charity.'\nSYNONYMS: Kind-hearted, generous\nANTONYM: Malevolent"
+  },
+  {
+    "question": "Clandestine",
+    "choices": [
+      "Easily noticeable",
+      "Conducted in secrecy",
+      "Loud and disruptive",
+      "Neatly structured"
+    ],
+    "answer": "Conducted in secrecy",
+    "explanation": "USAGE: 'The spies had a clandestine meeting in the abandoned warehouse.'\nSYNONYMS: Covert, surreptitious\nANTONYM: Overt"
+  },
+  {
+    "question": "Debilitate",
+    "choices": [
+      "Make stronger",
+      "Cause to become weak",
+      "Beautify extensively",
+      "Speak with clarity"
+    ],
+    "answer": "Cause to become weak",
+    "explanation": "USAGE: 'The severe illness debilitated the athlete for months.'\nSYNONYMS: Weaken, cripple\nANTONYM: Strengthen"
+  },
+  {
+    "question": "Eloquent",
+    "choices": [
+      "Speak in a confusing tone",
+      "Skilled and moving in speech",
+      "Unusually silent",
+      "Reluctant to talk"
+    ],
+    "answer": "Skilled and moving in speech",
+    "explanation": "USAGE: 'The president's eloquent speech inspired the nation.'\nSYNONYMS: Articulate, expressive\nANTONYM: Inarticulate"
+  },
+  {
+    "question": "Austere",
+    "choices": [
+      "Luxurious in lifestyle",
+      "Simple and without excess",
+      "Packed with people",
+      "Brightly decorated"
+    ],
+    "answer": "Simple and without excess",
+    "explanation": "USAGE: 'The monk's austere cell contained only a thin mat and wooden stool.'\nSYNONYMS: Spartan, bare-bones\nANTONYM: Luxurious"
+  },
+  {
+    "question": "Cacophony",
+    "choices": [
+      "Pleasant harmony",
+      "Harsh, jarring sound mix",
+      "Total quiet",
+      "Specific musical device"
+    ],
+    "answer": "Harsh, jarring sound mix",
+    "explanation": "USAGE: 'The construction site produced a cacophony of drills and hammering.'\nSYNONYMS: Discord, racket\nANTONYM: Harmony"
+  },
+  {
+    "question": "Sycophant",
+    "choices": [
+      "Independent thinker",
+      "One who flatters for personal gain",
+      "Truth-teller",
+      "A species of bird"
+    ],
+    "answer": "One who flatters for personal gain",
+    "explanation": "USAGE: 'The politician recognized the sycophant's fake compliments.'\nSYNONYMS: Brown-noser, toady\nANTONYM: Straightforward critic"
+  },
+  {
+    "question": "Fastidious",
+    "choices": [
+      "Careless about neatness",
+      "Precise about small details",
+      "Lazily inactive",
+      "Forgetful on many occasions"
+    ],
+    "answer": "Precise about small details",
+    "explanation": "USAGE: 'The fastidious chef inspected every plate before serving.'\nSYNONYMS: Meticulous, exacting\nANTONYM: Sloppy"
+  },
+  {
+    "question": "Gregarious",
+    "choices": [
+      "Solitary in nature",
+      "Fond of socializing",
+      "Painfully shy",
+      "Overly hostile"
+    ],
+    "answer": "Fond of socializing",
+    "explanation": "USAGE: 'Gregarious puppies love meeting new people at the park.'\nSYNONYMS: Friendly, convivial\nANTONYM: Antisocial"
+  }
+]    "choices": [
       "Common knowledge",
       "Understood by few experts",
       "Related to ancient history",
