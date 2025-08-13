@@ -317,5 +317,60 @@
     ],
     "answer": "Highly sociable",
     "explanation": "USAGE: 'Gregarious people thrive at social gatherings.'\nSYNONYMS: Outgoing, convivial\nANTONYM: Reclusive"
+  },
+  {
+    "question": "Analyze (Meaning & Usage)",
+    "choices": [
+      "To glance quickly",
+      "To examine in detail",
+      "To copy exactly",
+      "To forget intentionally"
+    ],
+    "answer": "To examine in detail",
+    "explanation": "USAGE: 'Researchers will analyze the data for patterns.'\nSYNONYMS: Study, scrutinize\nANTONYM: Ignore"
+  },
+  {
+    "question": "Contradict (Meaning & Usage)",
+    "choices": [
+      "To agree completely",
+      "To state the opposite",
+      "To repeat verbatim",
+      "To whisper secretly"
+    ],
+    "answer": "To state the opposite",
+    "explanation": "USAGE: 'His story contradicts the evidence we found.'\nSYNONYMS: Deny, oppose\nANTONYM: Confirm"
+  },
+  {
+    "question": "Persistence (Meaning & Usage)",
+    "choices": [
+      "Giving up easily",
+      "Continuing despite difficulties",
+      "Changing frequently",
+      "Moving slowly"
+    ],
+    "answer": "Continuing despite difficulties",
+    "explanation": "USAGE: 'Her persistence led to finally solving the problem.'\nSYNONYMS: Determination, perseverance\nANTONYM: Quitting"
+  },
+  {
+    "question": "Precise (Meaning & Usage)",
+    "choices": [
+      "Approximate or rough",
+      "Exact and accurate",
+      "Confusing or unclear",
+      "Flexible or adaptable"
+    ],
+    "answer": "Exact and accurate",
+    "explanation": "USAGE: 'The surgeon made precise movements during the operation.'\nSYNONYMS: Accurate, exact\nANTONYM: Imprecise"
+  },
+  {
+    "question": "Verify (Meaning & Usage)",
+    "choices": [
+      "To guess randomly",
+      "To make something dirty",
+      "To confirm as true",
+      "To destroy evidence"
+    ],
+    "answer": "To confirm as true",
+    "explanation": "USAGE: 'Please verify your email address by clicking the link.'\nSYNONYMS: Confirm, validate\nANTONYM: Disprove"
   }
-    ]
+  ]
