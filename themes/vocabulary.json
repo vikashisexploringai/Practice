@@ -372,5 +372,115 @@
     ],
     "answer": "To confirm as true",
     "explanation": "USAGE: 'Please verify your email address by clicking the link.'\nSYNONYMS: Confirm, validate\nANTONYM: Disprove"
+  },
+  {
+    "question": "Comprehensive (Meaning & Usage)",
+    "choices": [
+      "Incomplete or partial",
+      "Covering everything necessary",
+      "Difficult to understand",
+      "Quickly put together"
+    ],
+    "answer": "Covering everything necessary",
+    "explanation": "USAGE: 'The textbook provides a comprehensive overview of world history.'\nSYNONYMS: Thorough, exhaustive\nANTONYM: Limited"
+  },
+  {
+    "question": "Diverse (Meaning & Usage)",
+    "choices": [
+      "All the same",
+      "Showing great variety",
+      "Extremely rare",
+      "Very simple"
+    ],
+    "answer": "Showing great variety",
+    "explanation": "USAGE: 'New York City has a diverse population from many cultures.'\nSYNONYMS: Varied, multicultural\nANTONYM: Homogeneous"
+  },
+  {
+    "question": "Innovate (Meaning & Usage)",
+    "choices": [
+      "To copy existing ideas",
+      "To introduce new methods",
+      "To repeat mistakes",
+      "To follow traditions strictly"
+    ],
+    "answer": "To introduce new methods",
+    "explanation": "USAGE: 'The company continues to innovate with groundbreaking designs.'\nSYNONYMS: Pioneer, revolutionize\nANTONYM: Imitate"
+  },
+  {
+    "question": "Objective (Meaning & Usage)",
+    "choices": [
+      "Based on personal feelings",
+      "Not influenced by bias",
+      "Extremely difficult",
+      "Completely random"
+    ],
+    "answer": "Not influenced by bias",
+    "explanation": "USAGE: 'Journalists should strive to be objective in their reporting.'\nSYNONYMS: Impartial, fair\nANTONYM: Subjective"
+  },
+  {
+    "question": "Significant (Meaning & Usage)",
+    "choices": [
+      "Small or unimportant",
+      "Sufficiently great or important",
+      "Temporarily interesting",
+      "Commonly overlooked"
+    ],
+    "answer": "Sufficiently great or important",
+    "explanation": "USAGE: 'The discovery of penicillin was a significant medical breakthrough.'\nSYNONYMS: Notable, meaningful\nANTONYM: Insignificant"
+  },
+  {
+    "question": "Bias (Meaning & Usage)",
+    "choices": [
+      "A random selection",
+      "A balanced viewpoint",
+      "A prejudiced inclination",
+      "A scientific fact"
+    ],
+    "answer": "A prejudiced inclination",
+    "explanation": "USAGE: 'The study was criticized for potential researcher bias.'\nSYNONYMS: Prejudice, partiality\nANTONYM: Impartiality\nNOTE: Can be conscious or unconscious"
+  },
+  {
+    "question": "Breakthrough (Meaning & Usage)",
+    "choices": [
+      "A minor adjustment",
+      "A sudden important discovery",
+      "A repeated failure",
+      "A temporary pause"
+    ],
+    "answer": "A sudden important discovery",
+    "explanation": "USAGE: 'The cancer research team announced a major breakthrough.'\nSYNONYMS: Innovation, advancement\nANTONYM: Stagnation\nCONTEXT: Often used in science/technology"
+  },
+  {
+    "question": "Groundbreaking (Meaning & Usage)",
+    "choices": [
+      "Traditional methods",
+      "Physically digging",
+      "Revolutionary and innovative",
+      "Slightly improved"
+    ],
+    "answer": "Revolutionary and innovative",
+    "explanation": "USAGE: 'Her groundbreaking theory changed physics forever.'\nSYNONYMS: Pioneering, trailblazing\nANTONYM: Conventional\nRELATED: Often describes research or art"
+  },
+  {
+    "question": "Scrutinize (Meaning & Usage)",
+    "choices": [
+      "To glance briefly",
+      "To examine closely",
+      "To ignore deliberately",
+      "To summarize quickly"
+    ],
+    "answer": "To examine closely",
+    "explanation": "USAGE: 'Auditors will scrutinize the financial records.'\nSYNONYMS: Inspect, analyze\nANTONYM: Overlook\nFORMALITY: More formal than 'check'"
+  },
+  {
+    "question": "Indolent (Meaning & Usage)",
+    "choices": [
+      "Extremely energetic",
+      "Avoiding work or effort",
+      "Highly productive",
+      "Overly emotional"
+    ],
+    "answer": "Avoiding work or effort",
+    "explanation": "USAGE: 'His indolent attitude frustrated his coworkers.'\nSYNONYMS: Lazy, slothful\nANTONYM: Diligent\nORIGIN: From Latin 'indolens' (without pain)"
   }
-  ]
+]
