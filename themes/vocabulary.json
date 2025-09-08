@@ -482,5 +482,60 @@
     ],
     "answer": "Avoiding work or effort",
     "explanation": "USAGE: 'His indolent attitude frustrated his coworkers.'\nSYNONYMS: Lazy, slothful\nANTONYM: Diligent\nORIGIN: From Latin 'indolens' (without pain)"
+  },
+  {
+    "question": "Bonhomie (Meaning & Usage)",
+    "choices": [
+      "Feelings of hostility",
+      "Cheerful friendliness among people",
+      "Deep sadness or regret",
+      "Formal politeness"
+    ],
+    "answer": "Cheerful friendliness among people",
+    "explanation": "USAGE: 'The holiday party was filled with bonhomie and laughter.'\nSYNONYMS: Camaraderie, geniality\nANTONYM: Animosity\nORIGIN: French ('bon' = good + 'homme' = man)"
+  },
+  {
+    "question": "Incipient (Meaning & Usage)",
+    "choices": [
+      "Fully developed",
+      "In the early stages of existence",
+      "Coming to an end",
+      "Completely finished"
+    ],
+    "answer": "In the early stages of existence",
+    "explanation": "USAGE: 'Doctors detected the incipient disease before symptoms appeared.'\nSYNONYMS: Nascent, emerging\nANTONYM: Advanced\nCONTEXT: Often used in medical/scientific contexts"
+  },
+  {
+    "question": "Advent (Meaning & Usage)",
+    "choices": [
+      "The departure or end of something",
+      "The arrival or introduction of something important",
+      "A minor adjustment",
+      "A sudden disappearance"
+    ],
+    "answer": "The arrival or introduction of something important",
+    "explanation": "USAGE: 'The advent of the internet changed communication forever.'\nSYNONYMS: Dawn, emergence\nANTONYM: Conclusion\nNOTE: Often capitalized for religious context (Advent season)"
+  },
+  {
+    "question": "Laggard (Meaning & Usage)",
+    "choices": [
+      "A leader or pioneer",
+      "A person who falls behind others",
+      "An enthusiastic participant",
+      "A neutral observer"
+    ],
+    "answer": "A person who falls behind others",
+    "explanation": "USAGE: 'Economic laggards struggled to adapt to new technologies.'\nSYNONYMS: Straggler, dawdler\nANTONYM: Front-runner\nUSAGE: Can be noun or adjective"
+  },
+  {
+    "question": "Lackadaisical (Meaning & Usage)",
+    "choices": [
+      "Extremely enthusiastic",
+      "Showing little enthusiasm or determination",
+      "Highly organized",
+      "Overly emotional"
+    ],
+    "answer": "Showing little enthusiasm or determination",
+    "explanation": "USAGE: 'His lackadaisical approach to homework worried his teachers.'\nSYNONYMS: Lethargic, half-hearted\nANTONYM: Zealous\nORIGIN: From archaic 'lackaday' (expression of regret)"
   }
-]
+    ]
