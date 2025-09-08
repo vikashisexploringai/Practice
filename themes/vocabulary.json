@@ -537,5 +537,72 @@
     ],
     "answer": "Showing little enthusiasm or determination",
     "explanation": "USAGE: 'His lackadaisical approach to homework worried his teachers.'\nSYNONYMS: Lethargic, half-hearted\nANTONYM: Zealous\nORIGIN: From archaic 'lackaday' (expression of regret)"
+  },
+  {
+    "question": "Abate (Meaning & Usage)",
+    "choices": [
+      "To increase in intensity",
+      "To become less severe",
+      "To completely disappear",
+      "To change direction suddenly"
+    ],
+    "answer": "To become less severe",
+    "explanation": "USAGE: 'The storm finally abated after hours of heavy rain.'\nSYNONYMS: Subside, diminish\nANTONYM: Intensify\nCONTEXT: Often used for weather, pain, or conflict"
+  },
+  {
+    "question": "Apex (Meaning & Usage)",
+    "choices": [
+      "The lowest point",
+      "The highest point of achievement",
+      "The middle stage",
+      "The starting position"
+    ],
+    "answer": "The highest point of achievement",
+    "explanation": "USAGE: 'Her Olympic gold medal marked the apex of her athletic career.'\nSYNONYMS: Pinnacle, zenith\nANTONYM: Nadir\nNOTE: Also used in geometry (apex of a triangle)"
+  },
+  {
+    "question": "Haughty (Meaning & Usage)",
+    "choices": [
+      "Humble and modest",
+      "Arrogantly superior",
+      "Nervously anxious",
+      "Enthusiastically excited"
+    ],
+    "answer": "Arrogantly superior",
+    "explanation": "USAGE: 'The haughty aristocrat looked down on everyone else.'\nSYNONYMS: Snobbish, condescending\nANTONYM: Humble\nORIGIN: From Old French 'haut' (high)"
+  },
+  {
+    "question": "Lethargic (Meaning & Usage)",
+    "choices": [
+      "Full of energy",
+      "Sluggish and lacking energy",
+      "Extremely angry",
+      "Overly talkative"
+    ],
+    "answer": "Sluggish and lacking energy",
+    "explanation": "USAGE: 'The hot weather made everyone feel lethargic.'\nSYNONYMS: Sluggish, listless\nANTONYM: Energetic\nCONTEXT: Often medical or weather-related"
+  },
+  {
+    "question": "Voracious (Meaning & Usage)",
+    "choices": [
+      "Picky and selective",
+      "Wanting or consuming great amounts",
+      "Completely full",
+      "Mildly interested"
+    ],
+    "answer": "Wanting or consuming great amounts",
+    "explanation": "USAGE: 'He was a voracious reader who finished books in one sitting.'\nSYNONYMS: Ravenous, insatiable\nANTONYM: Selective\nNOTE: Can describe appetite or intellectual hunger"
+  },
+  {
+    "question": "Candid (Meaning & Usage)",
+    "choices": [
+      "Deceptive or misleading",
+      "Truthful and straightforward",
+      "Highly flattering",
+      "Vaguely worded"
+    ],
+    "answer": "Truthful and straightforward",
+    "explanation": "USAGE: 'She appreciated his candid feedback on her presentation.'\nSYNONYMS: Frank, blunt\nANTONYM: Evasive\nORIGIN: From Latin 'candidus' (white, pure)"
   }
-    ]
+  ]
+
