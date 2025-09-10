@@ -603,6 +603,60 @@
     ],
     "answer": "Truthful and straightforward",
     "explanation": "USAGE: 'She appreciated his candid feedback on her presentation.'\nSYNONYMS: Frank, blunt\nANTONYM: Evasive\nORIGIN: From Latin 'candidus' (white, pure)"
+  },
+  {
+    "question": "Thorough (Meaning & Usage)",
+    "choices": [
+      "Quick and superficial",
+      "Complete with attention to detail",
+      "Partial and incomplete",
+      "Careless and messy"
+    ],
+    "answer": "Complete with attention to detail",
+    "explanation": "USAGE: 'The detective conducted a thorough investigation of the crime scene.'\nSYNONYMS: Meticulous, comprehensive\nANTONYM: Superficial\nNOTE: Often describes processes, cleaning, or research"
+  },
+  {
+    "question": "Exhaustive (Meaning & Usage)",
+    "choices": [
+      "Leaving nothing out; completely comprehensive",
+      "Tired and fatigued",
+      "Brief and summarized",
+      "Simple and basic"
+    ],
+    "answer": "Leaving nothing out; completely comprehensive",
+    "explanation": "USAGE: 'The researcher conducted an exhaustive study of all available data.'\nSYNONYMS: Thorough, complete\nANTONYM: Incomplete\nCONTEXT: Often used for research, lists, or investigations"
+  },
+  {
+    "question": "Comprehend (Meaning & Usage)",
+    "choices": [
+      "To misunderstand completely",
+      "To grasp mentally; understand fully",
+      "To ignore intentionally",
+      "To summarize briefly"
+    ],
+    "answer": "To grasp mentally; understand fully",
+    "explanation": "USAGE: 'Some concepts in physics are difficult to comprehend without visualization.'\nSYNONYMS: Understand, grasp\nANTONYM: Misunderstand\nORIGIN: From Latin 'comprehendere' (to seize, grasp)"
+  },
+  {
+    "question": "Covert (Meaning & Usage)",
+    "choices": [
+      "Open and obvious",
+      "Not openly acknowledged; secret",
+      "Extremely visible",
+      "Publicly celebrated"
+    ],
+    "answer": "Not openly acknowledged; secret",
+    "explanation": "USAGE: 'The spy carried out covert operations behind enemy lines.'\nSYNONYMS: Secret, clandestine\nANTONYM: Overt\nNOTE: Often used in military, intelligence, or surveillance contexts"
+  },
+  {
+    "question": "Stark (Meaning & Usage)",
+    "choices": [
+      "Highly decorated and ornate",
+      "Severe, bare, or plain in appearance",
+      "Comfortable and cozy",
+      "Colorful and vibrant"
+    ],
+    "answer": "Severe, bare, or plain in appearance",
+    "explanation": "USAGE: 'The stark landscape of the desert had a bleak beauty.'\nSYNONYMS: Austere, barren\nANTONYM: Ornate\nCONTEXT: Can describe landscapes, contrasts, or realities"
   }
   ]
-
