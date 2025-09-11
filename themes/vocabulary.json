@@ -658,5 +658,71 @@
     ],
     "answer": "Severe, bare, or plain in appearance",
     "explanation": "USAGE: 'The stark landscape of the desert had a bleak beauty.'\nSYNONYMS: Austere, barren\nANTONYM: Ornate\nCONTEXT: Can describe landscapes, contrasts, or realities"
+  },
+  {
+    "question": "Rampant (Meaning & Usage)",
+    "choices": [
+      "Under control",
+      "Spreading unchecked",
+      "Slowly developing",
+      "Completely eliminated"
+    ],
+    "answer": "Spreading unchecked",
+    "explanation": "USAGE: 'Corruption was rampant in the government agency.'\nSYNONYMS: Uncontrolled, widespread\nANTONYM: Controlled\nCONTEXT: Often describes diseases, problems, or negative phenomena"
+  },
+  {
+    "question": "Scourge (Meaning & Usage)",
+    "choices": [
+      "A beneficial influence",
+      "A cause of great suffering",
+      "A temporary inconvenience",
+      "A minor annoyance"
+    ],
+    "answer": "A cause of great suffering",
+    "explanation": "USAGE: 'Poverty remains a scourge in many developing nations.'\nSYNONYMS: Plague, affliction\nANTONYM: Blessing\nNOTE: Can be literal (disease) or metaphorical (social problem)"
+  },
+  {
+    "question": "Resolve (Meaning & Usage)",
+    "choices": [
+      "To settle or find a solution (verb); Firm determination (noun)",
+      "To create confusion (verb); Weakness (noun)",
+      "To avoid dealing with (verb); Indecision (noun)",
+      "To make worse (verb); Carelessness (noun)"
+    ],
+    "answer": "To settle or find a solution (verb); Firm determination (noun)",
+    "explanation": "VERB USAGE: 'The mediator helped resolve the conflict.'\nNOUN USAGE: 'She showed incredible resolve during the crisis.'\nSYNONYMS: (v) solve, settle; (n) determination, perseverance\nANTONYMS: (v) worsen; (n) indecision\nETYMOLOGY: From Latin 'resolvere' (to loosen, release)"
+  },
+  {
+    "question": "Undermine (Meaning & Usage)",
+    "choices": [
+      "To support and strengthen",
+      "To weaken or damage gradually",
+      "To build upon",
+      "To openly attack"
+    ],
+    "answer": "To weaken or damage gradually",
+    "explanation": "USAGE: 'The leaks undermined public confidence in the administration.'\nSYNONYMS: Sabotage, weaken\nANTONYM: Strengthen\nORIGIN: Literally 'dig under' (as in mining under foundations)"
+  },
+  {
+    "question": "Expedite (Meaning & Usage)",
+    "choices": [
+      "To slow down deliberately",
+      "To speed up the progress of",
+      "To carefully examine",
+      "To cancel entirely"
+    ],
+    "answer": "To speed up the progress of",
+    "explanation": "USAGE: 'We need to expedite the approval process for emergency funds.'\nSYNONYMS: Accelerate, facilitate\nANTONYM: Delay\nCONTEXT: Common in business, government, and logistics"
+  },
+  {
+    "question": "Coherent (Meaning & Usage)",
+    "choices": [
+      "Confusing and illogical",
+      "Logical and consistent",
+      "Fragmented and disjointed",
+      "Random and unpredictable"
+    ],
+    "answer": "Logical and consistent",
+    "explanation": "USAGE: 'She presented a coherent argument that convinced the committee.'\nSYNONYMS: Logical, consistent\nANTONYM: Incoherent\nNOTE: Important in academic writing and critical thinking"
   }
-  ]
+]
