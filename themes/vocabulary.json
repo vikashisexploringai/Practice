@@ -724,5 +724,71 @@
     ],
     "answer": "Logical and consistent",
     "explanation": "USAGE: 'She presented a coherent argument that convinced the committee.'\nSYNONYMS: Logical, consistent\nANTONYM: Incoherent\nNOTE: Important in academic writing and critical thinking"
+  },
+  {
+    "question": "Refute (Meaning & Usage)",
+    "choices": [
+      "To support with evidence",
+      "To prove wrong or false",
+      "To agree completely",
+      "To ignore deliberately"
+    ],
+    "answer": "To prove wrong or false",
+    "explanation": "USAGE: 'The scientist refuted the theory with new experimental data.'\nSYNONYMS: Disprove, rebut\nANTONYM: Confirm\nCONTEXT: Common in academic debates, scientific research, and legal arguments"
+  },
+  {
+    "question": "Imperative (Meaning & Usage)",
+    "choices": [
+      "Optional or unimportant",
+      "Extremely urgent and necessary",
+      "Interesting but not required",
+      "Theoretical rather than practical"
+    ],
+    "answer": "Extremely urgent and necessary",
+    "explanation": "USAGE: 'It is imperative that we address climate change immediately.'\nSYNONYMS: Crucial, vital\nANTONYM: Optional\nGRAMMAR: Also a verb mood (e.g., 'Listen carefully!')"
+  },
+  {
+    "question": "Paradox (Meaning & Usage)",
+    "choices": [
+      "A simple, obvious truth",
+      "A statement that contradicts itself yet might be true",
+      "A proven scientific fact",
+      "A straightforward instruction"
+    ],
+    "answer": "A statement that contradicts itself yet might be true",
+    "explanation": "USAGE: 'The paradox of time travel creates logical complications.'\nSYNONYMS: Contradiction, enigma\nEXAMPLE: 'Less is more' is a common paradox.\nCONTEXT: Found in philosophy, literature, and physics"
+  },
+  {
+    "question": "Plethora (Meaning & Usage)",
+    "choices": [
+      "A complete absence",
+      "A large or excessive amount",
+      "A carefully measured quantity",
+      "A rare occurrence"
+    ],
+    "answer": "A large or excessive amount",
+    "explanation": "USAGE: 'The library offers a plethora of research materials.'\nSYNONYMS: Abundance, excess\nANTONYM: Scarcity\nORIGIN: From Greek 'plēthōrē' (fullness)"
+  },
+  {
+    "question": "Abundant (Meaning & Usage)",
+    "choices": [
+      "Extremely scarce",
+      "Existing in large quantities",
+      "Moderately available",
+      "Poor quality"
+    ],
+    "answer": "Existing in large quantities",
+    "explanation": "USAGE: 'The region has abundant natural resources.'\nSYNONYMS: Plentiful, copious\nANTONYM: Scarce\nNOTE: Often describes natural resources, opportunities, or evidence"
+  },
+  {
+    "question": "Abandon (Meaning & Usage)",
+    "choices": [
+      "To carefully maintain",
+      "To give up completely (verb); Complete freedom (noun)",
+      "To temporarily pause",
+      "To organize systematically"
+    ],
+    "answer": "To give up completely (verb); Complete freedom (noun)",
+    "explanation": "VERB USAGE: 'They had to abandon the sinking ship.'\nNOUN USAGE: 'The children played with wild abandon.'\nSYNONYMS: (v) desert, relinquish; (n) recklessness, unrestraint\nANTONYMS: (v) keep, maintain; (n) restraint, caution\nETYMOLOGY: From Old French 'abandoner' (to surrender)"
   }
 ]
