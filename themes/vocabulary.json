@@ -790,5 +790,60 @@
     ],
     "answer": "To give up completely (verb); Complete freedom (noun)",
     "explanation": "VERB USAGE: 'They had to abandon the sinking ship.'\nNOUN USAGE: 'The children played with wild abandon.'\nSYNONYMS: (v) desert, relinquish; (n) recklessness, unrestraint\nANTONYMS: (v) keep, maintain; (n) restraint, caution\nETYMOLOGY: From Old French 'abandoner' (to surrender)"
+  },
+  {
+    "question": "Contemporaneous (Meaning & Usage)",
+    "choices": [
+      "From ancient times",
+      "Existing or occurring in the same period of time",
+      "Far in the future",
+      "Completely unrelated in time"
+    ],
+    "answer": "Existing or occurring in the same period of time",
+    "explanation": "USAGE: 'The invention of the telephone was contemporaneous with the development of electric lights.'\nSYNONYMS: Concurrent, simultaneous\nANTONYM: Asynchronous\nETYMOLOGY: From Latin 'con-' (together) + 'tempus' (time)\nNOTE: Often used in historical and academic contexts"
+  },
+  {
+    "question": "Prowess (Meaning & Usage)",
+    "choices": [
+      "Weakness or inability",
+      "Skill or expertise in a particular activity",
+      "Beginner-level ability",
+      "Average performance"
+    ],
+    "answer": "Skill or expertise in a particular activity",
+    "explanation": "USAGE: 'Her athletic prowess earned her an Olympic medal.'\nSYNONYMS: Expertise, mastery\nANTONYM: Ineptitude\nCONTEXT: Often used for physical, intellectual, or artistic skills"
+  },
+  {
+    "question": "Charisma (Meaning & Usage)",
+    "choices": [
+      "Boring personality",
+      "Compelling charm that inspires devotion",
+      "Formal authority",
+      "Technical skill"
+    ],
+    "answer": "Compelling charm that inspires devotion",
+    "explanation": "USAGE: 'The leader's charisma attracted millions of followers.'\nSYNONYMS: Magnetism, charm\nANTONYM: Unattractiveness\nORIGIN: From Greek 'kharisma' (divine favor)\nNOTE: Can be natural or developed"
+  },
+  {
+    "question": "Pioneering (Meaning & Usage)",
+    "choices": [
+      "Following established methods",
+      "Introducing new ideas or methods",
+      "Copying existing work",
+      "Rejecting innovation"
+    ],
+    "answer": "Introducing new ideas or methods",
+    "explanation": "USAGE: 'Her pioneering research revolutionized the field of medicine.'\nSYNONYMS: Innovative, groundbreaking\nANTONYM: Conventional\nCONTEXT: Used in science, technology, arts, and exploration"
+  },
+  {
+    "question": "Trail (Meaning & Usage)",
+    "choices": [
+      "To lead from the front",
+      "To follow behind or lag behind (verb); A path or track (noun)",
+      "To move quickly ahead",
+      "To stand still"
+    ],
+    "answer": "To follow behind or lag behind (verb); A path or track (noun)",
+    "explanation": "VERB USAGE: 'The home team trailed by ten points at halftime.'\nNOUN USAGE: 'They hiked along the mountain trail all day.'\nSYNONYMS: (v) follow, lag; (n) path, route\nANTONYMS: (v) lead, precede; (n) road, highway\nNOTE: Multiple meanings depending on context"
   }
-]
+  ]
