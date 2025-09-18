@@ -12,7 +12,8 @@ const themes = {
     'vocabulary': { displayName: 'Vocabulary' },
     'tables': { displayName: 'Table' },
     'indianRulers': { displayName: 'Indian Rulers Timeline' },
-    'atomicNumbers': { displayName: 'Atomic Numbers' }
+    'atomicNumbers': { displayName: 'Atomic Numbers' },
+    'trignometricEquations': { displayName: 'Trignometric Equations' }
     // Add more themes as needed
 };
 
