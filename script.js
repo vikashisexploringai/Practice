@@ -14,7 +14,6 @@ const themes = {
     'indianRulers': { displayName: 'Indian Rulers Timeline' },
     'atomicNumbers': { displayName: 'Atomic Numbers' },
     'trignometricEquations': { displayName: 'Trignometric Equations' }
-    // Add more themes as needed
 };
 
 // Initialize based on current page
@@ -42,7 +41,7 @@ function setupThemeSelection() {
         button.onclick = () => {
             currentTheme = themeId;
             localStorage.setItem('selectedTheme', themeId);
-            window.location.href = 'days.html';
+            window.location.href = 'mode.html';
         };
         container.appendChild(button);
     });
@@ -51,7 +50,9 @@ function setupThemeSelection() {
 // Day Selection Page
 function setupDaySelection() {
     currentTheme = localStorage.getItem('selectedTheme');
-    if (!currentTheme || !themes[currentTheme]) {
+    const quizMode = localStorage.getItem('quizMode');
+    
+    if (!currentTheme || !themes[currentTheme] || !quizMode) {
         window.location.href = 'index.html';
         return;
     }
@@ -67,7 +68,15 @@ function setupDaySelection() {
             for (let day = 1; day <= totalDays; day++) {
                 const button = document.createElement('button');
                 button.className = 'glow';
-                button.textContent = `Day ${day}`;
+                
+                // Update button text based on mode
+                if (quizMode === 'daywise') {
+                    button.textContent = `Day ${day} (5 questions)`;
+                } else {
+                    const questionCount = Math.min(day * 5, questions.length);
+                    button.textContent = `Day ${day} (${questionCount} questions)`;
+                }
+                
                 button.onclick = () => {
                     currentDay = day;
                     localStorage.setItem('selectedDay', day);
@@ -75,6 +84,15 @@ function setupDaySelection() {
                 };
                 container.appendChild(button);
             }
+            
+            // Add back button
+            const backButton = document.createElement('button');
+            backButton.className = 'option-button';
+            backButton.textContent = '← Back to Modes';
+            backButton.onclick = () => {
+                window.location.href = 'mode.html';
+            };
+            container.appendChild(backButton);
         })
         .catch(error => {
             console.error('Error loading questions:', error);
@@ -87,8 +105,9 @@ function setupDaySelection() {
 function initializeQuiz() {
     currentTheme = localStorage.getItem('selectedTheme');
     currentDay = parseInt(localStorage.getItem('selectedDay'));
+    const quizMode = localStorage.getItem('quizMode');
     
-    if (!currentTheme || !currentDay) {
+    if (!currentTheme || !currentDay || !quizMode) {
         window.location.href = 'index.html';
         return;
     }
@@ -108,9 +127,18 @@ function initializeQuiz() {
                 throw new Error('No questions found in file');
             }
             
-            // First select the first (day * 5) questions, then shuffle them
-            const totalQuestionsToSelect = currentDay * 5;
-            const selectedQuestions = data.slice(0, totalQuestionsToSelect);
+            // Select questions based on mode
+            let selectedQuestions;
+            if (quizMode === 'daywise') {
+                // Day-wise: 5 questions for the selected day
+                const startIndex = (currentDay - 1) * 5;
+                selectedQuestions = data.slice(startIndex, startIndex + 5);
+            } else {
+                // Accumulative: all questions up to current day * 5
+                const totalQuestionsToSelect = Math.min(currentDay * 5, data.length);
+                selectedQuestions = data.slice(0, totalQuestionsToSelect);
+            }
+            
             questions = shuffleArray(selectedQuestions);
             
             currentQuestionIndex = 0;
@@ -175,7 +203,6 @@ function displayQuestion() {
     });
 }
 
-// Update the showResults function:
 function showResults() {
     stopStopwatch();
     const totalQuestions = questions.length;
@@ -218,7 +245,6 @@ function nextQuestion() {
     currentQuestionIndex++;
     displayQuestion();
 }
-
 
 // Stopwatch functions
 function startStopwatch() {
