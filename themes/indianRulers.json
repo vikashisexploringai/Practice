@@ -250,6 +250,66 @@
     "choices": ["1489–1517 CE", "1517–1526 CE", "1526–1530 CE", "1530–1556 CE"],
     "answer": "1517–1526 CE",
     "explanation": "Ibrahim Lodi's contentious 9-year reign ended with his defeat and death by Babur's forces in 1526, marking the end of the Delhi Sultanate and the beginning of the Mughal Empire."
+  },
+  {
+    "question": "What was the reign period of Babur, the founder of the Mughal Empire?",
+    "choices": ["1526–1530 CE", "1530–1540 & 1555–1556 CE", "1556–1605 CE", "1605–1627 CE"],
+    "answer": "1526–1530 CE",
+    "explanation": "Babur established the Mughal Empire in India by defeating Ibrahim Lodi at the First Battle of Panipat in 1526. His reign was brief, lasting only four years."
+  },
+  {
+    "question": "When did Humayun, who lost and later regained his empire, rule?",
+    "choices": ["1526–1530 CE", "1530–1540 & 1555–1556 CE", "1556–1605 CE", "1605–1627 CE"],
+    "answer": "1530–1540 & 1555–1556 CE",
+    "explanation": "Humayun's reign was marked by his loss to Sher Shah Suri and a 15-year exile. He briefly reclaimed the throne in 1555, ruling for just a year before his death."
+  },
+  {
+    "question": "What was the reign period of Akbar, one of the greatest Mughal emperors?",
+    "choices": ["1530–1540 CE", "1556–1605 CE", "1605–1627 CE", "1628–1658 CE"],
+    "answer": "1556–1605 CE",
+    "explanation": "Akbar ruled for 49 years, vastly expanding the empire and establishing a centralized administrative system. His reign is considered the zenith of Mughal power and culture."
+  },
+  {
+    "question": "During which years did Jahangir, known for his interest in art and justice, rule?",
+    "choices": ["1556–1605 CE", "1605–1627 CE", "1628–1658 CE", "1658–1707 CE"],
+    "answer": "1605–1627 CE",
+    "explanation": "Jahangir succeeded Akbar and ruled for 22 years. His reign was noted for its stability, artistic patronage, and the powerful influence of his wife, Nur Jahan."
+  },
+  {
+    "question": "What was the reign period of Shah Jahan, the builder of the Taj Mahal?",
+    "choices": ["1605–1627 CE", "1628–1658 CE", "1658–1707 CE", "1707–1712 CE"],
+    "answer": "1628–1658 CE",
+    "explanation": "Shah Jahan ruled for 30 years, a period known as the Golden Age of Mughal architecture. He was deposed and imprisoned by his son Aurangzeb in 1658."
+  },
+  {
+    "question": "When did Aurangzeb Alamgir, the last of the great Mughals, rule?",
+    "choices": ["1628–1658 CE", "1658–1707 CE", "1707–1712 CE", "1712–1713 CE"],
+    "answer": "1658–1707 CE",
+    "explanation": "Aurangzeb had the longest reign of any Mughal emperor, ruling for 49 years. His expansionist policies and religious orthodoxy stretched the empire to its greatest extent but also sowed the seeds of its decline."
+  },
+  {
+    "question": "What was the reign period of Bahadur Shah I, also known as Shah Alam I?",
+    "choices": ["1707–1712 CE", "1712–1713 CE", "1713–1719 CE", "1719–1748 CE"],
+    "answer": "1707–1712 CE",
+    "explanation": "The reign of Bahadur Shah I lasted only five years. He succeeded Aurangzeb and faced immediate challenges from the Marathas and the Sikhs, marking the beginning of rapid imperial decline."
+  },
+  {
+    "question": "During which years did Muhammad Shah 'Rangila', during whose reign Nadir Shah sacked Delhi, rule?",
+    "choices": ["1713–1719 CE", "1719–1748 CE", "1748–1754 CE", "1754–1759 CE"],
+    "answer": "1719–1748 CE",
+    "explanation": "Muhammad Shah had a long reign of 29 years, but his pleasure-loving nature led to a weakening of central authority. The devastating sack of Delhi by the Persian invader Nadir Shah occurred in 1739."
+  },
+  {
+    "question": "What was the reign period of Shah Alam II, who was blinded by Ghulam Qadir?",
+    "choices": ["1754–1759 CE", "1759–1806 CE", "1806–1837 CE", "1837–1857 CE"],
+    "answer": "1759–1806 CE",
+    "explanation": "Shah Alam II's 47-year reign was a tragic period where the Mughal Emperor became a puppet under the protection of first the Marathas and later the British East India Company after the Battle of Buxar (1764)."
+  },
+  {
+    "question": "When did Bahadur Shah Zafar, the last Mughal emperor, rule?",
+    "choices": ["1806–1837 CE", "1837–1857 CE", "1857–1858 CE", "1858–1862 CE"],
+    "answer": "1837–1857 CE",
+    "explanation": "Bahadur Shah Zafar was a poet-emperor who ruled in name only, with his authority confined to the Red Fort. His reign effectively ended with his involvement in the Indian Rebellion of 1857, after which the British exiled him and formally abolished the empire."
   }
-]
+  ]
 
