@@ -178,5 +178,78 @@
     "choices": ["1801 - 39 AD", "1729 - 1758 AD", "1699 - 1743 AD", "1556 - 1605 AD"],
     "answer": "1801 - 39 AD",
     "explanation": "Established secular rule in Punjab with French-trained army and golden-domed Harmandir Sahib."
+  },
+  {
+    "question": "What was the reign period of Qutb al-Din Aibak, the founder of the Mamluk dynasty?",
+    "choices": ["1206–1210 CE", "1210–1236 CE", "1236–1240 CE", "1240–1242 CE"],
+    "answer": "1206–1210 CE",
+    "explanation": "Aibak was a general of Muhammad Ghori who became the first Sultan of Delhi after his master's death, ruling for a brief four-year period."
+  },
+  {
+    "question": "During which years did Iltutmish, the consolidator of the Delhi Sultanate, rule?",
+    "choices": ["1206–1210 CE", "1211–1236 CE", "1236–1240 CE", "1266–1287 CE"],
+    "answer": "1211–1236 CE",
+    "explanation": "Iltutmish ruled for 25 years, securing the Sultanate from Mongol threats and establishing it as a powerful empire."
+  },
+  {
+    "question": "What was the reign period of Razia Sultan, the first female ruler?",
+    "choices": ["1210–1211 CE", "1236–1240 CE", "1240–1242 CE", "1287–1290 CE"],
+    "answer": "1236–1240 CE",
+    "explanation": "Razia Sultan was the daughter of Iltutmish. She ruled for three and a half years before being overthrown by the nobles."
+  },
+  {
+    "question": "When did Ghiyas ud din Balban, the famous Sultan of the Mamluk dynasty, rule?",
+    "choices": ["1240–1242 CE", "1266–1287 CE", "1290–1296 CE", "1325–1351 CE"],
+    "answer": "1266–1287 CE",
+    "explanation": "Balban ruled as both a powerful noble and later as Sultan for 21 years, introducing the Persian custom of 'Sijda' and crushing rebellions with an iron fist."
+  },
+  {
+    "question": "What was the reign period of Jalaluddin Firuz Khalji, the founder of the Khalji dynasty?",
+    "choices": ["1287–1290 CE", "1290–1296 CE", "1296–1316 CE", "1320–1325 CE"],
+    "answer": "1290–1296 CE",
+    "explanation": "Jalaluddin, an elderly but gentle ruler, founded the Khalji dynasty but was assassinated by his nephew and successor, Alauddin."
+  },
+  {
+    "question": "During which years did Alauddin Khalji, known for his market reforms and Mongol defenses, rule?",
+    "choices": ["1290–1296 CE", "1296–1316 CE", "1316–1320 CE", "1325–1351 CE"],
+    "answer": "1296–1316 CE",
+    "explanation": "Alauddin Khalji had a highly impactful 20-year reign, known for his military conquests, economic controls, and successfully repelling multiple Mongol invasions."
+  },
+  {
+    "question": "What was the reign period of Ghiyas ud din Tughlaq, the founder of the Tughlaq dynasty?",
+    "choices": ["1320–1325 CE", "1325–1351 CE", "1351–1388 CE", "1414–1451 CE"],
+    "answer": "1320–1325 CE",
+    "explanation": "Ghiyas ud din Tughlaq's reign was short but notable for restoring order after the chaos following Alauddin Khalji's death. He founded the city of Tughlaqabad."
+  },
+  {
+    "question": "When did Muhammad bin Tughlaq, known for his controversial administrative experiments, rule?",
+    "choices": ["1296–1316 CE", "1320–1325 CE", "1325–1351 CE", "1351–1388 CE"],
+    "answer": "1325–1351 CE",
+    "explanation": "Muhammad bin Tughlaq ruled for 26 years. His ambitious but poorly executed projects, like the transfer of the capital and token currency, weakened the empire."
+  },
+  {
+    "question": "What was the reign period of Firoz Shah Tughlaq, known for his architectural and welfare projects?",
+    "choices": ["1320–1325 CE", "1325–1351 CE", "1351–1388 CE", "1388–1414 CE"],
+    "answer": "1351–1388 CE",
+    "explanation": "Firoz Shah Tughlaq had a long reign of 37 years, focusing on construction (canals, cities, mosques) and charity, but the empire began to disintegrate under his rule."
+  },
+  {
+    "question": "During which years did Bahlul Lodi, the founder of the Lodi dynasty, rule?",
+    "choices": ["1414–1451 CE", "1451–1489 CE", "1489–1517 CE", "1517–1526 CE"],
+    "answer": "1451–1489 CE",
+    "explanation": "Bahlul Lodi was an Afghan noble who founded the last dynasty of the Sultanate. He ruled for 38 years, consolidating power over much of northern India."
+  },
+  {
+    "question": "What was the reign period of Sikandar Lodi, who moved the capital to Agra?",
+    "choices": ["1451–1489 CE", "1489–1517 CE", "1517–1526 CE", "1526–1530 CE"],
+    "answer": "1489–1517 CE",
+    "explanation": "Sikandar Lodi ruled for 28 years. He was a capable administrator, known for patronizing culture and moving the capital from Delhi to Agra."
+  },
+  {
+    "question": "When did Ibrahim Lodi, the last Sultan of Delhi defeated at the First Battle of Panipat, rule?",
+    "choices": ["1489–1517 CE", "1517–1526 CE", "1526–1530 CE", "1530–1556 CE"],
+    "answer": "1517–1526 CE",
+    "explanation": "Ibrahim Lodi's contentious 9-year reign ended with his defeat and death by Babur's forces in 1526, marking the end of the Delhi Sultanate and the beginning of the Mughal Empire."
   }
 ]
+
