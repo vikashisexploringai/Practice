@@ -48,6 +48,7 @@ function setupThemeSelection() {
 }
 
 // Day Selection Page
+// Day Selection Page
 function setupDaySelection() {
     currentTheme = localStorage.getItem('selectedTheme');
     const quizMode = localStorage.getItem('quizMode');
@@ -72,15 +73,23 @@ function setupDaySelection() {
                 // Update button text based on mode
                 if (quizMode === 'daywise') {
                     button.textContent = `Day ${day} (5 questions)`;
-                } else {
+                } else if (quizMode === 'accumulative') {
                     const questionCount = Math.min(day * 5, questions.length);
                     button.textContent = `Day ${day} (${questionCount} questions)`;
+                } else if (quizMode === 'flashcard') {
+                    button.textContent = `Day ${day} (5 flashcards)`;
                 }
                 
                 button.onclick = () => {
                     currentDay = day;
                     localStorage.setItem('selectedDay', day);
-                    window.location.href = 'quiz.html';
+                    
+                    // Redirect based on mode
+                    if (quizMode === 'flashcard') {
+                        window.location.href = 'flashcard.html';
+                    } else {
+                        window.location.href = 'quiz.html';
+                    }
                 };
                 container.appendChild(button);
             }
