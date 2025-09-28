@@ -4,6 +4,17 @@ let currentDay = 0;
 let flashcards = [];
 let currentCardIndex = 0;
 
+// DOM elements
+const flashcard = document.getElementById('flashcard');
+const frontContent = document.getElementById('frontContent');
+const backContent = document.getElementById('backContent');
+const explanationContent = document.getElementById('explanationContent');
+const prevBtn = document.getElementById('prevBtn');
+const nextBtn = document.getElementById('nextBtn');
+const flipBtn = document.getElementById('flipBtn');
+const progressText = document.getElementById('progressText');
+const progressFill = document.getElementById('progressFill');
+
 // Initialize flashcard page
 document.addEventListener('DOMContentLoaded', function() {
     initializeFlashcards();
@@ -32,66 +43,80 @@ function initializeFlashcards() {
             const startIndex = (currentDay - 1) * 5;
             const selectedQuestions = data.slice(startIndex, startIndex + 5);
             
+            if (selectedQuestions.length === 0) {
+                throw new Error('No questions available for this day');
+            }
+            
             flashcards = shuffleArray(selectedQuestions);
             currentCardIndex = 0;
-            displayCard();
+            updateCard();
         })
         .catch(error => {
             console.error('Failed to load flashcards:', error);
-            document.getElementById('question-text').textContent = 
-                "Error loading flashcards. Please try again.";
+            frontContent.textContent = "Error loading flashcards. Please try again.";
         });
 }
 
-function displayCard() {
-    if (currentCardIndex >= flashcards.length) {
-        // All cards completed
-        document.getElementById('flashcard-container').innerHTML = `
-            <div class="completion-message">
-                <h2 class="glow-text">🎉 All Flashcards Complete!</h2>
-                <p>You've reviewed all ${flashcards.length} flashcards for Day ${currentDay}</p>
-                <button onclick="window.location.href='days.html'" class="glow">Choose Another Day</button>
-            </div>
-        `;
-        return;
-    }
-
+function updateCard() {
     const card = flashcards[currentCardIndex];
-    const progressCounter = document.getElementById('progress-counter');
-    const questionText = document.getElementById('question-text');
-    const answerText = document.getElementById('answer-text');
-    const explanationText = document.getElementById('explanation-text');
-    const flashcard = document.getElementById('flashcard');
-
-    // Update progress
-    progressCounter.textContent = `${currentCardIndex + 1}/${flashcards.length}`;
+    frontContent.textContent = card.question;
+    backContent.textContent = `Answer: ${card.answer}`;
+    explanationContent.textContent = card.explanation || 'No explanation available.';
     
-    // Set card content
-    questionText.textContent = card.question;
-    answerText.textContent = `Answer: ${card.answer}`;
-    explanationText.textContent = card.explanation || 'No explanation available.';
-    
-    // Reset card to front side
+    // Reset card to front view
     flashcard.classList.remove('flipped');
     
-    // Update next button
-    document.getElementById('next-card').onclick = nextCard;
+    // Update progress
+    progressText.textContent = `${currentCardIndex + 1}/${flashcards.length}`;
+    progressFill.style.width = `${((currentCardIndex + 1) / flashcards.length) * 100}%`;
+    
+    // Update button states
+    prevBtn.disabled = currentCardIndex === 0;
+    nextBtn.disabled = currentCardIndex === flashcards.length - 1;
+}
+
+function flipCard() {
+    flashcard.classList.toggle('flipped');
 }
 
 function nextCard() {
-    currentCardIndex++;
-    displayCard();
+    if (currentCardIndex < flashcards.length - 1) {
+        currentCardIndex++;
+        updateCard();
+    }
 }
 
-// Flip card on click
-document.addEventListener('click', function(e) {
-    const flashcard = document.getElementById('flashcard');
-    if (flashcard && !e.target.closest('.flashcard-actions')) {
-        flashcard.classList.toggle('flipped');
+function prevCard() {
+    if (currentCardIndex > 0) {
+        currentCardIndex--;
+        updateCard();
+    }
+}
+
+// Event listeners
+flashcard.addEventListener('click', flipCard);
+flipBtn.addEventListener('click', flipCard);
+nextBtn.addEventListener('click', nextCard);
+prevBtn.addEventListener('click', prevCard);
+
+// Keyboard navigation
+document.addEventListener('keydown', (e) => {
+    switch(e.key) {
+        case 'ArrowLeft':
+            prevCard();
+            break;
+        case 'ArrowRight':
+            nextCard();
+            break;
+        case ' ':
+        case 'Enter':
+            e.preventDefault();
+            flipCard();
+            break;
     }
 });
 
-// Utility function (same as in script.js)
+// Utility function
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
