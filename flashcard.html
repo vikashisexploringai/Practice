@@ -7,37 +7,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="quiz-container">
-        <!-- Progress Fraction -->
-        <div class="progress-fraction">
-            <span id="progress-counter">0/0</span>
+    <div class="container">
+        <div class="header">
+            <h1>Flashcard Mode</h1>
+            <p>Click the card to flip • Use arrows to navigate</p>
         </div>
-        
-        <!-- Flashcard Container -->
-        <div id="flashcard-container">
+
+        <div class="progress">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <span id="progressText">1/5</span>
+        </div>
+
+        <div class="flashcard-container">
             <div class="flashcard" id="flashcard">
                 <div class="flashcard-front">
-                    <div class="flashcard-content">
-                        <h2 id="question-text">Loading flashcards...</h2>
-                        <p class="tap-hint">Tap to reveal answer</p>
-                    </div>
+                    <div class="card-content" id="frontContent">Loading flashcards...</div>
+                    <div class="hint">Click to reveal answer</div>
                 </div>
                 <div class="flashcard-back">
-                    <div class="flashcard-content">
-                        <h3>Answer</h3>
-                        <p id="answer-text" class="answer"></p>
-                        <p id="explanation-text" class="explanation"></p>
-                        <div class="flashcard-actions">
-                            <button id="next-card" class="glow">Next Card</button>
-                        </div>
-                    </div>
+                    <div class="card-content" id="backContent"></div>
+                    <div class="explanation" id="explanationContent"></div>
+                    <div class="hint">Click to see question</div>
                 </div>
             </div>
         </div>
-        
-        <!-- Navigation -->
-        <div class="flashcard-nav">
-            <button onclick="window.location.href='days.html'" class="option-button">← Back to Days</button>
+
+        <div class="controls">
+            <button class="btn" id="prevBtn">← Previous</button>
+            <button class="btn" id="flipBtn">Flip Card</button>
+            <button class="btn" id="nextBtn">Next →</button>
+        </div>
+
+        <div class="navigation">
+            <button onclick="window.location.href='days.html'" class="btn back-btn">← Back to Days</button>
         </div>
     </div>
     <script src="flashcard.js"></script>
