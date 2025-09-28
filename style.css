@@ -276,3 +276,135 @@ body {
         width: 100%;
     }
 }
+
+
+/* Flashcard Styles */
+#flashcard-container {
+    perspective: 1000px;
+    margin: 2rem 0;
+}
+
+.flashcard {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.flashcard.flipped {
+    transform: rotateY(180deg);
+}
+
+.flashcard-front,
+.flashcard-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 
+        0 0.5rem 2rem rgba(138, 0, 255, 0.5),
+        inset 0 0 1rem rgba(255, 255, 255, 0.1);
+}
+
+.flashcard-front {
+    background: linear-gradient(145deg, #3d0a7a, #2a004f);
+    border: 2px solid var(--neon-pink);
+    color: var(--neon-yellow);
+}
+
+.flashcard-back {
+    background: linear-gradient(145deg, #2a004f, #3d0a7a);
+    border: 2px solid var(--neon-yellow);
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.flashcard-front h2 {
+    color: var(--neon-yellow);
+    text-shadow: 0 0 0.5rem rgba(255, 255, 0, 0.7);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.flashcard-back h2 {
+    color: var(--neon-pink);
+    text-shadow: 0 0 0.5rem rgba(255, 0, 234, 0.7);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.tap-hint {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    font-style: italic;
+    animation: pulse 2s infinite;
+}
+
+#answer-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--neon-yellow);
+    margin-bottom: 1rem;
+}
+
+#explanation-text {
+    color: #ddd;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.flashcard-actions {
+    margin-top: auto;
+}
+
+.flashcard-nav {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.completion-message {
+    text-align: center;
+    padding: 2rem;
+}
+
+.completion-message h2 {
+    margin-bottom: 1rem;
+}
+
+.completion-message p {
+    color: #ddd;
+    margin-bottom: 1.5rem;
+}
+
+/* Flashcard specific animations */
+@keyframes cardFlip {
+    0% { transform: rotateY(0deg); }
+    100% { transform: rotateY(180deg); }
+}
+
+/* Responsive adjustments for flashcards */
+@media (max-width: 480px) {
+    .flashcard {
+        height: 250px;
+    }
+    
+    .flashcard-front,
+    .flashcard-back {
+        padding: 1.5rem;
+    }
+    
+    .flashcard-front h2,
+    .flashcard-back h2 {
+        font-size: 1.2rem;
+    }
+}
