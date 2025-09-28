@@ -7,6 +7,10 @@ const quizModes = {
     'accumulative': {
         displayName: 'Accumulative',
         description: 'Questions accumulate each day'
+    },
+    'flashcard': {
+        displayName: 'Flashcard Mode',
+        description: 'Tap to reveal answers'
     }
 };
 
@@ -26,7 +30,11 @@ function setupModeSelection() {
         button.innerHTML = `<strong>${modeData.displayName}</strong><br><span style="font-size: 0.9em; opacity: 0.8;">${modeData.description}</span>`;
         button.onclick = () => {
             localStorage.setItem('quizMode', modeId);
-            window.location.href = 'days.html';
+            if (modeId === 'flashcard') {
+                window.location.href = 'flashcard.html';
+            } else {
+                window.location.href = 'days.html';
+            }
         };
         container.appendChild(button);
     });
