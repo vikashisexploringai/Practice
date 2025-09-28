@@ -30,11 +30,8 @@ function setupModeSelection() {
         button.innerHTML = `<strong>${modeData.displayName}</strong><br><span style="font-size: 0.9em; opacity: 0.8;">${modeData.description}</span>`;
         button.onclick = () => {
             localStorage.setItem('quizMode', modeId);
-            if (modeId === 'flashcard') {
-                window.location.href = 'flashcard.html';
-            } else {
-                window.location.href = 'days.html';
-            }
+            // All modes go to days.html first for day selection
+            window.location.href = 'days.html';
         };
         container.appendChild(button);
     });
