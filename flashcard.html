@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard Mode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <!-- Progress Fraction -->
+        <div class="progress-fraction">
+            <span id="progress-counter">0/0</span>
+        </div>
+        
+        <!-- Flashcard Container -->
+        <div id="flashcard-container">
+            <div class="flashcard" id="flashcard">
+                <div class="flashcard-front">
+                    <h2 id="question-text">Loading flashcards...</h2>
+                    <p class="tap-hint">Tap to reveal answer</p>
+                </div>
+                <div class="flashcard-back">
+                    <h2>Answer</h2>
+                    <p id="answer-text"></p>
+                    <p id="explanation-text"></p>
+                    <div class="flashcard-actions">
+                        <button id="next-card" class="glow">Next Card</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Navigation -->
+        <div class="flashcard-nav">
+            <button onclick="window.location.href='days.html'" class="option-button">← Back to Days</button>
+        </div>
+    </div>
+    <script src="flashcard.js"></script>
+</body>
+</html>
