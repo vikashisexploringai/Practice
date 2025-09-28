@@ -17,15 +17,19 @@
         <div id="flashcard-container">
             <div class="flashcard" id="flashcard">
                 <div class="flashcard-front">
-                    <h2 id="question-text">Loading flashcards...</h2>
-                    <p class="tap-hint">Tap to reveal answer</p>
+                    <div class="flashcard-content">
+                        <h2 id="question-text">Loading flashcards...</h2>
+                        <p class="tap-hint">Tap to reveal answer</p>
+                    </div>
                 </div>
                 <div class="flashcard-back">
-                    <h2>Answer</h2>
-                    <p id="answer-text"></p>
-                    <p id="explanation-text"></p>
-                    <div class="flashcard-actions">
-                        <button id="next-card" class="glow">Next Card</button>
+                    <div class="flashcard-content">
+                        <h3>Answer</h3>
+                        <p id="answer-text" class="answer"></p>
+                        <p id="explanation-text" class="explanation"></p>
+                        <div class="flashcard-actions">
+                            <button id="next-card" class="glow">Next Card</button>
+                        </div>
                     </div>
                 </div>
             </div>
