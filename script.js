@@ -13,6 +13,7 @@ const themes = {
     'tables': { displayName: 'Table' },
     'indianRulers': { displayName: 'Indian Rulers Timeline' },
     'atomicNumbers': { displayName: 'Atomic Numbers' },
+    'britishGovernors': { displayName: 'Governor General and Viceroys' },
     'trignometricEquations': { displayName: 'Trignometric Equations' }
 };
 
