@@ -1,0 +1,206 @@
+[
+  {
+    "question": "What was the tenure of Warren Hastings as Governor-General?",
+    "choices": ["1765–1775", "1773–1785", "1780–1790", "1778–1788"],
+    "answer": "1773–1785",
+    "explanation": "He etablished the Supreme Court in Calcutta (1774), implemented the Regulating Act of 1773 and Pitt's India Act of 1784, fought the Second Anglo-Mysore War (1780–84), and laid the foundations of British colonial administration in India."
+  },
+  {
+    "question": "What was the period of Lord Cornwallis's Governor-Generalship?",
+    "choices": ["1782–1791", "1786–1793", "1790–1798", "1788–1795"],
+    "answer": "1786–1793",
+    "explanation": "He introduced the Permanent Settlement (Zamindari System) in 1793, defeated Tipu Sultan in the Third Anglo-Mysore War (1789–92), reformed civil services through Cornwallis Code, and separated judicial and revenue administration."
+  },
+  {
+    "question": "When did Sir John Shore serve as Governor-General?",
+    "choices": ["1791–1796", "1793–1798", "1795–1800", "1790–1795"],
+    "answer": "1793–1798",
+    "explanation": "Sir John Shore (1793–1798) followed a policy of non-intervention."
+  },
+  {
+    "question": "During which years did Lord Wellesley serve as Governor-General?",
+    "choices": ["1795–1802", "1798–1805", "1800–1807", "1796–1803"],
+    "answer": "1798–1805",
+    "explanation": "Lord Wellesley (1798–1805) expanded British control through Subsidiary Alliance system (first with Hyderabad in 1798), defeated Tipu Sultan in Fourth Anglo-Mysore War (1799), established Fort William College (1800), and fought Second Anglo-Maratha War (1803–05)."
+  },
+  {
+    "question": "What was Sir George Barlow's acting Governor-Generalship period?",
+    "choices": ["1803–1805", "1805–1807", "1807–1809", "1804–1806"],
+    "answer": "1805–1807",
+    "explanation": "Sir George Barlow (1805–1807) served as acting Governor-General during a transitional period, faced the Vellore Mutiny (1806) ."
+  },
+  {
+    "question": "When was Lord Minto I the Governor-General?",
+    "choices": ["1805–1810", "1807–1813", "1809–1814", "1806–1811"],
+    "answer": "1807–1813",
+    "explanation": "Lord Minto I (1807–1813) signed Treaty of Amritsar (1809) with Ranjit Singh, sent missions to Persia and Afghanistan, and dealt with French threats during Napoleonic Wars."
+  },
+  {
+    "question": "What was Lord Hastings's tenure as Governor-General?",
+    "choices": ["1810–1815", "1813–1823", "1815–1820", "1812–1817"],
+    "answer": "1813–1823",
+    "explanation": "Lord Hastings (1813–1823) fought Anglo-Nepal War (1814–16) leading to Treaty of Sugauli, abolished Peshwaship after Third Anglo-Maratha War (1817–18), introduced Ryotwari System in Madras (1820)."
+  },
+  {
+    "question": "When did Lord Amherst serve as Governor-General?",
+    "choices": ["1820–1825", "1823–1828", "1825–1830", "1822–1827"],
+    "answer": "1823–1828",
+    "explanation": "Lord Amherst (1823–1828) fought First Anglo-Burmese War (1824–26) leading to Treaty of Yandabo, faced Barrackpore Mutiny (1824), and acquired Assam, Manipur, Arakan, and Tenasserim."
+  },
+  {
+    "question": "What was Lord William Bentinck's term as Governor-General?",
+    "choices": ["1820–1825", "1828–1835", "1830–1837", "1825–1832"],
+    "answer": "1828–1835",
+    "explanation": "Lord William Bentinck (1828–1835) abolished Sati (1829), suppressed Thuggee, made English medium of education (1835), annexed Mysore (1831), and introduced medical education."
+  },
+  {
+    "question": "When did Sir Charles Metcalfe serve as acting Governor-General?",
+    "choices": ["1833–1835", "1835–1836", "1836–1838", "1834–1837"],
+    "answer": "1835–1836",
+    "explanation": "Sir Charles Metcalfe (1835–1836) liberated Indian press (called 'Liberator of Indian Press'), abolished restrictions on vernacular newspapers, and continued Bentinck's reforms."
+  },
+  {
+    "question": "What was Lord Auckland's tenure as Governor-General?",
+    "choices": ["1835–1840", "1836–1842", "1838–1843", "1837–1841"],
+    "answer": "1836–1842",
+    "explanation": "Lord Auckland (1836–1842) initiated disastrous First Anglo-Afghan War (1839–42), and faced severe financial crisis due to Afghan campaigns."
+  },
+  {
+    "question": "When did Lord Ellenborough serve as Governor-General?",
+    "choices": ["1840–1844", "1842–1844", "1841–1845", "1843–1846"],
+    "answer": "1842–1844",
+    "explanation": "Lord Ellenborough (1842–1844) ended Afghan War, annexed Sindh (1843), brought back supposed original gates of Somnath temple looted by Mahmud, and reorganized army."
+  },
+  {
+    "question": "What was Lord Hardinge I's period as Governor-General?",
+    "choices": ["1842–1846", "1844–1848", "1843–1847", "1845–1849"],
+    "answer": "1844–1848",
+    "explanation": "Lord Hardinge I (1844–1848) fought First Anglo-Sikh War (1845–46) leading to Treaty of Lahore (1846)."
+  },
+  {
+    "question": "When did Lord Dalhousie serve as Governor-General?",
+    "choices": ["1840–1848", "1848–1856", "1850–1857", "1845–1853"],
+    "answer": "1848–1856",
+    "explanation": "Lord Dalhousie (1848–1856) implemented Doctrine of Lapse (annexing Satara, Jhansi, Nagpur), initiated railways (1853), telegraph (1852), and postal reforms, fought Second Anglo-Sikh War (1848–49), and established Public Works Department."
+  },
+  {
+    "question": "What was Lord Canning's tenure as both Governor-General and Viceroy?",
+    "choices": ["1852–1860", "1856–1862", "1858–1864", "1854–1861"],
+    "answer": "1856–1862",
+    "explanation": "Lord Canning (1856–1862) handled 1857 Revolt ('Clemency Canning' for leniency towards rebel post-rebellion), introduced Indian Councils Act 1861, and established universities in Bombay, Madras, Calcutta (1857)."
+  },
+  {
+    "question": "When did Lord Elgin I serve as Viceroy?",
+    "choices": ["1860–1862", "1862–1863", "1861–1864", "1863–1865"],
+    "answer": "1862–1863",
+    "explanation": "Lord Elgin I (1862–1863) had very short tenure, died in office, dealt with aftermath of 1857 Revolt, and continued Canning's policies."
+  },
+  {
+    "question": "What was Sir John Lawrence's period as Viceroy?",
+    "choices": ["1860–1865", "1864–1869", "1862–1867", "1865–1870"],
+    "answer": "1864–1869",
+    "explanation": "Sir John Lawrence (1864–1869) established High Courts (1865), faced Orissa famine (1866), initiated telegraph connection with Europe, and dealt with Bhutan War (1864–65)."
+  },
+  {
+    "question": "When did Lord Mayo serve as Viceroy?",
+    "choices": ["1867–1871", "1869–1872", "1868–1873", "1870–1875"],
+    "answer": "1869–1872",
+    "explanation": "Lord Mayo (1869–1872) introduced financial decentralization, Mayo College(Ajmer), started first census (1871), and was assassinated in Andamans (1872)."
+  },
+  {
+    "question": "What was Lord Northbrook's tenure as Viceroy?",
+    "choices": ["1870–1875", "1872–1876", "1873–1878", "1871–1876"],
+    "answer": "1872–1876",
+    "explanation": "Lord Northbrook (1872–1876) faced Bihar famine (1873–74), handled Kuka Movement, and had conflicts with Salisbury(Secretary of State for India) over imperial policies."
+  },
+  {
+    "question": "When did Lord Lytton serve as Viceroy?",
+    "choices": ["1874–1878", "1876–1880", "1875–1879", "1877–1882"],
+    "answer": "1876–1880",
+    "explanation": "Lord Lytton (1876–1880) passed Vernacular Press Act (1878), organized Delhi Durbar (1877), fought Second Anglo-Afghan War (1878–80), and faced Great Famine (1876–78)."
+  },
+  {
+    "question": "What was Lord Ripon's period as Viceroy?",
+    "choices": ["1878–1882", "1880–1884", "1882–1886", "1879–1883"],
+    "answer": "1880–1884",
+    "explanation": "Lord Ripon (1880–1884) repealed Vernacular Press Act, introduced Local Self-Government (1882), handled Ilbert Bill Controversy (1883) - sought to allow senior Indian magistrates to preside over cases involving British subjects in India, appointed Hunter Commission or Indian Education Commission (1882), and implemented The Factory Act(1881)"
+  },
+  {
+    "question": "When did Lord Dufferin serve as Viceroy?",
+    "choices": ["1882–1886", "1884–1888", "1885–1889", "1883–1887"],
+    "answer": "1884–1888",
+    "explanation": "Lord Dufferin (1884–1888) saw foundation of Indian National Congress (1885), fought Third Anglo-Burmese War (1885) and dealt with Bengal Tenancy Act (1885)."
+  },
+  {
+    "question": "What was Lord Lansdowne's tenure as Viceroy?",
+    "choices": ["1886–1890", "1888–1894", "1889–1895", "1887–1892"],
+    "answer": "1888–1894",
+    "explanation": "Lord Lansdowne (1888–1894) passed second Factory Act (1891), implemented Indian Councils Act (1892), established Durand Line (1893), and faced Manipur uprising (1891)."
+  },
+  {
+    "question": "When did Lord Elgin II serve as Viceroy?",
+    "choices": ["1892–1896", "1894–1899", "1895–1900", "1893–1898"],
+    "answer": "1894–1899",
+    "explanation": "Lord Elgin II (1894–1899) faced famine (1896–97), plague epidemic (1896)"
+  },
+  {
+    "question": "What was Lord Curzon's term as Viceroy?",
+    "choices": ["1895–1900", "1899–1905", "1900–1906", "1898–1903"],
+    "answer": "1899–1905",
+    "explanation": "Lord Curzon (1899–1905) partitioned Bengal (1905), passed Ancient Monuments Preservation Act (1904), established Agricultural Research Institute at Pusa(Bihar), created NWFP. He resigned after Kitchener was given more autonomy as a commander-in-chief."
+  },
+  {
+    "question": "When did Lord Minto II serve as Viceroy?",
+    "choices": ["1903–1908", "1905–1910", "1907–1912", "1904–1909"],
+    "answer": "1906–1910",
+    "explanation": "His term started in Nov 1905 after Curzon resigned. Morley-Minto Reforms, Surat Split (1907), dealt with Alipore Bomb Case (1908), and witnessed Swadeshi Movement."
+  },
+  {
+    "question": "What was Lord Hardinge II's period as Viceroy?",
+    "choices": ["1908–1913", "1910–1916", "1912–1918", "1909–1915"],
+    "answer": "1910–1916",
+    "explanation": "Lord Hardinge II (1910–1916) shifted capital to Delhi (1911), reunited Bengal (1911)"
+  },
+  {
+    "question": "When did Lord Chelmsford serve as Viceroy?",
+    "choices": ["1914–1919", "1916–1921", "1918–1923", "1915–1920"],
+    "answer": "1916–1921",
+    "explanation": "Lord Chelmsford (1916–1921) introduced Montagu-Chelmsford Reforms (1919), faced Jallianwala Bagh massacre (1919), implemented Rowlatt Act, and saw launch of Non-Cooperation Movement."
+  },
+  {
+    "question": "What was Lord Reading's tenure as Viceroy?",
+    "choices": ["1919–1924", "1921–1926", "1920–1925", "1922–1927"],
+    "answer": "1921–1926",
+    "explanation": "Lord Reading (1921–1926) handled Chauri Chaura incident (1922), repealed Rowlatt Act, established Skeen Committee for Indianization of army, and faced Swaraj Party opposition."
+  },
+  {
+    "question": "When did Lord Irwin serve as Viceroy?",
+    "choices": ["1924–1929", "1926–1931", "1928–1933", "1925–1930"],
+    "answer": "1926–1931",
+    "explanation": "Lord Irwin (1926–1931) handled Simon Commission (1928), signed Gandhi-Irwin Pact (1931), witnessed Civil Disobedience Movement launch (1930), Salt Satyagraha (1930), and First Round Table Conference."
+  },
+  {
+    "question": "What was Lord Willingdon's period as Viceroy?",
+    "choices": ["1929–1934", "1931–1936", "1930–1935", "1932–1937"],
+    "answer": "1931–1936",
+    "explanation": "Lord Willingdon (1931–1936) suppressed Civil Disobedience Movement, implemented Government of India Act (1935), faced Poona Pact (1932), and dealt with communal award controversy."
+  },
+  {
+    "question": "When did Lord Linlithgow serve as Viceroy?",
+    "choices": ["1934–1939", "1936–1944", "1938–1945", "1935–1942"],
+    "answer": "1936–1944",
+    "explanation": "Lord Linlithgow (1936–1944) oversaw Quit India Movement (1942), World War II participation, Cripps Mission (1942), Bengal Famine (1943), and saw rise of Subhas Chandra Bose."
+  },
+  {
+    "question": "What was Lord Wavell's tenure as Viceroy?",
+    "choices": ["1942–1946", "1944–1947", "1943–1948", "1945–1947"],
+    "answer": "1944–1947",
+    "explanation": "Lord Wavell (1944–1947) organized Simla Conference (1945), implemented Cabinet Mission Plan (1946), faced Royal Indian Navy Mutiny (1946), and saw Interim Government formation."
+  },
+  {
+    "question": "When did Lord Mountbatten serve as the last Viceroy of India?",
+    "choices": ["1945–1947", "1946–1948", "1947", "1947–1948"],
+    "answer": "1947",
+    "explanation": "Lord Mountbatten (1947) oversaw Partition and Independence (15 August 1947), implemented June 3 Plan, served as first Governor-General of independent India until June 1948, and handled refugee crisis."
+  }
+]
