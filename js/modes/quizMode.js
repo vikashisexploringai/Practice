@@ -67,8 +67,27 @@ export class QuizMode extends BaseMode {
         const explanationContainer = document.getElementById('explanation-container');
         const explanationText = document.getElementById('explanation-text');
         
-        explanationText.textContent = this.questions[this.currentQuestionIndex].explanation || 'No explanation available.';
-        explanationContainer.style.display = 'block';
+        if (explanationText) {
+            explanationText.textContent = this.questions[this.currentQuestionIndex].explanation || 'No explanation available.';
+        }
+        if (explanationContainer) {
+            explanationContainer.style.display = 'block';
+        }
+
+        // Update next button text for last question
+        const nextButton = document.getElementById('next-button');
+        if (nextButton && this.currentQuestionIndex === this.questions.length - 1) {
+            nextButton.textContent = 'See Results';
+        }
+    }
+
+    nextQuestion() {
+        this.currentQuestionIndex++;
+        if (this.currentQuestionIndex >= this.questions.length) {
+            this.completeSession();
+        } else {
+            this.displayCurrentQuestion();
+        }
     }
 
     showResults() {
@@ -76,12 +95,29 @@ export class QuizMode extends BaseMode {
         const accuracy = Utils.calculateAccuracy(this.score, totalQuestions);
         const time = this.timer.getFormattedTime();
 
-        document.getElementById('score').textContent = this.score;
-        document.getElementById('total').textContent = totalQuestions;
-        document.getElementById('completion-time').textContent = time;
-        document.getElementById('accuracy').textContent = `${accuracy}%`;
+        console.log('Showing results:', { score: this.score, total: totalQuestions, accuracy, time });
 
-        document.getElementById('question-container').style.display = 'none';
-        document.getElementById('result-container').style.display = 'block';
+        // Update result elements
+        const scoreElement = document.getElementById('score');
+        const totalElement = document.getElementById('total');
+        const timeElement = document.getElementById('completion-time');
+        const accuracyElement = document.getElementById('accuracy');
+        const questionContainer = document.getElementById('question-container');
+        const resultContainer = document.getElementById('result-container');
+
+        if (scoreElement) scoreElement.textContent = this.score;
+        if (totalElement) totalElement.textContent = totalQuestions;
+        if (timeElement) timeElement.textContent = time;
+        if (accuracyElement) accuracyElement.textContent = `${accuracy}%`;
+
+        if (questionContainer) questionContainer.style.display = 'none';
+        if (resultContainer) resultContainer.style.display = 'block';
+    }
+
+    // Override completeSession to ensure results are shown
+    completeSession() {
+        this.isCompleted = true;
+        this.timer.stop();
+        this.showResults();
     }
 }
