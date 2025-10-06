@@ -133,44 +133,44 @@
   },
   {
     "question": "What was Mahmud Khalji's reign period of Malwa?",
-    "choices": ["1436 - 69 AD", "1433 - 68 AD", "1459 - 1511 AD", "1497 - 1540 AD"],
-    "answer": "1436 - 69 AD",
+    "choices": ["1436-69 AD", "1433-1468 AD", "1459-1511 AD", "1497-1540 AD"],
+    "answer": "1436-69 AD",
     "explanation": "Built the Jahaz Mahal in Mandu and fought against Rana Kumbha of Mewar."
   },
   {
     "question": "When did Mahmud Begada rule Gujarat?",
-    "choices": ["1459 - 1511 AD", "1436 - 69 AD", "1497 - 1540 AD", "1509 - 29 AD"],
-    "answer": "1459 - 1511 AD",
+    "choices": ["1459-1511 AD", "1436-1469 AD", "1497-1540 AD", "1509-1529 AD"],
+    "answer": "1459-1511 AD",
     "explanation": "Founded Champaner, conquered Girnar and Junagadh, and had the longest Sultanate reign in Gujarat."
   },
   {
     "question": "What was Prataprudra Deva's reign period of the Gajapati Kingdom?",
-    "choices": ["1497 - 1540 AD", "1459 - 1511 AD", "1509 - 29 AD", "1556 - 1605 AD"],
-    "answer": "1497 - 1540 AD",
+    "choices": ["1497-1540 AD", "1459-1511 AD", "1509-1529 AD", "1556-1605 AD"],
+    "answer": "1497-1540 AD",
     "explanation": "Last great Gajapati ruler who resisted Vijayanagara and Bahmani invasions."
   },
   {
     "question": "When did Krishnadevaraya rule Vijayanagara?",
-    "choices": ["1509 - 29 AD", "1497 - 1540 AD", "1556 - 1605 AD", "1699 - 1743 AD"],
-    "answer": "1509 - 29 AD",
+    "choices": ["1509-1529 AD", "1497-1540 AD", "1556-1605 AD", "1699-1743 AD"],
+    "answer": "1509-1529 AD",
     "explanation": "Golden Age ruler who built the Vitthala Temple and whose court included the Ashtadiggajas."
   },
   {
     "question": "When did Sawai Jai Singh II rule Jaipur?",
-    "choices": ["1699 - 1743 AD", "1556 - 1605 AD", "1729 - 1758 AD", "1801 - 39 AD"],
-    "answer": "1699 - 1743 AD",
+    "choices": ["1699-1743 AD", "1556-1605 AD", "1729-1758 AD", "1801-1839 AD"],
+    "answer": "1699-1743 AD",
     "explanation": "Founded Jaipur city, built Jantar Mantar observatories, and was a mathematician-king."
   },
   {
     "question": "What was Marthanda Varma's reign period of Travancore?",
-    "choices": ["1729 - 1758 AD", "1699 - 1743 AD", "1801 - 39 AD", "1497 - 1540 AD"],
-    "answer": "1729 - 1758 AD",
+    "choices": ["1729-1758 AD", "1699-1743 AD", "1801-1839 AD", "1497-1540 AD"],
+    "answer": "1729-1758 AD",
     "explanation": "Defeated Dutch at Colachel battle(1741), established centralized administration in Kerala."
   },
   {
     "question": "When did Maharaja Ranjit Singh rule the Sikh Empire?",
-    "choices": ["1801 - 39 AD", "1729 - 1758 AD", "1699 - 1743 AD", "1556 - 1605 AD"],
-    "answer": "1801 - 39 AD",
+    "choices": ["1801-1839 AD", "1729-1758 AD", "1699-1743 AD", "1556-1605 AD"],
+    "answer": "1801-1839 AD",
     "explanation": "Established secular rule in Punjab with French-trained army and golden-domed Harmandir Sahib."
   },
   {
