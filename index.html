@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Theme Selection</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="quiz-container">
@@ -13,6 +13,13 @@
             <!-- Dynamically populated -->
         </div>
     </div>
-    <script src="script.js"></script>
+    <script type="module">
+        import { ThemeSelection } from './js/pages/themeSelection.js';
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const themeSelection = new ThemeSelection();
+            themeSelection.initialize();
+        });
+    </script>
 </body>
 </html>
