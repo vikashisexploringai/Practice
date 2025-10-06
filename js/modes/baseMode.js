@@ -47,7 +47,6 @@ export class BaseMode {
         }
     }
 
-    // ... rest of the base mode methods remain the same
     shuffleQuestions() {
         this.questions = Utils.shuffleArray(this.questions);
     }
@@ -89,12 +88,14 @@ export class BaseMode {
     }
 
     completeSession() {
+        console.log('Completing session, questions:', this.questions.length, 'currentIndex:', this.currentQuestionIndex);
         this.isCompleted = true;
         this.timer.stop();
         this.showResults();
     }
 
     showResults() {
+        console.log('BaseMode showResults called - should be overridden by child classes');
         // To be implemented by specific modes
     }
 
