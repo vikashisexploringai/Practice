@@ -50,6 +50,7 @@ function setupThemeSelection() {
 
 // Day Selection Page
 // Day Selection Page
+// Day Selection Page
 function setupDaySelection() {
     currentTheme = localStorage.getItem('selectedTheme');
     const quizMode = localStorage.getItem('quizMode');
@@ -79,6 +80,8 @@ function setupDaySelection() {
                     button.textContent = `Day ${day} (${questionCount} questions)`;
                 } else if (quizMode === 'flashcard') {
                     button.textContent = `Day ${day} (5 flashcards)`;
+                } else if (quizMode === 'cloze') {
+                    button.textContent = `Day ${day} (5 cloze tests)`;
                 }
                 
                 button.onclick = () => {
@@ -88,6 +91,8 @@ function setupDaySelection() {
                     // Redirect based on mode
                     if (quizMode === 'flashcard') {
                         window.location.href = 'flashcard.html';
+                    } else if (quizMode === 'cloze') {
+                        window.location.href = 'cloze.html';
                     } else {
                         window.location.href = 'quiz.html';
                     }
