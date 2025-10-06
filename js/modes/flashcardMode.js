@@ -1,5 +1,6 @@
 import { BaseMode } from './baseMode.js';
 import { Utils } from '../core/utils.js';
+import { CONFIG } from '../core/config.js';
 
 export class FlashcardMode extends BaseMode {
     constructor() {
@@ -7,22 +8,17 @@ export class FlashcardMode extends BaseMode {
         this.currentCardIndex = 0;
     }
 
-    initialize(theme, day, mode) {
-        // Flashcard doesn't use timer, so we override initialize
-        this.theme = theme;
-        this.day = day;
-        this.mode = mode;
-        
-        this.loadFlashcards();
-    }
-
-    async loadFlashcards() {
+    async initialize(theme, day, mode) {
         try {
+            this.theme = theme;
+            this.day = day;
+            this.mode = mode;
+            
             const allQuestions = await Utils.loadQuestions(this.theme);
             this.questions = Utils.getQuestionsForDay(allQuestions, this.day, this.mode);
             
             if (this.questions.length === 0) {
-                throw new Error('No questions available for selected day');
+                throw new Error('No flashcards available for selected day');
             }
             
             this.shuffleQuestions();
@@ -60,6 +56,11 @@ export class FlashcardMode extends BaseMode {
     }
 
     updateCard() {
+        if (this.currentCardIndex >= this.questions.length) {
+            this.showCompletionMessage();
+            return;
+        }
+
         const card = this.questions[this.currentCardIndex];
         document.getElementById('frontContent').textContent = card.question;
         document.getElementById('backContent').textContent = `Answer: ${card.answer}`;
@@ -68,24 +69,35 @@ export class FlashcardMode extends BaseMode {
         // Reset card to front view
         document.getElementById('flashcard').classList.remove('flipped');
         
-        // Update progress
         this.updateProgress();
-        
-        // Update button states
-        document.getElementById('prevBtn').disabled = this.currentCardIndex === 0;
-        document.getElementById('nextBtn').disabled = this.currentCardIndex === this.questions.length - 1;
+        this.updateButtonStates();
     }
 
     updateProgress() {
         const progressText = document.getElementById('progressText');
         const progressFill = document.getElementById('progressFill');
         
-        if (progressText) progressText.textContent = `${this.currentCardIndex + 1}/${this.questions.length}`;
-        if (progressFill) progressFill.style.width = `${((this.currentCardIndex + 1) / this.questions.length) * 100}%`;
+        if (progressText) {
+            progressText.textContent = `${this.currentCardIndex + 1}/${this.questions.length}`;
+        }
+        if (progressFill) {
+            progressFill.style.width = `${((this.currentCardIndex + 1) / this.questions.length) * 100}%`;
+        }
+    }
+
+    updateButtonStates() {
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        
+        if (prevBtn) prevBtn.disabled = this.currentCardIndex === 0;
+        if (nextBtn) nextBtn.disabled = this.currentCardIndex === this.questions.length - 1;
     }
 
     flipCard() {
-        document.getElementById('flashcard').classList.toggle('flipped');
+        const flashcard = document.getElementById('flashcard');
+        if (flashcard) {
+            flashcard.classList.toggle('flipped');
+        }
     }
 
     nextCard() {
@@ -100,6 +112,23 @@ export class FlashcardMode extends BaseMode {
             this.currentCardIndex--;
             this.updateCard();
         }
+    }
+
+    showCompletionMessage() {
+        const flashcardPerspective = document.querySelector('.flashcard-perspective');
+        if (flashcardPerspective) {
+            flashcardPerspective.innerHTML = `
+                <div class="completion-message">
+                    <h2>🎉 Flashcards Complete!</h2>
+                    <p>You've reviewed all ${this.questions.length} flashcards for Day ${this.day}.</p>
+                    <button onclick="window.location.href='days.html'" class="btn">Choose Another Day</button>
+                </div>
+            `;
+        }
+        
+        // Hide controls
+        const controls = document.querySelector('.flashcard-controls');
+        if (controls) controls.style.display = 'none';
     }
 
     // Override base methods that don't apply to flashcards
