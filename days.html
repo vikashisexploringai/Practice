@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day Selection</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="quiz-container">
@@ -13,6 +13,13 @@
             <!-- Dynamically populated day buttons -->
         </div>
     </div>
-    <script src="script.js"></script>
+    <script type="module">
+        import { DaySelection } from './js/pages/daySelection.js';
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const daySelection = new DaySelection();
+            daySelection.initialize();
+        });
+    </script>
 </body>
 </html>
