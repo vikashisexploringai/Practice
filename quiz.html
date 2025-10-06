@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Session</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="quiz-container" id="quiz-container">
@@ -53,6 +53,24 @@
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
+    
+    <script type="module">
+        import { QuizMode } from './js/modes/quizMode.js';
+        import { Storage } from './js/core/storage.js';
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const theme = Storage.getTheme();
+            const day = Storage.getDay();
+            const mode = Storage.getMode();
+            
+            if (!theme || !day || !mode) {
+                window.location.href = 'index.html';
+                return;
+            }
+            
+            const quizMode = new QuizMode();
+            quizMode.initialize(theme, day, mode);
+        });
+    </script>
 </body>
 </html>
