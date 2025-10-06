@@ -779,3 +779,25 @@ body {
 #result-container[style*="display: block"] {
     display: block !important;
 }
+
+/* Fix for score display - make both numbers visible */
+#score {
+    color: var(--neon-yellow);
+    text-shadow: 0 0 0.5rem rgba(255, 255, 0, 0.5);
+}
+
+#total {
+    color: #ffffff !important;
+    font-weight: 600;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
+
+/* Alternatively, you can target the specific stat box */
+.stat-box:first-child .stat-value {
+    color: var(--neon-yellow);
+}
+
+.stat-box:first-child .stat-value #total {
+    color: #ffffff !important;
+    margin-left: 0.25rem;
+}
