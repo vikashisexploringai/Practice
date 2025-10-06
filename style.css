@@ -572,6 +572,7 @@ body {
     font-weight: bold;
     text-align: center;
     margin-bottom: 1rem;
+    color: #4CAF50; /* Added - green for correct */
 }
 
 .incorrect-feedback {
@@ -579,6 +580,16 @@ body {
     text-align: center;
     margin-bottom: 1rem;
     line-height: 1.5;
+    color: #f44336; /* Added - red for incorrect message */
+}
+
+.incorrect-feedback strong {
+    color: var(--neon-yellow) !important; /* Added - makes correct answer yellow */
+    background: rgba(0, 0, 0, 0.3);
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+    display: inline-block;
+    margin-top: 0.5rem;
 }
 
 #submit-answer {
