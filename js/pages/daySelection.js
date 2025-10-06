@@ -45,12 +45,32 @@ export class DaySelection {
     getButtonText(day, totalQuestions, mode) {
         const modeConfig = CONFIG.MODES[mode];
         
-        if (mode === 'accumulative') {
-            const questionCount = Math.min(day * CONFIG.QUESTIONS_PER_DAY, totalQuestions);
-            return `Day ${day} (${questionCount} questions)`;
+        if (mode === 'accumulative' || modeConfig.supportsAccumulative) {
+            // Accumulative mode: show total questions up to this day
+            const totalQuestionsToShow = Math.min(day * CONFIG.QUESTIONS_PER_DAY, totalQuestions);
+            const modeName = this.getModeDisplayName(mode);
+            return `Day ${day} (${totalQuestionsToShow} ${modeName})`;
         } else {
-            const questionsThisDay = Math.min(CONFIG.QUESTIONS_PER_DAY, totalQuestions - ((day - 1) * CONFIG.QUESTIONS_PER_DAY));
-            return `Day ${day} (${questionsThisDay} ${modeConfig.displayName.toLowerCase().includes('flashcard') ? 'flashcards' : 'questions'})`;
+            // Day-wise mode: show questions for this specific day only
+            const questionsThisDay = Math.min(
+                CONFIG.QUESTIONS_PER_DAY, 
+                totalQuestions - ((day - 1) * CONFIG.QUESTIONS_PER_DAY)
+            );
+            const modeName = this.getModeDisplayName(mode);
+            return `Day ${day} (${questionsThisDay} ${modeName})`;
+        }
+    }
+
+    getModeDisplayName(mode) {
+        switch(mode) {
+            case 'flashcard':
+                return 'flashcards';
+            case 'cloze':
+                return 'cloze tests';
+            case 'accumulative':
+            case 'daywise':
+            default:
+                return 'questions';
         }
     }
 
