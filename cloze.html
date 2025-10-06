@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cloze Test Mode</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="quiz-container">
+    <div class="quiz-container" id="quiz-container">
         <!-- Progress Fraction -->
         <div class="progress-fraction">
             <span id="progress-counter">0/0</span>
@@ -32,8 +32,8 @@
             
             <!-- Feedback -->
             <div id="feedback-container" style="display: none;">
-                <div id="feedback-text"></div>
-                <div id="explanation-container">
+                <div id="feedback-text" class="feedback-text"></div>
+                <div class="explanation-box">
                     <p id="explanation-text"></p>
                     <button id="next-button" class="glow">Next Question</button>
                 </div>
@@ -63,6 +63,24 @@
             </div>
         </div>
     </div>
-    <script src="cloze.js"></script>
+    
+    <script type="module">
+        import { ClozeMode } from './js/modes/clozeMode.js';
+        import { Storage } from './js/core/storage.js';
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const theme = Storage.getTheme();
+            const day = Storage.getDay();
+            const mode = Storage.getMode();
+            
+            if (!theme || !day || !mode) {
+                window.location.href = 'index.html';
+                return;
+            }
+            
+            const clozeMode = new ClozeMode();
+            clozeMode.initialize(theme, day, mode);
+        });
+    </script>
 </body>
 </html>
