@@ -84,6 +84,7 @@ export class ClozeMode extends BaseMode {
         const feedbackText = document.getElementById('feedback-text');
         const explanationText = document.getElementById('explanation-text');
         const submitButton = document.getElementById('submit-answer');
+        const nextButton = document.getElementById('next-button');
 
         // Disable input
         if (answerInput) answerInput.disabled = true;
@@ -115,6 +116,27 @@ export class ClozeMode extends BaseMode {
         if (feedbackContainer) {
             feedbackContainer.style.display = 'block';
         }
+
+        // Update next button text for last question
+        if (nextButton && this.currentQuestionIndex === this.questions.length - 1) {
+            nextButton.textContent = 'See Results';
+        }
+    }
+
+    nextQuestion() {
+        // Only proceed if answer was submitted
+        const answerInput = document.getElementById('answer-input');
+        if (answerInput && !answerInput.disabled && answerInput.value.trim() === '') {
+            // If no answer submitted, don't proceed
+            return;
+        }
+        
+        this.currentQuestionIndex++;
+        if (this.currentQuestionIndex >= this.questions.length) {
+            this.completeSession();
+        } else {
+            this.displayCurrentQuestion();
+        }
     }
 
     showResults() {
@@ -137,17 +159,5 @@ export class ClozeMode extends BaseMode {
 
         if (questionContainer) questionContainer.style.display = 'none';
         if (resultContainer) resultContainer.style.display = 'block';
-    }
-
-    // Override to handle empty answers better
-    nextQuestion() {
-        // Only proceed if answer was submitted
-        const answerInput = document.getElementById('answer-input');
-        if (answerInput && !answerInput.disabled && answerInput.value.trim() === '') {
-            // If no answer submitted, don't proceed
-            return;
-        }
-        
-        super.nextQuestion();
     }
 }
