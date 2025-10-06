@@ -1,20 +1,11 @@
-// Global state
-let currentTheme = '';
-let currentDay = 0;
-let questions = [];
-let currentQuestionIndex = 0;
-let score = 0;
-let startTime;
-let stopwatchInterval;
-
 // Initialize cloze test
 document.addEventListener('DOMContentLoaded', function() {
     initializeClozeTest();
 });
 
 function initializeClozeTest() {
-    currentTheme = localStorage.getItem('selectedTheme');
-    currentDay = parseInt(localStorage.getItem('selectedDay'));
+    const currentTheme = localStorage.getItem('selectedTheme');
+    const currentDay = parseInt(localStorage.getItem('selectedDay'));
     
     if (!currentTheme || !currentDay) {
         window.location.href = 'index.html';
@@ -40,9 +31,9 @@ function initializeClozeTest() {
             const startIndex = (currentDay - 1) * 5;
             const selectedQuestions = data.slice(startIndex, startIndex + 5);
             
-            questions = shuffleArray(selectedQuestions);
-            currentQuestionIndex = 0;
-            score = 0;
+            window.questions = shuffleArray(selectedQuestions);
+            window.currentQuestionIndex = 0;
+            window.score = 0;
             startStopwatch();
             displayQuestion();
             
@@ -75,15 +66,15 @@ function displayQuestion() {
     resultContainer.style.display = 'none';
     questionContainer.style.display = 'block';
 
-    if (currentQuestionIndex >= questions.length) {
+    if (window.currentQuestionIndex >= window.questions.length) {
         showResults();
         return;
     }
 
-    const question = questions[currentQuestionIndex];
+    const question = window.questions[window.currentQuestionIndex];
     
     // Update progress counter
-    progressCounter.textContent = `${currentQuestionIndex + 1}/${questions.length}`;
+    progressCounter.textContent = `${window.currentQuestionIndex + 1}/${window.questions.length}`;
     
     // Set question text
     questionText.textContent = question.question;
@@ -96,19 +87,14 @@ function displayQuestion() {
     explanationContainer.style.display = 'none';
     
     // Update submit button
-   // Update submit button
-const submitButton = document.getElementById('submit-answer');
-submitButton.disabled = false;
-submitButton.textContent = 'Submit Answer';
-submitButton.onclick = function() {
-    checkAnswer();
-};
+    document.getElementById('submit-answer').disabled = false;
+    document.getElementById('submit-answer').textContent = 'Submit Answer';
 }
 
 function checkAnswer() {
     const answerInput = document.getElementById('answer-input');
     const userAnswer = answerInput.value.trim();
-    const correctAnswer = questions[currentQuestionIndex].answer;
+    const correctAnswer = window.questions[window.currentQuestionIndex].answer;
     const feedbackContainer = document.getElementById('feedback-container');
     const feedbackText = document.getElementById('feedback-text');
     const explanationText = document.getElementById('explanation-text');
@@ -126,7 +112,7 @@ function checkAnswer() {
     const isCorrect = userAnswer.toLowerCase() === correctAnswer.toLowerCase();
     
     if (isCorrect) {
-        score++;
+        window.score++;
         feedbackText.innerHTML = '<span style="color: #4CAF50;">✓ Correct!</span>';
         feedbackText.className = 'correct-feedback';
     } else {
@@ -135,60 +121,16 @@ function checkAnswer() {
     }
 
     // Show explanation
-    explanationText.textContent = questions[currentQuestionIndex].explanation || 'No explanation available.';
+    explanationText.textContent = window.questions[window.currentQuestionIndex].explanation || 'No explanation available.';
     
     // Show feedback
     feedbackContainer.style.display = 'block';
     
     // Update submit button to show next
     submitButton.textContent = 'Next Question';
-    submitButton.onclick = function() {
-    nextQuestion();
-};
 }
 
 function nextQuestion() {
-    currentQuestionIndex++;
+    window.currentQuestionIndex++;
     displayQuestion();
-}
-
-function showResults() {
-    stopStopwatch();
-    const totalQuestions = questions.length;
-    const accuracy = Math.round((score / totalQuestions) * 100);
-    
-    document.getElementById('score').textContent = score;
-    document.getElementById('total').textContent = totalQuestions;
-    document.getElementById('completion-time').textContent = 
-        document.getElementById('stopwatch').textContent;
-    document.getElementById('accuracy').textContent = `${accuracy}%`;
-    
-    document.getElementById('question-container').style.display = 'none';
-    document.getElementById('result-container').style.display = 'block';
-}
-
-// Stopwatch functions (same as quiz)
-function startStopwatch() {
-    startTime = Date.now();
-    stopwatchInterval = setInterval(updateStopwatch, 1000);
-}
-
-function updateStopwatch() {
-    const elapsed = Math.floor((Date.now() - startTime) / 1000);
-    const minutes = Math.floor(elapsed / 60).toString().padStart(2, '0');
-    const seconds = (elapsed % 60).toString().padStart(2, '0');
-    document.getElementById('stopwatch').textContent = `${minutes}:${seconds}`;
-}
-
-function stopStopwatch() {
-    clearInterval(stopwatchInterval);
-}
-
-// Utility function
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
 }
