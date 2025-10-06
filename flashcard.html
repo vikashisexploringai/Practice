@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flashcard Mode</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="flashcard-container">
@@ -44,6 +44,24 @@
             <button onclick="window.location.href='days.html'" class="btn back-btn">← Back to Days</button>
         </div>
     </div>
-    <script src="flashcard.js"></script>
+    
+    <script type="module">
+        import { FlashcardMode } from './js/modes/flashcardMode.js';
+        import { Storage } from './js/core/storage.js';
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const theme = Storage.getTheme();
+            const day = Storage.getDay();
+            const mode = Storage.getMode();
+            
+            if (!theme || !day || !mode) {
+                window.location.href = 'index.html';
+                return;
+            }
+            
+            const flashcardMode = new FlashcardMode();
+            flashcardMode.initialize(theme, day, mode);
+        });
+    </script>
 </body>
 </html>
