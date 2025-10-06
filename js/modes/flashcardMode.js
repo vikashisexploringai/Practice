@@ -15,7 +15,7 @@ export class FlashcardMode extends BaseMode {
             this.mode = mode;
             
             const allQuestions = await Utils.loadQuestions(this.theme);
-            this.questions = Utils.getQuestionsForDay(allQuestions, this.day, this.mode);
+            this.questions = this.getQuestionsForMode(allQuestions, this.day, this.mode);
             
             if (this.questions.length === 0) {
                 throw new Error('No flashcards available for selected day');
@@ -30,6 +30,7 @@ export class FlashcardMode extends BaseMode {
         }
     }
 
+    // ... rest of the flashcard mode methods remain the same
     setupEventListeners() {
         const flashcard = document.getElementById('flashcard');
         const flipBtn = document.getElementById('flipBtn');
@@ -120,7 +121,7 @@ export class FlashcardMode extends BaseMode {
             flashcardPerspective.innerHTML = `
                 <div class="completion-message">
                     <h2>🎉 Flashcards Complete!</h2>
-                    <p>You've reviewed all ${this.questions.length} flashcards for Day ${this.day}.</p>
+                    <p>You've reviewed all ${this.questions.length} flashcards for ${this.mode === 'accumulative' ? 'up to Day ' + this.day : 'Day ' + this.day}.</p>
                     <button onclick="window.location.href='days.html'" class="btn">Choose Another Day</button>
                 </div>
             `;
