@@ -96,8 +96,13 @@ function displayQuestion() {
     explanationContainer.style.display = 'none';
     
     // Update submit button
-    document.getElementById('submit-answer').disabled = false;
-    document.getElementById('submit-answer').textContent = 'Submit Answer';
+   // Update submit button
+const submitButton = document.getElementById('submit-answer');
+submitButton.disabled = false;
+submitButton.textContent = 'Submit Answer';
+submitButton.onclick = function() {
+    checkAnswer();
+};
 }
 
 function checkAnswer() {
@@ -137,7 +142,9 @@ function checkAnswer() {
     
     // Update submit button to show next
     submitButton.textContent = 'Next Question';
-    submitButton.onclick = nextQuestion;
+    submitButton.onclick = function() {
+    nextQuestion();
+};
 }
 
 function nextQuestion() {
