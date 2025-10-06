@@ -35,7 +35,12 @@ export class ClozeMode extends BaseMode {
         this.resetUI();
 
         document.getElementById('question-text').textContent = question.question;
-        document.getElementById('answer-input').focus();
+        
+        // Focus on input
+        const answerInput = document.getElementById('answer-input');
+        if (answerInput) {
+            answerInput.focus();
+        }
     }
 
     resetUI() {
@@ -60,7 +65,7 @@ export class ClozeMode extends BaseMode {
 
     checkAnswer() {
         const answerInput = document.getElementById('answer-input');
-        const userAnswer = answerInput.value.trim();
+        const userAnswer = answerInput ? answerInput.value.trim() : '';
         const correctAnswer = this.questions[this.currentQuestionIndex].answer;
 
         if (!userAnswer) return;
@@ -81,27 +86,35 @@ export class ClozeMode extends BaseMode {
         const submitButton = document.getElementById('submit-answer');
 
         // Disable input
-        answerInput.disabled = true;
-        submitButton.disabled = true;
-        submitButton.textContent = 'Next Question';
+        if (answerInput) answerInput.disabled = true;
+        if (submitButton) {
+            submitButton.disabled = true;
+            submitButton.textContent = 'Next Question';
+        }
 
         // Show feedback
-        if (isCorrect) {
-            feedbackText.innerHTML = '<span style="color: #4CAF50;">✓ Correct!</span>';
-            feedbackText.className = 'correct-feedback';
-        } else {
-            feedbackText.innerHTML = `
-                <span style="color: #f44336;">✗ Incorrect</span><br>
-                Correct answer: <strong>${correctAnswer}</strong>
-            `;
-            feedbackText.className = 'incorrect-feedback';
+        if (feedbackText) {
+            if (isCorrect) {
+                feedbackText.innerHTML = '<span style="color: #4CAF50;">✓ Correct!</span>';
+                feedbackText.className = 'correct-feedback';
+            } else {
+                feedbackText.innerHTML = `
+                    <span style="color: #f44336;">✗ Incorrect</span><br>
+                    Correct answer: <strong>${correctAnswer}</strong>
+                `;
+                feedbackText.className = 'incorrect-feedback';
+            }
         }
 
         // Show explanation
-        explanationText.textContent = this.questions[this.currentQuestionIndex].explanation || 'No explanation available.';
+        if (explanationText) {
+            explanationText.textContent = this.questions[this.currentQuestionIndex].explanation || 'No explanation available.';
+        }
         
         // Display feedback
-        feedbackContainer.style.display = 'block';
+        if (feedbackContainer) {
+            feedbackContainer.style.display = 'block';
+        }
     }
 
     showResults() {
@@ -109,12 +122,32 @@ export class ClozeMode extends BaseMode {
         const accuracy = Utils.calculateAccuracy(this.score, totalQuestions);
         const time = this.timer.getFormattedTime();
 
-        document.getElementById('score').textContent = this.score;
-        document.getElementById('total').textContent = totalQuestions;
-        document.getElementById('completion-time').textContent = time;
-        document.getElementById('accuracy').textContent = `${accuracy}%`;
+        // Update result elements safely
+        const scoreElement = document.getElementById('score');
+        const totalElement = document.getElementById('total');
+        const timeElement = document.getElementById('completion-time');
+        const accuracyElement = document.getElementById('accuracy');
+        const questionContainer = document.getElementById('question-container');
+        const resultContainer = document.getElementById('result-container');
 
-        document.getElementById('question-container').style.display = 'none';
-        document.getElementById('result-container').style.display = 'block';
+        if (scoreElement) scoreElement.textContent = this.score;
+        if (totalElement) totalElement.textContent = totalQuestions;
+        if (timeElement) timeElement.textContent = time;
+        if (accuracyElement) accuracyElement.textContent = `${accuracy}%`;
+
+        if (questionContainer) questionContainer.style.display = 'none';
+        if (resultContainer) resultContainer.style.display = 'block';
+    }
+
+    // Override to handle empty answers better
+    nextQuestion() {
+        // Only proceed if answer was submitted
+        const answerInput = document.getElementById('answer-input');
+        if (answerInput && !answerInput.disabled && answerInput.value.trim() === '') {
+            // If no answer submitted, don't proceed
+            return;
+        }
+        
+        super.nextQuestion();
     }
 }
