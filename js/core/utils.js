@@ -43,6 +43,15 @@ export const Utils = {
     },
 
     validateAnswer(userAnswer, correctAnswer) {
-        return userAnswer.trim().toLowerCase() === correctAnswer.toLowerCase();
+    // Normalize both answers for comparison
+    const normalizedUser = userAnswer.trim().toLowerCase()
+        .replace(/[–—]/g, '-')  // Replace en-dash and em-dash with regular hyphen
+        .replace(/\s+/g, ' ');   // Normalize spaces
+    
+    const normalizedCorrect = correctAnswer.trim().toLowerCase()
+        .replace(/[–—]/g, '-')  // Replace en-dash and em-dash with regular hyphen
+        .replace(/\s+/g, ' ');   // Normalize spaces
+    
+    return normalizedUser === normalizedCorrect;
     }
 };
