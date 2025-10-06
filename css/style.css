@@ -801,3 +801,18 @@ body {
     color: #ffffff !important;
     margin-left: 0.25rem;
 }
+
+/* ===== PERFECT SCORE DISPLAY ===== */
+.stat-box:first-child .stat-value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem; /* Reduced from 0.5rem */
+}
+
+.stat-box:first-child .stat-value span:nth-child(2) {
+    color: rgba(255, 255, 255, 0.7) !important; /* Light gray for slash */
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0 -0.1rem; /* Negative margin to bring slash closer to the second number */
+}
