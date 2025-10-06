@@ -704,3 +704,78 @@ body {
     color: #ffffff;
     margin-bottom: 1.5rem;
 }
+
+
+/* ===== RESULT CONTAINER STYLES ===== */
+#result-container {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(145deg, #3d0a7a, #2a004f);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 0, 234, 0.4);
+    box-shadow: 0 0.5rem 2rem rgba(106, 17, 203, 0.3);
+}
+
+#result-container h2 {
+    color: var(--neon-yellow);
+    text-shadow: 0 0 0.5rem rgba(255, 255, 0, 0.7);
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.result-stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.stat-box {
+    background: rgba(30, 0, 60, 0.8);
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    min-width: 120px;
+    text-align: center;
+    border: 1px solid var(--neon-pink);
+    box-shadow: 0 0 1rem rgba(255, 0, 234, 0.3);
+}
+
+.stat-label {
+    display: block;
+    font-size: 0.9rem;
+    color: #ccc;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.stat-value {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--neon-yellow);
+    text-shadow: 0 0 0.5rem rgba(255, 255, 0, 0.5);
+}
+
+.result-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.result-actions button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Ensure question container is properly hidden when results show */
+#question-container[style*="display: none"] {
+    display: none !important;
+}
+
+#result-container[style*="display: block"] {
+    display: block !important;
+}
