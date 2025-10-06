@@ -19,7 +19,7 @@ export class BaseMode {
             this.mode = mode;
             
             const allQuestions = await Utils.loadQuestions(theme);
-            this.questions = Utils.getQuestionsForDay(allQuestions, day, mode);
+            this.questions = this.getQuestionsForMode(allQuestions, day, mode);
             
             if (this.questions.length === 0) {
                 throw new Error('No questions available for selected day');
@@ -35,6 +35,19 @@ export class BaseMode {
         }
     }
 
+    getQuestionsForMode(allQuestions, day, mode) {
+        if (mode === 'accumulative' || CONFIG.MODES[mode]?.supportsAccumulative) {
+            // Accumulative mode: all questions up to current day * 5
+            const totalQuestions = Math.min(day * CONFIG.QUESTIONS_PER_DAY, allQuestions.length);
+            return allQuestions.slice(0, totalQuestions);
+        } else {
+            // Day-wise mode: only current day's questions
+            const startIndex = (day - 1) * CONFIG.QUESTIONS_PER_DAY;
+            return allQuestions.slice(startIndex, startIndex + CONFIG.QUESTIONS_PER_DAY);
+        }
+    }
+
+    // ... rest of the base mode methods remain the same
     shuffleQuestions() {
         this.questions = Utils.shuffleArray(this.questions);
     }
