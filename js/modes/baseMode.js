@@ -1,5 +1,6 @@
 import { Utils } from '../core/utils.js';
 import { Timer } from '../core/timer.js';
+import { CONFIG } from '../core/config.js';
 
 export class BaseMode {
     constructor(containerId) {
