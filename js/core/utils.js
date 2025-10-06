@@ -1,3 +1,5 @@
+import { CONFIG } from './config.js';
+
 // Utility functions
 export const Utils = {
     shuffleArray(array) {
