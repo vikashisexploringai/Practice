@@ -11,6 +11,10 @@ const quizModes = {
     'flashcard': {
         displayName: 'Flashcard Mode',
         description: 'Tap to reveal answers'
+    },
+    'cloze': {
+        displayName: 'Cloze Test Mode',
+        description: 'Type the answers'
     }
 };
 
@@ -30,8 +34,13 @@ function setupModeSelection() {
         button.innerHTML = `<strong>${modeData.displayName}</strong><br><span style="font-size: 0.9em; opacity: 0.8;">${modeData.description}</span>`;
         button.onclick = () => {
             localStorage.setItem('quizMode', modeId);
-            // All modes go to days.html first for day selection
-            window.location.href = 'days.html';
+            if (modeId === 'flashcard') {
+                window.location.href = 'flashcard.html';
+            } else if (modeId === 'cloze') {
+                window.location.href = 'cloze.html';
+            } else {
+                window.location.href = 'days.html';
+            }
         };
         container.appendChild(button);
     });
