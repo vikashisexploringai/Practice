@@ -38,13 +38,12 @@ export class ModeSelection {
     selectMode(modeId, modeData) {
         Storage.setMode(modeId);
         
-        if (modeData.customPage) {
-            window.location.href = modeData.customPage;
-        } else if (modeData.supportsDays) {
+        // ALL modes that support days should go to days.html first
+        if (modeData.supportsDays) {
             window.location.href = 'days.html';
         } else {
-            // Direct to quiz for modes that don't need day selection
-            window.location.href = 'quiz.html';
+            // Only for modes that don't need day selection (if any)
+            window.location.href = modeData.customPage || 'quiz.html';
         }
     }
 
