@@ -519,3 +519,81 @@ body {
         font-size: 1rem;
     }
 }
+
+
+/* ===== CLOZE TEST STYLES ===== */
+.cloze-input-container {
+    background: linear-gradient(145deg, #3d0066, #250044);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    box-shadow: 
+        0 0.25rem 1rem rgba(106, 17, 203, 0.5),
+        inset 0 0 0.75rem rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(179, 0, 255, 0.3);
+    text-align: center;
+}
+
+#answer-input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border: 2px solid var(--neon-pink);
+    border-radius: 0.75rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    margin-bottom: 1rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+#answer-input:focus {
+    outline: none;
+    border-color: var(--neon-yellow);
+    box-shadow: 0 0 1rem rgba(255, 255, 0, 0.5);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+#answer-input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#feedback-container {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: rgba(30, 0, 60, 0.9);
+    border-radius: 1rem;
+    border: 1px solid var(--neon-pink);
+    animation: fadeIn 0.5s ease;
+}
+
+.correct-feedback {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.incorrect-feedback {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+#submit-answer {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+/* Mobile responsive for cloze test */
+@media (max-width: 480px) {
+    .cloze-input-container {
+        padding: 1.5rem;
+    }
+    
+    #answer-input {
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+}
