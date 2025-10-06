@@ -175,135 +175,134 @@
   },
   {
     "question": "What was the reign period of Qutb al-Din Aibak, the founder of the Mamluk dynasty?",
-    "choices": ["1206–1210 CE", "1210–1236 CE", "1236–1240 CE", "1240–1242 CE"],
-    "answer": "1206–1210 CE",
+    "choices": ["1206–1210 AD", "1210–1236 AD", "1236–1240 AD", "1240–1242 AD"],
+    "answer": "1206–1210 AD",
     "explanation": "Aibak was a general of Muhammad Ghori who became the first Sultan of Delhi after his master's death, ruling for a brief four-year period."
   },
   {
     "question": "During which years did Iltutmish, the consolidator of the Delhi Sultanate, rule?",
-    "choices": ["1206–1210 CE", "1211–1236 CE", "1236–1240 CE", "1266–1287 CE"],
-    "answer": "1211–1236 CE",
+    "choices": ["1206–1210 AD", "1211–1236 AD", "1236–1240 AD", "1266–1287 AD"],
+    "answer": "1211–1236 AD",
     "explanation": "Iltutmish ruled for 25 years, securing the Sultanate from Mongol threats and establishing it as a powerful empire."
   },
   {
     "question": "What was the reign period of Razia Sultan, the first female ruler?",
-    "choices": ["1210–1211 CE", "1236–1240 CE", "1240–1242 CE", "1287–1290 CE"],
-    "answer": "1236–1240 CE",
+    "choices": ["1210–1211 AD", "1236–1240 AD", "1240–1242 AD", "1287–1290 AD"],
+    "answer": "1236–1240 AD",
     "explanation": "Razia Sultan was the daughter of Iltutmish. She ruled for three and a half years before being overthrown by the nobles."
   },
   {
     "question": "When did Ghiyas ud din Balban, the famous Sultan of the Mamluk dynasty, rule?",
-    "choices": ["1240–1242 CE", "1266–1287 CE", "1290–1296 CE", "1325–1351 CE"],
-    "answer": "1266–1287 CE",
+    "choices": ["1240–1242 AD", "1266–1287 AD", "1290–1296 AD", "1325–1351 AD"],
+    "answer": "1266–1287 AD",
     "explanation": "Balban ruled as both a powerful noble and later as Sultan for 21 years, introducing the Persian custom of 'Sijda' and crushing rebellions with an iron fist."
   },
   {
     "question": "What was the reign period of Jalaluddin Firuz Khalji, the founder of the Khalji dynasty?",
-    "choices": ["1287–1290 CE", "1290–1296 CE", "1296–1316 CE", "1320–1325 CE"],
-    "answer": "1290–1296 CE",
+    "choices": ["1287–1290 AD", "1290–1296 AD", "1296–1316 AD", "1320–1325 AD"],
+    "answer": "1290–1296 AD",
     "explanation": "Jalaluddin, an elderly but gentle ruler, founded the Khalji dynasty but was assassinated by his nephew and successor, Alauddin."
   },
   {
     "question": "During which years did Alauddin Khalji, known for his market reforms and Mongol defenses, rule?",
-    "choices": ["1290–1296 CE", "1296–1316 CE", "1316–1320 CE", "1325–1351 CE"],
-    "answer": "1296–1316 CE",
+    "choices": ["1290–1296 AD", "1296–1316 AD", "1316–1320 AD", "1325–1351 AD"],
+    "answer": "1296–1316 AD",
     "explanation": "Alauddin Khalji had a highly impactful 20-year reign, known for his military conquests, economic controls, and successfully repelling multiple Mongol invasions."
   },
   {
     "question": "What was the reign period of Ghiyas ud din Tughlaq, the founder of the Tughlaq dynasty?",
-    "choices": ["1320–1325 CE", "1325–1351 CE", "1351–1388 CE", "1414–1451 CE"],
-    "answer": "1320–1325 CE",
+    "choices": ["1320–1325 AD", "1325–1351 AD", "1351–1388 AD", "1414–1451 AD"],
+    "answer": "1320–1325 AD",
     "explanation": "Ghiyas ud din Tughlaq's reign was short but notable for restoring order after the chaos following Alauddin Khalji's death. He founded the city of Tughlaqabad."
   },
   {
     "question": "When did Muhammad bin Tughlaq, known for his controversial administrative experiments, rule?",
-    "choices": ["1296–1316 CE", "1320–1325 CE", "1325–1351 CE", "1351–1388 CE"],
-    "answer": "1325–1351 CE",
+    "choices": ["1296–1316 AD", "1320–1325 AD", "1325–1351 AD", "1351–1388 AD"],
+    "answer": "1325–1351 AD",
     "explanation": "Muhammad bin Tughlaq ruled for 26 years. His ambitious but poorly executed projects, like the transfer of the capital and token currency, weakened the empire."
   },
   {
     "question": "What was the reign period of Firoz Shah Tughlaq, known for his architectural and welfare projects?",
-    "choices": ["1320–1325 CE", "1325–1351 CE", "1351–1388 CE", "1388–1414 CE"],
-    "answer": "1351–1388 CE",
+    "choices": ["1320–1325 AD", "1325–1351 AD", "1351–1388 AD", "1388–1414 AD"],
+    "answer": "1351–1388 AD",
     "explanation": "Firoz Shah Tughlaq had a long reign of 37 years, focusing on construction (canals, cities, mosques) and charity, but the empire began to disintegrate under his rule."
   },
   {
     "question": "During which years did Bahlul Lodi, the founder of the Lodi dynasty, rule?",
-    "choices": ["1414–1451 CE", "1451–1489 CE", "1489–1517 CE", "1517–1526 CE"],
-    "answer": "1451–1489 CE",
+    "choices": ["1414–1451 AD", "1451–1489 AD", "1489–1517 AD", "1517–1526 AD"],
+    "answer": "1451–1489 AD",
     "explanation": "Bahlul Lodi was an Afghan noble who founded the last dynasty of the Sultanate. He ruled for 38 years, consolidating power over much of northern India."
   },
   {
     "question": "What was the reign period of Sikandar Lodi, who moved the capital to Agra?",
-    "choices": ["1451–1489 CE", "1489–1517 CE", "1517–1526 CE", "1526–1530 CE"],
-    "answer": "1489–1517 CE",
+    "choices": ["1451–1489 AD", "1489–1517 AD", "1517–1526 AD", "1526–1530 AD"],
+    "answer": "1489–1517 AD",
     "explanation": "Sikandar Lodi ruled for 28 years. He was a capable administrator, known for patronizing culture and moving the capital from Delhi to Agra."
   },
   {
     "question": "When did Ibrahim Lodi, the last Sultan of Delhi defeated at the First Battle of Panipat, rule?",
-    "choices": ["1489–1517 CE", "1517–1526 CE", "1526–1530 CE", "1530–1556 CE"],
-    "answer": "1517–1526 CE",
+    "choices": ["1489–1517 AD", "1517–1526 AD", "1526–1530 AD", "1530–1556 AD"],
+    "answer": "1517–1526 AD",
     "explanation": "Ibrahim Lodi's contentious 9-year reign ended with his defeat and death by Babur's forces in 1526, marking the end of the Delhi Sultanate and the beginning of the Mughal Empire."
   },
   {
     "question": "What was the reign period of Babur, the founder of the Mughal Empire?",
-    "choices": ["1526–1530 CE", "1530–1540 & 1555–1556 CE", "1556–1605 CE", "1605–1627 CE"],
-    "answer": "1526–1530 CE",
+    "choices": ["1526–1530 AD", "1530–1540 & 1555–1556 AD", "1556–1605 AD", "1605–1627 AD"],
+    "answer": "1526–1530 AD",
     "explanation": "Babur established the Mughal Empire in India by defeating Ibrahim Lodi at the First Battle of Panipat in 1526. His reign was brief, lasting only four years."
   },
   {
     "question": "When did Humayun, who lost and later regained his empire, rule?",
-    "choices": ["1526–1530 CE", "1530–1540 & 1555–1556 CE", "1556–1605 CE", "1605–1627 CE"],
-    "answer": "1530–1540 & 1555–1556 CE",
+    "choices": ["1526–1530 AD", "1530–1540 & 1555–1556 AD", "1556–1605 AD", "1605–1627 AD"],
+    "answer": "1530–1540 & 1555–1556 AD",
     "explanation": "Humayun's reign was marked by his loss to Sher Shah Suri and a 15-year exile. He briefly reclaimed the throne in 1555, ruling for just a year before his death."
   },
   {
     "question": "What was the reign period of Akbar, one of the greatest Mughal emperors?",
-    "choices": ["1530–1540 CE", "1556–1605 CE", "1605–1627 CE", "1628–1658 CE"],
-    "answer": "1556–1605 CE",
+    "choices": ["1530–1540 AD", "1556–1605 AD", "1605–1627 AD", "1628–1658 AD"],
+    "answer": "1556–1605 AD",
     "explanation": "Akbar ruled for 49 years, vastly expanding the empire and establishing a centralized administrative system. His reign is considered the zenith of Mughal power and culture."
   },
   {
     "question": "During which years did Jahangir, known for his interest in art and justice, rule?",
-    "choices": ["1556–1605 CE", "1605–1627 CE", "1628–1658 CE", "1658–1707 CE"],
-    "answer": "1605–1627 CE",
+    "choices": ["1556–1605 AD", "1605–1627 AD", "1628–1658 AD", "1658–1707 AD"],
+    "answer": "1605–1627 AD",
     "explanation": "Jahangir succeeded Akbar and ruled for 22 years. His reign was noted for its stability, artistic patronage, and the powerful influence of his wife, Nur Jahan."
   },
   {
     "question": "What was the reign period of Shah Jahan, the builder of the Taj Mahal?",
-    "choices": ["1605–1627 CE", "1628–1658 CE", "1658–1707 CE", "1707–1712 CE"],
-    "answer": "1628–1658 CE",
+    "choices": ["1605–1627 AD", "1628–1658 AD", "1658–1707 AD", "1707–1712 AD"],
+    "answer": "1628–1658 AD",
     "explanation": "Shah Jahan ruled for 30 years, a period known as the Golden Age of Mughal architecture. He was deposed and imprisoned by his son Aurangzeb in 1658."
   },
   {
     "question": "When did Aurangzeb Alamgir, the last of the great Mughals, rule?",
-    "choices": ["1628–1658 CE", "1658–1707 CE", "1707–1712 CE", "1712–1713 CE"],
-    "answer": "1658–1707 CE",
+    "choices": ["1628–1658 AD", "1658–1707 AD", "1707–1712 AD", "1712–1713 AD"],
+    "answer": "1658–1707 AD",
     "explanation": "Aurangzeb had the longest reign of any Mughal emperor, ruling for 49 years. His expansionist policies and religious orthodoxy stretched the empire to its greatest extent but also sowed the seeds of its decline."
   },
   {
     "question": "What was the reign period of Bahadur Shah I, also known as Shah Alam I?",
-    "choices": ["1707–1712 CE", "1712–1713 CE", "1713–1719 CE", "1719–1748 CE"],
-    "answer": "1707–1712 CE",
+    "choices": ["1707–1712 AD", "1712–1713 AD", "1713–1719 AD", "1719–1748 AD"],
+    "answer": "1707–1712 AD",
     "explanation": "The reign of Bahadur Shah I lasted only five years. He succeeded Aurangzeb and faced immediate challenges from the Marathas and the Sikhs, marking the beginning of rapid imperial decline."
   },
   {
     "question": "During which years did Muhammad Shah 'Rangila', during whose reign Nadir Shah sacked Delhi, rule?",
-    "choices": ["1713–1719 CE", "1719–1748 CE", "1748–1754 CE", "1754–1759 CE"],
-    "answer": "1719–1748 CE",
+    "choices": ["1713–1719 AD", "1719–1748 AD", "1748–1754 AD", "1754–1759 AD"],
+    "answer": "1719–1748 AD",
     "explanation": "Muhammad Shah had a long reign of 29 years, but his pleasure-loving nature led to a weakening of central authority. The devastating sack of Delhi by the Persian invader Nadir Shah occurred in 1739."
   },
   {
     "question": "What was the reign period of Shah Alam II, who was blinded by Ghulam Qadir?",
-    "choices": ["1754–1759 CE", "1759–1806 CE", "1806–1837 CE", "1837–1857 CE"],
-    "answer": "1759–1806 CE",
+    "choices": ["1754–1759 AD", "1759–1806 AD", "1806–1837 AD", "1837–1857 AD"],
+    "answer": "1759–1806 AD",
     "explanation": "Shah Alam II's 47-year reign was a tragic period where the Mughal Emperor became a puppet under the protection of first the Marathas and later the British East India Company after the Battle of Buxar (1764)."
   },
   {
     "question": "When did Bahadur Shah Zafar, the last Mughal emperor, rule?",
-    "choices": ["1806–1837 CE", "1837–1857 CE", "1857–1858 CE", "1858–1862 CE"],
-    "answer": "1837–1857 CE",
+    "choices": ["1806–1837 AD", "1837–1857 AD", "1857–1858 AD", "1858–1862 AD"],
+    "answer": "1837–1857 AD",
     "explanation": "Bahadur Shah Zafar was a poet-emperor who ruled in name only, with his authority confined to the Red Fort. His reign effectively ended with his involvement in the Indian Rebellion of 1857, after which the British exiled him and formally abolished the empire."
   }
-  ]
-
+]
