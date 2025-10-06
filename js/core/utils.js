@@ -11,12 +11,6 @@ export const Utils = {
         return shuffled;
     },
 
-    formatTime(seconds) {
-        const mins = Math.floor(seconds / 60).toString().padStart(2, '0');
-        const secs = (seconds % 60).toString().padStart(2, '0');
-        return `${mins}:${secs}`;
-    },
-
     calculateAccuracy(score, total) {
         return total > 0 ? Math.round((score / total) * 100) : 0;
     },
