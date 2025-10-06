@@ -33,7 +33,10 @@ export class Timer {
     }
 
     getFormattedTime() {
-        return Utils.formatTime(Math.floor(this.elapsedTime / 1000));
+        const seconds = Math.floor(this.elapsedTime / 1000);
+        const mins = Math.floor(seconds / 60).toString().padStart(2, '0');
+        const secs = (seconds % 60).toString().padStart(2, '0');
+        return `${mins}:${secs}`;
     }
 
     getElapsedSeconds() {
