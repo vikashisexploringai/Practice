@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloze Test Mode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <!-- Progress Fraction -->
+        <div class="progress-fraction">
+            <span id="progress-counter">0/0</span>
+        </div>
+        
+        <!-- Timer -->
+        <div class="timer-container">
+            <span id="stopwatch">00:00</span>
+        </div>
+        
+        <!-- Question Container -->
+        <div id="question-container">
+            <div class="question-box">
+                <h2 id="question-text">Loading questions...</h2>
+            </div>
+            
+            <!-- Answer Input -->
+            <div class="cloze-input-container">
+                <input type="text" id="answer-input" placeholder="Type your answer here..." autocomplete="off">
+                <button id="submit-answer" class="glow">Submit Answer</button>
+            </div>
+            
+            <!-- Feedback -->
+            <div id="feedback-container" style="display: none;">
+                <div id="feedback-text"></div>
+                <div id="explanation-container">
+                    <p id="explanation-text"></p>
+                    <button id="next-button" class="glow">Next Question</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Result Container -->
+        <div id="result-container" style="display: none;">
+            <h2 class="glow-text">Cloze Test Complete!</h2>
+            <div class="result-stats">
+                <div class="stat-box">
+                    <span class="stat-label">Score</span>
+                    <span class="stat-value" id="score">0</span>/<span id="total">0</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-label">Time</span>
+                    <span class="stat-value" id="completion-time">00:00</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-label">Accuracy</span>
+                    <span class="stat-value" id="accuracy">0%</span>
+                </div>
+            </div>
+            <div class="result-actions">
+                <button onclick="location.reload()" class="glow">Try Again</button>
+                <button onclick="window.location.href='days.html'" class="glow">Choose Another Day</button>
+            </div>
+        </div>
+    </div>
+    <script src="cloze.js"></script>
+</body>
+</html>
