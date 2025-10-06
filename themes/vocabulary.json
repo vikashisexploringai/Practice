@@ -1,1 +1,57 @@
-
+[
+  {
+    "question": "Blunt (Meaning & Usage)",
+    "choices": [
+      "Polite and diplomatic",
+      "Direct and straightforward, often to the point of rudeness",
+      "Confusing and unclear",
+      "Highly detailed and specific"
+    ],
+    "answer": "Direct and straightforward, often to the point of rudeness",
+    "explanation": "She was too blunt when she said my presentation was boring. His blunt reply hurt my feelings."
+  },
+  {
+    "question": "Apprehension (Meaning & Usage)",
+    "choices": [
+      "Confident excitement",
+      "Anxiety or fear about something that may happen",
+      "Complete understanding",
+      "Bored indifference"
+    ],
+    "answer": "Anxiety or fear about something that may happen",
+    "explanation": "I felt some apprehension before my first day at the new job. There was apprehension in the air as we waited for the test results."
+  },
+  {
+    "question": "Furore (Meaning & Usage)",
+    "choices": [
+      "Quiet acceptance",
+      "An outbreak of public excitement or indignation",
+      "Calm discussion",
+      "Private disagreement"
+    ],
+    "answer": "An outbreak of public excitement or indignation",
+    "explanation": "The new school rules caused a furore among students. There was a furore in the media about the politician's comments."
+  },
+  {
+    "question": "Formidable (Meaning & Usage)",
+    "choices": [
+      "Weak and insignificant",
+      "Inspiring fear or respect through being powerful or capable",
+      "Friendly and approachable",
+      "Simple and easy"
+    ],
+    "answer": "Inspiring fear or respect through being powerful or capable",
+    "explanation": "The final exam was a formidable challenge for all the students. She is a formidable lawyer who has never lost a case."
+  },
+  {
+    "question": "Propping (Meaning & Usage)",
+    "choices": [
+      "Knocking down or demolishing",
+      "Supporting or keeping upright",
+      "Ignoring or neglecting",
+      "Leading or guiding"
+    ],
+    "answer": "Supporting or keeping upright",
+    "explanation": "He was propping the door open with a heavy book. The government is propping up the failing company with emergency funds."
+  }
+]
