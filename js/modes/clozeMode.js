@@ -11,7 +11,6 @@ export class ClozeMode extends BaseMode {
     setupEventListeners() {
         const submitButton = document.getElementById('submit-answer');
         const answerInput = document.getElementById('answer-input');
-        const nextButton = document.getElementById('next-button');
 
         if (submitButton) {
             submitButton.addEventListener('click', () => this.checkAnswer());
@@ -21,10 +20,6 @@ export class ClozeMode extends BaseMode {
             answerInput.addEventListener('keypress', (e) => {
                 if (e.key === 'Enter') this.checkAnswer();
             });
-        }
-
-        if (nextButton) {
-            nextButton.addEventListener('click', () => this.nextQuestion());
         }
     }
 
@@ -61,6 +56,7 @@ export class ClozeMode extends BaseMode {
         if (submitButton) {
             submitButton.disabled = false;
             submitButton.textContent = 'Submit Answer';
+            submitButton.onclick = () => this.checkAnswer();
         }
     }
 
@@ -85,13 +81,15 @@ export class ClozeMode extends BaseMode {
         const feedbackText = document.getElementById('feedback-text');
         const explanationText = document.getElementById('explanation-text');
         const submitButton = document.getElementById('submit-answer');
-        const nextButton = document.getElementById('next-button');
 
         // Disable input
         if (answerInput) answerInput.disabled = true;
+        
+        // Transform submit button into next button
         if (submitButton) {
-            submitButton.disabled = true;
-            submitButton.textContent = 'Next Question';
+            submitButton.disabled = false; // Keep it clickable
+            submitButton.textContent = this.currentQuestionIndex === this.questions.length - 1 ? 'See Results' : 'Next Question';
+            submitButton.onclick = () => this.nextQuestion(); // Change click handler
         }
 
         // Show feedback
@@ -117,21 +115,9 @@ export class ClozeMode extends BaseMode {
         if (feedbackContainer) {
             feedbackContainer.style.display = 'block';
         }
-
-        // Update next button text for last question
-        if (nextButton && this.currentQuestionIndex === this.questions.length - 1) {
-            nextButton.textContent = 'See Results';
-        }
     }
 
     nextQuestion() {
-        // Only proceed if answer was submitted
-        const answerInput = document.getElementById('answer-input');
-        if (answerInput && !answerInput.disabled && answerInput.value.trim() === '') {
-            // If no answer submitted, don't proceed
-            return;
-        }
-        
         this.currentQuestionIndex++;
         if (this.currentQuestionIndex >= this.questions.length) {
             this.completeSession();
@@ -140,45 +126,38 @@ export class ClozeMode extends BaseMode {
         }
     }
 
-showResults() {
-    const totalQuestions = this.questions.length;
-    const accuracy = Utils.calculateAccuracy(this.score, totalQuestions);
-    const time = this.timer.getFormattedTime();
-    
-    // Get theme and mode display names
-    const themeName = CONFIG.THEMES[this.theme]?.displayName || this.theme;
-    const modeName = CONFIG.MODES[this.mode]?.displayName || this.mode;
-
-    // Update result elements
-    const scoreElement = document.getElementById('score');
-    const totalElement = document.getElementById('total');
-    const timeElement = document.getElementById('completion-time');
-    const accuracyElement = document.getElementById('accuracy');
-    const questionContainer = document.getElementById('question-container');
-    const resultContainer = document.getElementById('result-container');
-
-    if (scoreElement) scoreElement.textContent = this.score;
-    if (totalElement) totalElement.textContent = totalQuestions;
-    if (timeElement) timeElement.textContent = time;
-    if (accuracyElement) accuracyElement.textContent = `${accuracy}%`;
-
-    // Add theme and mode subtitle
-    const existingSubtitle = document.getElementById('result-subtitle');
-    if (existingSubtitle) {
-        existingSubtitle.textContent = `${themeName} • ${modeName}`;
-    } else {
-        const subtitle = document.createElement('p');
-        subtitle.id = 'result-subtitle';
-        subtitle.style.cssText = 'color: #ccc; font-size: 1.2rem; margin-bottom: 2rem; opacity: 0.9;';
-        subtitle.textContent = `${themeName} • ${modeName}`;
+    showResults() {
+        const totalQuestions = this.questions.length;
+        const accuracy = Utils.calculateAccuracy(this.score, totalQuestions);
+        const time = this.timer.getFormattedTime();
         
-        const title = resultContainer.querySelector('h2');
-        if (title) {
-            title.insertAdjacentElement('afterend', subtitle);
-        }
-    }
+        const themeName = CONFIG.THEMES[this.theme]?.displayName || this.theme;
+        const modeName = CONFIG.MODES[this.mode]?.displayName || this.mode;
 
-    if (questionContainer) questionContainer.style.display = 'none';
-    if (resultContainer) resultContainer.style.display = 'block';
-}
+        // Update result elements
+        document.getElementById('score').textContent = this.score;
+        document.getElementById('total').textContent = totalQuestions;
+        document.getElementById('completion-time').textContent = time;
+        document.getElementById('accuracy').textContent = `${accuracy}%`;
+
+        // Add theme and mode subtitle
+        const resultContainer = document.getElementById('result-container');
+        const existingSubtitle = document.getElementById('result-subtitle');
+        if (existingSubtitle) {
+            existingSubtitle.textContent = `${themeName} • ${modeName}`;
+        } else {
+            const subtitle = document.createElement('p');
+            subtitle.id = 'result-subtitle';
+            subtitle.style.cssText = 'color: #ccc; font-size: 1.2rem; margin-bottom: 2rem; opacity: 0.9;';
+            subtitle.textContent = `${themeName} • ${modeName}`;
+            
+            const title = resultContainer.querySelector('h2');
+            if (title) {
+                title.insertAdjacentElement('afterend', subtitle);
+            }
+        }
+
+        document.getElementById('question-container').style.display = 'none';
+        document.getElementById('result-container').style.display = 'block';
+    }
 }
