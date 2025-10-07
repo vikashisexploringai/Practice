@@ -45,14 +45,16 @@ export const Utils = {
 validateAnswer(userAnswer, correctAnswer) {
     // Normalize both answers for comparison
     const normalizedUser = userAnswer.trim().toLowerCase()
-        .replace(/[–—]/g, '-')  // Replace en-dash and em-dash with regular hyphen
-        .replace(/\s+/g, ' ')   // Normalize spaces
-        .replace(/\s*ad\s*$/i, ' ad'); // Standardize "AD" format
+        .replace(/[–—]/g, '-')           // Replace en-dash and em-dash with regular hyphen
+        .replace(/\s+/g, ' ')            // Normalize spaces
+        .replace(/\s*-\s*/g, '-')        // ADD THIS LINE - Remove spaces around hyphens
+        .replace(/\s*ad\s*$/i, ' ad');   // Standardize "AD" format
     
     const normalizedCorrect = correctAnswer.trim().toLowerCase()
-        .replace(/[–—]/g, '-')  // Replace en-dash and em-dash with regular hyphen
-        .replace(/\s+/g, ' ')   // Normalize spaces
-        .replace(/\s*ad\s*$/i, ' ad'); // Standardize "AD" format
+        .replace(/[–—]/g, '-')           // Replace en-dash and em-dash with regular hyphen
+        .replace(/\s+/g, ' ')            // Normalize spaces
+        .replace(/\s*-\s*/g, '-')        // ADD THIS LINE - Remove spaces around hyphens
+        .replace(/\s*ad\s*$/i, ' ad');   // Standardize "AD" format
     
     console.log('Comparing:', {
         user: userAnswer,
