@@ -133,8 +133,8 @@
   },
   {
     "question": "What was Mahmud Khalji's reign period of Malwa?",
-    "choices": ["1436-69 AD", "1433-1468 AD", "1459-1511 AD", "1497-1540 AD"],
-    "answer": "1436-69 AD",
+    "choices": ["1436-1469 AD", "1433-1468 AD", "1459-1511 AD", "1497-1540 AD"],
+    "answer": "1436-1469 AD",
     "explanation": "Built the Jahaz Mahal in Mandu and fought against Rana Kumbha of Mewar."
   },
   {
