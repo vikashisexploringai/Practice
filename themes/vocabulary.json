@@ -53,5 +53,60 @@
     ],
     "answer": "Supporting or keeping upright",
     "explanation": "He was propping the door open with a heavy book. The government is propping up the failing company with emergency funds."
+  },
+  {
+    "question": "Condemn (Meaning & Usage)",
+    "choices": [
+      "To praise or approve",
+      "To express strong disapproval",
+      "To ignore or overlook",
+      "To support and encourage"
+    ],
+    "answer": "To express strong disapproval",
+    "explanation": "The mayor condemned the violence that broke out after the game. Many leaders condemned the attack on the hospital."
+  },
+  {
+    "question": "Gauge (Meaning & Usage)",
+    "choices": [
+      "To ignore completely",
+      "To measure or estimate",
+      "To destroy or break",
+      "To remember exactly"
+    ],
+    "answer": "To measure or estimate",
+    "explanation": "It's difficult to gauge how many people will attend the event. She tried to gauge his reaction by watching his face."
+  },
+  {
+    "question": "Critique (Meaning & Usage)",
+    "choices": [
+      "To praise without criticism",
+      "To evaluate and analyze critically",
+      "To copy exactly",
+      "To ignore mistakes"
+    ],
+    "answer": "To evaluate and analyze critically",
+    "explanation": "The teacher will critique our essays during class tomorrow. I asked my friend to critique my presentation before the meeting."
+  },
+  {
+    "question": "Petition (Meaning & Usage)",
+    "choices": [
+      "To ignore a request",
+      "A formal written request signed by many people",
+      "A casual suggestion",
+      "A private conversation"
+    ],
+    "answer": "A formal written request signed by many people",
+    "explanation": "They started a petition to save the local library from closing. The online petition gathered over ten thousand signatures."
+  },
+  {
+    "question": "Sway (Meaning & Usage)",
+    "choices": [
+      "To remain completely still",
+      "To influence or persuade",
+      "To ignore opinions",
+      "To follow exactly"
+    ],
+    "answer": "To influence or persuade",
+    "explanation": "Her powerful speech swayed many voters to support her campaign. The evidence presented in court swayed the jury's opinion."
   }
-]
+  ]
