@@ -10,26 +10,21 @@ export class ClozeMode extends BaseMode {
 
     setupEventListeners() {
         const submitButton = document.getElementById('submit-answer');
+        const nextButton = document.getElementById('next-button');
         const answerInput = document.getElementById('answer-input');
 
         if (submitButton) {
-            submitButton.addEventListener('click', () => this.handleButtonClick());
+            submitButton.addEventListener('click', () => this.checkAnswer());
+        }
+
+        if (nextButton) {
+            nextButton.addEventListener('click', () => this.nextQuestion());
         }
 
         if (answerInput) {
             answerInput.addEventListener('keypress', (e) => {
-                if (e.key === 'Enter') this.handleButtonClick();
+                if (e.key === 'Enter') this.checkAnswer();
             });
-        }
-    }
-
-    handleButtonClick() {
-        const submitButton = document.getElementById('submit-answer');
-        
-        if (submitButton.textContent === 'Submit Answer') {
-            this.checkAnswer();
-        } else {
-            this.nextQuestion();
         }
     }
 
@@ -53,6 +48,7 @@ export class ClozeMode extends BaseMode {
         const answerInput = document.getElementById('answer-input');
         const feedbackContainer = document.getElementById('feedback-container');
         const submitButton = document.getElementById('submit-answer');
+        const nextButton = document.getElementById('next-button');
 
         if (answerInput) {
             answerInput.value = '';
@@ -65,7 +61,13 @@ export class ClozeMode extends BaseMode {
 
         if (submitButton) {
             submitButton.disabled = false;
-            submitButton.textContent = 'Submit Answer';
+            submitButton.style.display = 'block'; // Show submit button
+        }
+
+        if (nextButton) {
+            nextButton.style.display = 'none'; // Hide next button initially
+            // Update next button text for last question
+            nextButton.textContent = this.currentQuestionIndex === this.questions.length - 1 ? 'See Results' : 'Next Question';
         }
     }
 
@@ -90,14 +92,18 @@ export class ClozeMode extends BaseMode {
         const feedbackText = document.getElementById('feedback-text');
         const explanationText = document.getElementById('explanation-text');
         const submitButton = document.getElementById('submit-answer');
+        const nextButton = document.getElementById('next-button');
 
-        // Disable input
+        // Disable input and hide submit button
         if (answerInput) answerInput.disabled = true;
-        
-        // Transform button to Next Question / See Results
         if (submitButton) {
-            submitButton.disabled = false;
-            submitButton.textContent = this.currentQuestionIndex === this.questions.length - 1 ? 'See Results' : 'Next Question';
+            submitButton.style.display = 'none'; // Hide submit button
+        }
+
+        // Show next button
+        if (nextButton) {
+            nextButton.style.display = 'block'; // Show next button
+            nextButton.disabled = false; // Ensure it's clickable
         }
 
         // Show feedback
@@ -119,7 +125,7 @@ export class ClozeMode extends BaseMode {
             explanationText.textContent = this.questions[this.currentQuestionIndex].explanation || 'No explanation available.';
         }
         
-        // Display feedback container (which contains the transformed button)
+        // Display feedback container
         if (feedbackContainer) {
             feedbackContainer.style.display = 'block';
         }
