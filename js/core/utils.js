@@ -42,16 +42,26 @@ export const Utils = {
         }
     },
 
-    validateAnswer(userAnswer, correctAnswer) {
+validateAnswer(userAnswer, correctAnswer) {
     // Normalize both answers for comparison
     const normalizedUser = userAnswer.trim().toLowerCase()
         .replace(/[–—]/g, '-')  // Replace en-dash and em-dash with regular hyphen
-        .replace(/\s+/g, ' ');   // Normalize spaces
+        .replace(/\s+/g, ' ')   // Normalize spaces
+        .replace(/\s*ad\s*$/i, ' ad'); // Standardize "AD" format
     
     const normalizedCorrect = correctAnswer.trim().toLowerCase()
         .replace(/[–—]/g, '-')  // Replace en-dash and em-dash with regular hyphen
-        .replace(/\s+/g, ' ');   // Normalize spaces
+        .replace(/\s+/g, ' ')   // Normalize spaces
+        .replace(/\s*ad\s*$/i, ' ad'); // Standardize "AD" format
+    
+    console.log('Comparing:', {
+        user: userAnswer,
+        normalizedUser: normalizedUser,
+        correct: correctAnswer,
+        normalizedCorrect: normalizedCorrect,
+        match: normalizedUser === normalizedCorrect
+    });
     
     return normalizedUser === normalizedCorrect;
-    }
+}
 };
