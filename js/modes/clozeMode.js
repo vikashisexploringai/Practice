@@ -144,12 +144,12 @@ showResults() {
     const totalQuestions = this.questions.length;
     const accuracy = Utils.calculateAccuracy(this.score, totalQuestions);
     const time = this.timer.getFormattedTime();
-
+    
     // Get theme and mode display names
     const themeName = CONFIG.THEMES[this.theme]?.displayName || this.theme;
     const modeName = CONFIG.MODES[this.mode]?.displayName || this.mode;
 
-    // Update result elements safely
+    // Update result elements
     const scoreElement = document.getElementById('score');
     const totalElement = document.getElementById('total');
     const timeElement = document.getElementById('completion-time');
@@ -180,5 +180,4 @@ showResults() {
 
     if (questionContainer) questionContainer.style.display = 'none';
     if (resultContainer) resultContainer.style.display = 'block';
-}
 }
