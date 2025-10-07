@@ -27,7 +27,7 @@
             <!-- Answer Input -->
             <div class="cloze-input-container">
                 <input type="text" id="answer-input" placeholder="Type your answer here..." autocomplete="off">
-                <button id="submit-answer" class="glow">Submit Answer</button>
+                <!-- SUBMIT BUTTON REMOVED FROM HERE -->
             </div>
             
             <!-- Feedback -->
@@ -35,7 +35,8 @@
                 <div id="feedback-text" class="feedback-text"></div>
                 <div class="explanation-box">
                     <p id="explanation-text"></p>
-                    <button id="next-button" class="glow">Next Question</button>
+                    <!-- SUBMIT/NEXT BUTTON MOVED HERE -->
+                    <button id="submit-answer" class="glow">Submit Answer</button>
                 </div>
             </div>
         </div>
@@ -44,14 +45,14 @@
         <div id="result-container" style="display: none;">
             <h2 class="glow-text">Cloze Test Complete!</h2>
             <div class="result-stats">
-              <div class="stat-box">
-    <span class="stat-label">Score</span>
-    <span class="stat-value">
-        <span id="score">0</span>
-        <span>/</span>
-        <span id="total">0</span>
-    </span>
-</div>
+                <div class="stat-box">
+                    <span class="stat-label">Score</span>
+                    <span class="stat-value">
+                        <span id="score">0</span>
+                        <span>/</span>
+                        <span id="total">0</span>
+                    </span>
+                </div>
                 <div class="stat-box">
                     <span class="stat-label">Time</span>
                     <span class="stat-value" id="completion-time">00:00</span>
