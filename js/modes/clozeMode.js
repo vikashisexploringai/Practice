@@ -13,13 +13,23 @@ export class ClozeMode extends BaseMode {
         const answerInput = document.getElementById('answer-input');
 
         if (submitButton) {
-            submitButton.addEventListener('click', () => this.checkAnswer());
+            submitButton.addEventListener('click', () => this.handleButtonClick());
         }
 
         if (answerInput) {
             answerInput.addEventListener('keypress', (e) => {
-                if (e.key === 'Enter') this.checkAnswer();
+                if (e.key === 'Enter') this.handleButtonClick();
             });
+        }
+    }
+
+    handleButtonClick() {
+        const submitButton = document.getElementById('submit-answer');
+        
+        if (submitButton.textContent === 'Submit Answer') {
+            this.checkAnswer();
+        } else {
+            this.nextQuestion();
         }
     }
 
@@ -56,7 +66,6 @@ export class ClozeMode extends BaseMode {
         if (submitButton) {
             submitButton.disabled = false;
             submitButton.textContent = 'Submit Answer';
-            submitButton.onclick = () => this.checkAnswer();
         }
     }
 
@@ -85,11 +94,10 @@ export class ClozeMode extends BaseMode {
         // Disable input
         if (answerInput) answerInput.disabled = true;
         
-        // Transform submit button into next button
+        // Transform button to Next Question / See Results
         if (submitButton) {
-            submitButton.disabled = false; // Keep it clickable
+            submitButton.disabled = false;
             submitButton.textContent = this.currentQuestionIndex === this.questions.length - 1 ? 'See Results' : 'Next Question';
-            submitButton.onclick = () => this.nextQuestion(); // Change click handler
         }
 
         // Show feedback
@@ -111,7 +119,7 @@ export class ClozeMode extends BaseMode {
             explanationText.textContent = this.questions[this.currentQuestionIndex].explanation || 'No explanation available.';
         }
         
-        // Display feedback
+        // Display feedback container (which contains the transformed button)
         if (feedbackContainer) {
             feedbackContainer.style.display = 'block';
         }
