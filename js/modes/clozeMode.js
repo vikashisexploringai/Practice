@@ -181,3 +181,4 @@ showResults() {
     if (questionContainer) questionContainer.style.display = 'none';
     if (resultContainer) resultContainer.style.display = 'block';
 }
+}
