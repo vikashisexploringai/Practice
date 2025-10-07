@@ -1,5 +1,6 @@
 import { BaseMode } from './baseMode.js';
 import { Utils } from '../core/utils.js';
+import { CONFIG } from '../core/config.js';
 
 export class ClozeMode extends BaseMode {
     constructor() {
