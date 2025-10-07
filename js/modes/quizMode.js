@@ -90,29 +90,49 @@ export class QuizMode extends BaseMode {
         }
     }
 
-    showResults() {
-        const totalQuestions = this.questions.length;
-        const accuracy = Utils.calculateAccuracy(this.score, totalQuestions);
-        const time = this.timer.getFormattedTime();
+showResults() {
+    const totalQuestions = this.questions.length;
+    const accuracy = Utils.calculateAccuracy(this.score, totalQuestions);
+    const time = this.timer.getFormattedTime();
+    
+    // Get theme and mode display names
+    const themeName = CONFIG.THEMES[this.theme]?.displayName || this.theme;
+    const modeName = CONFIG.MODES[this.mode]?.displayName || this.mode;
 
-        console.log('Showing results:', { score: this.score, total: totalQuestions, accuracy, time });
+    console.log('Showing results:', { score: this.score, total: totalQuestions, accuracy, time });
 
-        // Update result elements
-        const scoreElement = document.getElementById('score');
-        const totalElement = document.getElementById('total');
-        const timeElement = document.getElementById('completion-time');
-        const accuracyElement = document.getElementById('accuracy');
-        const questionContainer = document.getElementById('question-container');
-        const resultContainer = document.getElementById('result-container');
+    // Update result elements
+    const scoreElement = document.getElementById('score');
+    const totalElement = document.getElementById('total');
+    const timeElement = document.getElementById('completion-time');
+    const accuracyElement = document.getElementById('accuracy');
+    const questionContainer = document.getElementById('question-container');
+    const resultContainer = document.getElementById('result-container');
 
-        if (scoreElement) scoreElement.textContent = this.score;
-        if (totalElement) totalElement.textContent = totalQuestions;
-        if (timeElement) timeElement.textContent = time;
-        if (accuracyElement) accuracyElement.textContent = `${accuracy}%`;
+    if (scoreElement) scoreElement.textContent = this.score;
+    if (totalElement) totalElement.textContent = totalQuestions;
+    if (timeElement) timeElement.textContent = time;
+    if (accuracyElement) accuracyElement.textContent = `${accuracy}%`;
 
-        if (questionContainer) questionContainer.style.display = 'none';
-        if (resultContainer) resultContainer.style.display = 'block';
+    // Add theme and mode subtitle
+    const existingSubtitle = document.getElementById('result-subtitle');
+    if (existingSubtitle) {
+        existingSubtitle.textContent = `${themeName} • ${modeName}`;
+    } else {
+        const subtitle = document.createElement('p');
+        subtitle.id = 'result-subtitle';
+        subtitle.style.cssText = 'color: #ccc; font-size: 1.2rem; margin-bottom: 2rem; opacity: 0.9;';
+        subtitle.textContent = `${themeName} • ${modeName}`;
+        
+        const title = resultContainer.querySelector('h2');
+        if (title) {
+            title.insertAdjacentElement('afterend', subtitle);
+        }
     }
+
+    if (questionContainer) questionContainer.style.display = 'none';
+    if (resultContainer) resultContainer.style.display = 'block';
+}
 
     // Override completeSession to ensure results are shown
     completeSession() {
