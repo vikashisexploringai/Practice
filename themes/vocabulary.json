@@ -108,5 +108,61 @@
     ],
     "answer": "To influence or persuade",
     "explanation": "Her powerful speech swayed many voters to support her campaign. The evidence presented in court swayed the jury's opinion."
+  },
+  {
+    "question": "Alleged (Meaning & Usage)",
+    "choices": [
+      "Proven to be true",
+      "Claimed to be true but not yet proven",
+      "Known to be false",
+      "Completely forgotten"
+    ],
+    "answer": "Claimed to be true but not yet proven",
+    "explanation": "The alleged thief was arrested yesterday but hasn't gone to trial yet. The alleged sighting of a bear in the neighborhood turned out to be a large dog."
+  },
+  {
+    "question": "Peculiar (Meaning & Usage)",
+    "choices": [
+      "Completely normal",
+      "Strange or unusual",
+      "Very beautiful",
+      "Extremely common"
+    ],
+    "answer": "Strange or unusual",
+    "explanation": "He has a peculiar habit of humming when he reads. There was a peculiar smell coming from the old refrigerator."
+  },
+  {
+    "question": "Grievance (Meaning & Usage)",
+    "choices": [
+      "A feeling of gratitude",
+      "A complaint about unfair treatment",
+      "A happy memory",
+      "A formal invitation"
+    ],
+    "answer": "A complaint about unfair treatment",
+    "explanation": "The workers filed a grievance about their overtime pay. She had several grievances about how the project was managed."
+  },
+  {
+    "question": "Marsh (Meaning & Usage)",
+    "choices": [
+      "A dry desert area",
+      "A wet, muddy area of land",
+      "A snowy mountain",
+      "A sandy beach"
+    ],
+    "answer": "A wet, muddy area of land",
+    "explanation": "We saw many birds when we walked through the marsh. The marsh was filled with tall grasses and shallow water."
+  },
+  {
+    "question": "Boggle (Meaning & Usage)",
+    "choices": [
+      "To understand easily",
+      "To astonish or overwhelm the mind",
+      "To solve quickly",
+      "To ignore completely"
+    ],
+    "answer": "To astonish or overwhelm the mind",
+    "explanation": "The complexity of the math problem boggled the students. The sheer number of stars in the sky boggles the mind."
   }
-  ]
+]
+
