@@ -1,0 +1,68 @@
+[
+  {
+    "question": "Sin(A+B) = ?",
+    "choices": [
+      "Sin A Cos B + Cos A Sin B",
+      "Sin A Cos B - Cos A Sin B", 
+      "Cos A Cos B - Sin A Sin B",
+      "Cos A Cos B + Sin A Sin B"
+    ],
+    "answer": "Sin A Cos B + Cos A Sin B",
+    "explanation": "The sine addition formula is Sin(A+B) = Sin A Cos B + Cos A Sin B. This identity is used to expand the sine of a sum of two angles."
+  },
+  {
+    "question": "Sin(A-B) = ?",
+    "choices": [
+      "Sin A Cos B - Cos A Sin B",
+      "Sin A Cos B + Cos A Sin B",
+      "Cos A Cos B + Sin A Sin B",
+      "Cos A Cos B - Sin A Sin B"
+    ],
+    "answer": "Sin A Cos B - Cos A Sin B",
+    "explanation": "The sine subtraction formula is Sin(A-B) = Sin A Cos B - Cos A Sin B. Note the minus sign between the terms."
+  },
+  {
+    "question": "Cos(A+B) = ?",
+    "choices": [
+      "Cos A Cos B - Sin A Sin B",
+      "Cos A Cos B + Sin A Sin B",
+      "Sin A Cos B + Cos A Sin B",
+      "Sin A Cos B - Cos A Sin B"
+    ],
+    "answer": "Cos A Cos B - Sin A Sin B",
+    "explanation": "The cosine addition formula is Cos(A+B) = Cos A Cos B - Sin A Sin B. This identity expands the cosine of a sum of two angles."
+  },
+  {
+    "question": "Cos(A-B) = ?",
+    "choices": [
+      "Cos A Cos B + Sin A Sin B",
+      "Cos A Cos B - Sin A Sin B",
+      "Sin A Cos B - Cos A Sin B",
+      "Sin A Cos B + Cos A Sin B"
+    ],
+    "answer": "Cos A Cos B + Sin A Sin B",
+    "explanation": "The cosine subtraction formula is Cos(A-B) = Cos A Cos B + Sin A Sin B. Note the plus sign between the terms."
+  },
+  {
+    "question": "Tan(A+B) = ?",
+    "choices": [
+      "(Tan A + Tan B) / (1 - Tan A Tan B)",
+      "(Tan A - Tan B) / (1 + Tan A Tan B)",
+      "(Tan A + Tan B) / (1 + Tan A Tan B)",
+      "(Tan A - Tan B) / (1 - Tan A Tan B)"
+    ],
+    "answer": "(Tan A + Tan B) / (1 - Tan A Tan B)",
+    "explanation": "The tangent addition formula is Tan(A+B) = (Tan A + Tan B) / (1 - Tan A Tan B). Note the plus sign in numerator and minus sign in denominator."
+  },
+  {
+    "question": "Tan(A-B) = ?",
+    "choices": [
+      "(Tan A - Tan B) / (1 + Tan A Tan B)",
+      "(Tan A + Tan B) / (1 - Tan A Tan B)",
+      "(Tan A - Tan B) / (1 - Tan A Tan B)",
+      "(Tan A + Tan B) / (1 + Tan A Tan B)"
+    ],
+    "answer": "(Tan A - Tan B) / (1 + Tan A Tan B)",
+    "explanation": "The tangent subtraction formula is Tan(A-B) = (Tan A - Tan B) / (1 + Tan A Tan B). Note the minus sign in numerator and plus sign in denominator."
+  }
+]
