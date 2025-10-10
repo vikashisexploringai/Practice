@@ -163,6 +163,61 @@
     ],
     "answer": "To astonish or overwhelm the mind",
     "explanation": "The complexity of the math problem boggled the students. The sheer number of stars in the sky boggles the mind."
+  },
+  {
+    "question": "Patriarch (Meaning & Usage)",
+    "choices": [
+      "A young male leader",
+      "The male head of a family or tribe",
+      "A female ruler",
+      "A government official"
+    ],
+    "answer": "The male head of a family or tribe",
+    "explanation": "The patriarch of the family made all the important decisions. Everyone gathered to celebrate the patriarch's 90th birthday."
+  },
+  {
+    "question": "Hatch (Meaning & Usage)",
+    "choices": [
+      "To break out of an egg",
+      "To bury something deep",
+      "To destroy completely",
+      "To paint a surface"
+    ],
+    "answer": "To break out of an egg",
+    "explanation": "We watched the baby chicks hatch from their eggs. The turtle eggs will hatch in about two months."
+  },
+  {
+    "question": "Veil (Meaning & Usage)",
+    "choices": [
+      "To reveal clearly",
+      "To cover or conceal",
+      "To decorate brightly",
+      "To destroy completely"
+    ],
+    "answer": "To cover or conceal",
+    "explanation": "The morning fog began to veil the mountains in the distance. She wore a veil that covered her face during the ceremony."
+  },
+  {
+    "question": "Rhetoric (Meaning & Usage)",
+    "choices": [
+      "Simple, direct language",
+      "Persuasive speaking or writing",
+      "Musical performance",
+      "Scientific research"
+    ],
+    "answer": "Persuasive speaking or writing",
+    "explanation": "The politician's rhetoric inspired many young voters. Her speech was full of powerful rhetoric about equality."
+  },
+  {
+    "question": "Replicate (Meaning & Usage)",
+    "choices": [
+      "To destroy something",
+      "To make an exact copy",
+      "To criticize harshly",
+      "To ignore completely"
+    ],
+    "answer": "To make an exact copy",
+    "explanation": "Scientists tried to replicate the experiment's results. The artist could replicate any painting with perfect accuracy."
   }
-]
+  ]
 
