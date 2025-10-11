@@ -218,6 +218,61 @@
     ],
     "answer": "To make an exact copy",
     "explanation": "Scientists tried to replicate the experiment's results. The artist could replicate any painting with perfect accuracy."
+  },
+  {
+    "question": "Overwhelm (Meaning & Usage)",
+    "choices": [
+      "To make someone feel calm and relaxed",
+      "To give too much of something to someone",
+      "To ignore someone completely",
+      "To help someone with a small task"
+    ],
+    "answer": "To give too much of something to someone",
+    "explanation": "The teacher tried not to overwhelm the students with homework. The sudden news of the promotion overwhelmed him with emotion."
+  },
+  {
+    "question": "Cohesion (Meaning & Usage)",
+    "choices": [
+      "The act of falling apart",
+      "The action or state of sticking together",
+      "The process of separating",
+      "The state of being confused"
+    ],
+    "answer": "The action or state of sticking together",
+    "explanation": "The team's cohesion helped them win the championship. A good leader creates cohesion among team members."
+  },
+  {
+    "question": "Arbitration (Meaning & Usage)",
+    "choices": [
+      "A formal court trial",
+      "The process of solving a disagreement outside of court",
+      "A public debate",
+      "A private conversation"
+    ],
+    "answer": "The process of solving a disagreement outside of court",
+    "explanation": "The two companies used arbitration to settle their contract dispute. Many employment contracts require arbitration instead of lawsuits."
+  },
+  {
+    "question": "Abrogate (Meaning & Usage)",
+    "choices": [
+      "To formally approve a law",
+      "To officially cancel a law or agreement",
+      "To slightly modify a rule",
+      "To temporarily pause a contract"
+    ],
+    "answer": "To officially cancel a law or agreement",
+    "explanation": "The government decided to abrogate the old trade agreement. The new president moved to abrogate several international treaties."
+  },
+  {
+    "question": "Envisage (Meaning & Usage)",
+    "choices": [
+      "To forget completely",
+      "To imagine or form a mental picture of something",
+      "To criticize harshly",
+      "To copy exactly"
+    ],
+    "answer": "To imagine or form a mental picture of something",
+    "explanation": "It's hard to envisage what life will be like in 50 years. The architect envisaged a modern building with lots of glass."
   }
   ]
 
