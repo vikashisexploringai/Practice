@@ -273,6 +273,61 @@
     ],
     "answer": "To imagine or form a mental picture of something",
     "explanation": "It's hard to envisage what life will be like in 50 years. The architect envisaged a modern building with lots of glass."
+  },
+  {
+    "question": "Lampoon (Meaning & Usage)",
+    "choices": [
+      "To praise highly",
+      "To publicly criticize using humor",
+      "To ignore completely",
+      "To support strongly"
+    ],
+    "answer": "To publicly criticize using humor",
+    "explanation": "The comedy show lampooned the president's speaking style. The cartoon lampooned the company's failed product launch."
+  },
+  {
+    "question": "Mock (Meaning & Usage)",
+    "choices": [
+      "To praise sincerely",
+      "To make fun of or tease",
+      "To help someone learn",
+      "To agree with completely"
+    ],
+    "answer": "To make fun of or tease",
+    "explanation": "The other children mocked him for his unusual haircut. She mocked his attempt to cook dinner."
+  },
+  {
+    "question": "Lament (Meaning & Usage)",
+    "choices": [
+      "To celebrate happily",
+      "To express sadness or regret",
+      "To ignore feelings",
+      "To laugh loudly"
+    ],
+    "answer": "To express sadness or regret",
+    "explanation": "She lamented the loss of her favorite childhood park. He lamented that he had not studied harder for the exam."
+  },
+  {
+    "question": "Persuade (Meaning & Usage)",
+    "choices": [
+      "To force someone to do something",
+      "To convince someone to do something",
+      "To ignore someone's opinion",
+      "To disagree strongly"
+    ],
+    "answer": "To convince someone to do something",
+    "explanation": "She persuaded her friends to come to the party. He persuaded his boss to give him a raise."
+  },
+  {
+    "question": "Indignation (Meaning & Usage)",
+    "choices": [
+      "Calm acceptance",
+      "Anger about something unfair",
+      "Happy excitement",
+      "Peaceful feeling"
+    ],
+    "answer": "Anger about something unfair",
+    "explanation": "He felt great indignation when he saw someone cutting in line. Her voice was full of indignation as she described the unfair treatment."
   }
-  ]
+    ]
 
