@@ -29,7 +29,7 @@ export const CONFIG = {
             description: 'Tap to reveal answers',
             supportsDays: true,
             customPage: 'flashcard.html',
-            supportsAccumulative: true  // Add this
+            supportsAccumulative: false  // Add this
         },
         'cloze': {
             displayName: 'Cloze Test Mode',
