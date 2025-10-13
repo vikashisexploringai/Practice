@@ -328,6 +328,82 @@
     ],
     "answer": "Anger about something unfair",
     "explanation": "He felt great indignation when he saw someone cutting in line. Her voice was full of indignation as she described the unfair treatment."
+  },
+  {
+    "question": "Robust (Meaning & Usage)",
+    "choices": [
+      "Weak and fragile",
+      "Strong and healthy",
+      "Simple and plain",
+      "Temporary and short-lived"
+    ],
+    "answer": "Strong and healthy",
+    "explanation": "The old bridge was surprisingly robust after all these years. She has a robust immune system that fights off colds easily."
+  },
+  {
+    "question": "Perplex (Meaning & Usage)",
+    "choices": [
+      "To make someone very happy",
+      "To confuse or puzzle someone",
+      "To explain clearly",
+      "To agree with someone"
+    ],
+    "answer": "To confuse or puzzle someone",
+    "explanation": "The complicated instructions perplexed the new students. His strange behavior perplexed his friends."
+  },
+  {
+    "question": "Inflammatory (Meaning & Usage)",
+    "choices": [
+      "Calming and peaceful",
+      "Causing anger or violence",
+      "Healing and soothing",
+      "Boring and uninteresting"
+    ],
+    "answer": "Causing anger or violence",
+    "explanation": "The politician's inflammatory speech caused protests in the streets. His inflammatory comments made the argument worse."
+  },
+  {
+    "question": "Voyage (Meaning & Usage)",
+    "choices": [
+      "A short walk",
+      "A long journey by sea or space",
+      "A quick visit",
+      "A routine trip"
+    ],
+    "answer": "A long journey by sea or space",
+    "explanation": "The ship began its voyage across the Atlantic Ocean. The astronauts prepared for their voyage to the moon."
+  },
+  {
+    "question": "Fateful (Meaning & Usage)",
+    "choices": [
+      "Unimportant and forgotten",
+      "Having important consequences",
+      "Lucky and fortunate",
+      "Ordinary and routine"
+    ],
+    "answer": "Having important consequences",
+    "explanation": "It was a fateful decision that changed his life forever. Their fateful meeting led to a lifelong friendship."
+  },
+  {
+    "question": "Semblance (Meaning & Usage)",
+    "choices": [
+      "Complete reality",
+      "An outward appearance that may be false",
+      "A detailed explanation",
+      "A hidden truth"
+    ],
+    "answer": "An outward appearance that may be false",
+    "explanation": "She tried to maintain a semblance of calm during the crisis. The town returned to some semblance of normalcy after the storm."
+  },
+  {
+    "question": "Conspiracy (Meaning & Usage)",
+    "choices": [
+      "An official agreement",
+      "A secret plan to do something harmful",
+      "An open discussion",
+      "A legal contract"
+    ],
+    "answer": "A secret plan to do something harmful",
+    "explanation": "The police discovered a conspiracy to rob the bank. He believed in a conspiracy to hide the truth about the incident."
   }
-    ]
-
+  ]
