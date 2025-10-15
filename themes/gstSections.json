@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Section 1",
+    "choices": [
+      "Short title, extent and commencement",
+      "Definitions",
+      "Appointment of officers",
+      "Levy and collection of tax"
+    ],
+    "answer": "Short title, extent and commencement"
+  },
+  {
+    "question": "Section 2",
+    "choices": [
+      "Short title, extent and commencement",
+      "Definitions",
+      "Levy and collection of tax",
+      "Power to make rules"
+    ],
+    "answer": "Definitions"
+  },
+  {
+    "question": "Section 3",
+    "choices": [
+      "Officers under GST Act",
+      "Appointment of officers",
+      "Power to grant exemption",
+      "Compulsory registration"
+    ],
+    "answer": "Officers under GST Act"
+  },
+  {
+    "question": "Section 4",
+    "choices": [
+      "Appointment of officers",
+      "Levy of fee",
+      "Composition levy",
+      "Accounts and other records"
+    ],
+    "answer": "Appointment of officers"
+  },
+  {
+    "question": "Section 5",
+    "choices": [
+      "Powers of officers under GST",
+      "Authorisation of officers",
+      "Advance ruling",
+      "Cancellation of registration"
+    ],
+    "answer": "Powers of officers under GST"
+  },
+  {
+    "question": "Section 6",
+    "choices": [
+      "Authorisation of officers of State tax or Union territory tax as proper officer in certain circumstances",
+      "Appointment of officers",
+      "Power of inspection",
+      "Composition levy"
+    ],
+    "answer": "Authorisation of officers of State tax or Union territory tax as proper officer in certain circumstances"
+  },
+  {
+    "question": "Section 7",
+    "choices": [
+      "Scope of supply under GST Regime",
+      "Tax invoice",
+      "Apportionment of credit",
+      "Offences and penalties"
+    ],
+    "answer": "Scope of supply under GST Regime"
+  },
+  {
+    "question": "Section 8",
+    "choices": [
+      "Tax liability on composite and mixed supplies",
+      "Input tax credit in special cases",
+      "Job work procedures",
+      "Levy and collection"
+    ],
+    "answer": "Tax liability on composite and mixed supplies"
+  },
+  {
+    "question": "Section 9",
+    "choices": [
+      "Levy and collection",
+      "Eligibility for registration",
+      "Advance ruling procedure",
+      "Accounts and records"
+    ],
+    "answer": "Levy and collection"
+  },
+  {
+    "question": "Section 10",
+    "choices": [
+      "Composition levy",
+      "Input tax credit",
+      "Transitional provisions",
+      "Assessment of non-filers"
+    ],
+    "answer": "Composition levy"
+  },
+  {
+    "question": "Section 11",
+    "choices": [
+      "Power to grant exemption from tax",
+      "Officer assistance",
+      "Audit",
+      "Compulsory registration"
+    ],
+    "answer": "Power to grant exemption from tax"
+  },
+  {
+    "question": "Section 12",
+    "choices": [
+      "Time of supply of goods",
+      "Tax invoice",
+      "Refund of tax",
+      "Advance ruling"
+    ],
+    "answer": "Time of supply of goods"
+  },
+  {
+    "question": "Section 13",
+    "choices": [
+      "Time of supply of services",
+      "Power to grant exemption",
+      "Powers of officers",
+      "Composition levy"
+    ],
+    "answer": "Time of supply of services"
+  },
+  {
+    "question": "Section 14",
+    "choices": [
+      "Change in rate of tax in respect of supply of goods or services",
+      "Inspection of goods in movement",
+      "Liability in case of transfer of business",
+      "Final return"
+    ],
+    "answer": "Change in rate of tax in respect of supply of goods or services"
+  },
+  {
+    "question": "Section 15",
+    "choices": [
+      "Value of taxable supply",
+      "Accounts and other records",
+      "Confiscation of goods",
+      "Time of supply of goods"
+    ],
+    "answer": "Value of taxable supply"
+  },
+  {
+    "question": "Section 16",
+    "choices": [
+      "Eligibility and conditions for taking input tax credit",
+      "Audit by tax authorities",
+      "Scope of supply",
+      "Penalty for offences"
+    ],
+    "answer": "Eligibility and conditions for taking input tax credit"
+  },
+  {
+    "question": "Section 17",
+    "choices": [
+      "Apportionment of credit and blocked credits",
+      "Time of supply",
+      "Accounts and records",
+      "Matching and reversal of credit"
+    ],
+    "answer": "Apportionment of credit and blocked credits"
+  },
+  {
+    "question": "Section 18",
+    "choices": [
+      "Availability of credit in special circumstances",
+      "Zero rated supply",
+      "Power to summon persons",
+      "Levy and collection"
+    ],
+    "answer": "Availability of credit in special circumstances"
+  },
+  {
+    "question": "Section 19",
+    "choices": [
+      "Input tax credit for job work",
+      "Notice to return defaulters",
+      "Advance ruling authority",
+      "Penalty for offences"
+    ],
+    "answer": "Taking input tax credit in respect of inputs and capital goods sent for job work"
+  },
+  {
+    "question": "Section 20",
+    "choices": [
+      "Manner of distribution of credit by Input Service Distributor",
+      "Notices and orders",
+      "Levy and collection",
+      "Assessment of unregistered persons"
+    ],
+    "answer": "Manner of distribution of credit by Input Service Distributor"
+  }
+]
