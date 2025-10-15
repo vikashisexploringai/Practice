@@ -537,5 +537,38 @@
     ],
     "answer": "To force someone to leave a property",
     "explanation": "The landlord had to evict the tenants for not paying rent. They were evicted from their apartment after many complaints."
+  },
+  {
+    "question": "Aggregate (Meaning & Usage)",
+    "choices": [
+      "To separate into individual parts",
+      "To collect or combine into a whole",
+      "To reduce in size or amount",
+      "To analyze in great detail"
+    ],
+    "answer": "To collect or combine into a whole",
+    "explanation": "The app aggregates news from many different sources. We need to aggregate all the data before we can analyze it."
+  },
+  {
+    "question": "Lucrative (Meaning & Usage)",
+    "choices": [
+      "Causing financial loss",
+      "Producing a great deal of profit",
+      "Risky and uncertain",
+      "Charitable and non-profit"
+    ],
+    "answer": "Producing a great deal of profit",
+    "explanation": "He left his job for a more lucrative position at a tech company. Selling handmade crafts online became a lucrative business for her."
+  },
+  {
+    "question": "Encroach (Meaning & Usage)",
+    "choices": [
+      "To respect boundaries carefully",
+      "To gradually intrude on someone's territory or rights",
+      "To withdraw or move away",
+      "To protect an area from outsiders"
+    ],
+    "answer": "To gradually intrude on someone's territory or rights",
+    "explanation": "The construction began to encroach on the protected forest land. She felt her boss was encroaching on her personal time with constant emails."
   }
 ]
