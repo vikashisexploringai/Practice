@@ -405,5 +405,137 @@
     ],
     "answer": "A secret plan to do something harmful",
     "explanation": "The police discovered a conspiracy to rob the bank. He believed in a conspiracy to hide the truth about the incident."
+  },
+  {
+    "question": "Prerequisite (Meaning & Usage)",
+    "choices": [
+      "Something that happens after an event",
+      "Something required before something else can happen",
+      "An optional extra activity",
+      "An unexpected result"
+    ],
+    "answer": "Something required before something else can happen",
+    "explanation": "Passing the basic course is a prerequisite for the advanced class. A driver's license is a prerequisite for delivering pizzas."
+  },
+  {
+    "question": "Repercussions (Meaning & Usage)",
+    "choices": [
+      "The immediate causes of an event",
+      "The unintended consequences of an action",
+      "The planned outcomes of a project",
+      "The main benefits of a decision"
+    ],
+    "answer": "The unintended consequences of an action",
+    "explanation": "He didn't consider the repercussions of skipping his final exam. The new law had serious repercussions for small business owners."
+  },
+  {
+    "question": "Futility (Meaning & Usage)",
+    "choices": [
+      "The quality of being highly effective",
+      "The pointlessness or uselessness of an effort",
+      "The great importance of a task",
+      "The certainty of success"
+    ],
+    "answer": "The pointlessness or uselessness of an effort",
+    "explanation": "He soon realized the futility of arguing with his stubborn friend. She felt the futility of trying to clean during the dust storm."
+  },
+  {
+    "question": "Maul (Meaning & Usage)",
+    "choices": [
+      "To gently care for something",
+      "To savagely attack or injure",
+      "To carefully build something",
+      "To peacefully observe something"
+    ],
+    "answer": "To savagely attack or injure",
+    "explanation": "The bear began to maul the hiker who got too close. The critics mauled the author's new book in their reviews."
+  },
+  {
+    "question": "Virulent (Meaning & Usage)",
+    "choices": [
+      "Mild and harmless",
+      "Extremely severe or poisonous",
+      "Healthy and strong",
+      "Gentle and kind"
+    ],
+    "answer": "Extremely severe or poisonous",
+    "explanation": "The patient contracted a virulent strain of the flu. She faced virulent criticism for her controversial opinions."
+  },
+  {
+    "question": "Savage (Meaning & Usage)",
+    "choices": [
+      "Gentle and kind",
+      "Fierce, violent, or cruel",
+      "Polite and respectful",
+      "Calm and peaceful"
+    ],
+    "answer": "Fierce, violent, or cruel",
+    "explanation": "The savage storm destroyed several homes along the coast. The boxer launched a savage attack in the final round."
+  },
+  {
+    "question": "Severe (Meaning & Usage)",
+    "choices": [
+      "Mild and gentle",
+      "Very great; intense or harsh",
+      "Slightly noticeable",
+      "Comfortable and easy"
+    ],
+    "answer": "Very great; intense or harsh",
+    "explanation": "The drought caused severe water shortages in the region. He received a severe punishment for breaking the rules."
+  },
+  {
+    "question": "Embolden (Meaning & Usage)",
+    "choices": [
+      "To make someone afraid",
+      "To give someone courage or confidence",
+      "To discourage someone",
+      "To confuse someone"
+    ],
+    "answer": "To give someone courage or confidence",
+    "explanation": "Her early success emboldened her to try more difficult challenges. The supportive crowd emboldened the shy singer."
+  },
+  {
+    "question": "Proponent (Meaning & Usage)",
+    "choices": [
+      "A person who is against something",
+      "A person who supports a cause or idea",
+      "A neutral observer",
+      "An undecided voter"
+    ],
+    "answer": "A person who supports a cause or idea",
+    "explanation": "She is a strong proponent of renewable energy sources. He was a leading proponent of the new education policy."
+  },
+  {
+    "question": "Promulgate (Meaning & Usage)",
+    "choices": [
+      "To keep something secret",
+      "To promote or make widely known",
+      "To hide information",
+      "To forget an idea"
+    ],
+    "answer": "To promote or make widely known",
+    "explanation": "The government promulgated the new safety regulations. The company promulgated its values through training sessions."
+  },
+  {
+    "question": "Wreck (Meaning & Usage)",
+    "choices": [
+      "To build or create",
+      "To destroy or ruin badly",
+      "To repair carefully",
+      "To preserve perfectly"
+    ],
+    "answer": "To destroy or ruin badly",
+    "explanation": "The hurricane could wreck the small coastal town. One mistake could wreck his chances of getting the job."
+  },
+  {
+    "question": "Evict (Meaning & Usage)",
+    "choices": [
+      "To invite someone in",
+      "To force someone to leave a property",
+      "To welcome someone warmly",
+      "To help someone move in"
+    ],
+    "answer": "To force someone to leave a property",
+    "explanation": "The landlord had to evict the tenants for not paying rent. They were evicted from their apartment after many complaints."
   }
-  ]
+]
