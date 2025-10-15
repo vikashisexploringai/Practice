@@ -198,5 +198,975 @@
       "Assessment of unregistered persons"
     ],
     "answer": "Manner of distribution of credit by Input Service Distributor"
+  },
+  {
+    "question": "Section 21",
+    "choices": [
+      "Manner of recovery of credit distributed in excess",
+      "Persons liable for registration",
+      "Cancellation or suspension of registration",
+      "Levy and collection"
+    ],
+    "answer": "Manner of recovery of credit distributed in excess"
+  },
+  {
+    "question": "Section 22",
+    "choices": [
+      "Registration of persons liable for registration",
+      "Special provisions relating to casual taxable person",
+      "Power of inspection, search and seizure",
+      "Refund of tax"
+    ],
+    "answer": "Registration of persons liable for registration"
+  },
+  {
+    "question": "Section 23",
+    "choices": [
+      "Persons not liable for registration",
+      "Cancellation or suspension of registration",
+      "Accounts and other records",
+      "Furnishing of returns"
+    ],
+    "answer": "Persons not liable for registration"
+  },
+  {
+    "question": "Section 24",
+    "choices": [
+      "Compulsory registration in certain cases",
+      "Matching, reversal and reclaim of input tax credit",
+      "Final return",
+      "Interest on delayed payment"
+    ],
+    "answer": "Compulsory registration in certain cases"
+  },
+  {
+    "question": "Section 25",
+    "choices": [
+      "Procedure for registration",
+      "Power to grant exemption from tax",
+      "Audit by tax authorities",
+      "Recovery of tax"
+    ],
+    "answer": "Procedure for registration"
+  },
+  {
+    "question": "Section 26",
+    "choices": [
+      "Deemed registration",
+      "Time of supply of goods",
+      "Penalty for offences",
+      "Power to arrest"
+    ],
+    "answer": "Deemed registration"
+  },
+  {
+    "question": "Section 27",
+    "choices": [
+      "Special provisions relating to casual taxable person and non-resident taxable person",
+      "Time of supply of services",
+      "Composition levy",
+      "Eligibility for input tax credit"
+    ],
+    "answer": "Special provisions relating to casual taxable person and non-resident taxable person"
+  },
+  {
+    "question": "Section 28",
+    "choices": [
+      "Amendment of registration",
+      "Refund of tax",
+      "Notice to return defaulters",
+      "Power to summon persons"
+    ],
+    "answer": "Amendment of registration"
+  },
+  {
+    "question": "Section 29",
+    "choices": [
+      "Cancellation or suspension of registration",
+      "Value of taxable supply",
+      "Levy and collection",
+      "Input tax credit"
+    ],
+    "answer": "Cancellation or suspension of registration"
+  },
+  {
+    "question": "Section 30",
+    "choices": [
+      "Revocation of cancellation of registration",
+      "Change in rate of tax",
+      "Time of supply",
+      "Audit"
+    ],
+    "answer": "Revocation of cancellation of registration"
+  },
+  {
+    "question": "Section 31",
+    "choices": [
+      "Tax invoice",
+      "Offences and penalties",
+      "Refund of tax",
+      "Period of retention of accounts"
+    ],
+    "answer": "Tax invoice"
+  },
+  {
+    "question": "Section 32",
+    "choices": [
+      "Prohibition of unauthorised collection of tax",
+      "Claims of input tax credit",
+      "Power to transfer proceedings",
+      "Assessment of unregistered persons"
+    ],
+    "answer": "Prohibition of unauthorised collection of tax"
+  },
+  {
+    "question": "Section 33",
+    "choices": [
+      "Amount of tax to be indicated in tax invoice and other documents",
+      "Registration procedure",
+      "Notice to defaulters",
+      "Fine for offences"
+    ],
+    "answer": "Amount of tax to be indicated in tax invoice and other documents"
+  },
+  {
+    "question": "Section 34",
+    "choices": [
+      "Credit and debit notes",
+      "Special audit",
+      "Refund procedure",
+      "Approval of officers"
+    ],
+    "answer": "Credit and debit notes"
+  },
+  {
+    "question": "Section 35",
+    "choices": [
+      "Accounts and other records",
+      "Filing of returns",
+      "Power of inspection",
+      "Audit by authorities"
+    ],
+    "answer": "Accounts and other records"
+  },
+  {
+    "question": "Section 36",
+    "choices": [
+      "Period of retention of accounts",
+      "Refund of tax",
+      "Tax deduction at source",
+      "Power to arrest"
+    ],
+    "answer": "Period of retention of accounts"
+  },
+  {
+    "question": "Section 37",
+    "choices": [
+      "Furnishing details of outward supplies",
+      "Compulsory registration",
+      "Penalty for offences",
+      "Deemed registration"
+    ],
+    "answer": "Furnishing details of outward supplies"
+  },
+  {
+    "question": "Section 38",
+    "choices": [
+      "Furnishing details of inward supplies",
+      "Eligibility for input tax credit",
+      "Power to grant exemption",
+      "Confiscation of goods"
+    ],
+    "answer": "Furnishing details of inward supplies"
+  },
+  {
+    "question": "Section 39",
+    "choices": [
+      "Furnishing of returns",
+      "Jurisdiction of officers",
+      "Power to impose restrictions",
+      "Audit procedures"
+    ],
+    "answer": "Furnishing of returns"
+  },
+  {
+    "question": "Section 40",
+    "choices": [
+      "First return",
+      "Summary assessment",
+      "Offences and penalties",
+      "Transfer of input tax credit"
+    ],
+    "answer": "First return"
+  },
+  {
+    "question": "Section 41",
+    "choices": [
+      "Claim of input tax credit and provisional acceptance thereof",
+      "Power to arrest",
+      "Levy and collection",
+      "Registration procedure"
+    ],
+    "answer": "Claim of input tax credit and provisional acceptance thereof"
+  },
+  {
+    "question": "Section 42",
+    "choices": [
+      "Matching, reversal and reclaim of input tax credit",
+      "Payment of tax",
+      "Furnishing of returns",
+      "Audit by tax authorities"
+    ],
+    "answer": "Matching, reversal and reclaim of input tax credit"
+  },
+  {
+    "question": "Section 43",
+    "choices": [
+      "Matching, reversal and reclaim of reduction in output tax liability",
+      "Composition levy",
+      "Confiscation of goods",
+      "Offences and penalties"
+    ],
+    "answer": "Matching, reversal and reclaim of reduction in output tax liability"
+  },
+  {
+    "question": "Section 44",
+    "choices": [
+      "Annual return",
+      "Power to make rules",
+      "Tax deduction at source",
+      "Refund of tax"
+    ],
+    "answer": "Annual return"
+  },
+  {
+    "question": "Section 45",
+    "choices": [
+      "Final return",
+      "Provisional assessment",
+      "Tax invoice",
+      "Appointment of officers"
+    ],
+    "answer": "Final return"
+  },
+  {
+    "question": "Section 46",
+    "choices": [
+      "Notice to return defaulters",
+      "Payment in instalments",
+      "Power to impose restrictions",
+      "Inspection of goods"
+    ],
+    "answer": "Notice to return defaulters"
+  },
+  {
+    "question": "Section 47",
+    "choices": [
+      "Levy of late fee",
+      "Refund procedure",
+      "Power of inspection",
+      "Advance ruling"
+    ],
+    "answer": "Levy of late fee"
+  },
+  {
+    "question": "Section 48",
+    "choices": [
+      "Goods and services tax practitioners",
+      "Tax deduction at source",
+      "Cancellation of registration",
+      "Audit by authorities"
+    ],
+    "answer": "Goods and services tax practitioners"
+  },
+  {
+    "question": "Section 49",
+    "choices": [
+      "Payment of tax, interest, penalty and other amounts",
+      "Claim of input tax credit",
+      "Jurisdiction of officers",
+      "Refund of tax"
+    ],
+    "answer": "Payment of tax, interest, penalty and other amounts"
+  },
+  {
+    "question": "Section 50",
+    "choices": [
+      "Interest on delayed payment of tax",
+      "Levy and collection",
+      "Power to summon",
+      "Power to arrest"
+    ],
+    "answer": "Interest on delayed payment of tax"
+  },
+  {
+    "question": "Section 51",
+    "choices": [
+      "Tax deduction at source",
+      "Matching and reversal of input tax credit",
+      "Furnishing details of supplies",
+      "Eligibility for registration"
+    ],
+    "answer": "Tax deduction at source"
+  },
+  {
+    "question": "Section 52",
+    "choices": [
+      "Collection of tax at source",
+      "Refund of tax",
+      "Penalty for offences",
+      "Special audit"
+    ],
+    "answer": "Collection of tax at source"
+  },
+  {
+    "question": "Section 53",
+    "choices": [
+      "Transfer of input tax credit",
+      "Payment of tax in instalments",
+      "Appeal to Appellate Tribunal",
+      "Audit by tax authorities"
+    ],
+    "answer": "Transfer of input tax credit"
+  },
+  {
+    "question": "Section 54",
+    "choices": [
+      "Refund of tax",
+      "Levy of late fee",
+      "Liability in case of transfer of business",
+      "Change in rate of tax"
+    ],
+    "answer": "Refund of tax"
+  },
+  {
+    "question": "Section 55",
+    "choices": [
+      "Refund in certain cases",
+      "Assessment of unregistered persons",
+      "Determination of tax",
+      "Confiscation of goods"
+    ],
+    "answer": "Refund in certain cases"
+  },
+  {
+    "question": "Section 56",
+    "choices": [
+      "Interest on delayed refunds",
+      "Power to arrest",
+      "Penalty for offences",
+      "Power to grant exemption"
+    ],
+    "answer": "Interest on delayed refunds"
+  },
+  {
+    "question": "Section 57",
+    "choices": [
+      "Consumer Welfare Fund",
+      "Special courts",
+      "Tax to be first charge on property",
+      "Power to arrest"
+    ],
+    "answer": "Consumer Welfare Fund"
+  },
+  {
+    "question": "Section 58",
+    "choices": [
+      "Utilisation of Fund",
+      "Recovery of tax",
+      "Appeals and revision",
+      "Tax deduction at source"
+    ],
+    "answer": "Utilisation of Fund"
+  },
+  {
+    "question": "Section 59",
+    "choices": [
+      "Self-assessment",
+      "Tax invoice",
+      "Advance ruling",
+      "Refund procedure"
+    ],
+    "answer": "Self-assessment"
+  },
+  {
+    "question": "Section 60",
+    "choices": [
+      "Provisional assessment",
+      "Compounding of offences",
+      "Furnishing details of supplies",
+      "Levy and collection"
+    ],
+    "answer": "Provisional assessment"
+  },
+  {
+    "question": "Section 61",
+    "choices": [
+      "Scrutiny of returns",
+      "Matching and reversal",
+      "Levy of late fee",
+      "Recovery of tax"
+    ],
+    "answer": "Scrutiny of returns"
+  },
+  {
+    "question": "Section 62",
+    "choices": [
+      "Assessment of non-filers of returns",
+      "First return",
+      "Tax deduction at source",
+      "Assessment of unregistered persons"
+    ],
+    "answer": "Assessment of non-filers of returns"
+  },
+  {
+    "question": "Section 63",
+    "choices": [
+      "Assessment of unregistered persons",
+      "Special audit",
+      "Refund of tax",
+      "Advance ruling"
+    ],
+    "answer": "Assessment of unregistered persons"
+  },
+  {
+    "question": "Section 64",
+    "choices": [
+      "Summary assessment in certain special cases",
+      "Power to summon persons",
+      "Confiscation of goods",
+      "Levy and collection"
+    ],
+    "answer": "Summary assessment in certain special cases"
+  },
+  {
+    "question": "Section 65",
+    "choices": [
+      "Audit by tax authorities",
+      "Power to grant exemption",
+      "Power to arrest",
+      "Filing of appeals"
+    ],
+    "answer": "Audit by tax authorities"
+  },
+  {
+    "question": "Section 66",
+    "choices": [
+      "Special audit",
+      "Payment of tax",
+      "Notice to defaulters",
+      "Eligibility for input tax credit"
+    ],
+    "answer": "Special audit"
+  },
+  {
+    "question": "Section 67",
+    "choices": [
+      "Power of inspection, search and seizure",
+      "Refund procedure",
+      "Penalty provisions",
+      "Appeal procedures"
+    ],
+    "answer": "Power of inspection, search and seizure"
+  },
+  {
+    "question": "Section 68",
+    "choices": [
+      "Inspection of goods in movement",
+      "Advance ruling",
+      "Compulsory registration",
+      "Matching, reversal and reclaim"
+    ],
+    "answer": "Inspection of goods in movement"
+  },
+  {
+    "question": "Section 69",
+    "choices": [
+      "Power to arrest",
+      "Penalties and offences",
+      "Refund claims",
+      "Power to summons"
+    ],
+    "answer": "Power to arrest"
+  },
+  {
+    "question": "Section 70",
+    "choices": [
+      "Power to summon persons to give evidence and produce documents",
+      "Period of limitation",
+      "Appeals and revision",
+      "Self-assessment"
+    ],
+    "answer": "Power to summon persons to give evidence and produce documents"
+  },
+  {
+    "question": "Section 71",
+    "choices": [
+      "Access to place of business",
+      "Power to arrest",
+      "Notice to defaulters",
+      "Levy of late fees"
+    ],
+    "answer": "Access to place of business"
+  },
+  {
+    "question": "Section 72",
+    "choices": [
+      "Officers to assist proper officers",
+      "Penalty provisions",
+      "Refund claims",
+      "Advance ruling"
+    ],
+    "answer": "Officers to assist proper officers"
+  },
+  {
+    "question": "Section 73",
+    "choices": [
+      "Determination of tax not paid or short paid or erroneously refunded or input tax credit wrongly availed or utilised for any reason other than fraud or any wilful misstatement or suppression of facts",
+      "Advance ruling",
+      "Payment of tax",
+      "Assessment of returns"
+    ],
+    "answer": "Determination of tax not paid or short paid or erroneously refunded or input tax credit wrongly availed or utilised for any reason other than fraud or any wilful misstatement or suppression of facts"
+  },
+  {
+    "question": "Section 74",
+    "choices": [
+      "Determination of tax not paid or short paid or erroneously refunded or input tax credit wrongly availed or utilised by reason of fraud or any wilful misstatement or suppression of facts",
+      "Levy and collection",
+      "Registration procedure",
+      "Audit by officers"
+    ],
+    "answer": "Determination of tax not paid or short paid or erroneously refunded or input tax credit wrongly availed or utilised by reason of fraud or any wilful misstatement or suppression of facts"
+  },
+  {
+    "question": "Section 75",
+    "choices": [
+      "General provisions relating to determination of tax",
+      "Penalty provisions",
+      "Refund procedure",
+      "Registration of persons"
+    ],
+    "answer": "General provisions relating to determination of tax"
+  },
+  {
+    "question": "Section 76",
+    "choices": [
+      "Tax collected but not paid to Government",
+      "Penalty for offences",
+      "Filing of returns",
+      "Eligibility for registration"
+    ],
+    "answer": "Tax collected but not paid to Government"
+  },
+  {
+    "question": "Section 77",
+    "choices": [
+      "Tax wrongfully collected and paid to Government",
+      "Assessment procedure",
+      "Power to arrest",
+      "Matching of credits"
+    ],
+    "answer": "Tax wrongfully collected and paid to Government"
+  },
+  {
+    "question": "Section 78",
+    "choices": [
+      "Initiation of recovery proceedings",
+      "Refund claims",
+      "Audit by officers",
+      "Power of inspection"
+    ],
+    "answer": "Initiation of recovery proceedings"
+  },
+  {
+    "question": "Section 79",
+    "choices": [
+      "Recovery of tax",
+      "Refund of tax",
+      "Payment of tax",
+      "Assessment of returns"
+    ],
+    "answer": "Recovery of tax"
+  },
+  {
+    "question": "Section 80",
+    "choices": [
+      "Payment of tax and other amount in instalments",
+      "Notice to defaulters",
+      "Cancellation of registration",
+      "Inspection of goods"
+    ],
+    "answer": "Payment of tax and other amount in instalments"
+  },
+  {
+    "question": "Section 81",
+    "choices": [
+      "Transfer of property to be void in certain cases",
+      "Power to arrest",
+      "Refund of tax",
+      "Audit by tax authorities"
+    ],
+    "answer": "Transfer of property to be void in certain cases"
+  },
+  {
+    "question": "Section 82",
+    "choices": [
+      "Tax to be first charge on property",
+      "Payment of tax in instalments",
+      "Levy of late fee",
+      "Filing of returns"
+    ],
+    "answer": "Tax to be first charge on property"
+  },
+  {
+    "question": "Section 83",
+    "choices": [
+      "Provisional attachment to protect revenue in certain cases",
+      "Matching and reversal of credit",
+      "Assessment of non-filers",
+      "Power to grant exemption"
+    ],
+    "answer": "Provisional attachment to protect revenue in certain cases"
+  },
+  {
+    "question": "Section 84",
+    "choices": [
+      "Continuation and validation of certain recovery proceedings",
+      "Eligibility for input tax credit",
+      "Penalty for offences",
+      "Refund of tax"
+    ],
+    "answer": "Continuation and validation of certain recovery proceedings"
+  },
+  {
+    "question": "Section 85",
+    "choices": [
+      "Liability in case of transfer of business",
+      "Offences and penalties",
+      "Audit procedures",
+      "Advance ruling"
+    ],
+    "answer": "Liability in case of transfer of business"
+  },
+  {
+    "question": "Section 86",
+    "choices": [
+      "Liability of agent and principal",
+      "Payment of tax",
+      "Matching and reversal",
+      "Registration procedure"
+    ],
+    "answer": "Liability of agent and principal"
+  },
+  {
+    "question": "Section 87",
+    "choices": [
+      "Liability in case of amalgamation or merger",
+      "Claims of input tax credit",
+      "Filing of returns",
+      "Power to arrest"
+    ],
+    "answer": "Liability in case of amalgamation or merger"
+  },
+  {
+    "question": "Section 88",
+    "choices": [
+      "Liability where goods sent on approval or return basis",
+      "Refund procedure",
+      "Tax deduction at source",
+      "Officers to assist proper officers"
+    ],
+    "answer": "Liability where goods sent on approval or return basis"
+  },
+  {
+    "question": "Section 89",
+    "choices": [
+      "Power to impose restriction on goods or services",
+      "Power to arrest",
+      "Penalty for offences",
+      "Assessment of returns"
+    ],
+    "answer": "Power to impose restriction on goods or services"
+  },
+  {
+    "question": "Section 90",
+    "choices": [
+      "Powers of officers to impose restrictions on goods or services",
+      "Payment of tax",
+      "Offences and penalties",
+      "Registration procedure"
+    ],
+    "answer": "Powers of officers to impose restrictions on goods or services"
+  },
+  {
+    "question": "Section 91",
+    "choices": [
+      "Seizure of goods and conveyances in transit",
+      "Eligibility for input tax credit",
+      "Refund claims",
+      "Audit by tax authorities"
+    ],
+    "answer": "Seizure of goods and conveyances in transit"
+  },
+  {
+    "question": "Section 92",
+    "choices": [
+      "Sale or disposal of goods seized or detained",
+      "Claims of input tax credit",
+      "Levy and collection",
+      "Power to arrest"
+    ],
+    "answer": "Sale or disposal of goods seized or detained"
+  },
+  {
+    "question": "Section 93",
+    "choices": [
+      "Release of goods seized or detained",
+      "Tax deduction at source",
+      "Power to summon persons",
+      "Penalty for offences"
+    ],
+    "answer": "Release of goods seized or detained"
+  },
+  {
+    "question": "Section 94",
+    "choices": [
+      "Cessation of liability to pay tax in certain cases",
+      "Audit by tax authorities",
+      "Refund procedure",
+      "Advance ruling"
+    ],
+    "answer": "Cessation of liability to pay tax in certain cases"
+  },
+  {
+    "question": "Section 95",
+    "choices": [
+      "Liability where goods or services supplied without consideration",
+      "Eligibility for input tax credit",
+      "Levy and collection",
+      "Payment of tax"
+    ],
+    "answer": "Liability where goods or services supplied without consideration"
+  },
+  {
+    "question": "Section 96",
+    "choices": [
+      "Power to arrest in certain cases",
+      "Penalty provisions",
+      "Power to grant exemption",
+      "Filing of appeals"
+    ],
+    "answer": "Power to arrest in certain cases"
+  },
+  {
+    "question": "Section 97",
+    "choices": [
+      "Custody and disposal of seized goods and appeal",
+      "Matching and reversal of credit",
+      "Assessment of returns",
+      "Refund claims"
+    ],
+    "answer": "Custody and disposal of seized goods and appeal"
+  },
+  {
+    "question": "Section 98",
+    "choices": [
+      "Confiscation of goods and conveyances",
+      "Levy and collection",
+      "Power to summon",
+      "Registration procedure"
+    ],
+    "answer": "Confiscation of goods and conveyances"
+  },
+  {
+    "question": "Section 99",
+    "choices": [
+      "General provisions relating to confiscation",
+      "Claims of input tax credit",
+      "Payment of tax",
+      "Audit by officers"
+    ],
+    "answer": "General provisions relating to confiscation"
+  },
+  {
+    "question": "Section 100",
+    "choices": [
+      "Offences and penalties",
+      "Power of inspection",
+      "Matching and reversal",
+      "Filing of returns"
+    ],
+    "answer": "Offences and penalties"
+  },
+  {
+    "question": "Section 101",
+    "choices": [
+      "Penalty for certain offences",
+      "Refund procedure",
+      "Levy of late fee",
+      "Eligibility for registration"
+    ],
+    "answer": "Penalty for certain offences"
+  },
+  {
+    "question": "Section 102",
+    "choices": [
+      "Prosecution for offences",
+      "Payment of tax",
+      "Audit procedures",
+      "Registration of persons"
+    ],
+    "answer": "Prosecution for offences"
+  },
+  {
+    "question": "Section 103",
+    "choices": [
+      "Compounding of offences",
+      "Matching and reversal",
+      "Refund claims",
+      "Advance ruling"
+    ],
+    "answer": "Compounding of offences"
+  },
+  {
+    "question": "Section 104",
+    "choices": [
+      "Liability to pay tax not a bar to prosecution",
+      "Power to arrest",
+      "Penalty for offences",
+      "Filing of appeals"
+    ],
+    "answer": "Liability to pay tax not a bar to prosecution"
+  },
+  {
+    "question": "Section 105",
+    "choices": [
+      "Special courts",
+      "Registration procedure",
+      "Audit by tax authorities",
+      "Advance ruling"
+    ],
+    "answer": "Special courts"
+  },
+  {
+    "question": "Section 106",
+    "choices": [
+      "Protection of action taken in good faith",
+      "Payment of tax",
+      "Payment of penalty",
+      "Matching and reversal"
+    ],
+    "answer": "Protection of action taken in good faith"
+  },
+  {
+    "question": "Section 107",
+    "choices": [
+      "Power to grant exemption from payment of interest in certain cases",
+      "Levy and collection",
+      "Eligibility for input tax credit",
+      "Refund of tax"
+    ],
+    "answer": "Power to grant exemption from payment of interest in certain cases"
+  },
+  {
+    "question": "Section 108",
+    "choices": [
+      "Power to grant exemption from payment of penalty in certain cases",
+      "Power to summon persons",
+      "Payment in instalments",
+      "Audit procedures"
+    ],
+    "answer": "Power to grant exemption from payment of penalty in certain cases"
+  },
+  {
+    "question": "Section 109",
+    "choices": [
+      "Appeal to Appellate Authority",
+      "Compulsory registration",
+      "Offences and penalties",
+      "Refund claims"
+    ],
+    "answer": "Appeal to Appellate Authority"
+  },
+  {
+    "question": "Section 110",
+    "choices": [
+      "Appeal to Appellate Tribunal",
+      "Matching and reversal of credit",
+      "Filing of returns",
+      "Registration procedure"
+    ],
+    "answer": "Appeal to Appellate Tribunal"
+  },
+  {
+    "question": "Section 111",
+    "choices": [
+      "Appeal to High Court",
+      "Power under inspection",
+      "Payment of tax",
+      "Officers to assist proper officers"
+    ],
+    "answer": "Appeal to High Court"
+  },
+  {
+    "question": "Section 112",
+    "choices": [
+      "Period of limitation for filing appeal",
+      "Tax deduction at source",
+      "Penalty for offences",
+      "Refund of tax"
+    ],
+    "answer": "Period of limitation for filing appeal"
+  },
+  {
+    "question": "Section 113",
+    "choices": [
+      "Filing of appeals and furnishing of security",
+      "Power to arrest",
+      "Assessment of returns",
+      "Advance ruling"
+    ],
+    "answer": "Filing of appeals and furnishing of security"
+  },
+  {
+    "question": "Section 114",
+    "choices": [
+      "Revision",
+      "Levy and collection",
+      "Refund procedure",
+      "Matching and reversal"
+    ],
+    "answer": "Revision"
+  },
+  {
+    "question": "Section 115",
+    "choices": [
+      "Stay of demand",
+      "Payment of tax",
+      "Power of inspection",
+      "Claim of input tax credit"
+    ],
+    "answer": "Stay of demand"
+  },
+  {
+    "question": "Section 116",
+    "choices": [
+      "Procedure on receipt of appeal or revision",
+      "Special audit",
+      "Offences and penalties",
+      "Registration procedure"
+    ],
+    "answer": "Procedure on receipt of appeal or revision"
+  },
+  {
+    "question": "Section 117",
+    "choices": [
+      "Special provisions relating to certain persons",
+      "Advance ruling",
+      "Refund claims",
+      "Filing of returns"
+    ],
+    "answer": "Special provisions relating to certain persons"
   }
-]
+    ]
