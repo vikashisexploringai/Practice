@@ -9,6 +9,7 @@ export const CONFIG = {
         'britishGovernors': { displayName: 'Governor General and Viceroys' },
         'trignometricEquations': { displayName: 'Trignometric Equations' },
         'gstSections': { displayName: 'GST Sections' },
+        'antonyms': { displayName: 'Antonyms' },
     },
     MODES: {
         'daywise': {
