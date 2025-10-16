@@ -570,5 +570,38 @@
     ],
     "answer": "To gradually intrude on someone's territory or rights",
     "explanation": "The construction began to encroach on the protected forest land. She felt her boss was encroaching on her personal time with constant emails."
+  },
+  {
+    "question": "Culminate (Meaning & Usage)",
+    "choices": [
+      "To begin or start something",
+      "To reach the highest point or final stage",
+      "To cancel or stop early",
+      "To repeat from the beginning"
+    ],
+    "answer": "To reach the highest point or final stage",
+    "explanation": "Years of hard work culminated in her winning the championship. The festival will culminate with a fireworks display on Saturday night."
+  },
+  {
+    "question": "Quip (Meaning & Usage)",
+    "choices": [
+      "A long, serious speech",
+      "A clever or funny remark",
+      "A formal complaint",
+      "A detailed explanation"
+    ],
+    "answer": "A clever or funny remark",
+    "explanation": "He made a quip about the weather that made everyone laugh. Her quick quip at the meeting lightened the mood in the room."
+  },
+  {
+    "question": "Astute (Meaning & Usage)",
+    "choices": [
+      "Slow to understand",
+      "Having good judgment and perception",
+      "Careless and inattentive",
+      "Physically strong"
+    ],
+    "answer": "Having good judgment and perception",
+    "explanation": "The astute investor sold his stocks before the market crashed. Her astute observation helped solve the mystery quickly."
   }
-]
+  ]
