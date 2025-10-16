@@ -1,0 +1,24 @@
+[
+  {
+    "question": "Benevolent",
+    "choices": [
+      "Kind",
+      "Malevolent",
+      "Charitable",
+      "Compassionate"
+    ],
+    "answer": "Malevolent",
+    "explanation": "'Benevolent' means well-meaning and kindly, while 'Malevolent' means having or showing a wish to do evil to others."
+  },
+  {
+    "question": "Protagonist",
+    "choices": [
+      "Hero",
+      "Antagonist",
+      "Supporting Character",
+      "Narrator"
+    ],
+    "answer": "Antagonist",
+    "explanation": "The 'Protagonist' is the main character driving the story forward, while the 'Antagonist' is the character who opposes or competes with them."
+  }
+]
