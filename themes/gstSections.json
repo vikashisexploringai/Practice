@@ -417,7 +417,8 @@
       "Furnishing of returns",
       "Audit by tax authorities"
     ],
-    "answer": "Matching, reversal and reclaim of input tax credit"
+    "answer": "Matching, reversal and reclaim of input tax credit",
+    "explanation": "Omitted."
   },
   {
     "question": "Section 43",
@@ -427,7 +428,8 @@
       "Confiscation of goods",
       "Offences and penalties"
     ],
-    "answer": "Matching, reversal and reclaim of reduction in output tax liability"
+    "answer": "Matching, reversal and reclaim of reduction in output tax liability",
+    "explanation": "Omitted."
   },
   {
     "question": "Section 44",
