@@ -603,5 +603,39 @@
     ],
     "answer": "Having good judgment and perception",
     "explanation": "The astute investor sold his stocks before the market crashed. Her astute observation helped solve the mystery quickly."
+  },
+  {
+    "question": "Incessant (Meaning & Usage)",
+    "choices": [
+      "Occasional and infrequent",
+      "Continuing without interruption",
+      "Soft and quiet",
+      "Brief and momentary"
+    ],
+    "answer": "Continuing without interruption",
+    "explanation": "The incessant rain forced the cancellation of the outdoor event. He was annoyed by the incessant barking of the neighbor's dog."
+  },
+  {
+    "question": "Akin (Meaning & Usage)",
+    "choices": [
+      "Completely different from",
+      "Similar or related to",
+      "Superior to",
+      "Opposed to"
+    ],
+    "answer": "Similar or related to",
+    "explanation": "His dedication to his work is akin to that of an artist. The feeling of relief was akin to winning a major prize."
+  },
+  {
+    "question": "Sanguinary (Meaning & Usage)",
+    "choices": [
+      "Peaceful and gentle",
+      "Involving or causing much bloodshed",
+      "Hopeful and optimistic",
+      "Relating to blood types"
+    ],
+    "answer": "Involving or causing much bloodshed",
+    "explanation": "The sanguinary battle left the battlefield covered in bodies. The history book described the sanguinary conflict in great detail."
   }
   ]
+
