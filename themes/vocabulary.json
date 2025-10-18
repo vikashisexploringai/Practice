@@ -636,6 +636,94 @@
     ],
     "answer": "Involving or causing much bloodshed",
     "explanation": "The sanguinary battle left the battlefield covered in bodies. The history book described the sanguinary conflict in great detail."
+  },
+  {
+    "question": "Bias (Meaning & Usage)",
+    "choices": [
+      "A fair and balanced opinion",
+      "A preference or prejudice for or against something",
+      "A proven scientific fact",
+      "A random guess"
+    ],
+    "answer": "A preference or prejudice for or against something",
+    "explanation": "The judge had a bias toward harsher punishments for young offenders. Her bias against modern art made her dislike the exhibition."
+  },
+  {
+    "question": "Prejudice (Meaning & Usage)",
+    "choices": [
+      "An opinion based on experience",
+      "A preconceived opinion not based on reason",
+      "A carefully researched conclusion",
+      "A neutral observation"
+    ],
+    "answer": "A preconceived opinion not based on reason",
+    "explanation": "He faced prejudice because of his foreign accent. The hiring manager showed prejudice against candidates from certain schools."
+  },
+  {
+    "question": "Stereotype (Meaning & Usage)",
+    "choices": [
+      "A unique individual characteristic",
+      "A widely held but oversimplified idea about a group",
+      "A detailed personal analysis",
+      "A scientifically proven truth"
+    ],
+    "answer": "A widely held but oversimplified idea about a group",
+    "explanation": "The movie challenged the stereotype that athletes are not intelligent. She rejected the stereotype that women are bad drivers."
+  },
+  {
+    "question": "Abrupt (Meaning & Usage)",
+    "choices": [
+      "Gradual and smooth",
+      "Sudden and unexpected",
+      "Polite and respectful",
+      "Long and detailed"
+    ],
+    "answer": "Sudden and unexpected",
+    "explanation": "The meeting came to an abrupt end when the fire alarm sounded. His abrupt reply made it clear he was not in a good mood."
+  },
+  {
+    "question": "Ambiguity (Meaning & Usage)",
+    "choices": [
+      "Complete clarity",
+      "Uncertainty or confusion in meaning",
+      "A definite answer",
+      "A simple solution"
+    ],
+    "answer": "Uncertainty or confusion in meaning",
+    "explanation": "The ambiguity in the instructions led to several different interpretations. There was some ambiguity about when the project was actually due."
+  },
+  {
+    "question": "Chauvinist (Meaning & Usage)",
+    "choices": [
+      "A person who believes in equality",
+      "A person showing excessive loyalty to their group",
+      "A neutral observer",
+      "A humble individual"
+    ],
+    "answer": "A person showing excessive loyalty to their group",
+    "explanation": "He was a male chauvinist who believed women should not work. His national chauvinism made him dismiss other countries' achievements."
+  },
+  {
+    "question": "Bigot (Meaning & Usage)",
+    "choices": [
+      "A tolerant and open-minded person",
+      "A person who is intolerant of different opinions",
+      "Someone who easily changes their views",
+      "A person who respects all cultures"
+    ],
+    "answer": "A person who is intolerant of different opinions",
+    "explanation": "The bigot refused to listen to any opposing viewpoints. She was called a bigot for her hateful comments about immigrants."
+  },
+  {
+    "question": "Misogynist (Meaning & Usage)",
+    "choices": [
+      "A person who loves and respects women",
+      "A person who hates or prejudices against women",
+      "A strong supporter of women's rights",
+      "Someone indifferent toward gender issues"
+    ],
+    "answer": "A person who hates or prejudices against women",
+    "explanation": "The manager was a known misogynist who rarely promoted female employees. His misogynist comments during the meeting shocked everyone."
   }
   ]
 
