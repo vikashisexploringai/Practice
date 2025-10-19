@@ -724,6 +724,50 @@
     ],
     "answer": "A person who hates or prejudices against women",
     "explanation": "The manager was a known misogynist who rarely promoted female employees. His misogynist comments during the meeting shocked everyone."
+  },
+  {
+    "question": "Obnoxious (Meaning & Usage)",
+    "choices": [
+      "Pleasant and likable",
+      "Extremely unpleasant and annoying",
+      "Quiet and shy",
+      "Helpful and kind"
+    ],
+    "answer": "Extremely unpleasant and annoying",
+    "explanation": "The obnoxious customer shouted at the cashier for no reason. His obnoxious behavior at the party made everyone uncomfortable."
+  },
+  {
+    "question": "Colloquial (Meaning & Usage)",
+    "choices": [
+      "Formal and academic",
+      "Used in ordinary conversation",
+      "Technical and specialized",
+      "Old-fashioned and outdated"
+    ],
+    "answer": "Used in ordinary conversation",
+    "explanation": "The author used colloquial language to make the story feel realistic. 'What's up?' is a colloquial way to say hello to friends."
+  },
+  {
+    "question": "Acquiesce (Meaning & Usage)",
+    "choices": [
+      "To argue strongly",
+      "To accept something reluctantly",
+      "To celebrate enthusiastically",
+      "To ignore completely"
+    ],
+    "answer": "To accept something reluctantly",
+    "explanation": "She finally acquiesced to their demands after hours of discussion. He acquiesced and let his children stay up late on the weekend."
+  },
+  {
+    "question": "Reluctant (Meaning & Usage)",
+    "choices": [
+      "Eager and willing",
+      "Unwilling and hesitant",
+      "Confident and certain",
+      "Excited and enthusiastic"
+    ],
+    "answer": "Unwilling and hesitant",
+    "explanation": "He was reluctant to try the strange-looking food. She gave a reluctant apology after being pressured by her friends."
   }
   ]
 
