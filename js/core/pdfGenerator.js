@@ -23,10 +23,13 @@ export class PDFGenerator {
         doc.text(`${reportData.theme} • ${reportData.mode} • Day ${reportData.day}`, pageWidth / 2, yPosition, { align: 'center' });
         yPosition += 10;
 
-        // Add date and score
+        // Add date, score, and time
         doc.setFontSize(10);
         doc.text(`Generated on: ${reportData.date}`, margin, yPosition);
         doc.text(`Score: ${reportData.score}/${reportData.totalQuestions} (${reportData.accuracy}%)`, pageWidth - margin, yPosition, { align: 'right' });
+        yPosition += 5;
+        
+        doc.text(`Time taken: ${reportData.timeTaken}`, pageWidth - margin, yPosition, { align: 'right' });
         yPosition += 15;
 
         // Add separator line
