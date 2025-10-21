@@ -1,10 +1,12 @@
 import { BaseMode } from './baseMode.js';
 import { Utils } from '../core/utils.js';
 import { CONFIG } from '../core/config.js';
+import { PDFGenerator } from '../core/pdfGenerator.js';
 
 export class QuizMode extends BaseMode {
     constructor() {
         super('quiz-container');
+        this.wrongQuestions = []; // Track wrong questions for PDF report
     }
 
     setupEventListeners() {
@@ -42,12 +44,12 @@ export class QuizMode extends BaseMode {
             const button = document.createElement('button');
             button.className = 'option-button';
             button.textContent = option;
-            button.onclick = () => this.checkAnswer(option, question.answer);
+            button.onclick = () => this.checkAnswer(option, question.answer, question);
             optionsContainer.appendChild(button);
         });
     }
 
-    checkAnswer(selectedOption, correctAnswer) {
+    checkAnswer(selectedOption, correctAnswer, question) {
         const options = document.querySelectorAll('#options-container .option-button');
         const isCorrect = selectedOption === correctAnswer;
         
@@ -59,6 +61,16 @@ export class QuizMode extends BaseMode {
                 option.classList.add('wrong-answer');
             }
         });
+
+        // Track wrong questions for PDF report
+        if (!isCorrect) {
+            this.wrongQuestions.push({
+                question: question.question,
+                userAnswer: selectedOption,
+                correctAnswer: correctAnswer,
+                explanation: question.explanation || 'No explanation available.'
+            });
+        }
 
         this.handleAnswer(isCorrect);
         this.showFeedback(isCorrect);
@@ -91,49 +103,81 @@ export class QuizMode extends BaseMode {
         }
     }
 
-showResults() {
-    const totalQuestions = this.questions.length;
-    const accuracy = Utils.calculateAccuracy(this.score, totalQuestions);
-    const time = this.timer.getFormattedTime();
-    
-    // Get theme and mode display names
-    const themeName = CONFIG.THEMES[this.theme]?.displayName || this.theme;
-    const modeName = CONFIG.MODES[this.mode]?.displayName || this.mode;
-
-    console.log('Showing results:', { score: this.score, total: totalQuestions, accuracy, time });
-
-    // Update result elements
-    const scoreElement = document.getElementById('score');
-    const totalElement = document.getElementById('total');
-    const timeElement = document.getElementById('completion-time');
-    const accuracyElement = document.getElementById('accuracy');
-    const questionContainer = document.getElementById('question-container');
-    const resultContainer = document.getElementById('result-container');
-
-    if (scoreElement) scoreElement.textContent = this.score;
-    if (totalElement) totalElement.textContent = totalQuestions;
-    if (timeElement) timeElement.textContent = time;
-    if (accuracyElement) accuracyElement.textContent = `${accuracy}%`;
-
-    // Add theme and mode subtitle
-    const existingSubtitle = document.getElementById('result-subtitle');
-    if (existingSubtitle) {
-        existingSubtitle.textContent = `${themeName} • ${modeName}`;
-    } else {
-        const subtitle = document.createElement('p');
-        subtitle.id = 'result-subtitle';
-        subtitle.style.cssText = 'color: #ccc; font-size: 1.2rem; margin-bottom: 2rem; opacity: 0.9;';
-        subtitle.textContent = `${themeName} • ${modeName}`;
+    showResults() {
+        const totalQuestions = this.questions.length;
+        const accuracy = Utils.calculateAccuracy(this.score, totalQuestions);
+        const time = this.timer.getFormattedTime();
         
-        const title = resultContainer.querySelector('h2');
-        if (title) {
-            title.insertAdjacentElement('afterend', subtitle);
+        // Get theme and mode display names
+        const themeName = CONFIG.THEMES[this.theme]?.displayName || this.theme;
+        const modeName = CONFIG.MODES[this.mode]?.displayName || this.mode;
+
+        console.log('Showing results:', { score: this.score, total: totalQuestions, accuracy, time });
+
+        // Update result elements
+        const scoreElement = document.getElementById('score');
+        const totalElement = document.getElementById('total');
+        const timeElement = document.getElementById('completion-time');
+        const accuracyElement = document.getElementById('accuracy');
+        const questionContainer = document.getElementById('question-container');
+        const resultContainer = document.getElementById('result-container');
+
+        if (scoreElement) scoreElement.textContent = this.score;
+        if (totalElement) totalElement.textContent = totalQuestions;
+        if (timeElement) timeElement.textContent = time;
+        if (accuracyElement) accuracyElement.textContent = `${accuracy}%`;
+
+        // Add theme and mode subtitle
+        const existingSubtitle = document.getElementById('result-subtitle');
+        if (existingSubtitle) {
+            existingSubtitle.textContent = `${themeName} • ${modeName}`;
+        } else {
+            const subtitle = document.createElement('p');
+            subtitle.id = 'result-subtitle';
+            subtitle.style.cssText = 'color: #ccc; font-size: 1.2rem; margin-bottom: 2rem; opacity: 0.9;';
+            subtitle.textContent = `${themeName} • ${modeName}`;
+            
+            const title = resultContainer.querySelector('h2');
+            if (title) {
+                title.insertAdjacentElement('afterend', subtitle);
+            }
+        }
+
+        // Add PDF download button for accumulative mode with wrong questions
+        if (this.mode === 'accumulative' && this.wrongQuestions.length > 0) {
+            this.addPDFDownloadButton(resultContainer, themeName, modeName);
+        }
+
+        if (questionContainer) questionContainer.style.display = 'none';
+        if (resultContainer) resultContainer.style.display = 'block';
+    }
+
+    addPDFDownloadButton(resultContainer, themeName, modeName) {
+        const pdfButton = document.createElement('button');
+        pdfButton.className = 'glow';
+        pdfButton.innerHTML = '📄 Download Wrong Questions PDF';
+        pdfButton.onclick = () => this.generatePDFReport(themeName, modeName);
+        
+        const resultActions = resultContainer.querySelector('.result-actions');
+        if (resultActions) {
+            resultActions.appendChild(pdfButton);
         }
     }
 
-    if (questionContainer) questionContainer.style.display = 'none';
-    if (resultContainer) resultContainer.style.display = 'block';
-}
+    generatePDFReport(themeName, modeName) {
+        const reportData = {
+            theme: themeName,
+            mode: modeName,
+            day: this.day,
+            score: this.score,
+            totalQuestions: this.questions.length,
+            accuracy: Utils.calculateAccuracy(this.score, this.questions.length),
+            wrongQuestions: this.wrongQuestions,
+            date: new Date().toLocaleDateString()
+        };
+        
+        PDFGenerator.generateWrongQuestionsPDF(reportData);
+    }
 
     // Override completeSession to ensure results are shown
     completeSession() {
