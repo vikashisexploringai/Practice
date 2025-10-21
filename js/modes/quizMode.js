@@ -164,20 +164,21 @@ export class QuizMode extends BaseMode {
         }
     }
 
-    generatePDFReport(themeName, modeName) {
-        const reportData = {
-            theme: themeName,
-            mode: modeName,
-            day: this.day,
-            score: this.score,
-            totalQuestions: this.questions.length,
-            accuracy: Utils.calculateAccuracy(this.score, this.questions.length),
-            wrongQuestions: this.wrongQuestions,
-            date: new Date().toLocaleDateString()
-        };
-        
-        PDFGenerator.generateWrongQuestionsPDF(reportData);
-    }
+generatePDFReport(themeName, modeName) {
+    const reportData = {
+        theme: themeName,
+        mode: modeName,
+        day: this.day,
+        score: this.score,
+        totalQuestions: this.questions.length,
+        accuracy: Utils.calculateAccuracy(this.score, this.questions.length),
+        timeTaken: document.getElementById('completion-time').textContent, // Add time taken
+        wrongQuestions: this.wrongQuestions,
+        date: new Date().toLocaleDateString()
+    };
+    
+    PDFGenerator.generateWrongQuestionsPDF(reportData);
+}
 
     // Override completeSession to ensure results are shown
     completeSession() {
