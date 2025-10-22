@@ -768,6 +768,72 @@
     ],
     "answer": "Unwilling and hesitant",
     "explanation": "He was reluctant to try the strange-looking food. She gave a reluctant apology after being pressured by her friends."
+  },
+  {
+    "question": "Amnesty (Meaning & Usage)",
+    "choices": [
+      "A official punishment",
+      "An official pardon for people convicted of political offenses",
+      "A formal accusation",
+      "A life sentence"
+    ],
+    "answer": "An official pardon for people convicted of political offenses",
+    "explanation": "The government granted amnesty to all political prisoners. The new president declared amnesty for students who protested peacefully."
+  },
+  {
+    "question": "Atrocity (Meaning & Usage)",
+    "choices": [
+      "A kind act",
+      "An extremely wicked or cruel act",
+      "A small mistake",
+      "A peaceful protest"
+    ],
+    "answer": "An extremely wicked or cruel act",
+    "explanation": "The world condemned the atrocity against civilian populations. Survivors described the atrocities they witnessed during the war."
+  },
+  {
+    "question": "Annihilation (Meaning & Usage)",
+    "choices": [
+      "Partial damage",
+      "Complete destruction or obliteration",
+      "Temporary setback",
+      "Minor injury"
+    ],
+    "answer": "Complete destruction or obliteration",
+    "explanation": "The hurricane caused the annihilation of several coastal villages. The general spoke of the annihilation of enemy forces."
+  },
+  {
+    "question": "Sedition (Meaning & Usage)",
+    "choices": [
+      "Peaceful cooperation",
+      "Conduct or speech inciting rebellion against authority",
+      "Official approval",
+      "Loyal support"
+    ],
+    "answer": "Conduct or speech inciting rebellion against authority",
+    "explanation": "He was arrested for sedition after calling for the government's overthrow. The speech was considered an act of sedition against the state."
+  },
+  {
+    "question": "Resurgence (Meaning & Usage)",
+    "choices": [
+      "Gradual decline",
+      "A rising again to life, use, or prominence",
+      "Complete disappearance",
+      "Stable maintenance"
+    ],
+    "answer": "A rising again to life, use, or prominence",
+    "explanation": "There has been a resurgence of interest in vinyl records recently. The team hopes for a resurgence after their losing streak."
+  },
+  {
+    "question": "Nascent (Meaning & Usage)",
+    "choices": [
+      "Fully developed",
+      "Just coming into existence and beginning to develop",
+      "Declining rapidly",
+      "Ancient and established"
+    ],
+    "answer": "Just coming into existence and beginning to develop",
+    "explanation": "The nascent democracy faced many challenges in its first year. She showed nascent talent in painting at a very young age."
   }
   ]
 
