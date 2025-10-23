@@ -834,6 +834,205 @@
     ],
     "answer": "Just coming into existence and beginning to develop",
     "explanation": "The nascent democracy faced many challenges in its first year. She showed nascent talent in painting at a very young age."
+  },
+  {
+    "question": "Amicable (Meaning & Usage)",
+    "choices": [
+      "Hostile and angry",
+      "Friendly and peaceful",
+      "Indifferent and uncaring",
+      "Formal and distant"
+    ],
+    "answer": "Friendly and peaceful",
+    "explanation": "The divorce was surprisingly amicable and both parties remained friends. They reached an amicable agreement without going to court."
+  },
+  {
+    "question": "Affable (Meaning & Usage)",
+    "choices": [
+      "Rude and unpleasant",
+      "Friendly and easy to talk to",
+      "Quiet and shy",
+      "Serious and stern"
+    ],
+    "answer": "Friendly and easy to talk to",
+    "explanation": "The affable shopkeeper always had a smile for his customers. She was so affable that strangers often shared their stories with her."
+  },
+  {
+    "question": "Gregarious (Meaning & Usage)",
+    "choices": [
+      "Preferring to be alone",
+      "Sociable and enjoying company",
+      "Hostile to others",
+      "Indifferent to socializing"
+    ],
+    "answer": "Sociable and enjoying company",
+    "explanation": "His gregarious nature made him popular at social gatherings. Gregarious people often become event planners or teachers."
+  },
+  {
+    "question": "Ineffable (Meaning & Usage)",
+    "choices": [
+      "Easy to describe",
+      "Too great to be expressed in words",
+      "Ordinary and common",
+      "Simple and plain"
+    ],
+    "answer": "Too great to be expressed in words",
+    "explanation": "The beauty of the sunset was ineffable, leaving them speechless. She felt an ineffable joy when she held her newborn baby."
+  },
+  {
+    "question": "Reticent (Meaning & Usage)",
+    "choices": [
+      "Very talkative",
+      "Reserved and uncommunicative",
+      "Extremely friendly",
+      "Overly confident"
+    ],
+    "answer": "Reserved and uncommunicative",
+    "explanation": "He was reticent about his personal life with coworkers. The reticent student rarely spoke in class discussions."
+  },
+  {
+    "question": "Garrulous (Meaning & Usage)",
+    "choices": [
+      "Extremely quiet",
+      "Excessively talkative",
+      "Brief and concise",
+      "Thoughtful and silent"
+    ],
+    "answer": "Excessively talkative",
+    "explanation": "The garrulous taxi driver talked throughout the entire ride. Her garrulous aunt could talk for hours without stopping."
+  },
+  {
+    "question": "Aesthetic (Meaning & Usage)",
+    "choices": [
+      "Concerned with function only",
+      "Concerned with beauty and appearance",
+      "Focusing on cost and efficiency",
+      "Ignoring visual qualities"
+    ],
+    "answer": "Concerned with beauty and appearance",
+    "explanation": "The room's aesthetic was modern and minimalist. She had a great aesthetic sense in her fashion choices."
+  },
+  {
+    "question": "Lethargic (Meaning & Usage)",
+    "choices": [
+      "Full of energy",
+      "Sluggish and lacking energy",
+      "Extremely active",
+      "Highly motivated"
+    ],
+    "answer": "Sluggish and lacking energy",
+    "explanation": "The hot weather made everyone feel lethargic and unmotivated. After the big meal, he felt too lethargic to exercise."
+  },
+  {
+    "question": "Profound (Meaning & Usage)",
+    "choices": [
+      "Shallow and superficial",
+      "Very deep or intense",
+      "Simple and obvious",
+      "Temporary and fleeting"
+    ],
+    "answer": "Very deep or intense",
+    "explanation": "The book had a profound impact on her worldview. He felt profound gratitude for their help during difficult times."
+  },
+  {
+    "question": "Pragmatic (Meaning & Usage)",
+    "choices": [
+      "Theoretical and idealistic",
+      "Practical and realistic",
+      "Emotional and sensitive",
+      "Artistic and creative"
+    ],
+    "answer": "Practical and realistic",
+    "explanation": "Her pragmatic approach solved the budget problem efficiently. He took a pragmatic view of the business challenge."
+  },
+  {
+    "question": "Superficial (Meaning & Usage)",
+    "choices": [
+      "Deep and thorough",
+      "Existing on the surface only",
+      "Profound and meaningful",
+      "Comprehensive and complete"
+    ],
+    "answer": "Existing on the surface only",
+    "explanation": "Their friendship was superficial and based only on shared hobbies. He suffered only superficial wounds in the accident."
+  },
+  {
+    "question": "Contempt (Meaning & Usage)",
+    "choices": [
+      "Deep respect and admiration",
+      "The feeling that someone is worthless",
+      "Neutral indifference",
+      "Mild interest"
+    ],
+    "answer": "The feeling that someone is worthless",
+    "explanation": "She looked at the thief with contempt after learning his crimes. He felt nothing but contempt for people who cheat others."
+  },
+  {
+    "question": "Magnificent (Meaning & Usage)",
+    "choices": [
+      "Ordinary and plain",
+      "Extremely beautiful and impressive",
+      "Small and insignificant",
+      "Ugly and repulsive"
+    ],
+    "answer": "Extremely beautiful and impressive",
+    "explanation": "The magnificent palace attracted tourists from around the world. She looked magnificent in her wedding dress."
+  },
+  {
+    "question": "Magnanimous (Meaning & Usage)",
+    "choices": [
+      "Petty and spiteful",
+      "Generous and forgiving",
+      "Selfish and greedy",
+      "Stingy and mean"
+    ],
+    "answer": "Generous and forgiving",
+    "explanation": "The magnanimous winner praised his opponent's performance. Her magnanimous donation saved the community center."
+  },
+  {
+    "question": "Apathy (Meaning & Usage)",
+    "choices": [
+      "Strong enthusiasm",
+      "Lack of interest or concern",
+      "Deep emotional involvement",
+      "Intense curiosity"
+    ],
+    "answer": "Lack of interest or concern",
+    "explanation": "Student apathy toward the election concerned the teachers. His apathy about his health worried his family."
+  },
+  {
+    "question": "Verbose (Meaning & Usage)",
+    "choices": [
+      "Using few words",
+      "Using more words than needed",
+      "Speaking clearly and concisely",
+      "Communicating silently"
+    ],
+    "answer": "Using more words than needed",
+    "explanation": "The verbose speaker went far over his time limit. Her verbose writing style made the report difficult to read."
+  },
+  {
+    "question": "Utopian (Meaning & Usage)",
+    "choices": [
+      "Realistic and practical",
+      "Idealistic but unrealistic",
+      "Pessimistic and negative",
+      "Ordinary and commonplace"
+    ],
+    "answer": "Idealistic but unrealistic",
+    "explanation": "His utopian vision of world peace ignored human nature. The plan sounded utopian but failed to consider real-world challenges."
+  },
+  {
+    "question": "Idealistic (Meaning & Usage)",
+    "choices": [
+      "Practical and realistic",
+      "Having high moral principles that may not be practical",
+      "Selfish and greedy",
+      "Lazy and unmotivated"
+    ],
+    "answer": "Having high moral principles that may not be practical",
+    "explanation": "Her idealistic plan to end poverty was noble but unrealistic. He was idealistic about changing the world when he was young."
   }
-  ]
+]
+
 
