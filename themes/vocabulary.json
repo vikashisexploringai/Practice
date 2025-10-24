@@ -1032,5 +1032,49 @@
     ],
     "answer": "Having high moral principles that may not be practical",
     "explanation": "Her idealistic plan to end poverty was noble but unrealistic. He was idealistic about changing the world when he was young. (Hindi: आदर्शवादी/सिद्धांतवादी)"
+  },
+  {
+    "question": "Lynch (Meaning & Usage)",
+    "choices": [
+      "To legally execute someone",
+      "To kill someone without legal trial, especially by a mob",
+      "To arrest someone formally",
+      "To defend someone in court"
+    ],
+    "answer": "To kill someone without legal trial, especially by a mob",
+    "explanation": "The angry mob threatened to lynch the accused man without any evidence. In history, people were often lynched by violent crowds acting as judge and executioner. (Hindi: भीड़ द्वारा अवैध हत्या करना)"
+  },
+  {
+    "question": "Recital (Meaning & Usage)",
+    "choices": [
+      "A casual conversation",
+      "A musical or dance performance",
+      "A business meeting",
+      "A sports competition"
+    ],
+    "answer": "A musical or dance performance",
+    "explanation": "The young pianist gave her first recital at the community hall. We attended a beautiful dance recital last weekend. (Hindi: संगीत या नृत्य प्रदर्शन/गायन)"
+  },
+  {
+    "question": "Corroborate (Meaning & Usage)",
+    "choices": [
+      "To deny or contradict",
+      "To confirm or give support to evidence",
+      "To destroy evidence",
+      "To ignore information"
+    ],
+    "answer": "To confirm or give support to evidence",
+    "explanation": "The new evidence corroborated the witness's story. We need another source to corroborate these findings. (Hindi: पुष्टि करना/समर्थन करना)"
+  },
+  {
+    "question": "Amendment (Meaning & Usage)",
+    "choices": [
+      "A complete replacement",
+      "A minor change or addition to improve something",
+      "A permanent removal",
+      "A temporary pause"
+    ],
+    "answer": "A minor change or addition to improve something",
+    "explanation": "They proposed an amendment to the company's policy. The constitution has several important amendments. (Hindi: संशोधन/सुधार)"
   }
-    ]
+  ]
