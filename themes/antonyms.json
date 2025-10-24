@@ -20,5 +20,16 @@
     ],
     "answer": "Antagonist",
     "explanation": "The 'Protagonist' is the main character driving the story forward, while the 'Antagonist' is the character who opposes or competes with them."
+  },
+  {
+    "question": "Utopian",
+    "choices": [
+      "Idealistic",
+      "Dystopian",
+      "Perfect",
+      "Heavenly"
+    ],
+    "answer": "Dystopian",
+    "explanation": "'Utopian' describes an imagined perfect society or state of things. Its direct antonym is 'Dystopian,' which describes an imagined state or society where there is great suffering or injustice."
   }
-]
+  ]
