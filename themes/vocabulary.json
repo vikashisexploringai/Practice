@@ -1076,5 +1076,247 @@
     ],
     "answer": "A minor change or addition to improve something",
     "explanation": "They proposed an amendment to the company's policy. The constitution has several important amendments. (Hindi: संशोधन/सुधार)"
+  },
+  {
+    "question": "Spartan (Meaning & Usage)",
+    "choices": [
+      "Luxurious and comfortable",
+      "Simple and harsh, without comforts",
+      "Highly decorative",
+      "Extremely wealthy"
+    ],
+    "answer": "Simple and harsh, without comforts",
+    "explanation": "The spartan room contained only a bed and a desk. He lived a spartan lifestyle with very few possessions. (Hindi: सादा/कठोर)"
+  },
+  {
+    "question": "Besmirch (Meaning & Usage)",
+    "choices": [
+      "To clean thoroughly",
+      "To damage someone's reputation",
+      "To praise highly",
+      "To ignore completely"
+    ],
+    "answer": "To damage someone's reputation",
+    "explanation": "He tried to besmirch his opponent's character with false accusations. The scandal besmirched the company's good name. (Hindi: बदनाम करना/कलंक लगाना)"
+  },
+  {
+    "question": "Insipid (Meaning & Usage)",
+    "choices": [
+      "Flavorful and interesting",
+      "Lacking flavor or interest",
+      "Extremely spicy",
+      "Highly creative"
+    ],
+    "answer": "Lacking flavor or interest",
+    "explanation": "The soup was insipid and needed more seasoning. She found the movie insipid and boring. (Hindi: फीका/नीरस)"
+  },
+  {
+    "question": "Inkling (Meaning & Usage)",
+    "choices": [
+      "A complete understanding",
+      "A slight suspicion or hint",
+      "A formal announcement",
+      "A detailed explanation"
+    ],
+    "answer": "A slight suspicion or hint",
+    "explanation": "I had an inkling that he would be late again. She gave no inkling of her plans to resign. (Hindi: आभास/संकेत)"
+  },
+  {
+    "question": "Stolid (Meaning & Usage)",
+    "choices": [
+      "Emotional and expressive",
+      "Calm and showing little emotion",
+      "Highly energetic",
+      "Very talkative"
+    ],
+    "answer": "Calm and showing little emotion",
+    "explanation": "He remained stolid throughout the crisis. Her stolid expression hid her true feelings. (Hindi: भावशून्य/अटल)"
+  },
+  {
+    "question": "Indolent (Meaning & Usage)",
+    "choices": [
+      "Hard-working and active",
+      "Lazy and avoiding work",
+      "Extremely efficient",
+      "Highly motivated"
+    ],
+    "answer": "Lazy and avoiding work",
+    "explanation": "His indolent attitude frustrated his teachers. She spent an indolent afternoon on the sofa. (Hindi: आलसी/सुस्त)"
+  },
+  {
+    "question": "Imbecile (Meaning & Usage)",
+    "choices": [
+      "A highly intelligent person",
+      "A very stupid person",
+      "A kind helper",
+      "A skilled worker"
+    ],
+    "answer": "A very stupid person",
+    "explanation": "He called the driver an imbecile for the dangerous mistake. Only an imbecile would take such a risk. (Hindi: मूर्ख/बेवकूफ)"
+  },
+  {
+    "question": "Hardihood (Meaning & Usage)",
+    "choices": [
+      "Weakness and fear",
+      "Courage and boldness",
+      "Carefulness and caution",
+      "Shyness and hesitation"
+    ],
+    "answer": "Courage and boldness",
+    "explanation": "She showed great hardihood in facing the challenge. His hardihood impressed everyone during the crisis. (Hindi: साहस/दृढ़ता)"
+  },
+  {
+    "question": "Conflate (Meaning & Usage)",
+    "choices": [
+      "To separate clearly",
+      "To combine two ideas into one",
+      "To analyze in detail",
+      "To simplify greatly"
+    ],
+    "answer": "To combine two ideas into one",
+    "explanation": "People often conflate wealth with happiness. He conflated two different historical events in his speech. (Hindi: मिलाना/सम्मिश्रण करना)"
+  },
+  {
+    "question": "Pecuniary (Meaning & Usage)",
+    "choices": [
+      "Related to health",
+      "Related to money",
+      "Related to education",
+      "Related to emotions"
+    ],
+    "answer": "Related to money",
+    "explanation": "He had pecuniary difficulties after losing his job. The decision was based on pecuniary considerations. (Hindi: आर्थिक/धन संबंधी)"
+  },
+  {
+    "question": "Mercenary (Meaning & Usage)",
+    "choices": [
+      "Working for free",
+      "Working only for money",
+      "Working for charity",
+      "Working for friendship"
+    ],
+    "answer": "Working only for money",
+    "explanation": "His mercenary attitude made him unpopular. The soldier was a mercenary fighting for money. (Hindi: धनलोलुप/किराये का)"
+  },
+  {
+    "question": "Repudiate (Meaning & Usage)",
+    "choices": [
+      "To strongly support",
+      "To refuse to accept or reject something",
+      "To carefully consider",
+      "To partially agree with"
+    ],
+    "answer": "To refuse to accept or reject something",
+    "explanation": "She repudiated the accusations against her. The company repudiated the contract. (Hindi: अस्वीकार करना/त्यागना)"
+  },
+  {
+    "question": "Patronize (Meaning & Usage)",
+    "choices": [
+      "To treat as inferior",
+      "To be a customer of",
+      "To ignore completely",
+      "To compete with"
+    ],
+    "answer": "To treat as inferior",
+    "explanation": "He patronized her by explaining simple concepts. I hate when people patronize me. (Hindi: दंभपूर्ण व्यवहार करना)"
+  },
+  {
+    "question": "Reticent (Meaning & Usage)",
+    "choices": [
+      "Very talkative",
+      "Reserved and quiet",
+      "Extremely friendly",
+      "Overly confident"
+    ],
+    "answer": "Reserved and quiet",
+    "explanation": "He was reticent about his personal life. The reticent student rarely participated in class. (Hindi: अल्पभाषी/संकोची)"
+  },
+  {
+    "question": "Ignominy (Meaning & Usage)",
+    "choices": [
+      "Public honor and respect",
+      "Public shame and disgrace",
+      "Private happiness",
+      "Secret success"
+    ],
+    "answer": "Public shame and disgrace",
+    "explanation": "He suffered the ignominy of public failure. The scandal brought ignominy to the family. (Hindi: अपमान/बदनामी)"
+  },
+  {
+    "question": "Exorbitant (Meaning & Usage)",
+    "choices": [
+      "Reasonable and fair",
+      "Extremely high and unreasonable",
+      "Very low and cheap",
+      "Average and normal"
+    ],
+    "answer": "Extremely high and unreasonable",
+    "explanation": "The hotel charged exorbitant prices. She paid an exorbitant amount for the concert tickets. (Hindi: अत्यधिक/बहुत ज्यादा)"
+  },
+  {
+    "question": "Scourge (Meaning & Usage)",
+    "choices": [
+      "A blessing",
+      "A cause of great suffering",
+      "A minor problem",
+      "A helpful solution"
+    ],
+    "answer": "A cause of great suffering",
+    "explanation": "Poverty remains a scourge in many countries. The disease was a scourge to the community. (Hindi: अभिशाप/संकट)"
+  },
+  {
+    "question": "Conform (Meaning & Usage)",
+    "choices": [
+      "To rebel against rules",
+      "To follow rules and standards",
+      "To create new rules",
+      "To ignore all rules"
+    ],
+    "answer": "To follow rules and standards",
+    "explanation": "Students must conform to the school dress code. He refused to conform to social expectations. (Hindi: अनुरूप होना/मानना)"
+  },
+  {
+    "question": "Cliche (Meaning & Usage)",
+    "choices": [
+      "An original idea",
+      "An overused phrase or idea",
+      "A complex theory",
+      "A scientific fact"
+    ],
+    "answer": "An overused phrase or idea",
+    "explanation": "The speech was full of cliches about hard work. Their love story was a romantic cliche. (Hindi: घिसा-पीटा वाक्य/साधारण)"
+  },
+  {
+    "question": "Nimble (Meaning & Usage)",
+    "choices": [
+      "Slow and clumsy",
+      "Quick and light in movement",
+      "Heavy and awkward",
+      "Tired and sluggish"
+    ],
+    "answer": "Quick and light in movement",
+    "explanation": "The nimble athlete easily avoided the defenders. Her nimble fingers worked quickly. (Hindi: फुर्तीला/चुस्त)"
+  },
+  {
+    "question": "Milieu (Meaning & Usage)",
+    "choices": [
+      "A single object",
+      "A social environment or setting",
+      "A type of food",
+      "A musical instrument"
+    ],
+    "answer": "A social environment or setting",
+    "explanation": "She grew up in an artistic milieu. The novel captures the political milieu of the 1960s. (Hindi: परिवेश/माहौल)"
+  },
+  {
+    "question": "Self-effacing (Meaning & Usage)",
+    "choices": [
+      "Arrogant and boastful",
+      "Not wanting to attract attention",
+      "Very confident",
+      "Extremely talkative"
+    ],
+    "answer": "Not wanting to attract attention",
+    "explanation": "His self-effacing manner made him popular. She was self-effacing about her achievements. (Hindi: आत्म-गोपनशील/विनम्र)"
   }
-  ]
+    ]
