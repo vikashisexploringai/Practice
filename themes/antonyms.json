@@ -31,5 +31,16 @@
     ],
     "answer": "Dystopian",
     "explanation": "'Utopian' describes an imagined perfect society or state of things. Its direct antonym is 'Dystopian,' which describes an imagined state or society where there is great suffering or injustice."
+  },
+  {
+    "question": "Confident",
+    "choices": [
+      "Assured",
+      "Diffident",
+      "Poised",
+      "Self-reliant"
+    ],
+    "answer": "Diffident",
+    "explanation": "'Confident' means being certain of one's own abilities or having self-assurance. 'Diffident' means modest or shy due to a lack of self-confidence."
   }
   ]
