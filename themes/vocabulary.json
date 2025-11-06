@@ -1318,5 +1318,60 @@
     ],
     "answer": "Not wanting to attract attention",
     "explanation": "His self-effacing manner made him popular. She was self-effacing about her achievements. (Hindi: आत्म-गोपनशील/विनम्र)"
+  },
+  {
+    "question": "Jargon (Meaning & Usage)",
+    "choices": [
+      "Simple and clear language",
+      "Specialized language of a profession that is hard for others to understand",
+      "Formal and polite speech",
+      "Everyday casual conversation"
+    ],
+    "answer": "Specialized language of a profession that is hard for others to understand",
+    "explanation": "The lawyers used legal jargon that confused everyone else. Computer jargon like 'API' and 'bandwidth' can be confusing for beginners. (Hindi: विशेष शब्दावली/तकनीकी भाषा)"
+  },
+  {
+    "question": "Fiasco (Meaning & Usage)",
+    "choices": [
+      "A great success",
+      "A complete failure or disaster",
+      "A small mistake",
+      "A planned event"
+    ],
+    "answer": "A complete failure or disaster",
+    "explanation": "The product launch was a complete fiasco. The party turned into a fiasco when it started raining. (Hindi: पूर्ण असफलता/भारी विफलता)"
+  },
+  {
+    "question": "Haughty (Meaning & Usage)",
+    "choices": [
+      "Humble and modest",
+      "Arrogant and proud",
+      "Friendly and approachable",
+      "Shy and reserved"
+    ],
+    "answer": "Arrogant and proud",
+    "explanation": "The haughty manager looked down on his employees. She gave a haughty laugh at their suggestions. (Hindi: घमंडी/अभिमानी)"
+  },
+  {
+    "question": "Coerce (Meaning & Usage)",
+    "choices": [
+      "To politely request",
+      "To persuade using force or threats",
+      "To encourage gently",
+      "To ignore completely"
+    ],
+    "answer": "To persuade using force or threats",
+    "explanation": "They tried to coerce him into signing the contract. No one should be coerced into making decisions. (Hindi: बलपूर्वक मनाना/दबाव डालना)"
+  },
+  {
+    "question": "Transcendental (Meaning & Usage)",
+    "choices": [
+      "Ordinary and common",
+      "Beyond ordinary human experience; spiritual",
+      "Following strict rules",
+      "Staying within normal limits"
+    ],
+    "answer": "Beyond ordinary human experience; spiritual",
+    "explanation": "She described the meditation experience as transcendental. The music had a transcendental quality that moved everyone. (Hindi: अलौकिक/आध्यात्मिक)"
   }
-    ]
+  ]
