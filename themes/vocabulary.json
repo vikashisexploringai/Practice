@@ -1406,5 +1406,38 @@
     ],
     "answer": "To make someone seem less important or valuable",
     "explanation": "He always belittles his colleagues' achievements. Don't belittle her efforts just because she's young. (Hindi: छोटा समझना/तुच्छ जताना)"
+  },
+  {
+    "question": "Scrupulous (Meaning & Usage)",
+    "choices": [
+      "Careless and negligent",
+      "Extremely careful about doing things correctly",
+      "Dishonest and untrustworthy",
+      "Casual and relaxed"
+    ],
+    "answer": "Extremely careful about doing things correctly",
+    "explanation": "She is scrupulous about checking all the details in her work. He keeps scrupulous records of all his expenses. (Hindi: ईमानदार/सतर्क)"
+  },
+  {
+    "question": "Diligent (Meaning & Usage)",
+    "choices": [
+      "Lazy and unmotivated",
+      "Hard-working and careful",
+      "Careless and hasty",
+      "Uninterested and bored"
+    ],
+    "answer": "Hard-working and careful",
+    "explanation": "The diligent student always completes her homework on time. He was diligent in his research and left no stone unturned. (Hindi: मेहनती/परिश्रमी)"
+  },
+  {
+    "question": "Fabulous (Meaning & Usage)",
+    "choices": [
+      "Ordinary and plain",
+      "Extremely good or wonderful",
+      "Terrible and awful",
+      "Average and mediocre"
+    ],
+    "answer": "Extremely good or wonderful",
+    "explanation": "We had a fabulous time at the beach yesterday. She looked fabulous in her new dress. (Hindi: शानदार/अद्भुत)"
   }
   ]
