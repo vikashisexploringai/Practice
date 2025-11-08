@@ -1439,5 +1439,49 @@
     ],
     "answer": "Extremely good or wonderful",
     "explanation": "We had a fabulous time at the beach yesterday. She looked fabulous in her new dress. (Hindi: शानदार/अद्भुत)"
+  },
+  {
+    "question": "Revoke (Meaning & Usage)",
+    "choices": [
+      "To approve officially",
+      "To officially cancel something",
+      "To renew or extend",
+      "To support strongly"
+    ],
+    "answer": "To officially cancel something",
+    "explanation": "The government decided to revoke his passport. Her driving license was revoked after the accident. (Hindi: रद्द करना/वापस लेना)"
+  },
+  {
+    "question": "Exonerate (Meaning & Usage)",
+    "choices": [
+      "To accuse someone of a crime",
+      "To declare someone not guilty of a crime",
+      "To punish severely",
+      "To investigate a case"
+    ],
+    "answer": "To declare someone not guilty of a crime",
+    "explanation": "New evidence exonerated the man who had been in jail for ten years. The investigation completely exonerated her from all charges. (Hindi: दोषमुक्त करना/बरी करना)"
+  },
+  {
+    "question": "Inadvertently (Meaning & Usage)",
+    "choices": [
+      "Intentionally and purposely",
+      "Without intention or accidentally",
+      "With careful planning",
+      "With malicious intent"
+    ],
+    "answer": "Without intention or accidentally",
+    "explanation": "She inadvertently deleted the important file. He inadvertently offended her with his comment. (Hindi: अनजाने में/गलती से)"
+  },
+  {
+    "question": "Haphazardly (Meaning & Usage)",
+    "choices": [
+      "In a careful and organized way",
+      "In a random and disorganized way",
+      "In a systematic manner",
+      "In a planned sequence"
+    ],
+    "answer": "In a random and disorganized way",
+    "explanation": "The books were arranged haphazardly on the shelves. He packed his bag haphazardly and forgot many things. (Hindi: अस्त-व्यस्त/बेतरतीब)"
   }
   ]
