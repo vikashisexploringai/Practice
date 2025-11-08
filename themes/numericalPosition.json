@@ -1,0 +1,158 @@
+[
+  {
+    "question": "A",
+    "choices": ["2", "1", "26", "4"],
+    "answer": "1",
+    "explanation": "A is the first letter of the alphabet."
+  },
+  {
+    "question": "B",
+    "choices": ["1", "3", "2", "25"],
+    "answer": "2",
+    "explanation": "B is the second letter of the alphabet."
+  },
+  {
+    "question": "C",
+    "choices": ["2", "4", "3", "1"],
+    "answer": "3",
+    "explanation": "C is the third letter of the alphabet."
+  },
+  {
+    "question": "D",
+    "choices": ["5", "4", "6", "3"],
+    "answer": "4",
+    "explanation": "D is the fourth letter of the alphabet."
+  },
+  {
+    "question": "E",
+    "choices": ["4", "6", "5", "7"],
+    "answer": "5",
+    "explanation": "E is the fifth letter of the alphabet."
+  },
+  {
+    "question": "F",
+    "choices": ["5", "7", "6", "4"],
+    "answer": "6",
+    "explanation": "F is the sixth letter of the alphabet."
+  },
+  {
+    "question": "G",
+    "choices": ["6", "8", "7", "5"],
+    "answer": "7",
+    "explanation": "G is the seventh letter of the alphabet."
+  },
+  {
+    "question": "H",
+    "choices": ["9", "8", "7", "10"],
+    "answer": "8",
+    "explanation": "H is the eighth letter of the alphabet."
+  },
+  {
+    "question": "I",
+    "choices": ["8", "10", "9", "7"],
+    "answer": "9",
+    "explanation": "I is the ninth letter of the alphabet."
+  },
+  {
+    "question": "J",
+    "choices": ["9", "11", "10", "8"],
+    "answer": "10",
+    "explanation": "J is the tenth letter of the alphabet."
+  },
+  {
+    "question": "K",
+    "choices": ["10", "12", "11", "9"],
+    "answer": "11",
+    "explanation": "K is the eleventh letter of the alphabet."
+  },
+  {
+    "question": "L",
+    "choices": ["11", "13", "12", "10"],
+    "answer": "12",
+    "explanation": "L is the twelfth letter of the alphabet."
+  },
+  {
+    "question": "M",
+    "choices": ["12", "14", "13", "11"],
+    "answer": "13",
+    "explanation": "M is the thirteenth letter of the alphabet."
+  },
+  {
+    "question": "N",
+    "choices": ["15", "14", "13", "12"],
+    "answer": "14",
+    "explanation": "N is the fourteenth letter of the alphabet."
+  },
+  {
+    "question": "O",
+    "choices": ["14", "16", "15", "13"],
+    "answer": "15",
+    "explanation": "O is the fifteenth letter of the alphabet."
+  },
+  {
+    "question": "P",
+    "choices": ["15", "17", "16", "14"],
+    "answer": "16",
+    "explanation": "P is the sixteenth letter of the alphabet."
+  },
+  {
+    "question": "Q",
+    "choices": ["16", "18", "17", "15"],
+    "answer": "17",
+    "explanation": "Q is the seventeenth letter of the alphabet."
+  },
+  {
+    "question": "R",
+    "choices": ["17", "19", "18", "16"],
+    "answer": "18",
+    "explanation": "R is the eighteenth letter of the alphabet."
+  },
+  {
+    "question": "S",
+    "choices": ["18", "20", "19", "17"],
+    "answer": "19",
+    "explanation": "S is the nineteenth letter of the alphabet."
+  },
+  {
+    "question": "T",
+    "choices": ["19", "21", "20", "18"],
+    "answer": "20",
+    "explanation": "T is the twentieth letter of the alphabet."
+  },
+  {
+    "question": "U",
+    "choices": ["20", "22", "21", "19"],
+    "answer": "21",
+    "explanation": "U is the twenty-first letter of the alphabet."
+  },
+  {
+    "question": "V",
+    "choices": ["21", "23", "22", "20"],
+    "answer": "22",
+    "explanation": "V is the twenty-second letter of the alphabet."
+  },
+  {
+    "question": "W",
+    "choices": ["22", "24", "23", "21"],
+    "answer": "23",
+    "explanation": "W is the twenty-third letter of the alphabet."
+  },
+  {
+    "question": "X",
+    "choices": ["23", "25", "24", "22"],
+    "answer": "24",
+    "explanation": "X is the twenty-fourth letter of the alphabet."
+  },
+  {
+    "question": "Y",
+    "choices": ["24", "26", "25", "23"],
+    "answer": "25",
+    "explanation": "Y is the twenty-fifth letter of the alphabet."
+  },
+  {
+    "question": "Z",
+    "choices": ["25", "1", "26", "24"],
+    "answer": "26",
+    "explanation": "Z is the twenty-sixth and final letter of the alphabet."
+  }
+    ]
