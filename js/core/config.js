@@ -10,6 +10,7 @@ export const CONFIG = {
         'trignometricEquations': { displayName: 'Trignometric Equations' },
         'gstSections': { displayName: 'GST Sections' },
         'antonyms': { displayName: 'Antonyms' },
+        'numericalPositions': { displayName: 'Numerical Positions of Alphabet' }
     },
     MODES: {
         'daywise': {
