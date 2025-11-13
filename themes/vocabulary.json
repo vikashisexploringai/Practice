@@ -1483,5 +1483,60 @@
     ],
     "answer": "In a random and disorganized way",
     "explanation": "The books were arranged haphazardly on the shelves. He packed his bag haphazardly and forgot many things. (Hindi: अस्त-व्यस्त/बेतरतीब)"
+  },
+  {
+    "question": "Erudite (Meaning & Usage)",
+    "choices": [
+      "Ignorant and uneducated",
+      "Having great knowledge learned from studying",
+      "Simple and straightforward",
+      "Practical and hands-on"
+    ],
+    "answer": "Having great knowledge learned from studying",
+    "explanation": "The professor was an erudite scholar of ancient history. Her erudite lecture impressed all the students. (Hindi: विद्वान/पंडित)"
+  },
+  {
+    "question": "Prolific (Meaning & Usage)",
+    "choices": [
+      "Producing very little work",
+      "Producing many works or results",
+      "Working very slowly",
+      "Creating poor quality work"
+    ],
+    "answer": "Producing many works or results",
+    "explanation": "He was a prolific writer who published over 50 books. The apple tree was prolific this year. (Hindi: उर्वर/अधिक उत्पादन करने वाला)"
+  },
+  {
+    "question": "Eloquent (Meaning & Usage)",
+    "choices": [
+      "Unable to express clearly",
+      "Fluent and persuasive in speaking or writing",
+      "Quiet and reserved",
+      "Confusing and unclear"
+    ],
+    "answer": "Fluent and persuasive in speaking or writing",
+    "explanation": "She gave an eloquent speech that moved the audience. His eloquent writing made the story come alive. (Hindi: वाक्पटु/सुवक्ता)"
+  },
+  {
+    "question": "Articulate (Meaning & Usage)",
+    "choices": [
+      "To mumble or speak unclearly",
+      "To express thoughts and ideas clearly in words",
+      "To remain silent",
+      "To confuse the listener"
+    ],
+    "answer": "To express thoughts and ideas clearly in words",
+    "explanation": "She articulated her concerns about the project very clearly. He found it difficult to articulate his feelings. (Hindi: स्पष्ट रूप से व्यक्त करना)"
+  },
+  {
+    "question": "Cogent (Meaning & Usage)",
+    "choices": [
+      "Weak and unconvincing",
+      "Clear, logical, and convincing",
+      "Emotional and dramatic",
+      "Vague and unclear"
+    ],
+    "answer": "Clear, logical, and convincing",
+    "explanation": "She presented a cogent argument for her proposal. His analysis was cogent and well-supported. (Hindi: ठोस/विश्वसनीय)"
   }
   ]
