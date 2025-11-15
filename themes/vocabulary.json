@@ -1538,5 +1538,159 @@
     ],
     "answer": "Clear, logical, and convincing",
     "explanation": "She presented a cogent argument for her proposal. His analysis was cogent and well-supported. (Hindi: ठोस/विश्वसनीय)"
+  },
+  {
+    "question": "Recalcitrant (Meaning & Usage)",
+    "choices": [
+      "Cooperative and obedient",
+      "Stubbornly resistant to authority",
+      "Enthusiastically helpful",
+      "Easily persuaded"
+    ],
+    "answer": "Stubbornly resistant to authority",
+    "explanation": "The recalcitrant student refused to follow the classroom rules. The recalcitrant employee ignored all management directives. (Hindi: अड़ियल/उद्दण्ड)"
+  },
+  {
+    "question": "Sagacious (Meaning & Usage)",
+    "choices": [
+      "Foolish and unwise",
+      "Wise and showing good judgment",
+      "Inexperienced and naive",
+      "Rash and impulsive"
+    ],
+    "answer": "Wise and showing good judgment",
+    "explanation": "The sagacious old man offered valuable advice. Her sagacious decision saved the company from loss. (Hindi: बुद्धिमान/दूरदर्शी)"
+  },
+  {
+    "question": "Intransigent (Meaning & Usage)",
+    "choices": [
+      "Willing to compromise",
+      "Unwilling to change one's views",
+      "Flexible and adaptable",
+      "Open to discussion"
+    ],
+    "answer": "Unwilling to change one's views",
+    "explanation": "The intransigent leader refused all negotiation attempts. His intransigent attitude stalled the peace talks. (Hindi: अडिग/कट्टर)"
+  },
+  {
+    "question": "Swindle (Meaning & Usage)",
+    "choices": [
+      "To help someone honestly",
+      "To cheat someone out of money or property",
+      "To give generously",
+      "To protect from harm"
+    ],
+    "answer": "To cheat someone out of money or property",
+    "explanation": "He swindled elderly people out of their savings. The fake investment scheme swindled thousands of investors. (Hindi: ठगना/धोखा देना)"
+  },
+  {
+    "question": "Purge (Meaning & Usage)",
+    "choices": [
+      "To add or include",
+      "To remove unwanted elements",
+      "To preserve carefully",
+      "To accumulate gradually"
+    ],
+    "answer": "To remove unwanted elements",
+    "explanation": "The company purged all corrupt officials from its ranks. She purged her closet of old clothes. (Hindi: शुद्ध करना/हटाना)"
+  },
+  {
+    "question": "Emulate (Meaning & Usage)",
+    "choices": [
+      "To criticize or oppose",
+      "To match or surpass by imitation",
+      "To ignore completely",
+      "To destroy or ruin"
+    ],
+    "answer": "To match or surpass by imitation",
+    "explanation": "Young athletes often emulate their sporting heroes. The company tried to emulate its competitor's success. (Hindi: अनुकरण करना/बराबरी करना)"
+  },
+  {
+    "question": "Condone (Meaning & Usage)",
+    "choices": [
+      "To strongly disapprove",
+      "To accept or allow something wrong",
+      "To punish severely",
+      "To prevent completely"
+    ],
+    "answer": "To accept or allow something wrong",
+    "explanation": "The school cannot condone bullying behavior. He refused to condone their unethical practices. (Hindi: अनदेखा करना/माफ करना)"
+  },
+  {
+    "question": "Predilection (Meaning & Usage)",
+    "choices": [
+      "A strong dislike",
+      "A preference or special liking",
+      "A neutral feeling",
+      "A sudden change"
+    ],
+    "answer": "A preference or special liking",
+    "explanation": "She has a predilection for classical music. His predilection for spicy food is well-known. (Hindi: झुकाव/पसंद)"
+  },
+  {
+    "question": "Acrimonious (Meaning & Usage)",
+    "choices": [
+      "Friendly and pleasant",
+      "Bitter and angry in tone",
+      "Calm and peaceful",
+      "Humorous and light"
+    ],
+    "answer": "Bitter and angry in tone",
+    "explanation": "The acrimonious divorce battle lasted for years. Their acrimonious debate ended their friendship. (Hindi: कटु/कड़वा)"
+  },
+  {
+    "question": "Cynical (Meaning & Usage)",
+    "choices": [
+      "Trusting and optimistic",
+      "Distrustful of human sincerity",
+      "Naive and innocent",
+      "Enthusiastic and hopeful"
+    ],
+    "answer": "Distrustful of human sincerity",
+    "explanation": "He was cynical about politicians' promises. Her cynical attitude made it hard to work with her. (Hindi: कुंठित/संदेहवादी)"
+  },
+  {
+    "question": "Pusillanimous (Meaning & Usage)",
+    "choices": [
+      "Brave and courageous",
+      "Cowardly and timid",
+      "Confident and bold",
+      "Adventurous and daring"
+    ],
+    "answer": "Cowardly and timid",
+    "explanation": "His pusillanimous response to the crisis disappointed everyone. The pusillanimous leader avoided making difficult decisions. (Hindi: कायर/डरपोक)"
+  },
+  {
+    "question": "Deleterious (Meaning & Usage)",
+    "choices": [
+      "Beneficial and helpful",
+      "Harmful and damaging",
+      "Neutral and harmless",
+      "Healing and curative"
+    ],
+    "answer": "Harmful and damaging",
+    "explanation": "Smoking has deleterious effects on health. The deleterious chemicals polluted the river. (Hindi: हानिकारक/विनाशकारी)"
+  },
+  {
+    "question": "Innocuous (Meaning & Usage)",
+    "choices": [
+      "Harmful and dangerous",
+      "Harmless and inoffensive",
+      "Powerful and effective",
+      "Toxic and poisonous"
+    ],
+    "answer": "Harmless and inoffensive",
+    "explanation": "The comment seemed innocuous but offended many people. It was an innocuous-looking plant but turned out to be poisonous. (Hindi: अहानिकर/सीधा-सादा)"
+  },
+  {
+    "question": "Squander (Meaning & Usage)",
+    "choices": [
+      "To save carefully",
+      "To waste something valuable",
+      "To invest wisely",
+      "To preserve efficiently"
+    ],
+    "answer": "To waste something valuable",
+    "explanation": "He squandered his inheritance on luxury cars and parties. Don't squander this opportunity to study abroad. (Hindi: बर्बाद करना/गंवाना)"
   }
   ]
