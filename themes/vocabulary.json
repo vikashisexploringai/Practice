@@ -1692,5 +1692,225 @@
     ],
     "answer": "To waste something valuable",
     "explanation": "He squandered his inheritance on luxury cars and parties. Don't squander this opportunity to study abroad. (Hindi: बर्बाद करना/गंवाना)"
+  },
+  {
+    "question": "Harbinger (Meaning & Usage)",
+    "choices": [
+      "A follower or result",
+      "A person or thing that signals the approach of something",
+      "An obstacle or barrier",
+      "A memory of the past"
+    ],
+    "answer": "A person or thing that signals the approach of something",
+    "explanation": "The first snowfall is a harbinger of winter. Dark clouds are often a harbinger of rain. (Hindi: अग्रदूत/सूचक)"
+  },
+  {
+    "question": "Callous (Meaning & Usage)",
+    "choices": [
+      "Kind and sympathetic",
+      "Insensitive to others' feelings and emotions",
+      "Emotional and caring",
+      "Gentle and understanding"
+    ],
+    "answer": "Insensitive to others' feelings and emotions",
+    "explanation": "His callous comments about her failure hurt her deeply. She showed a callous attitude toward her friend's problems. (Hindi: कठोर/संवेदनहीन)"
+  },
+  {
+    "question": "Incipient (Meaning & Usage)",
+    "choices": [
+      "Fully developed",
+      "In the beginning stages",
+      "Coming to an end",
+      "Long-established"
+    ],
+    "answer": "In the beginning stages",
+    "explanation": "They detected the incipient disease before symptoms appeared. The incipient stages of the project showed great promise. (Hindi: प्रारंभिक/उत्पन्न होता हुआ)"
+  },
+  {
+    "question": "Advent (Meaning & Usage)",
+    "choices": [
+      "The end or conclusion",
+      "The arrival of an important person or thing",
+      "The disappearance",
+      "The rejection"
+    ],
+    "answer": "The arrival of an important person or thing",
+    "explanation": "The advent of the internet changed communication forever. People celebrated the advent of the new king. (Hindi: आगमन/प्रकट होना)"
+  },
+  {
+    "question": "Sanguine (Meaning & Usage)",
+    "choices": [
+      "Pessimistic and gloomy",
+      "Optimistic and cheerful",
+      "Angry and resentful",
+      "Neutral and indifferent"
+    ],
+    "answer": "Optimistic and cheerful",
+    "explanation": "She was sanguine about her chances of recovery. Despite the challenges, he remained sanguine. (Hindi: आशावादी/उत्साही)"
+  },
+  {
+    "question": "Vigilant (Meaning & Usage)",
+    "choices": [
+      "Careless and inattentive",
+      "Watchful and alert to danger",
+      "Sleepy and tired",
+      "Relaxed and casual"
+    ],
+    "answer": "Watchful and alert to danger",
+    "explanation": "Security guards must remain vigilant at all times. Parents need to be vigilant about their children's online activities. (Hindi: सतर्क/जागरूक)"
+  },
+  {
+    "question": "Assiduous (Meaning & Usage)",
+    "choices": [
+      "Careless and lazy",
+      "Showing great care and perseverance",
+      "Occasional and irregular",
+      "Hasty and rushed"
+    ],
+    "answer": "Showing great care and perseverance",
+    "explanation": "She was assiduous in her research, checking every detail. His assiduous work ethic impressed his managers. (Hindi: परिश्रमी/मेहनती)"
+  },
+  {
+    "question": "Deft (Meaning & Usage)",
+    "choices": [
+      "Clumsy and awkward",
+      "Quick and skillful in movement or action",
+      "Slow and deliberate",
+      "Inexperienced and unskilled"
+    ],
+    "answer": "Quick and skillful in movement or action",
+    "explanation": "The chef's deft hands chopped vegetables rapidly. She made a deft recovery after stumbling. (Hindi: निपुण/चुस्त)"
+  },
+  {
+    "question": "Adulation (Meaning & Usage)",
+    "choices": [
+      "Strong criticism",
+      "Excessive admiration or praise",
+      "Indifference or neglect",
+      "Constructive feedback"
+    ],
+    "answer": "Excessive admiration or praise",
+    "explanation": "The actor received adulation from his fans. She was uncomfortable with the adulation from her colleagues. (Hindi: चापलूसी/अत्यधिक प्रशंसा)"
+  },
+  {
+    "question": "Moribund (Meaning & Usage)",
+    "choices": [
+      "Vibrant and growing",
+      "At the point of death or decline",
+      "Newly established",
+      "Highly active"
+    ],
+    "answer": "At the point of death or decline",
+    "explanation": "The moribund industry needed immediate revival. The patient was moribund when brought to the hospital. (Hindi: मरणासन्न/बंद होने वाला)"
+  },
+  {
+    "question": "Aggravate (Meaning & Usage)",
+    "choices": [
+      "To improve or soothe",
+      "To make a situation worse",
+      "To solve a problem",
+      "To ignore an issue"
+    ],
+    "answer": "To make a situation worse",
+    "explanation": "His comments only aggravated the tense situation. Scratching will aggravate the rash. (Hindi: बढ़ाना/खराब करना)"
+  },
+  {
+    "question": "Exacerbate (Meaning & Usage)",
+    "choices": [
+      "To make less severe",
+      "To make a problem worse",
+      "To heal completely",
+      "To prevent from happening"
+    ],
+    "answer": "To make a problem worse",
+    "explanation": "The heavy rain exacerbated the flooding problem. His criticism exacerbated her anxiety. (Hindi: बिगाड़ना/तीव्र करना)"
+  },
+  {
+    "question": "Palliate (Meaning & Usage)",
+    "choices": [
+      "To make more severe",
+      "To reduce the severity of something without curing it",
+      "To completely eliminate",
+      "To ignore intentionally"
+    ],
+    "answer": "To reduce the severity of something without curing it",
+    "explanation": "The medicine helped palliate her pain. He tried to palliate his mistake with an apology. (Hindi: कम करना/शांत करना)"
+  },
+  {
+    "question": "Egregious (Meaning & Usage)",
+    "choices": [
+      "Outstandingly good",
+      "Outstandingly bad or shocking",
+      "Average and ordinary",
+      "Slightly imperfect"
+    ],
+    "answer": "Outstandingly bad or shocking",
+    "explanation": "It was an egregious error that cost the company millions. His egregious behavior shocked everyone. (Hindi: जघन्य/भयंकर)"
+  },
+  {
+    "question": "Fortuitous (Meaning & Usage)",
+    "choices": [
+      "Planned and expected",
+      "Happening by lucky chance",
+      "Unfortunate and unlucky",
+      "Predictable and certain"
+    ],
+    "answer": "Happening by lucky chance",
+    "explanation": "Our meeting was entirely fortuitous. The fortuitous discovery led to a major breakthrough. (Hindi: आकस्मिक/भाग्यशाली)"
+  },
+  {
+    "question": "Serendipity (Meaning & Usage)",
+    "choices": [
+      "A planned outcome",
+      "The occurrence of fortunate discoveries by accident",
+      "A predictable result",
+      "An unfortunate event"
+    ],
+    "answer": "The occurrence of fortunate discoveries by accident",
+    "explanation": "Finding this job was pure serendipity. Many scientific discoveries happen through serendipity. (Hindi: अनायास ही अच्छी खोज/आकस्मिक सौभाग्य)"
+  },
+  {
+    "question": "Pernicious (Meaning & Usage)",
+    "choices": [
+      "Beneficial and helpful",
+      "Having a harmful effect gradually",
+      "Immediately noticeable",
+      "Mild and harmless"
+    ],
+    "answer": "Having a harmful effect gradually",
+    "explanation": "The pernicious influence of gossip destroyed their friendship. Smoking has pernicious effects on health. (Hindi: हानिकारक/विनाशकारी)"
+  },
+  {
+    "question": "Anomaly (Meaning & Usage)",
+    "choices": [
+      "Something normal and expected",
+      "Something that deviates from what is standard",
+      "A common occurrence",
+      "A perfect example"
+    ],
+    "answer": "Something that deviates from what is standard",
+    "explanation": "The test results showed an anomaly that needed investigation. His success was an anomaly in their family. (Hindi: विसंगति/असामान्यता)"
+  },
+  {
+    "question": "Cajole (Meaning & Usage)",
+    "choices": [
+      "To force or threaten",
+      "To persuade with flattery or gentle urging",
+      "To ignore or reject",
+      "To command authoritatively"
+    ],
+    "answer": "To persuade with flattery or gentle urging",
+    "explanation": "She managed to cajole her brother into lending her the car. He cajoled his friends into joining the trip. (Hindi: मनाना/फुसलाना)"
+  },
+  {
+    "question": "Caress (Meaning & Usage)",
+    "choices": [
+      "To hit or strike",
+      "To touch or stroke gently and lovingly",
+      "To push away",
+      "To ignore completely"
+    ],
+    "answer": "To touch or stroke gently and lovingly",
+    "explanation": "She caressed the baby's cheek softly. The breeze caressed her face as she walked. (Hindi: दुलार/प्यार से छूना)"
   }
   ]
