@@ -1901,5 +1901,423 @@
     ],
     "answer": "To touch or stroke gently and lovingly",
     "explanation": "She caressed the baby's cheek softly. The breeze caressed her face as she walked. (Hindi: दुलार/प्यार से छूना)"
+  },
+  {
+    "question": "Elusive (Meaning & Usage)",
+    "choices": [
+      "Easy to find or achieve",
+      "Hard to find, catch, or achieve",
+      "Always visible",
+      "Commonly available"
+    ],
+    "answer": "Hard to find, catch, or achieve",
+    "explanation": "The elusive criminal avoided capture for years. Finding a perfect solution to this problem remains elusive. (Hindi: मायावी/दुर्ग्राह्य)"
+  },
+  {
+    "question": "Ephemeral (Meaning & Usage)",
+    "choices": [
+      "Lasting forever",
+      "Lasting for a very short time",
+      "Growing stronger over time",
+      "Permanent and unchanging"
+    ],
+    "answer": "Lasting for a very short time",
+    "explanation": "The beauty of cherry blossoms is ephemeral. His fame proved to be ephemeral. (Hindi: क्षणभंगुर/अल्पकालिक)"
+  },
+  {
+    "question": "Clandestine (Meaning & Usage)",
+    "choices": [
+      "Open and public",
+      "Kept secret or done secretly",
+      "Official and formal",
+      "Well-known and celebrated"
+    ],
+    "answer": "Kept secret or done secretly",
+    "explanation": "They held a clandestine meeting in the old warehouse. The spy carried out clandestine operations. (Hindi: गुप्त/छिपा हुआ)"
+  },
+  {
+    "question": "Ubiquitous (Meaning & Usage)",
+    "choices": [
+      "Rare and hard to find",
+      "Present, appearing, or found everywhere",
+      "Limited to one place",
+      "Temporarily available"
+    ],
+    "answer": "Present, appearing, or found everywhere",
+    "explanation": "Mobile phones have become ubiquitous in modern society. Starbucks coffee shops seem ubiquitous in this city. (Hindi: सर्वव्यापी/हर जगह मौजूद)"
+  },
+  {
+    "question": "Meticulous (Meaning & Usage)",
+    "choices": [
+      "Careless and hasty",
+      "Showing great attention to detail; very careful and precise",
+      "Casual and relaxed",
+      "Sloppy and untidy"
+    ],
+    "answer": "Showing great attention to detail; very careful and precise",
+    "explanation": "She was meticulous in planning every detail of the wedding. His meticulous research earned him praise. (Hindi: सूक्ष्म/अति सावधान)"
+  },
+  {
+    "question": "Alacrity (Meaning & Usage)",
+    "choices": [
+      "Reluctance or unwillingness",
+      "Brisk and cheerful readiness",
+      "Slow and lazy movement",
+      "Angry resistance"
+    ],
+    "answer": "Brisk and cheerful readiness",
+    "explanation": "She accepted the challenge with alacrity. He helped his mother with alacrity. (Hindi: तत्परता/उत्सुकता)"
+  },
+  {
+    "question": "Esoteric (Meaning & Usage)",
+    "choices": [
+      "Commonly understood",
+      "Intended for or understood by only a small number of people with special knowledge",
+      "Simple and straightforward",
+      "Publicly available"
+    ],
+    "answer": "Intended for or understood by only a small number of people with special knowledge",
+    "explanation": "The professor's lecture on quantum physics was too esoteric for beginners. Ancient esoteric texts are difficult to interpret. (Hindi: गूढ़/रहस्यमय)"
+  },
+  {
+    "question": "Capricious (Meaning & Usage)",
+    "choices": [
+      "Steady and predictable",
+      "Given to sudden and unaccountable changes of mood or behavior",
+      "Consistent and reliable",
+      "Calm and composed"
+    ],
+    "answer": "Given to sudden and unaccountable changes of mood or behavior",
+    "explanation": "The capricious weather changed from sunny to stormy in minutes. Her capricious decisions frustrated her team. (Hindi: चंचल/अस्थिर)"
+  },
+  {
+    "question": "Nefarious (Meaning & Usage)",
+    "choices": [
+      "Noble and good",
+      "Wicked or criminal",
+      "Honest and truthful",
+      "Kind and generous"
+    ],
+    "answer": "Wicked or criminal",
+    "explanation": "The villain had nefarious plans to take over the city. They uncovered a nefarious scheme to cheat investors. (Hindi: दुष्ट/अपराधिक)"
+  },
+  {
+    "question": "Belligerent (Meaning & Usage)",
+    "choices": [
+      "Peaceful and friendly",
+      "Hostile and aggressive",
+      "Neutral and passive",
+      "Cooperative and helpful"
+    ],
+    "answer": "Hostile and aggressive",
+    "explanation": "The belligerent customer shouted at the staff. His belligerent attitude started many fights. (Hindi: लड़ाकू/आक्रामक)"
+  },
+  {
+    "question": "Austere (Meaning & Usage)",
+    "choices": [
+      "Luxurious and comfortable",
+      "Severe or strict in manner, attitude, or appearance",
+      "Decorated and ornate",
+      "Generous and lavish"
+    ],
+    "answer": "Severe or strict in manner, attitude, or appearance",
+    "explanation": "The monk lived an austere life in a simple room. Her austere expression showed she was not pleased. (Hindi: कठोर/सादा)"
+  },
+  {
+    "question": "Idiosyncrasy (Meaning & Usage)",
+    "choices": [
+      "A common habit",
+      "A mode of behavior or way of thought peculiar to an individual",
+      "A universal truth",
+      "A normal characteristic"
+    ],
+    "answer": "A mode of behavior or way of thought peculiar to an individual",
+    "explanation": "His idiosyncrasy of always wearing mismatched socks amused his friends. Every writer has their own idiosyncrasies. (Hindi: विशेषक/व्यक्तिगत विलक्षणता)"
+  },
+  {
+    "question": "Precarious (Meaning & Usage)",
+    "choices": [
+      "Safe and secure",
+      "Not securely held or in position; dangerously likely to fall or collapse",
+      "Strong and stable",
+      "Certain and guaranteed"
+    ],
+    "answer": "Not securely held or in position; dangerously likely to fall or collapse",
+    "explanation": "The ladder was in a precarious position against the wall. His financial situation is precarious. (Hindi: अनिश्चित/खतरनाक)"
+  },
+  {
+    "question": "Disparate (Meaning & Usage)",
+    "choices": [
+      "Similar and alike",
+      "Essentially different in kind; not allowing comparison",
+      "Identical in nature",
+      "Closely related"
+    ],
+    "answer": "Essentially different in kind; not allowing comparison",
+    "explanation": "The two ideas were so disparate that they couldn't be combined. The group contained people from disparate backgrounds. (Hindi: असमान/भिन्न)"
+  },
+  {
+    "question": "Panacea (Meaning & Usage)",
+    "choices": [
+      "A partial solution",
+      "A solution or remedy for all difficulties or diseases",
+      "A cause of problems",
+      "A temporary fix"
+    ],
+    "answer": "A solution or remedy for all difficulties or diseases",
+    "explanation": "There is no panacea for poverty. He believed education was a panacea for social problems. (Hindi: सर्वरोगहर/रामबाण इलाज)"
+  },
+  {
+    "question": "Paradigm (Meaning & Usage)",
+    "choices": [
+      "A minor example",
+      "A typical example or pattern of something; a model",
+      "An exception to the rule",
+      "A random occurrence"
+    ],
+    "answer": "A typical example or pattern of something; a model",
+    "explanation": "This discovery represents a paradigm shift in physics. Her work became a paradigm for future research. (Hindi: आदर्श/प्रतिमान)"
+  },
+  {
+    "question": "Salient (Meaning & Usage)",
+    "choices": [
+      "Unimportant and minor",
+      "Most noticeable or important",
+      "Hidden and obscure",
+      "Common and ordinary"
+    ],
+    "answer": "Most noticeable or important",
+    "explanation": "Let me summarize the salient points of the discussion. The salient feature of the building is its unique design. (Hindi: प्रमुख/महत्वपूर्ण)"
+  },
+  {
+    "question": "Vindicate (Meaning & Usage)",
+    "choices": [
+      "To prove wrong",
+      "To clear of blame or suspicion",
+      "To accuse falsely",
+      "To ignore evidence"
+    ],
+    "answer": "To clear of blame or suspicion",
+    "explanation": "The new evidence vindicated the accused man. Her success vindicated her unconventional methods. (Hindi: निर्दोष सिद्ध करना/समर्थन करना)"
+  },
+  {
+    "question": "Pariah (Meaning & Usage)",
+    "choices": [
+      "A popular leader",
+      "An outcast from society",
+      "A respected elder",
+      "A celebrity"
+    ],
+    "answer": "An outcast from society",
+    "explanation": "After the scandal, he became a pariah in his community. The whistleblower was treated as a pariah by colleagues. (Hindi: बहिष्कृत/अछूत)"
+  },
+  {
+    "question": "Zealot (Meaning & Usage)",
+    "choices": [
+      "A moderate person",
+      "A person who is fanatical and uncompromising in pursuit of their beliefs",
+      "A neutral observer",
+      "A flexible thinker"
+    ],
+    "answer": "A person who is fanatical and uncompromising in pursuit of their beliefs",
+    "explanation": "Religious zealots often refuse to consider other viewpoints. He was a zealot about environmental protection. (Hindi: कट्टरपंथी/उत्साही)"
+  },
+  {
+    "question": "Quandary (Meaning & Usage)",
+    "choices": [
+      "A state of certainty",
+      "A state of perplexity or uncertainty over what to do in a difficult situation",
+      "A clear solution",
+      "A simple decision"
+    ],
+    "answer": "A state of perplexity or uncertainty over what to do in a difficult situation",
+    "explanation": "She was in a quandary about which job offer to accept. The ethical dilemma put him in a quandary. (Hindi: दुविधा/उलझन)"
+  },
+  {
+    "question": "Perplexity (Meaning & Usage)",
+    "choices": [
+      "Complete understanding",
+      "The state of being puzzled or confused",
+      "Clear certainty",
+      "Simple explanation"
+    ],
+    "answer": "The state of being puzzled or confused",
+    "explanation": "His strange behavior caused great perplexity among his friends. I looked at the math problem in perplexity. (Hindi: हैरानी/उलझन)"
+  },
+  {
+    "question": "Bombastic (Meaning & Usage)",
+    "choices": [
+      "Simple and direct",
+      "High-sounding but with little meaning; inflated",
+      "Humble and modest",
+      "Clear and concise"
+    ],
+    "answer": "High-sounding but with little meaning; inflated",
+    "explanation": "The politician's bombastic speech failed to impress the crowd. His writing style is often bombastic and pretentious. (Hindi: आडंबरपूर्ण/शब्दाडंबरपूर्ण)"
+  },
+  {
+    "question": "Reprimand (Meaning & Usage)",
+    "choices": [
+      "To praise formally",
+      "To express sharp disapproval or criticism",
+      "To ignore behavior",
+      "To reward generously"
+    ],
+    "answer": "To express sharp disapproval or criticism",
+    "explanation": "The teacher reprimanded the student for cheating. He received a reprimand from his boss for being late. (Hindi: डाँट/फटकार)"
+  },
+  {
+    "question": "Lenient (Meaning & Usage)",
+    "choices": [
+      "Strict and harsh",
+      "More merciful or tolerant than expected",
+      "Unforgiving and rigid",
+      "Demanding and exacting"
+    ],
+    "answer": "More merciful or tolerant than expected",
+    "explanation": "The judge was lenient with the first-time offender. Her parents were lenient about her career choice. (Hindi: नरम/उदार)"
+  },
+  {
+    "question": "Desiccate (Meaning & Usage)",
+    "choices": [
+      "To add moisture",
+      "To remove moisture from; to dry out completely",
+      "To soak thoroughly",
+      "To preserve with liquid"
+    ],
+    "answer": "To remove moisture from; to dry out completely",
+    "explanation": "The sun will desiccate the fruits for preservation. The desert heat can desiccate plants quickly. (Hindi: सुखाना/निर्जल करना)"
+  },
+  {
+    "question": "Eclectic (Meaning & Usage)",
+    "choices": [
+      "Limited to one style",
+      "Deriving ideas, style, or taste from a broad and diverse range of sources",
+      "Traditional and conventional",
+      "Narrow in scope"
+    ],
+    "answer": "Deriving ideas, style, or taste from a broad and diverse range of sources",
+    "explanation": "Her musical taste is eclectic, ranging from classical to hip-hop. The restaurant offers an eclectic menu. (Hindi: चयनात्मक/विविध)"
+  },
+  {
+    "question": "Equanimity (Meaning & Usage)",
+    "choices": [
+      "Emotional agitation",
+      "Mental calmness and composure, especially in difficult situations",
+      "Angry outburst",
+      "Nervous anxiety"
+    ],
+    "answer": "Mental calmness and composure, especially in difficult situations",
+    "explanation": "She faced the crisis with remarkable equanimity. He maintained his equanimity despite the criticism. (Hindi: मानसिक संतुलन/धैर्य)"
+  },
+  {
+    "question": "Didactic (Meaning & Usage)",
+    "choices": [
+      "Entertaining and amusing",
+      "Intended to teach, particularly in having moral instruction as an ulterior motive",
+      "Simple and straightforward",
+      "Confusing and unclear"
+    ],
+    "answer": "Intended to teach, particularly in having moral instruction as an ulterior motive",
+    "explanation": "The story had a didactic purpose about honesty. His didactic tone annoyed the students. (Hindi: शिक्षाप्रद/उपदेशात्मक)"
+  },
+  {
+    "question": "Effervescent (Meaning & Usage)",
+    "choices": [
+      "Dull and lifeless",
+      "Vivacious and enthusiastic; bubbly",
+      "Serious and somber",
+      "Quiet and reserved"
+    ],
+    "answer": "Vivacious and enthusiastic; bubbly",
+    "explanation": "Her effervescent personality lights up the room. The effervescent drink bubbled over the glass. (Hindi: उत्साही/चमकीला)"
+  },
+  {
+    "question": "Frivolous (Meaning & Usage)",
+    "choices": [
+      "Serious and important",
+      "Not having any serious purpose or value",
+      "Meaningful and significant",
+      "Essential and necessary"
+    ],
+    "answer": "Not having any serious purpose or value",
+    "explanation": "She spent money on frivolous purchases. The lawsuit was dismissed as frivolous. (Hindi: तुच्छ/ओछा)"
+  },
+  {
+    "question": "Iconoclast (Meaning & Usage)",
+    "choices": [
+      "A traditionalist",
+      "A person who attacks cherished beliefs or institutions",
+      "A follower of traditions",
+      "A conservative thinker"
+    ],
+    "answer": "A person who attacks cherished beliefs or institutions",
+    "explanation": "The artist was an iconoclast who challenged conventional art forms. He was an iconoclast in the scientific community. (Hindi: मूर्तिभंजक/परंपरा विरोधी)"
+  },
+  {
+    "question": "Apostate (Meaning & Usage)",
+    "choices": [
+      "A faithful follower",
+      "A person who renounces a religious or political belief or principle",
+      "A devoted believer",
+      "A loyal supporter"
+    ],
+    "answer": "A person who renounces a religious or political belief or principle",
+    "explanation": "He was considered an apostate for leaving the political party. Religious leaders condemned him as an apostate. (Hindi: धर्मत्यागी/पक्षत्यागी)"
+  },
+  {
+    "question": "Heresy (Meaning & Usage)",
+    "choices": [
+      "Orthodox belief",
+      "Belief or opinion contrary to orthodox religious doctrine",
+      "Accepted doctrine",
+      "Traditional teaching"
+    ],
+    "answer": "Belief or opinion contrary to orthodox religious doctrine",
+    "explanation": "His theories were considered heresy by the scientific establishment. In the past, heresy was often punished severely. (Hindi: विधर्म/अपधर्म)"
+  },
+  {
+    "question": "Obfuscate (Meaning & Usage)",
+    "choices": [
+      "To clarify and explain",
+      "To make something obscure, unclear, or unintelligible",
+      "To simplify",
+      "To illuminate"
+    ],
+    "answer": "To make something obscure, unclear, or unintelligible",
+    "explanation": "The lawyer tried to obfuscate the facts of the case. Technical jargon can obfuscate simple concepts. (Hindi: अस्पष्ट करना/उलझाना)"
+  },
+  {
+    "question": "Placate (Meaning & Usage)",
+    "choices": [
+      "To anger or provoke",
+      "To make someone less angry or hostile",
+      "To ignore feelings",
+      "To criticize harshly"
+    ],
+    "answer": "To make someone less angry or hostile",
+    "explanation": "He tried to placate his upset daughter with a gift. The manager placated the angry customer with a refund. (Hindi: शांत करना/मनाना)"
+  },
+  {
+    "question": "Trepidation (Meaning & Usage)",
+    "choices": [
+      "Confidence and courage",
+      "A feeling of fear or agitation about something that may happen",
+      "Excitement and joy",
+      "Calmness and peace"
+    ],
+    "answer": "A feeling of fear or agitation about something that may happen",
+    "explanation": "She felt trepidation before her first stage performance. He approached the dark house with trepidation. (Hindi: घबराहट/भय)"
+  },
+  {
+    "question": "Sycophant (Meaning & Usage)",
+    "choices": [
+      "An honest critic",
+      "A person who acts obsequiously toward someone important to gain advantage",
+      "A truthful advisor",
+      "An independent thinker"
+    ],
+    "answer": "A person who acts obsequiously toward someone important to gain advantage",
+    "explanation": "The boss surrounded himself with sycophants who always agreed with him. She was no leader, just a sycophant to those in power. (Hindi: चापलूस/खुशामदी)"
   }
-  ]
+]
