@@ -2211,15 +2211,15 @@
     "explanation": "The story had a didactic purpose about honesty. His didactic tone annoyed the students. (Hindi: शिक्षाप्रद/उपदेशात्मक)"
   },
   {
-    "question": "Effervescent (Meaning & Usage)",
-    "choices": [
-      "Dull and lifeless",
-      "Vivacious and enthusiastic; bubbly",
-      "Serious and somber",
-      "Quiet and reserved"
-    ],
-    "answer": "Vivacious and enthusiastic; bubbly",
-    "explanation": "Her effervescent personality lights up the room. The effervescent drink bubbled over the glass. (Hindi: उत्साही/चमकीला)"
+  "question": "Effervescent (Meaning & Usage)",
+  "choices": [
+    "Dull and lifeless",
+    "Bubbly, lively, and full of energy",
+    "Serious and somber",
+    "Quiet and reserved"
+  ],
+  "answer": "Bubbly, lively, and full of energy",
+  "explanation": "Her effervescent personality made her the life of every party. The soda was effervescent, with bubbles rising to the surface. (Hindi: उत्साही/चुलबुला)"
   },
   {
     "question": "Frivolous (Meaning & Usage)",
