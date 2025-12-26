@@ -241,8 +241,8 @@
   },
   {
     "question": "Section 41",
-    "choices": ["Claim of input tax credit and provisional acceptance thereof", "Power to arrest", "Levy and collection", "Registration procedure"],
-    "answer": "Claim of input tax credit and provisional acceptance thereof",
+    "choices": ["Availment of input tax credit", "Power to arrest", "Levy and collection", "Registration procedure"],
+    "answer": "Availment of input tax credit",
     "explanation": "Section 41 of the CGST Act deals with Claim of input tax credit and provisional acceptance thereof."
   },
   {
