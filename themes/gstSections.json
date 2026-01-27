@@ -127,8 +127,8 @@
   },
   {
     "question": "Section 22",
-    "choices": ["Registration of persons liable for registration", "Special provisions relating to casual taxable person", "Power of inspection, search and seizure", "Refund of tax"],
-    "answer": "Registration of persons liable for registration",
+    "choices": ["Persons liable for registration", "Special provisions relating to casual taxable person", "Power of inspection, search and seizure", "Refund of tax"],
+    "answer": "Persons liable for registration",
     "explanation": "Section 22 of the CGST Act deals with Registration of persons liable for registration."
   },
   {
