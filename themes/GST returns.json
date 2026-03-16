@@ -1,0 +1,288 @@
+[
+  {
+    "question": "Table 3.1 of GSTR-3B deals with?",
+    "choices": [
+      "Details of Outward supplies and inward supplies liable to reverse charge",
+      "Details of Supplies notified under section 9(5) of the CGST Act, 2017",
+      "Eligible ITC",
+      "Payment of Tax"
+    ],
+    "answer": "Details of Outward supplies and inward supplies liable to reverse charge",
+    "explanation": "Table 3.1 is titled 'Details of Outward supplies and inward supplies liable to reverse charge'."
+  },
+  {
+    "question": "Table 3.1(a) of GSTR-3B deals with?",
+    "choices": [
+      "Inward supplies liable to reverse charge",
+      "Outward taxable supplies (other than zero rated, nil rated and exempted)",
+      "Other outward supplies (nil rated, exempted)",
+      "Non-GST outward supplies"
+    ],
+    "answer": "Outward taxable supplies (other than zero rated, nil rated and exempted)",
+    "explanation": "Table 3.1(a) covers 'Outward taxable supplies (other than zero rated, nil rated and exempted)'."
+  },
+  {
+    "question": "Table 3.1(b) of GSTR-3B deals with?",
+    "choices": [
+      "Inward supplies liable to reverse charge",
+      "Outward taxable supplies (zero rated)",
+      "Other outward supplies (nil rated, exempted)",
+      "Non-GST outward supplies"
+    ],
+    "answer": "Outward taxable supplies (zero rated)",
+    "explanation": "Table 3.1(b) covers 'Outward taxable supplies (zero rated)'."
+  },
+  {
+    "question": "Table 3.1(c) of GSTR-3B deals with?",
+    "choices": [
+      "Inward supplies liable to reverse charge",
+      "Outward taxable supplies (zero rated)",
+      "Other outward supplies (nil rated, exempted)",
+      "Non-GST outward supplies"
+    ],
+    "answer": "Other outward supplies (nil rated, exempted)",
+    "explanation": "Table 3.1(c) covers 'Other outward supplies (nil rated, exempted)'."
+  },
+  {
+    "question": "Table 3.1(d) of GSTR-3B deals with?",
+    "choices": [
+      "Inward supplies (liable to reverse charge)",
+      "Outward taxable supplies (zero rated)",
+      "Other outward supplies (nil rated, exempted)",
+      "Non-GST outward supplies"
+    ],
+    "answer": "Inward supplies (liable to reverse charge)",
+    "explanation": "Table 3.1(d) covers 'Inward supplies (liable to reverse charge)'."
+  },
+  {
+    "question": "Table 3.1(e) of GSTR-3B deals with?",
+    "choices": [
+      "Inward supplies liable to reverse charge",
+      "Outward taxable supplies (zero rated)",
+      "Other outward supplies (nil rated, exempted)",
+      "Non-GST outward supplies"
+    ],
+    "answer": "Non-GST outward supplies",
+    "explanation": "Table 3.1(e) covers 'Non-GST outward supplies'."
+  },
+  {
+    "question": "Table 3.2 of GSTR-3B deals with?",
+    "choices": [
+      "Out of supplies made in 3.1 (a), details of inter-state supplies made",
+      "Details of interstate supplies made to unregistered persons",
+      "Details of all inward supplies",
+      "Eligible ITC"
+    ],
+    "answer": "Out of supplies made in 3.1 (a), details of inter-state supplies made",
+    "explanation": "Table 3.2 covers 'Out of supplies made in 3.1 (a), details of inter-state supplies made'."
+  },
+  {
+    "question": "Table 4 of GSTR-3B deals with?",
+    "choices": [
+      "Eligible ITC",
+      "Details of Outward supplies",
+      "Payment of Tax",
+      "Interest and Late fee"
+    ],
+    "answer": "Eligible ITC",
+    "explanation": "Table 4 is titled 'Eligible ITC'."
+  },
+  {
+    "question": "Table 4(A) of GSTR-3B deals with?",
+    "choices": [
+      "ITC Available",
+      "ITC Reversed",
+      "Net ITC available",
+      "Ineligible ITC"
+    ],
+    "answer": "ITC Available",
+    "explanation": "Table 4(A) covers 'ITC Available (whether in full or part)'."
+  },
+  {
+    "question": "Table 4(A)(1) of GSTR-3B deals with?",
+    "choices": [
+      "Import of goods",
+      "Import of services",
+      "Inward supplies liable to reverse charge",
+      "Inward supplies from ISD"
+    ],
+    "answer": "Import of goods",
+    "explanation": "Table 4(A)(1) covers 'Import of goods'."
+  },
+  {
+    "question": "Table 4(A)(2) of GSTR-3B deals with?",
+    "choices": [
+      "Import of goods",
+      "Import of services",
+      "Inward supplies liable to reverse charge",
+      "Inward supplies from ISD"
+    ],
+    "answer": "Import of services",
+    "explanation": "Table 4(A)(2) covers 'Import of services'."
+  },
+  {
+    "question": "Table 4(A)(3) of GSTR-3B deals with?",
+    "choices": [
+      "Import of goods",
+      "Import of services",
+      "Inward supplies liable to reverse charge (other than 1 & 2 above)",
+      "All other ITC"
+    ],
+    "answer": "Inward supplies liable to reverse charge (other than 1 & 2 above)",
+    "explanation": "Table 4(A)(3) covers 'Inward supplies liable to reverse charge (other than 1 & 2 above)'."
+  },
+  {
+    "question": "Table 4(A)(4) of GSTR-3B deals with?",
+    "choices": [
+      "Import of goods",
+      "Import of services",
+      "Inward supplies from ISD",
+      "All other ITC"
+    ],
+    "answer": "Inward supplies from ISD",
+    "explanation": "Table 4(A)(4) covers 'Inward supplies from ISD'."
+  },
+  {
+    "question": "Table 4(A)(5) of GSTR-3B deals with?",
+    "choices": [
+      "Import of goods",
+      "Import of services",
+      "Inward supplies from ISD",
+      "All other ITC"
+    ],
+    "answer": "All other ITC",
+    "explanation": "Table 4(A)(5) covers 'All other ITC'."
+  },
+  {
+    "question": "Table 4(B) of GSTR-3B deals with?",
+    "choices": [
+      "ITC Available",
+      "ITC Reversed",
+      "Net ITC available",
+      "Ineligible ITC"
+    ],
+    "answer": "ITC Reversed",
+    "explanation": "Table 4(B) covers 'ITC Reversed'."
+  },
+  {
+    "question": "Table 4(B)(1) of GSTR-3B deals with?",
+    "choices": [
+      "As per rules 42 & 43 of CGST rules",
+      "Others",
+      "As per section 17(5)",
+      "ITC reclaimed"
+    ],
+    "answer": "As per rules 42 & 43 of CGST rules",
+    "explanation": "Table 4(B)(1) covers 'As per rules 42 & 43 of CGST rules' as shown in the PDF."
+  },
+  {
+    "question": "Table 4(B)(2) of GSTR-3B deals with?",
+    "choices": [
+      "As per rules 42 & 43 of CGST rules",
+      "Others",
+      "As per section 17(5)",
+      "ITC reclaimed"
+    ],
+    "answer": "Others",
+    "explanation": "Table 4(B)(2) covers 'Others' as shown in the PDF."
+  },
+  {
+    "question": "Table 4(C) of GSTR-3B deals with?",
+    "choices": [
+      "ITC Available",
+      "ITC Reversed",
+      "Net ITC available (A-B)",
+      "Ineligible ITC"
+    ],
+    "answer": "Net ITC available (A-B)",
+    "explanation": "Table 4(C) covers 'Net ITC available (A-B)'."
+  },
+  {
+    "question": "Table 4(D) of GSTR-3B deals with?",
+    "choices": [
+      "ITC Available",
+      "ITC Reversed",
+      "Net ITC available",
+      "Ineligible ITC"
+    ],
+    "answer": "Ineligible ITC",
+    "explanation": "Table 4(D) covers 'Ineligible ITC' as shown in the PDF."
+  },
+  {
+    "question": "Table 4(D)(1) of GSTR-3B deals with?",
+    "choices": [
+      "As per rules 42 & 43 of CGST rules",
+      "Others",
+      "As per section 17(5)",
+      "ITC reclaimed which was reversed under Table 4(B)(2) in earlier tax period"
+    ],
+    "answer": "As per section 17(5)",
+    "explanation": "Table 4(D)(1) covers 'As per section 17(5)' as shown in the PDF."
+  },
+  {
+    "question": "Table 4(D)(2) of GSTR-3B deals with?",
+    "choices": [
+      "As per rules 42 & 43 of CGST rules",
+      "Others",
+      "As per section 17(5)",
+      "ITC reclaimed which was reversed under Table 4(B)(2) in earlier tax period"
+    ],
+    "answer": "Others",
+    "explanation": "Table 4(D)(2) covers 'Others' as shown in the PDF."
+  },
+  {
+    "question": "Table 5 of GSTR-3B deals with?",
+    "choices": [
+      "Values of exempt, nil-rated and non-GST inward supplies",
+      "Interest and Late fee for previous tax period",
+      "Payment of tax",
+      "Eligible ITC"
+    ],
+    "answer": "Values of exempt, nil-rated and non-GST inward supplies",
+    "explanation": "Table 5 covers 'Values of exempt, nil-rated and non-GST inward supplies'."
+  },
+  {
+    "question": "Table 5.1 of GSTR-3B deals with?",
+    "choices": [
+      "Values of exempt, nil-rated and non-GST inward supplies",
+      "Interest and Late fee for previous tax period",
+      "Payment of tax",
+      "Eligible ITC"
+    ],
+    "answer": "Interest and Late fee for previous tax period",
+    "explanation": "Table 5.1 covers 'Interest and Late fee for previous tax period'."
+  },
+  {
+    "question": "Table 6.1 of GSTR-3B deals with?",
+    "choices": [
+      "Payment of tax",
+      "Interest and Late fee",
+      "Eligible ITC",
+      "Details of outward supplies"
+    ],
+    "answer": "Payment of tax",
+    "explanation": "Table 6.1 covers 'Payment of tax'."
+  },
+  {
+    "question": "Table 6.1(A) of GSTR-3B deals with?",
+    "choices": [
+      "Payment of tax under Reverse Charge",
+      "Payment of tax for supplies other than Reverse Charge",
+      "Breakup of tax liability declared",
+      "Interest and Late fee"
+    ],
+    "answer": "Payment of tax for supplies other than Reverse Charge",
+    "explanation": "Table 6.1(A) covers 'Payment of tax for supplies other than Reverse Charge' as shown in the PDF."
+  },
+  {
+    "question": "Table 6.1(B) of GSTR-3B deals with?",
+    "choices": [
+      "Payment of tax under Reverse Charge",
+      "Payment of tax for supplies other than Reverse Charge",
+      "Breakup of tax liability declared",
+      "Interest and Late fee"
+    ],
+    "answer": "Payment of tax under Reverse Charge",
+    "explanation": "Table 6.1(B) covers 'Payment of tax under Reverse Charge' as shown in the PDF."
+  }
+]
