@@ -2,13 +2,46 @@
   {
     "question": "Table 3.1 of GSTR-3B deals with?",
     "choices": [
-      "Details of Outward supplies and inward supplies liable to reverse charge",
-      "Details of Supplies notified under section 9(5) of the CGST Act, 2017",
+      "Details of Outward supplies and inward supplies liable to reverse charge (other than those covered by Table 3.1.1)",
+      "Details of Inward Supplies",
       "Eligible ITC",
       "Payment of Tax"
     ],
-    "answer": "Details of Outward supplies and inward supplies liable to reverse charge",
-    "explanation": "Table 3.1 is titled 'Details of Outward supplies and inward supplies liable to reverse charge'."
+    "answer": "Details of Outward supplies and inward supplies liable to reverse charge (other than those covered by Table 3.1.1)",
+    "explanation": "Table 3.1 is specifically for reporting outward supplies and inward supplies liable to reverse charge, excluding those covered under section 9(5) which are in Table 3.1.1."
+  },
+  {
+    "question": "Table 3.1.1 of GSTR-3B deals with?",
+    "choices": [
+      "Details of interstate supplies",
+      "Details of Supplies notified under section 9(5) of the CGST Act, 2017 and corresponding provisions in IGST/UTGST/SGST Acts",
+      "Details of exempt supplies",
+      "Details of inward supplies liable to reverse charge"
+    ],
+    "answer": "Details of Supplies notified under section 9(5) of the CGST Act, 2017 and corresponding provisions in IGST/UTGST/SGST Acts",
+    "explanation": "Table 3.1.1 deals with supplies where the tax is payable by the electronic commerce operator under section 9(5) of the CGST Act, such as restaurant services, passenger transport, etc."
+  },
+  {
+    "question": "Table 3.1.1(i) of GSTR-3B deals with?",
+    "choices": [
+      "Taxable supplies made by registered person through electronic commerce operator",
+      "Taxable supplies on which electronic commerce operator pays tax u/s 9(5) [to be furnished by electronic commerce operator]",
+      "Inward supplies liable to reverse charge",
+      "Exempt supplies"
+    ],
+    "answer": "Taxable supplies on which electronic commerce operator pays tax u/s 9(5) [to be furnished by electronic commerce operator]",
+    "explanation": "Table 3.1.1(i) is to be filled by the Electronic Commerce Operator to report supplies on which they are liable to pay tax under section 9(5)."
+  },
+  {
+    "question": "Table 3.1.1(ii) of GSTR-3B deals with?",
+    "choices": [
+      "Taxable supplies on which electronic commerce operator pays tax u/s 9(5)",
+      "Taxable supplies made by registered person through electronic commerce operator, on which electronic commerce operator is required to pay tax u/s 9(5) [to be furnished by registered person making supplies through electronic commerce operator]",
+      "Inward supplies liable to reverse charge",
+      "Zero-rated supplies"
+    ],
+    "answer": "Taxable supplies made by registered person through electronic commerce operator, on which electronic commerce operator is required to pay tax u/s 9(5) [to be furnished by registered person making supplies through electronic commerce operator]",
+    "explanation": "Table 3.1.1(ii) is to be filled by the registered person who supplies goods/services through an e-commerce operator, where the tax is payable by the e-commerce operator under section 9(5)."
   },
   {
     "question": "Table 3.1(a) of GSTR-3B deals with?",
@@ -19,7 +52,7 @@
       "Non-GST outward supplies"
     ],
     "answer": "Outward taxable supplies (other than zero rated, nil rated and exempted)",
-    "explanation": "Table 3.1(a) covers 'Outward taxable supplies (other than zero rated, nil rated and exempted)'."
+    "explanation": "Table 3.1(a) captures details of all outward taxable supplies made during the tax period, excluding zero-rated, nil-rated, and exempted supplies."
   },
   {
     "question": "Table 3.1(b) of GSTR-3B deals with?",
@@ -30,7 +63,7 @@
       "Non-GST outward supplies"
     ],
     "answer": "Outward taxable supplies (zero rated)",
-    "explanation": "Table 3.1(b) covers 'Outward taxable supplies (zero rated)'."
+    "explanation": "Table 3.1(b) is meant for reporting zero-rated supplies, which are typically exports or supplies to SEZs."
   },
   {
     "question": "Table 3.1(c) of GSTR-3B deals with?",
@@ -41,7 +74,7 @@
       "Non-GST outward supplies"
     ],
     "answer": "Other outward supplies (nil rated, exempted)",
-    "explanation": "Table 3.1(c) covers 'Other outward supplies (nil rated, exempted)'."
+    "explanation": "Table 3.1(c) is used to report outward supplies that are either nil-rated or entirely exempt from GST."
   },
   {
     "question": "Table 3.1(d) of GSTR-3B deals with?",
@@ -52,7 +85,7 @@
       "Non-GST outward supplies"
     ],
     "answer": "Inward supplies (liable to reverse charge)",
-    "explanation": "Table 3.1(d) covers 'Inward supplies (liable to reverse charge)'."
+    "explanation": "Table 3.1(d) captures details of all inward supplies on which tax is payable by the recipient under the reverse charge mechanism."
   },
   {
     "question": "Table 3.1(e) of GSTR-3B deals with?",
@@ -63,226 +96,226 @@
       "Non-GST outward supplies"
     ],
     "answer": "Non-GST outward supplies",
-    "explanation": "Table 3.1(e) covers 'Non-GST outward supplies'."
+    "explanation": "Table 3.1(e) is for reporting outward supplies that are outside the purview of GST, such as petroleum products or alcoholic liquor for human consumption."
   },
   {
     "question": "Table 3.2 of GSTR-3B deals with?",
     "choices": [
-      "Out of supplies made in 3.1 (a), details of inter-state supplies made",
       "Details of interstate supplies made to unregistered persons",
       "Details of all inward supplies",
+      "Out of the supplies made in 3.1(a) and 3.1.1(i), details of inter-state supplies made",
       "Eligible ITC"
     ],
-    "answer": "Out of supplies made in 3.1 (a), details of inter-state supplies made",
-    "explanation": "Table 3.2 covers 'Out of supplies made in 3.1 (a), details of inter-state supplies made'."
+    "answer": "Out of the supplies made in 3.1(a) and 3.1.1(i), details of inter-state supplies made",
+    "explanation": "Table 3.2 provides a bifurcation of the inter-state supplies declared in tables 3.1(a) and 3.1.1(i) based on the type of recipient (Unregistered, Composition, UIN holders)."
   },
   {
     "question": "Table 4 of GSTR-3B deals with?",
     "choices": [
-      "Eligible ITC",
       "Details of Outward supplies",
-      "Payment of Tax",
+      "Eligible ITC",
+      "Payment of tax",
       "Interest and Late fee"
     ],
     "answer": "Eligible ITC",
-    "explanation": "Table 4 is titled 'Eligible ITC'."
+    "explanation": "Table 4 is the section in GSTR-3B where all details related to Input Tax Credit (ITC) - including availability, reversal, and net credit - are reported."
   },
   {
     "question": "Table 4(A) of GSTR-3B deals with?",
     "choices": [
-      "ITC Available",
       "ITC Reversed",
       "Net ITC available",
-      "Ineligible ITC"
+      "ITC Available (whether in full or part)",
+      "Other Details of ITC"
     ],
-    "answer": "ITC Available",
-    "explanation": "Table 4(A) covers 'ITC Available (whether in full or part)'."
+    "answer": "ITC Available (whether in full or part)",
+    "explanation": "Table 4(A) captures the total Input Tax Credit that is available to the taxpayer from various sources like imports, reverse charge supplies, ISD, and other purchases."
   },
   {
     "question": "Table 4(A)(1) of GSTR-3B deals with?",
     "choices": [
-      "Import of goods",
       "Import of services",
-      "Inward supplies liable to reverse charge",
+      "All other ITC",
+      "Import of goods",
       "Inward supplies from ISD"
     ],
     "answer": "Import of goods",
-    "explanation": "Table 4(A)(1) covers 'Import of goods'."
+    "explanation": "Table 4(A)(1) is for declaring Input Tax Credit (ITC) available on the import of goods."
   },
   {
     "question": "Table 4(A)(2) of GSTR-3B deals with?",
     "choices": [
       "Import of goods",
       "Import of services",
-      "Inward supplies liable to reverse charge",
+      "All other ITC",
       "Inward supplies from ISD"
     ],
     "answer": "Import of services",
-    "explanation": "Table 4(A)(2) covers 'Import of services'."
+    "explanation": "Table 4(A)(2) is for declaring Input Tax Credit (ITC) available on the import of services."
   },
   {
     "question": "Table 4(A)(3) of GSTR-3B deals with?",
     "choices": [
       "Import of goods",
-      "Import of services",
+      "All other ITC",
       "Inward supplies liable to reverse charge (other than 1 & 2 above)",
-      "All other ITC"
+      "Inward supplies from ISD"
     ],
     "answer": "Inward supplies liable to reverse charge (other than 1 & 2 above)",
-    "explanation": "Table 4(A)(3) covers 'Inward supplies liable to reverse charge (other than 1 & 2 above)'."
+    "explanation": "Table 4(A)(3) captures ITC available on domestic inward supplies that are subject to reverse charge."
   },
   {
     "question": "Table 4(A)(4) of GSTR-3B deals with?",
     "choices": [
-      "Import of goods",
       "Import of services",
-      "Inward supplies from ISD",
-      "All other ITC"
+      "All other ITC",
+      "Import of goods",
+      "Inward supplies from ISD"
     ],
     "answer": "Inward supplies from ISD",
-    "explanation": "Table 4(A)(4) covers 'Inward supplies from ISD'."
+    "explanation": "Table 4(A)(4) is for declaring ITC received from an Input Service Distributor (ISD)."
   },
   {
     "question": "Table 4(A)(5) of GSTR-3B deals with?",
     "choices": [
-      "Import of goods",
       "Import of services",
       "Inward supplies from ISD",
-      "All other ITC"
+      "All other ITC",
+      "Import of goods"
     ],
     "answer": "All other ITC",
-    "explanation": "Table 4(A)(5) covers 'All other ITC'."
+    "explanation": "Table 4(A)(5) is a residual entry for all other ITC that is not covered in the specific heads above, such as ITC on local purchases from regular dealers."
   },
   {
     "question": "Table 4(B) of GSTR-3B deals with?",
     "choices": [
       "ITC Available",
-      "ITC Reversed",
       "Net ITC available",
+      "ITC Reversed",
       "Ineligible ITC"
     ],
     "answer": "ITC Reversed",
-    "explanation": "Table 4(B) covers 'ITC Reversed'."
+    "explanation": "Table 4(B) is used to report any Input Tax Credit that needs to be reversed during the tax period due to various provisions of the CGST Rules."
   },
   {
     "question": "Table 4(B)(1) of GSTR-3B deals with?",
     "choices": [
-      "As per rules 42 & 43 of CGST rules",
       "Others",
-      "As per section 17(5)",
+      "Ineligible ITC under section 16(4)",
+      "As per rules 38, 42 & 43 of CGST Rules and section 17(5)",
       "ITC reclaimed"
     ],
-    "answer": "As per rules 42 & 43 of CGST rules",
-    "explanation": "Table 4(B)(1) covers 'As per rules 42 & 43 of CGST rules' as shown in the PDF."
+    "answer": "As per rules 38, 42 & 43 of CGST Rules and section 17(5)",
+    "explanation": "Table 4(B)(1) captures the amount of ITC reversed due to specific provisions like rule 38 (ISD), rule 42 (input tax credit reversal for inputs and input services), rule 43 (capital goods), and section 17(5) (blocked credits)."
   },
   {
     "question": "Table 4(B)(2) of GSTR-3B deals with?",
     "choices": [
-      "As per rules 42 & 43 of CGST rules",
+      "As per rules 38, 42 & 43 of CGST Rules and section 17(5)",
       "Others",
-      "As per section 17(5)",
+      "Ineligible ITC under section 16(4)",
       "ITC reclaimed"
     ],
     "answer": "Others",
-    "explanation": "Table 4(B)(2) covers 'Others' as shown in the PDF."
+    "explanation": "Table 4(B)(2) is for any other reversals of ITC not covered by the specific rules mentioned in Table 4(B)(1)."
   },
   {
     "question": "Table 4(C) of GSTR-3B deals with?",
     "choices": [
-      "ITC Available",
-      "ITC Reversed",
+      "Total ITC reversed",
       "Net ITC available (A-B)",
+      "Other Details",
       "Ineligible ITC"
     ],
     "answer": "Net ITC available (A-B)",
-    "explanation": "Table 4(C) covers 'Net ITC available (A-B)'."
+    "explanation": "Table 4(C) represents the Net ITC available to the taxpayer for setting off liability, which is calculated by subtracting the total ITC reversed (B) from the total ITC available (A)."
   },
   {
     "question": "Table 4(D) of GSTR-3B deals with?",
     "choices": [
-      "ITC Available",
-      "ITC Reversed",
       "Net ITC available",
-      "Ineligible ITC"
+      "Other Details of ITC",
+      "ITC Reversed",
+      "ITC Available"
     ],
-    "answer": "Ineligible ITC",
-    "explanation": "Table 4(D) covers 'Ineligible ITC' as shown in the PDF."
+    "answer": "Other Details of ITC",
+    "explanation": "Table 4(D) captures other important ITC-related details including reclaimed credits and ineligible credits under specific sections of the CGST Act."
   },
   {
     "question": "Table 4(D)(1) of GSTR-3B deals with?",
     "choices": [
-      "As per rules 42 & 43 of CGST rules",
+      "Ineligible ITC under section 16(4) & ITC restricted due to PoS rules",
       "Others",
-      "As per section 17(5)",
-      "ITC reclaimed which was reversed under Table 4(B)(2) in earlier tax period"
+      "ITC reclaimed which was reversed under Table 4(B)(2) in earlier tax period",
+      "Net ITC available"
     ],
-    "answer": "As per section 17(5)",
-    "explanation": "Table 4(D)(1) covers 'As per section 17(5)' as shown in the PDF."
+    "answer": "ITC reclaimed which was reversed under Table 4(B)(2) in earlier tax period",
+    "explanation": "Table 4(D)(1) is used to reclaim ITC that was reversed in an earlier tax period under the 'Others' category (Table 4(B)(2)), provided the conditions for re-availment are met."
   },
   {
     "question": "Table 4(D)(2) of GSTR-3B deals with?",
     "choices": [
-      "As per rules 42 & 43 of CGST rules",
+      "ITC reclaimed which was reversed under Table 4(B)(2) in earlier tax period",
       "Others",
-      "As per section 17(5)",
-      "ITC reclaimed which was reversed under Table 4(B)(2) in earlier tax period"
+      "Ineligible ITC under section 16(4) & ITC restricted due to PoS rules",
+      "Net ITC available"
     ],
-    "answer": "Others",
-    "explanation": "Table 4(D)(2) covers 'Others' as shown in the PDF."
+    "answer": "Ineligible ITC under section 16(4) & ITC restricted due to PoS rules",
+    "explanation": "Table 4(D)(2) captures ITC that is permanently ineligible, such as credit on invoices not claimed within the time limit specified in section 16(4), or credits restricted due to Place of Supply (PoS) rules."
   },
   {
     "question": "Table 5 of GSTR-3B deals with?",
     "choices": [
-      "Values of exempt, nil-rated and non-GST inward supplies",
       "Interest and Late fee for previous tax period",
       "Payment of tax",
-      "Eligible ITC"
+      "Values of exempt, nil-rated and non-GST inward supplies",
+      "Details of outward supplies"
     ],
     "answer": "Values of exempt, nil-rated and non-GST inward supplies",
-    "explanation": "Table 5 covers 'Values of exempt, nil-rated and non-GST inward supplies'."
+    "explanation": "Table 5 is for declaring the value of inward supplies that are exempt, nil-rated, or non-GST. This is primarily used for reversal calculations under rule 42 and 43."
   },
   {
     "question": "Table 5.1 of GSTR-3B deals with?",
     "choices": [
       "Values of exempt, nil-rated and non-GST inward supplies",
-      "Interest and Late fee for previous tax period",
       "Payment of tax",
+      "Interest and Late fee for previous tax period",
       "Eligible ITC"
     ],
     "answer": "Interest and Late fee for previous tax period",
-    "explanation": "Table 5.1 covers 'Interest and Late fee for previous tax period'."
+    "explanation": "Table 5.1 is specifically for reporting and paying any interest and late fees related to tax periods prior to the current one."
   },
   {
     "question": "Table 6.1 of GSTR-3B deals with?",
     "choices": [
-      "Payment of tax",
-      "Interest and Late fee",
       "Eligible ITC",
+      "Interest and Late fee",
+      "Payment of tax",
       "Details of outward supplies"
     ],
     "answer": "Payment of tax",
-    "explanation": "Table 6.1 covers 'Payment of tax'."
+    "explanation": "Table 6.1 is the tax payment section of GSTR-3B that shows the total tax payable and how it is discharged through ITC and cash, separately for reverse charge and other supplies."
   },
   {
     "question": "Table 6.1(A) of GSTR-3B deals with?",
     "choices": [
       "Payment of tax under Reverse Charge",
-      "Payment of tax for supplies other than Reverse Charge",
       "Breakup of tax liability declared",
+      "Payment of tax for supplies other than Reverse Charge",
       "Interest and Late fee"
     ],
     "answer": "Payment of tax for supplies other than Reverse Charge",
-    "explanation": "Table 6.1(A) covers 'Payment of tax for supplies other than Reverse Charge' as shown in the PDF."
+    "explanation": "Table 6.1(A) covers the payment of tax for all outward supplies (like those in 3.1(a)) and other liabilities that are not under reverse charge, showing how much is paid through ITC and how much in cash."
   },
   {
     "question": "Table 6.1(B) of GSTR-3B deals with?",
     "choices": [
-      "Payment of tax under Reverse Charge",
       "Payment of tax for supplies other than Reverse Charge",
       "Breakup of tax liability declared",
+      "Payment of tax under Reverse Charge",
       "Interest and Late fee"
     ],
     "answer": "Payment of tax under Reverse Charge",
-    "explanation": "Table 6.1(B) covers 'Payment of tax under Reverse Charge' as shown in the PDF."
+    "explanation": "Table 6.1(B) is for the payment of tax on inward supplies that are liable under reverse charge (as declared in Table 3.1(d)), which must typically be paid in cash."
   }
 ]
