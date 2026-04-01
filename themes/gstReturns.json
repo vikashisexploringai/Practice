@@ -317,5 +317,214 @@
     ],
     "answer": "Payment of tax under Reverse Charge",
     "explanation": "Table 6.1(B) is for the payment of tax on inward supplies that are liable under reverse charge (as declared in Table 3.1(d)), which must typically be paid in cash."
+  },
+  {
+    "question": "Table 4A of GSTR-1 deals with?",
+    "choices": [
+      "Taxable outward supplies made to registered persons (other than reverse charge supplies) including supplies made through e-commerce operator attracting TCS - B2B Regular",
+      "Taxable outward supplies made to registered persons attracting tax on reverse charge - B2B Reverse charge",
+      "Taxable outward inter-state supplies made to unregistered persons",
+      "Exports"
+    ],
+    "answer": "Taxable outward supplies made to registered persons (other than reverse charge supplies) including supplies made through e-commerce operator attracting TCS - B2B Regular",
+    "explanation": "Table 4A captures details of B2B regular outward taxable supplies made to registered persons, excluding reverse charge supplies."
+  },
+  {
+    "question": "Table 4B of GSTR-1 deals with?",
+    "choices": [
+      "Taxable outward supplies made to registered persons (other than reverse charge supplies) - B2B Regular",
+      "Taxable outward supplies made to registered persons attracting tax on reverse charge - B2B Reverse charge",
+      "Taxable outward inter-state supplies made to unregistered persons",
+      "Supplies made to SEZ units"
+    ],
+    "answer": "Taxable outward supplies made to registered persons attracting tax on reverse charge - B2B Reverse charge",
+    "explanation": "Table 4B captures details of B2B outward taxable supplies where tax is payable under reverse charge mechanism."
+  },
+  {
+    "question": "Table 5 of GSTR-1 deals with?",
+    "choices": [
+      "Taxable outward supplies made to registered persons",
+      "Taxable outward inter-state supplies made to unregistered persons (where invoice value is more than Rs.2.5 lakh) including supplies made through e-commerce operator, rate wise - B2CL (Large)",
+      "Exports",
+      "Deemed Exports"
+    ],
+    "answer": "Taxable outward inter-state supplies made to unregistered persons (where invoice value is more than Rs.2.5 lakh) including supplies made through e-commerce operator, rate wise - B2CL (Large)",
+    "explanation": "Table 5 captures inter-state B2C supplies where the invoice value exceeds Rs. 2.5 lakh, reported rate-wise."
+  },
+  {
+    "question": "Table 6A of GSTR-1 deals with?",
+    "choices": [
+      "Supplies made to SEZ units",
+      "Deemed Exports",
+      "Exports (with/without payment) - EXPWP/EXPWOP",
+      "Taxable supplies to unregistered persons"
+    ],
+    "answer": "Exports (with/without payment) - EXPWP/EXPWOP",
+    "explanation": "Table 6A captures export supplies, bifurcated into those with payment of tax (EXPWP) and without payment of tax (EXPWOP)."
+  },
+  {
+    "question": "Table 6B of GSTR-1 deals with?",
+    "choices": [
+      "Exports",
+      "Deemed Exports",
+      "Supplies made to SEZ unit or SEZ developer - SEZWP/SEZWOP",
+      "Taxable supplies to unregistered persons"
+    ],
+    "answer": "Supplies made to SEZ unit or SEZ developer - SEZWP/SEZWOP",
+    "explanation": "Table 6B captures supplies made to SEZ units or developers, bifurcated into those with payment of tax (SEZWP) and without payment of tax (SEZWOP)."
+  },
+  {
+    "question": "Table 6C of GSTR-1 deals with?",
+    "choices": [
+      "Exports",
+      "Supplies made to SEZ units",
+      "Deemed Exports - DE",
+      "Taxable supplies to unregistered persons"
+    ],
+    "answer": "Deemed Exports - DE",
+    "explanation": "Table 6C captures deemed export supplies, where goods are supplied to specified recipients and deemed as exports under the GST law."
+  },
+  {
+    "question": "Table 7 of GSTR-1 deals with?",
+    "choices": [
+      "Taxable supplies to registered persons",
+      "Exports",
+      "Taxable supplies (Net of debit and credit notes) to unregistered persons (other than the supplies covered in Table 5) including supplies made through e-commerce operator attracting TCS - B2CS (Others)",
+      "Nil rated and exempted supplies"
+    ],
+    "answer": "Taxable supplies (Net of debit and credit notes) to unregistered persons (other than the supplies covered in Table 5) including supplies made through e-commerce operator attracting TCS - B2CS (Others)",
+    "explanation": "Table 7 captures B2C taxable supplies (excluding large invoices covered in Table 5), reported as consolidated values."
+  },
+  {
+    "question": "Table 8 of GSTR-1 deals with?",
+    "choices": [
+      "Taxable outward supplies",
+      "Nil rated, exempted and non GST outward supplies",
+      "Credit/Debit Notes",
+      "HSN-wise summary of outward supplies"
+    ],
+    "answer": "Nil rated, exempted and non GST outward supplies",
+    "explanation": "Table 8 captures outward supplies that are nil-rated, exempt, or outside the purview of GST."
+  },
+  {
+    "question": "Table 9A of GSTR-1 deals with?",
+    "choices": [
+      "Credit/Debit Notes",
+      "Amendment to taxable outward supplies made to registered person in returns of earlier tax periods in table 4, 5, 6A, 6B, 6C",
+      "Advances received",
+      "HSN-wise summary"
+    ],
+    "answer": "Amendment to taxable outward supplies made to registered person in returns of earlier tax periods in table 4, 5, 6A, 6B, 6C",
+    "explanation": "Table 9A is used to amend details of outward supplies reported in earlier tax periods across various tables like 4, 5, 6A, 6B, and 6C."
+  },
+  {
+    "question": "Table 9B of GSTR-1 deals with?",
+    "choices": [
+      "Amendments to outward supplies",
+      "Credit/Debit Notes (Registered) - CDNR and (Unregistered) - CDNUR",
+      "Advances received",
+      "Documents issued"
+    ],
+    "answer": "Credit/Debit Notes (Registered) - CDNR and (Unregistered) - CDNUR",
+    "explanation": "Table 9B captures credit and debit notes issued to registered persons (CDNR) and unregistered persons (CDNUR) against taxable outward supplies."
+  },
+  {
+    "question": "Table 9C of GSTR-1 deals with?",
+    "choices": [
+      "Amended Credit/Debit Notes (Registered) - CDNRA and (Unregistered) - CDNRA",
+      "Original Credit/Debit Notes",
+      "Advances received",
+      "HSN summary"
+    ],
+    "answer": "Amended Credit/Debit Notes (Registered) - CDNRA and (Unregistered) - CDNRA",
+    "explanation": "Table 9C is used to amend credit/debit notes that were reported in earlier tax periods."
+  },
+  {
+    "question": "Table 10 of GSTR-1 deals with?",
+    "choices": [
+      "Amendment to taxable outward supplies made to unregistered person in returns for earlier tax periods in table 7 - B2C (Others)",
+      "Advances received",
+      "Credit/Debit Notes",
+      "HSN summary"
+    ],
+    "answer": "Amendment to taxable outward supplies made to unregistered person in returns for earlier tax periods in table 7 - B2C (Others)",
+    "explanation": "Table 10 captures amendments to B2C outward supplies (excluding large invoices) that were reported in Table 7 of earlier tax periods."
+  },
+  {
+    "question": "Table 11A(1) and 11A(2) of GSTR-1 deal with?",
+    "choices": [
+      "Advance amount adjusted against supplies",
+      "Amendment to advances",
+      "Advances received for which invoice has not been issued (tax amount to be added to the output tax liability)",
+      "HSN summary"
+    ],
+    "answer": "Advances received for which invoice has not been issued (tax amount to be added to the output tax liability)",
+    "explanation": "Table 11A(1) and 11A(2) capture advances received where the invoice is not yet issued, requiring tax to be paid on the advance amount."
+  },
+  {
+    "question": "Table 11B(1) and 11B(2) of GSTR-1 deal with?",
+    "choices": [
+      "Advances received for which invoice has not been issued",
+      "Advance amount received in earlier tax period and adjusted against the supplies being shown in this tax period",
+      "Amendment to advances",
+      "Credit/Debit Notes"
+    ],
+    "answer": "Advance amount received in earlier tax period and adjusted against the supplies being shown in this tax period",
+    "explanation": "Table 11B(1) and 11B(2) capture advances received earlier that are now being adjusted against invoices issued in the current tax period."
+  },
+  {
+    "question": "Table 11A of GSTR-1 deals with?",
+    "choices": [
+      "Advance amount adjusted against supplies",
+      "Amendment to advances received in returns for earlier tax periods in table 11A(1), 11A(2)",
+      "Original advances received",
+      "HSN summary"
+    ],
+    "answer": "Amendment to advances received in returns for earlier tax periods in table 11A(1), 11A(2)",
+    "explanation": "Table 11A captures amendments to advance receipts that were reported in Table 11A(1) and 11A(2) of earlier tax periods."
+  },
+  {
+    "question": "Table 11B of GSTR-1 deals with?",
+    "choices": [
+      "Amendment to advances adjusted in returns for earlier tax periods in table 11B(1), 11B(2)",
+      "Original advances received",
+      "Advances received for which invoice has not been issued",
+      "Credit/Debit Notes"
+    ],
+    "answer": "Amendment to advances adjusted in returns for earlier tax periods in table 11B(1), 11B(2)",
+    "explanation": "Table 11B captures amendments to advance adjustments that were reported in Table 11B(1) and 11B(2) of earlier tax periods."
+  },
+  {
+    "question": "Table 12 of GSTR-1 deals with?",
+    "choices": [
+      "Documents issued",
+      "HSN-wise summary of outward supplies",
+      "Credit/Debit Notes",
+      "Advances received"
+    ],
+    "answer": "HSN-wise summary of outward supplies",
+    "explanation": "Table 12 provides a summary of outward supplies classified according to the Harmonized System of Nomenclature (HSN) codes."
+  },
+  {
+    "question": "Table 13 of GSTR-1 deals with?",
+    "choices": [
+      "HSN-wise summary",
+      "Documents issued",
+      "Advances received",
+      "Credit/Debit Notes"
+    ],
+    "answer": "Documents issued",
+    "explanation": "Table 13 captures the number of documents issued during the tax period, such as invoices, debit notes, credit notes, etc."
+  },
+  {
+    "question": "The 'Total Liability' section at the end of GSTR-1 represents?",
+    "choices": [
+      "Total ITC available",
+      "Total Liability (Outward supplies other than Reverse charge)",
+      "Total tax paid",
+      "Total advances received"
+    ],
+    "answer": "Total Liability (Outward supplies other than Reverse charge)",
+    "explanation": "The Total Liability section shows the aggregate tax liability on outward supplies, excluding reverse charge supplies."
   }
 ]
